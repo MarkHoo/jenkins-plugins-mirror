@@ -1,0 +1,38 @@
+name: Jenkins Plugins Mirror Health Check
+
+on:
+  schedule:
+    - cron: "0 */2 * * *"
+  workflow_dispatch:
+
+jobs:
+  health-check:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "18"
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run health check
+        run: npm run check
+
+      - name: Commit and push update
+        env:
+          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/update-center.json
+          git commit -m "Auto-update: health check at $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
+          git push https://$BOT_TOKEN@github.com/MarkHoo/jenkins-plugins-mirror.git HEAD:main

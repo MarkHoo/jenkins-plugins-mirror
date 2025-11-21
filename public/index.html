@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jenkins 插件镜像站 | 快速 · 稳定 · 可靠 - ForesAi 开源镜像站</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="background"></div>
+        
+        <main class="main-content">
+            <h1 class="title">Jenkins 插件镜像站</h1>
+            <p class="subtitle">快速 · 稳定 · 可靠 · 持续更新</p>
+
+            <div class="card">
+                <h2>使用说明</h2>
+                
+                <div class="section">
+                    <h3>配置 Jenkins 使用镜像</h3>
+                    <div class="code-block">
+                        <pre><code># 方法一：修改 Jenkins 配置文件
+# Linux/Mac
+sudo vim /var/lib/jenkins/hudson.model.UpdateCenter.xml
+
+# Windows (Jenkins 安装目录)
+C:\Program Files\Jenkins\hudson.model.UpdateCenter.xml
+
+# 将 url 修改为：
+http://jenkins-plugins.foresai.com/update-center.json</code></pre>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h3>通过系统管理配置</h3>
+                    <ol class="steps">
+                        <li>登录 Jenkins 管理界面</li>
+                        <li>进入 "系统管理" → "插件管理" → "高级"</li>
+                        <li>将 "升级站点" URL 修改为：
+                            <div class="url">http://jenkins-plugins.foresai.com/update-center.json</div>
+                        </li>
+                        <li>点击 "提交" 保存</li>
+                    </ol>
+                </div>
+
+                <div class="section">
+                    <h3>Windows 配置说明</h3>
+                    <ol class="steps">
+                        <li>打开 Jenkins 安装目录（默认：C:\Program Files\Jenkins）</li>
+                        <li>找到并打开 `hudson.model.UpdateCenter.xml` 文件</li>
+                        <li>将文件中的 `url` 属性修改为：
+                            <div class="url">http://jenkins-plugins.foresai.com/update-center.json</div>
+                        </li>
+                        <li>保存文件，重启 Jenkins 服务</li>
+                        <li>在 Jenkins 管理界面中，进入 "系统管理" → "插件管理" → "高级"，确认 URL 已更新</li>
+                    </ol>
+                </div>
+
+                <div class="section">
+                    <h3>健康检查状态</h3>
+                    <div class="status">
+                        <div class="status-item">
+                            <span class="status-label">延迟</span>
+                            <span class="status-value" id="latency">测量中...</span>
+                        </div>
+                        <div class="status-item">
+                            <span class="status-label">最后检查</span>
+                            <span class="status-value" id="last-check">--</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="action-buttons">
+                <button id="download-btn" class="btn btn-primary">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                        <polyline points="7 10 12 15 17 10"></polyline>
+                        <line x1="12" y1="15" x2="12" y2="3"></line>
+                    </svg>
+                    下载 update-center.json
+                </button>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <p>© <span id="current-year">2025</span> <a href="https://mirrors.foresai.com" target="_blank">ForesAi 开源镜像站</a></p>
+        </footer>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

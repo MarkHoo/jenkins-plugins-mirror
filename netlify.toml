@@ -1,0 +1,11 @@
+[build]
+publish = "public"
+command = "true"
+
+[[redirects]]
+from = "/health-check"
+to = "/.netlify/functions/health-check"
+status = 200
+
+[functions]
+directory = "scripts"
