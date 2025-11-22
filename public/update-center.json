@@ -804,7 +804,7 @@
         "url": "https://wiki.jenkins-ci.org/display/JENKINS/ZAProxy+Plugin"
       }
     },
-    "generationTimestamp": "2025-11-22T00:52:18Z",
+    "generationTimestamp": "2025-11-22T02:53:25Z",
     "id": "default",
     "plugins": {
       "42crunch-security-audit": {
@@ -62896,7 +62896,7 @@
         ],
         "excerpt": "This plugin provides the <a href=\"https://github.com/eclipse-ee4j/jaf\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Jakarta Activation</a> API for other plugins.",
         "gav": "io.jenkins.plugins:jakarta-activation-api:2.1.4-1",
-        "health": 96,
+        "health": 100,
         "issueTrackers": [
           {
             "reportUrl": "https://www.jenkins.io/participate/report-issue/redirect/#28835/jakarta-activation-api",
@@ -62924,13 +62924,13 @@
         "archiveUrl": "https://mirrors.tuna.tsinghua.edu.cn/jenkins//plugins/jakarta-activation-api/latest/jakarta-activation-api.hpi"
       },
       "jakarta-mail-api": {
-        "buildDate": "Aug 18, 2025",
+        "buildDate": "Nov 22, 2025",
         "defaultBranch": "master",
         "dependencies": [
           {
             "name": "jakarta-activation-api",
             "optional": false,
-            "version": "2.1.3-2"
+            "version": "2.1.4-1"
           }
         ],
         "developers": [
@@ -62944,7 +62944,7 @@
           }
         ],
         "excerpt": "This plugin provides the <a href=\"https://github.com/eclipse-ee4j/mail\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Jakarta Mail</a> API for other plugins.",
-        "gav": "io.jenkins.plugins:jakarta-mail-api:2.1.3-3",
+        "gav": "io.jenkins.plugins:jakarta-mail-api:2.1.5-1",
         "health": 98,
         "issueTrackers": [
           {
@@ -62958,17 +62958,17 @@
         ],
         "name": "jakarta-mail-api",
         "popularity": 230184,
-        "previousTimestamp": "2025-02-22T17:20:11.00Z",
-        "previousVersion": "2.1.3-2",
-        "releaseTimestamp": "2025-08-18T17:24:20.00Z",
+        "previousTimestamp": "2025-08-18T17:24:20.00Z",
+        "previousVersion": "2.1.3-3",
+        "releaseTimestamp": "2025-11-22T01:01:15.00Z",
         "requiredCore": "2.479.1",
         "scm": "https://github.com/jenkinsci/jakarta-mail-api-plugin",
-        "sha1": "lcV/yDFlJgatmqqVGhuGKsDXUoI=",
-        "sha256": "Xn0AUmR/L1tyNbz15++NuYfz0kFrpNmC/vHGSIrnLos=",
-        "size": 696582,
+        "sha1": "a174F4y3NHhvpIYy8eu1nUphEMg=",
+        "sha256": "JEc16oWlEzLAedI1pXE+cNOBC+piMyiUACrMOZFM4Rs=",
+        "size": 697901,
         "title": "Jakarta Mail API",
-        "url": "https://updates.jenkins.io/download/plugins/jakarta-mail-api/2.1.3-3/jakarta-mail-api.hpi",
-        "version": "2.1.3-3",
+        "url": "https://updates.jenkins.io/download/plugins/jakarta-mail-api/2.1.5-1/jakarta-mail-api.hpi",
+        "version": "2.1.5-1",
         "wiki": "https://plugins.jenkins.io/jakarta-mail-api",
         "archiveUrl": "https://mirrors.tuna.tsinghua.edu.cn/jenkins//plugins/jakarta-mail-api/latest/jakarta-mail-api.hpi"
       },
@@ -121395,10 +121395,10 @@
       "certificates": [
         "MIIFqjCCA5KgAwIBAgIFAN6tvwQwDQYJKoZIhvcNAQENBQAwgYoxCzAJBgNVBAYTAlVTMRMwEQYDVQQIDApDYWxpZm9ybmlhMREwDwYDVQQHDAhTYW4gSm9zZTEYMBYGA1UECgwPSmVua2lucyBQcm9qZWN0MRowGAYDVQQDDBFLb2hzdWtlIEthd2FndWNoaTEdMBsGCSqGSIb3DQEJARYOa2tAa29oc3VrZS5vcmcwHhcNMjUwMjIxMTcxMjMwWhcNMjYwMjIxMTcxMjMwWjBeMQswCQYDVQQGEwJVUzETMBEGA1UECAwKQ2FsaWZvcm5pYTEYMBYGA1UECgwPSmVua2lucyBQcm9qZWN0MSAwHgYDVQQDDBdDb21tdW5pdHkgVXBkYXRlIENlbnRlcjCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBAOTsLRipDbc+XI4zhQnfxgc0Ydg0zIRA7OJnqXMLWFhECjrB85FL5ddITutpJU19YnAX4z/9vXg8qqU5hLdo5xcFsPs80/+XqxhBCcOBOF/IL6EQ2iMr0hkJwAwn+W8R8paDl6noud3fpGWrP8ncTkxuHtvKIXGgAYvYAu8ouHGIrb5tohG7yMyQSqDNN8T+w+Y5egqUf0U7+26Jp4PYqLjz4dBQYMqWLG/M3VJU2vwv/0DMOR0w08tmN2pbi7eV0eoQjYzlRgtHQJkJCD3k9NxSefQ4oQ99o+cxMAFnWPPEQTkv8raldyZ8zcI3ViS/0JbcMF/0wSkBlXgx8Z82rjKvSchXAx8Ydc4gxX2WFPZeBfpx366a2Xbtv+UnFNDpui0WonwQMP5ErJeyo1OESeg3Z0IDUv9dm2yAygwO9sipGD8YflTCRtDpJ/b60d62SOnepyTWJKQ8ecmM/AtkBTK+W9/uZaCp2e5kcsfTCeL+hmbw44vpcVwwnfewDZkKTji9BZFEiWyf3BpnpW6JkX56pzsqo7EzRROnLbKZ5gE67kl+GsrGXXxTLxMpUl6kytiUyH/hw6d3AOBZhxwR0pjEbp6UPeDTaUS5eYQVnVxEgZ6hQJvR/ytx309SbSYXTAtnPQKET8cyfawMYVGB/Dkw+hmmzwekEp7688rQjSoNAgMBAAGjQjBAMB0GA1UdDgQWBBRMeBx4CsBvRyeKYTIupBtaPvAwkDAfBgNVHSMEGDAWgBQRxuXUMC3pVcYBtWtQctI2frQBhzANBgkqhkiG9w0BAQ0FAAOCAgEAIjw545qmcLhWlc86JZQ6nS8OosWRhysWq15WbFPAIzH3ttdJrHLIDi0UNIAkEHZ1UVgVEsNuF3kS8dad+EznefD7S7/wH1woNmFCEri3sN+3nAx6f4tyzh4MZcTZ386ghRSL2Wr0thPoEbi3aLO5twRroCKlJC9HU7TtFWtqHQNM2Trp/oDo6vEObwaxaq+1TOkF7cF/OH+vuZ9FHRgE7X/DrYqFTfCThiXr01Z2SRS4dG8xKrelGGof2xHeN8hsDZN0nBvzRTQ9lfn0YLYG9vCsxKL5JuLGzkjDys1k2yzJxdFywcmG5Is2IlR99NrfbIhQ6pQcFUOWE+WmUFF2zgS9LjC0cDBY536PiKjnhHRYM/Nskj2xleFcJhl293F0VJuWvDHncM4IpEKFftjA/F32c02vkT7MbQdb/HoVd5+IAhSaa9kam1Bs9GBsiQy9nQQ2nviieAflSo8ehES78Y3XsqxUXAwReUYJVQo9DIRBIpkT+eQff0HHfI4RaokfeTZu4a0r/jRj9fMEA7KwwGpnhgrvI8kG8uVcObmRrygtVIcmJo0WFqC+r+Bn8CrVIGtPBN4tz+Gu21DkgRzeG2qViMzdpytMmlQSYl1R7hprtTbGM0pvoPjd2kbjFqOgQRkRlwseguKLAv5Drj11KqpEL679q55gGZao2adFc+k="
       ],
-      "correct_digest": "Gh12e7/zp/lcPybw2Z2dEoklgT4=",
-      "correct_digest512": "65ba6a9f07311e1675145363ab07b24b11aa825cf54c5fb4aeca9457c5cff3848799514bf9ada1fc3408362ef934ebb5fbcd15aa95ee92e792b42f684f4f06fc",
-      "correct_signature": "rAcgTJL5EF3+OCFfbT6+Mr7R7DrBRPFc/8wpt6kKDjm01XcBojhxTwP4+RQQ9uF1EkROKlPFA+7VkKGoqgm4yvLf9yC0LCFDIllcSWikENHe98PD8usLKaZqV6Mu93yWnF5K+DRQgWgbZRqkVSPa6a0roFM6SfFfCPX/qebcSOCTBdiEa6WtasIpCkjVYLjo2VAS1ziwR4dIytJ/OU/r2Cv7beECiZYdJ5YfCofhmzMqjosq3nsR/IaVey0BWK4oNRywGT5hOHqonFq7xpfCvIIedo7EeGZX5t+6f8KwoatMgq2LnBLLrM7EXmmDcKsU+4aXwuOIE0OwY7mv7C6aSQhFUZlalczD/N1JrBvgZKbnj85qmBPwtYuvYP7hd3sRHdI6TwGn6ulriJBLdAARFNfg4PjsKgeYTwLyUCdAc7req3MZrSuiRu2yNZEMGFnrq1DR8ym0zhLV4Gk5RqWfFsMM5iuYq8Dg3v/EOtmK3FJtHnDhccHlib8FNpkaPmelPhHdBOZ7x6NDKWAk0sFlKwTAylGDxLoWFwp9XiW3bDPe6n8A2Fnc1UfP1a1IsMyMwPUqPUt2jGWQNj9lDkVx+a4Odv41hb/VMiXZCsn12vPs+4yd6b+k9kOWHm3egl/YVo0lY09H88wxnVzerpyc6C/NUovUo+3QAK2nZZg84Zk=",
-      "correct_signature512": "20d152f78e91c08f87178281d23d604f00c20ab2b315ca43b694c218193ab3912e3201d46e3f6ea8bcbbb0534f468cc6b84b38928afb31599539c28ef1c003d1f05e3bb8c7072122088227a920355c49d93b2608c6d9946836cfc759cd6296022152ca8865dcc38b79ba772b9698be2f8e1bef95f1faa51d3bd5a36a6785e7ad72750c8cc5508b23c42c72313fcf7ed341309fa8ca2cfaf3f2d6dbd84ea874ec220cce1069694faa036e51a9ba732f5c1491caf704a39c13800b018222093418d0131ad74d07ce755576db23050922f0a7799400f0badbb73b66f2b3e3ae2f299c2c94fc72a9a2bdac4daab02212778201b6e7af4f1b816d73a08cb981b2850c2a70d2ab2f4f930aba2ec902cf304537acc4da729f405e26506b8132a9b556aa7a80b9fff44ddfcdbbb491c1e60f2568802f272a727aa2d195b0baea92afc0ddda4bfdc776be6b5fcbf0d83aa63eca058d57abdabca98f1403f0d222873e85cd4c63f2bb380a29a1d2ff7a5d1e33b1075e340560fdcc22a20d1d7f44346413a092a308f4c064208e6d31bef61541d2e55fce096319408168ff14ec31621e0658220967689cd34dbc3290928835f201981c2910e6f531d3d860592cbc73fccba86453deeac7f1fc006b4719135bec63b93a8c88b63a25b7660040c6d39e385ccdaf4a2395571a0788ec9a61639a0c64d91a8b58fab1f60f15d2c102b854a89cff"
+      "correct_digest": "P6kAVXL8unuQigEKzgQkk/bPOic=",
+      "correct_digest512": "9a473b673f65cfb1e9bb8431829e358ce594f3891f9b75bac2e962bce39c7e63e95f864859fdc39060c97395cd359f79c27ff001649e9f21e601242e36197f30",
+      "correct_signature": "MFGH8vAKt7PBvfzWnSY8A/QELvWzosTBb06NlGD4WX8ZYmYlpJqvlgMM8/kCTGiQhxcUSrLt0GYjx61EgIFAVi7aqOXmR4WQJhQKSRq51y+It5nqgO2KVI8vADRIGZPLLZoBXvsC4FFkUUrXHS1vt+jL8gwrtTqUxpnueQFibH9Mgl1aB9qLbkk87Pnnuv9MNnGwWd2YpKaEJ91eY2dhp1qt2UcunSg5n27R2xuAQpsjSyt+gZXIWhVCqZg/otB87u4jWIj3uAjY40jMwvh/2Bu0UcdTckFmUXYZuKrQKtb/b+OLXgRcXMwrC8SF0q4WPS/s/TundbcUzzS1p3GE9zkkdDrbd7fznIKmcUaUn1Dx9XaUSQX2NoiflF323iHqTBFy/tKoDxl4PMZ3FJkkO4Y3Oxf7jn2s2q7mAvjP0jWMANCmBO9qjk9zCSNq2SWP7rl6o3GCvzDNaxkoXFQtR/Y3UJoqB8PsLMicaDBiULNwhpUsJivwbN7x+hzDc8gpk2JbAzmYn6DmatvLpo7A20HBcSAcRATP50DCvVoRn2PnY/Bkou5NWh7+oqxjoUVviTRi7kPAsR0rMNFX8vYEy4e28VjFTGGaJ09f6UJiSVZmLZHz79u+Vw8pXb70TFTh8+bTf5VDWv46IlFV5uchQvaeUgVkiprDv7IuCSI+R3s=",
+      "correct_signature512": "000ead03699320ec3b5eb74403e4f826e8af300e731235f6ccdd96617333f2bb654974aafc01dda42ae5156ffa180f8cdc35818c2c0393491f2449afe175761b1cae0537a2a0bac00c51924a3aebc966a1ae3db449ed1ba8b524048026cfec541d5bb52d2fe4b76831f3b45e179d15f479ae5a34ea11ee3c971ba1cd5f247f559fc9d72fcfb9c4b9489708d9880b06bf42d5bf066de4797d89b263813a3988388a7bfbba20fa624487b1e3f353a292fe4fc51a9ce41a2520a580de5fbafe61511df7edef0ac3105b2e69b43edb39028ccea6aa7adbf702392ac5f5715e16fdde3e14dcfa65074c31a1d58f5078786ebf06fcc78c07c316aad2963c1fc5df2fe2e72fd1c19e0f76f1029d9db43466008309b91833d4df726386e36e1cbf60753744618b577bdcad6182b5991528e4ef05810a41a335ce1825e1332b85171cfd2ab808314e5a01fc55e848b767c21653a94278387cb1a8bbc4ea226cb5360d71ae1d59cdd14c9d8b9564776963a759b7d78b4fa2b675327c0efbd4d8599dd0930e6af7c91de9eba6c4cfd630f1991cb16539c88eb52eff838025963ecaaabe07828a1528e4ef7ed3b8a8ec729cf669822db747ab9380528045ce6ff52ab7e79af2e9cb157101b1824c0686250e3023862debe78a68ff93e0cb9b9762b542777df7d2bf46c4c8702ead2822ba545fad73263f32e53766bc668a3a893536c0b54102"
     },
     "updateCenterVersion": "1",
     "warnings": [
@@ -140542,7 +140542,7 @@
     ]
   },
   "_metadata": {
-    "generatedAt": "2025-11-22T01:00:25.880Z",
+    "generatedAt": "2025-11-22T02:59:34.151Z",
     "bestMirror": "https://mirrors.tuna.tsinghua.edu.cn/jenkins/",
     "mirrorsChecked": 10,
     "pluginsModified": 2042,
