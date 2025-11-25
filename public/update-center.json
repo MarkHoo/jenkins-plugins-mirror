@@ -804,7 +804,7 @@
         "url": "https://wiki.jenkins-ci.org/display/JENKINS/ZAProxy+Plugin"
       }
     },
-    "generationTimestamp": "2025-11-25T10:06:55Z",
+    "generationTimestamp": "2025-11-25T12:18:07Z",
     "id": "default",
     "plugins": {
       "42crunch-security-audit": {
@@ -37540,7 +37540,7 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/dashboard-view/latest/dashboard-view.hpi"
       },
       "data-tables-api": {
-        "buildDate": "Oct 21, 2025",
+        "buildDate": "Nov 25, 2025",
         "defaultBranch": "main",
         "dependencies": [
           {
@@ -37576,7 +37576,7 @@
           {
             "name": "jackson2-api",
             "optional": false,
-            "version": "2.20.0-420.v8a_08b_d57ca_05"
+            "version": "2.20.1-423.v13951f6b_6532"
           }
         ],
         "developers": [
@@ -37586,7 +37586,7 @@
           }
         ],
         "excerpt": "Provides <a href=\"https://datatables.net\" target=\"_blank\" rel=\"noreferrer nofollow noopener\">jQuery DataTables</a> for Jenkins Plugins. It is a highly flexible tool, built upon the foundations of progressive enhancement, that adds several advanced features to any HTML table.",
-        "gav": "io.jenkins.plugins:data-tables-api:2.3.4-1451.vb_0b_5238f9054",
+        "gav": "io.jenkins.plugins:data-tables-api:2.3.5-1482.vb_47a_3c19f78c",
         "health": 96,
         "issueTrackers": [
           {
@@ -37600,17 +37600,17 @@
         ],
         "name": "data-tables-api",
         "popularity": 67001,
-        "previousTimestamp": "2025-10-19T21:12:40.00Z",
-        "previousVersion": "2.3.4-1445.v196c776fe69c",
-        "releaseTimestamp": "2025-10-21T11:19:51.00Z",
+        "previousTimestamp": "2025-10-21T11:19:51.00Z",
+        "previousVersion": "2.3.4-1451.vb_0b_5238f9054",
+        "releaseTimestamp": "2025-11-25T11:43:44.00Z",
         "requiredCore": "2.516.3",
         "scm": "https://github.com/jenkinsci/data-tables-api-plugin",
-        "sha1": "iEaOoNirrgp5r4UBbWviIlO67eA=",
-        "sha256": "gERpvOi24WE7fllaDHl4padUPjdZ9UuPjOiBqLeEhkQ=",
-        "size": 588837,
+        "sha1": "aqI66YIHBs+wr67uQjL5hJXFmO8=",
+        "sha256": "nOwhvbfsb7pQOUbkgwh9evhRPoOseKvB5arxsXSCv3k=",
+        "size": 588845,
         "title": "DataTables.net API",
-        "url": "https://updates.jenkins.io/download/plugins/data-tables-api/2.3.4-1451.vb_0b_5238f9054/data-tables-api.hpi",
-        "version": "2.3.4-1451.vb_0b_5238f9054",
+        "url": "https://updates.jenkins.io/download/plugins/data-tables-api/2.3.5-1482.vb_47a_3c19f78c/data-tables-api.hpi",
+        "version": "2.3.5-1482.vb_47a_3c19f78c",
         "wiki": "https://plugins.jenkins.io/data-tables-api",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/data-tables-api/latest/data-tables-api.hpi"
       },
@@ -61588,7 +61588,7 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/inodes-monitor/latest/inodes-monitor.hpi"
       },
       "insightappsec": {
-        "buildDate": "Nov 06, 2025",
+        "buildDate": "Nov 25, 2025",
         "defaultBranch": "master",
         "dependencies": [
           {
@@ -61603,8 +61603,8 @@
             "name": "IAS Developer"
           }
         ],
-        "excerpt": "Allows users to scan their applications via InsightAppSec",
-        "gav": "io.jenkins.plugins:insightappsec:1.0.7",
+        "excerpt": "Allows users to scan their applications via Rapid7 Application Security (InsightAppSec)",
+        "gav": "io.jenkins.plugins:insightappsec:1.0.8",
         "health": 93,
         "issueTrackers": [
           {
@@ -61616,17 +61616,17 @@
         "labels": [],
         "name": "insightappsec",
         "popularity": 206,
-        "previousTimestamp": "2023-07-06T09:33:14.00Z",
-        "previousVersion": "1.0.6",
-        "releaseTimestamp": "2025-11-06T15:15:15.00Z",
+        "previousTimestamp": "2025-11-06T15:15:15.00Z",
+        "previousVersion": "1.0.7",
+        "releaseTimestamp": "2025-11-25T11:40:42.00Z",
         "requiredCore": "2.479.1",
         "scm": "https://github.com/jenkinsci/insightappsec-plugin",
-        "sha1": "T5xf8gAPd2ab3G6A7GHb0VAU694=",
-        "sha256": "uFkkNLeHwRQWjXBIbvYz8cHwjxs8e03+NXcbmbgfsu4=",
-        "size": 5712940,
-        "title": "Rapid7 InsightAppSec",
-        "url": "https://updates.jenkins.io/download/plugins/insightappsec/1.0.7/insightappsec.hpi",
-        "version": "1.0.7",
+        "sha1": "K10saG5eBl5G9DdRslJxgwj96fY=",
+        "sha256": "intuVYLZAEqsZx3vJmxscVfHymklkeMndBpyzdhvt5A=",
+        "size": 5712976,
+        "title": "Rapid7 Application Security (InsightAppSec)",
+        "url": "https://updates.jenkins.io/download/plugins/insightappsec/1.0.8/insightappsec.hpi",
+        "version": "1.0.8",
         "wiki": "https://plugins.jenkins.io/insightappsec",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/insightappsec/latest/insightappsec.hpi"
       },
@@ -121403,10 +121403,10 @@
       "certificates": [
         "MIIFqjCCA5KgAwIBAgIFAN6tvwQwDQYJKoZIhvcNAQENBQAwgYoxCzAJBgNVBAYTAlVTMRMwEQYDVQQIDApDYWxpZm9ybmlhMREwDwYDVQQHDAhTYW4gSm9zZTEYMBYGA1UECgwPSmVua2lucyBQcm9qZWN0MRowGAYDVQQDDBFLb2hzdWtlIEthd2FndWNoaTEdMBsGCSqGSIb3DQEJARYOa2tAa29oc3VrZS5vcmcwHhcNMjUwMjIxMTcxMjMwWhcNMjYwMjIxMTcxMjMwWjBeMQswCQYDVQQGEwJVUzETMBEGA1UECAwKQ2FsaWZvcm5pYTEYMBYGA1UECgwPSmVua2lucyBQcm9qZWN0MSAwHgYDVQQDDBdDb21tdW5pdHkgVXBkYXRlIENlbnRlcjCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBAOTsLRipDbc+XI4zhQnfxgc0Ydg0zIRA7OJnqXMLWFhECjrB85FL5ddITutpJU19YnAX4z/9vXg8qqU5hLdo5xcFsPs80/+XqxhBCcOBOF/IL6EQ2iMr0hkJwAwn+W8R8paDl6noud3fpGWrP8ncTkxuHtvKIXGgAYvYAu8ouHGIrb5tohG7yMyQSqDNN8T+w+Y5egqUf0U7+26Jp4PYqLjz4dBQYMqWLG/M3VJU2vwv/0DMOR0w08tmN2pbi7eV0eoQjYzlRgtHQJkJCD3k9NxSefQ4oQ99o+cxMAFnWPPEQTkv8raldyZ8zcI3ViS/0JbcMF/0wSkBlXgx8Z82rjKvSchXAx8Ydc4gxX2WFPZeBfpx366a2Xbtv+UnFNDpui0WonwQMP5ErJeyo1OESeg3Z0IDUv9dm2yAygwO9sipGD8YflTCRtDpJ/b60d62SOnepyTWJKQ8ecmM/AtkBTK+W9/uZaCp2e5kcsfTCeL+hmbw44vpcVwwnfewDZkKTji9BZFEiWyf3BpnpW6JkX56pzsqo7EzRROnLbKZ5gE67kl+GsrGXXxTLxMpUl6kytiUyH/hw6d3AOBZhxwR0pjEbp6UPeDTaUS5eYQVnVxEgZ6hQJvR/ytx309SbSYXTAtnPQKET8cyfawMYVGB/Dkw+hmmzwekEp7688rQjSoNAgMBAAGjQjBAMB0GA1UdDgQWBBRMeBx4CsBvRyeKYTIupBtaPvAwkDAfBgNVHSMEGDAWgBQRxuXUMC3pVcYBtWtQctI2frQBhzANBgkqhkiG9w0BAQ0FAAOCAgEAIjw545qmcLhWlc86JZQ6nS8OosWRhysWq15WbFPAIzH3ttdJrHLIDi0UNIAkEHZ1UVgVEsNuF3kS8dad+EznefD7S7/wH1woNmFCEri3sN+3nAx6f4tyzh4MZcTZ386ghRSL2Wr0thPoEbi3aLO5twRroCKlJC9HU7TtFWtqHQNM2Trp/oDo6vEObwaxaq+1TOkF7cF/OH+vuZ9FHRgE7X/DrYqFTfCThiXr01Z2SRS4dG8xKrelGGof2xHeN8hsDZN0nBvzRTQ9lfn0YLYG9vCsxKL5JuLGzkjDys1k2yzJxdFywcmG5Is2IlR99NrfbIhQ6pQcFUOWE+WmUFF2zgS9LjC0cDBY536PiKjnhHRYM/Nskj2xleFcJhl293F0VJuWvDHncM4IpEKFftjA/F32c02vkT7MbQdb/HoVd5+IAhSaa9kam1Bs9GBsiQy9nQQ2nviieAflSo8ehES78Y3XsqxUXAwReUYJVQo9DIRBIpkT+eQff0HHfI4RaokfeTZu4a0r/jRj9fMEA7KwwGpnhgrvI8kG8uVcObmRrygtVIcmJo0WFqC+r+Bn8CrVIGtPBN4tz+Gu21DkgRzeG2qViMzdpytMmlQSYl1R7hprtTbGM0pvoPjd2kbjFqOgQRkRlwseguKLAv5Drj11KqpEL679q55gGZao2adFc+k="
       ],
-      "correct_digest": "AuD8gvVQ0k6dPYuXe+/C6inpE5k=",
-      "correct_digest512": "4f2bc3dda9bb1f516d38249742c41b711182d99570b0d73b4a78cff86ee20677e89c3ec6a04bbaaed584e42edeeb3e603959e7c6a47f3291d47fdf172d8c02b8",
-      "correct_signature": "okXZmZBUn6wGUfAzkbqsahtVGVYdPLv3P685UdgWFs8eUiXf5V2IHFr4J4951N4z6PcID0Gt49fRxcKUODY+p9fe2Hdxi7eEfbuHqDdzrCi24HWrfejPQwdF3ApL/UMLMUnBRCONziZ/2rQm2ARPvPyo2Y0dMo0tYPPGEGwnZ505IOcQIL8q6y+2SxdjYgZiNawZM9mNqK2Rt/53hlq31qXTPP8gq6+OFaCrmzLZvp4L2sS0zpDF1b0hue1JMlokjLIQyGbEGCZV4scvuY21ceXoxeYT06dCNuErW5v6spaoJGgtbhtB1xgLMkw/ikH03eykC4EHuYBBV3KIySxJvJL7dJVYeJm/CtJXctDM2Xp2HlqxLPG5w670nVIUxrdtraIpdp6fnpaLnSZ0TKEQFyiocciEnJTOJlFTs1qsr5o4G18wnEFutHXAcLzFU2bGbKCZvlbrhysOH831IVWPOakazqukqwB1mNfYhzjQpSUzxC8+1Tpubt6LsKprv/p/SZGxxjojIFICs9/2DLn6/pS56dGJIDf0Mp5mc2RBR5nhgT1WHqZo0c+PlydKnorSsrGjDamujIzL3RI2xcGv5YSnBd1f7c1jhrK5ZN5t6skbrKZy2JRpiewq6g4TlxR4ihdKXOtTbNzl67hs5+b+fa1vlKJKKbD+oOeZv5L6Rww=",
-      "correct_signature512": "37eed57394939c3b261c308d2d3f1a5cb55137b7d568ce4004efe3872bab1fa77cb723e4e982f0a9e9056cf67ab6349828cd1468c0206a07e16d4534df3f8241ebf5df36f4c9870d5f36b9cf64b2fe154e51b48829f7eae55e22bdd467ca07ac10a4cfd753aca12bfe78dfec4491a3fa52f22837d5fc2109af5d06e8da3ea5194f0914dd7bca93f3c4ca3622ba3149e05be67b71b63aa644807d1b17acbbfd75e543118e9b4e7705e2329ea4575741e0212239833ff0006b30e20c77866e6af9a3932570e689a7363cd4c92643fc73257a93fcbfd489b5932d9c389b6b51ac1f8b830f6900b492feebfdb8ccdcb1c31cff3d4d95e3b56256ed75dbc5b3290c2174fe576e4781e37b4904819a4d0c058cb74980fecc489b92da3a1d2a2ddeec2c833385289142f35a3621472e650c62a708e0661bd72fb45dc6e4e4f6b95c17e951faeefcdb3b7b02dbef4950b16e78faf6a648ddafff3d7dd387ee518105ad53c186fbc4cf8899fa5c1507efe46b5038d8de61061190fb6991ef0388bc4a662ac5c38e2d4ab7a577940c314a42dbe15044462b32e18c12e6f7e78701d970df5c102ad35541a9710673179f1c4aea240a15263c7b6b1736e1fe889565967ce4cd3743e3113b4ce1479974d566e58f1a3c3a93aae50be6dcbcbc2a7382500fe323e404bb5b36ca761100cce237790eb6c5439ee331bacc83f86ad3ebbd16fcf18e"
+      "correct_digest": "FC/dR9+t1D5Dw2zYOi55gU8HZ9E=",
+      "correct_digest512": "26d0778f4bdc0000c125b78ad2d8c57897a07c121727c7d8695800ce33551fd1b8ef964afeab8b423fda5100ad57d40bdafac573e33abb75c10b4f22fccc546b",
+      "correct_signature": "k2WfIWlF+d77Lhnl52wDXFg6E+qqIcASthLHkDkJZX3L2usXvfjoWOWplBaIUWO7vlbiig7FJcsj8ie/ddY7YehxRkwGWaW/J+DPmDHlJ8q2qTv0ios0Xl28i2YQPyqTPzEUJzcrAjPsp7RIxxup76TZoL/xsaZvUweA9t003AA/B3B2rzJauE3U8lKqhvCBW+MWRs4IqvRrCzbQqtwpVtsxuUeeEAxgvx3pXCTSDZ/HlgCLozsmuKeP3g4cjq+GbQkpM23BrreLH/iDLOIAg3bQ/jzwSMAlRhoLHWVbJGOjeiz/tbX4MQGYlpowd62bKrfX5/sG4cVf7uJZOXkZ7CqimuVLWXuftgLT+Mi4KobdfcTzOO1QCae+FImi8uR5O1qsUlt2p1VQholVuN1PtC+xf5456lgQd1Pk/eZFoz+sHus0QbApYnFQlNTL5fktL+qU5KDzgoPE3EuiHYYj/ORZgTjBvamOk4Di607qkGEv/60X3TPwqola8Vn1ejkchWK+5FbfU31KGy1JBisBfon7kX8azHxO7QB5bAYeWCRzfKEUHoFpLZXB15VoRui0poTM5U7ibldXa4/GnUthxi0VLbs1Q2esB1dtzVfVxMh5q6rlRpNMKM7vyir2pHi7tfqvQNVvwcAe7tJ/gtDiup6ppniy/HAoYozpSJngA6E=",
+      "correct_signature512": "7c979f69ebbd101b4cbcafa74ecc84c5e6421423d98c7b0e8176faee6bda1740f16f08f95aeb3d2ca2f72d79ab676073fb72ffc9972958f8db9efc8116b566c41d5d92afa41b330c3f3e0b8fa04f7815a45704c4950ff8a37b7856dc9b524983ef47e1eb3a09641ed0c6ee11cc78ef3e6c55a1b1b615cd7e7f57335c9d0d5bc5e530118c002dd9a23b9332aa75ee7d9fd3ad635b1dd8234a50ce952d167472046c537c3bf69e8984573d4a6864b2ef4b3cfa500c941130d09fe9312d098322a3932dbb5cd3ef34c109277724d71f454723fd5a923ed3d92988dc9ba2ee95da6c8e7c18ff33b730de4c0474b7302d9e7e52a081bac251da2cc221d8950dc7060c4ece233503f5ae97874fa62ec2100e8e9f6e5ef20948b82826fdc90fc213f078586374bb1a20af198b9ec2bdbab97290dc0f3eb7b42cc99cfcc36c7271723e2e528f99930f0f2de35f71c711b46ff7723aa2fae321a0cb4eb9f4c98963a8ea467e5e9f9826f831f34e51b1bdc6f148cc91f1306b5a38003a5a1f1475b75c1208a05047f7fe82a1a40a7d93d274234711480d77021413b27d6302a354971f670a41cf4ec0587bb088a81d79df8edc1ef42b1dc41718b55a4f309ce69058ab3789b7e25b56130d2d6eb38cb5471521b9cc6e7d49e3c130e3bfa85baf38151666bd13980827734052a80e7ba8fbafbfc48fb7df3a4aeb8cfdd7d59a5ec021b8bc0e"
     },
     "updateCenterVersion": "1",
     "warnings": [
@@ -140550,7 +140550,7 @@
     ]
   },
   "_metadata": {
-    "generatedAt": "2025-11-25T10:17:05.131Z",
+    "generatedAt": "2025-11-25T12:29:06.000Z",
     "bestMirror": "https://mirror.nju.edu.cn/jenkins/",
     "mirrorsChecked": 10,
     "pluginsModified": 2042,
