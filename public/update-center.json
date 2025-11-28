@@ -804,7 +804,7 @@
         "url": "https://wiki.jenkins-ci.org/display/JENKINS/ZAProxy+Plugin"
       }
     },
-    "generationTimestamp": "2025-11-28T12:20:11Z",
+    "generationTimestamp": "2025-11-28T14:06:02Z",
     "id": "default",
     "plugins": {
       "42crunch-security-audit": {
@@ -73195,7 +73195,7 @@
         "archiveUrl": "https://mirrors.tuna.tsinghua.edu.cn/jenkins//plugins/maintenance-jobs-scheduler/latest/maintenance-jobs-scheduler.hpi"
       },
       "manage-permission": {
-        "buildDate": "May 27, 2020",
+        "buildDate": "Nov 28, 2025",
         "defaultBranch": "master",
         "dependencies": [],
         "developers": [
@@ -73217,7 +73217,7 @@
           }
         ],
         "excerpt": "This plugin allows to enable Overall/Manage permission without the need of any JVM system property.",
-        "gav": "io.jenkins.plugins:manage-permission:1.0.1",
+        "gav": "io.jenkins.plugins:manage-permission:20.v5e6fa_97fa_0fe",
         "health": 88,
         "issueTrackers": [
           {
@@ -73231,17 +73231,17 @@
         ],
         "name": "manage-permission",
         "popularity": 217,
-        "previousTimestamp": "2020-05-26T14:08:32.00Z",
-        "previousVersion": "1.0",
-        "releaseTimestamp": "2020-05-27T15:00:05.00Z",
-        "requiredCore": "2.222.1",
+        "previousTimestamp": "2020-05-27T15:00:05.00Z",
+        "previousVersion": "1.0.1",
+        "releaseTimestamp": "2025-11-28T13:33:37.00Z",
+        "requiredCore": "2.504.1",
         "scm": "https://github.com/jenkinsci/manage-permission-plugin",
-        "sha1": "yhBmVyKII9TDj2fTjS5FY4TfqFA=",
-        "sha256": "qsqIjjaFL+LsUmWIt6BHmf+Yl/sHbGK7Jyxh88XSYSA=",
-        "size": 6024,
+        "sha1": "p7mfEKjukl+n1Vne2I5PY0rPJHM=",
+        "sha256": "Yg34KrcbLwz2KzG+fyZyp7bpq1tVdxCArbMI9kSA2+A=",
+        "size": 6453,
         "title": "Overall/Manage permission enabler",
-        "url": "https://updates.jenkins.io/download/plugins/manage-permission/1.0.1/manage-permission.hpi",
-        "version": "1.0.1",
+        "url": "https://updates.jenkins.io/download/plugins/manage-permission/20.v5e6fa_97fa_0fe/manage-permission.hpi",
+        "version": "20.v5e6fa_97fa_0fe",
         "wiki": "https://plugins.jenkins.io/manage-permission",
         "archiveUrl": "https://mirrors.tuna.tsinghua.edu.cn/jenkins//plugins/manage-permission/latest/manage-permission.hpi"
       },
@@ -121477,10 +121477,10 @@
       "certificates": [
         "MIIFqjCCA5KgAwIBAgIFAN6tvwQwDQYJKoZIhvcNAQENBQAwgYoxCzAJBgNVBAYTAlVTMRMwEQYDVQQIDApDYWxpZm9ybmlhMREwDwYDVQQHDAhTYW4gSm9zZTEYMBYGA1UECgwPSmVua2lucyBQcm9qZWN0MRowGAYDVQQDDBFLb2hzdWtlIEthd2FndWNoaTEdMBsGCSqGSIb3DQEJARYOa2tAa29oc3VrZS5vcmcwHhcNMjUwMjIxMTcxMjMwWhcNMjYwMjIxMTcxMjMwWjBeMQswCQYDVQQGEwJVUzETMBEGA1UECAwKQ2FsaWZvcm5pYTEYMBYGA1UECgwPSmVua2lucyBQcm9qZWN0MSAwHgYDVQQDDBdDb21tdW5pdHkgVXBkYXRlIENlbnRlcjCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBAOTsLRipDbc+XI4zhQnfxgc0Ydg0zIRA7OJnqXMLWFhECjrB85FL5ddITutpJU19YnAX4z/9vXg8qqU5hLdo5xcFsPs80/+XqxhBCcOBOF/IL6EQ2iMr0hkJwAwn+W8R8paDl6noud3fpGWrP8ncTkxuHtvKIXGgAYvYAu8ouHGIrb5tohG7yMyQSqDNN8T+w+Y5egqUf0U7+26Jp4PYqLjz4dBQYMqWLG/M3VJU2vwv/0DMOR0w08tmN2pbi7eV0eoQjYzlRgtHQJkJCD3k9NxSefQ4oQ99o+cxMAFnWPPEQTkv8raldyZ8zcI3ViS/0JbcMF/0wSkBlXgx8Z82rjKvSchXAx8Ydc4gxX2WFPZeBfpx366a2Xbtv+UnFNDpui0WonwQMP5ErJeyo1OESeg3Z0IDUv9dm2yAygwO9sipGD8YflTCRtDpJ/b60d62SOnepyTWJKQ8ecmM/AtkBTK+W9/uZaCp2e5kcsfTCeL+hmbw44vpcVwwnfewDZkKTji9BZFEiWyf3BpnpW6JkX56pzsqo7EzRROnLbKZ5gE67kl+GsrGXXxTLxMpUl6kytiUyH/hw6d3AOBZhxwR0pjEbp6UPeDTaUS5eYQVnVxEgZ6hQJvR/ytx309SbSYXTAtnPQKET8cyfawMYVGB/Dkw+hmmzwekEp7688rQjSoNAgMBAAGjQjBAMB0GA1UdDgQWBBRMeBx4CsBvRyeKYTIupBtaPvAwkDAfBgNVHSMEGDAWgBQRxuXUMC3pVcYBtWtQctI2frQBhzANBgkqhkiG9w0BAQ0FAAOCAgEAIjw545qmcLhWlc86JZQ6nS8OosWRhysWq15WbFPAIzH3ttdJrHLIDi0UNIAkEHZ1UVgVEsNuF3kS8dad+EznefD7S7/wH1woNmFCEri3sN+3nAx6f4tyzh4MZcTZ386ghRSL2Wr0thPoEbi3aLO5twRroCKlJC9HU7TtFWtqHQNM2Trp/oDo6vEObwaxaq+1TOkF7cF/OH+vuZ9FHRgE7X/DrYqFTfCThiXr01Z2SRS4dG8xKrelGGof2xHeN8hsDZN0nBvzRTQ9lfn0YLYG9vCsxKL5JuLGzkjDys1k2yzJxdFywcmG5Is2IlR99NrfbIhQ6pQcFUOWE+WmUFF2zgS9LjC0cDBY536PiKjnhHRYM/Nskj2xleFcJhl293F0VJuWvDHncM4IpEKFftjA/F32c02vkT7MbQdb/HoVd5+IAhSaa9kam1Bs9GBsiQy9nQQ2nviieAflSo8ehES78Y3XsqxUXAwReUYJVQo9DIRBIpkT+eQff0HHfI4RaokfeTZu4a0r/jRj9fMEA7KwwGpnhgrvI8kG8uVcObmRrygtVIcmJo0WFqC+r+Bn8CrVIGtPBN4tz+Gu21DkgRzeG2qViMzdpytMmlQSYl1R7hprtTbGM0pvoPjd2kbjFqOgQRkRlwseguKLAv5Drj11KqpEL679q55gGZao2adFc+k="
       ],
-      "correct_digest": "Hnwz47GI+Vu9nFl2t/oXt7ZQRq4=",
-      "correct_digest512": "ccced286bdde4ca3588fc1be0cbb3ca7c5c00981d937da475bf3ab8a730226836d7b3fcb7088b5213374f6cce9d0316ee332fc3d5acba4d7e5a3ce806b4fe1a3",
-      "correct_signature": "aHEcle7f2Y6VoogJkCy0+s5ZlPoVmPzCneJkqMroH2F7JGPrV5IUvBspz6dWftgtwxnVwp6PH4Qj/cdm40nfVb2jtejg5E6481474teyinpt0Apri/EZrB76XWbXLOicUeCqQ6fmu+X0JsWr4thlUFtByRARbzjPmLFcxICWZEsVAG0zt23Lz8Ge7esqQFB5kvMtF5QA1W/0tfnTNs4HE0kVK1ugQUtEngjnawWPCCu6FSn54DPNmJ4PmFXlFYFbs+ZH+ROYSwLR5lYWCn9rLXCZ9vgxLvzq9AlLV0iQgsqsGtiq9Pn4672tlmMg7blNaJEBOds/hN9jq4iWSgzzSRHL4PJq+ATFXCzCRcnZAnXtXGKvkVR6Us8MWcwwJdVhJE8oJNXLiz57HjN4TjFUbtz45RRvdBmwyOMrG3XsFEqsn4YW1vAZaFZCuZ/nBF+Xuj3WPhR/cc0VGL/h4Xx9fdcomA48TJhLruWfz2oJM64JL71E+XFjUxhs3KGpmGtWHDzl9SCfT0CVoiQHAL8ylWuSFBMKld84Lz5YDyUFnVu7+Er1tsFyeub3x6qaxMdBejYxlDq7zKElRfq4Zt553NZBj3bNSI+DOJpCMUcJMpw1V4SPMDIkvg4ZgaBHJJ8xKPbkJwobI0eQipWBpeGeZ4QeY7no8FTfl2oiKTPFda8=",
-      "correct_signature512": "86c84f2f4e1ad095dbecf18ecd09df85f53267dfe02a6a94f74db464de68a4c593a3e899cb1f0e280d6ec1e71728096b84357e766817e2788d11d1aca164ec311a7134d3a63793f75d998c91ddd4eb3e19ed0d352a49a04003381dcc6fab9ff5e0dcf01b0361be3f03e1ce9e1bb24a40738f80a7c97f72806cf9c981111860c11ffd405b7373de63b0051feafaca7cddce2ae22224fd7e5688a9d37573e10dfafa44eee5bf5d5f102c0269fa7a8b2191b03ce8853e1ee012bfefc633d3307f283a242d7b928865ced07395bfe2bf6be87aada2b63eda2efb5ed6a39e55e2b45e9dcb6e40f132967a4bf3fc999320ad385d9c860e35ebd4900ee4fe4558ebfa87997f2df30e5a1aadb7a756fa45ccbf24db4d6b1063f488dd81be4dd2aa4d59fcb0fe267a41c27806d9e2c1787ee1735b43cd7d99fe502247e81a6bb66dd16196f9c507ab778bb7aff325146b92682b5451216c6247bbf73848b1b1560be01ba3205715add209af2ad2a72cf4322f0bca34a3b19445ce434ea51cd26b3f6f2fcf9b70cb0355e384fba0983e012e44be3758b8b3b131dfd375f395bdd9b00352d15b43b89ee57c0000e64f79dcafb527c7ffc0256caf5d60db584767c2ce70daf4ba3aa46787ae443fa2e3c1aeae997c10f9a5f23b2f8fb74619c2a111e74e77fff5ef68976932a073d807968ea1f8ace86be90aca7570c17c7d2ca14a28c7291f"
+      "correct_digest": "uGSR09MfGxnmRd/69LIHsnNZJVU=",
+      "correct_digest512": "58335ef01140a69f65a42daa7d17b93be8dc6fc475c3c3933e33482633d78eab265e4d411aee9ce9ce0d80cae1189c306786382d00979c0e680a43d965d899f9",
+      "correct_signature": "fjnvJbiG7ar18Msq7dOdzEdAgD33FG0MJVU2UZhZWgJ/BZb+jK+xYXeeZ0pF2m1o61I1IKoHHQH18+e8MtVzOql+z8dRJyM5STq4kjmaLCtq1C2mV7ZaP1fvecqoy9dBHuuBkNi7VLXoKj3lvC/Ft7/ydaSFF3AZxSUF0ZG4sSTpzJ2neyXDhz5uWtGH98af+8VuisnF3YW2mLHEJhv+sTNVz5Dm0z69BQtV11tQlirjOjJBfoYuc2QapACpiqBGF8RtKWaerZnDo/D1Ie3pg9PEm5AJV8ZavG+KqTkiBB9sGCIB7igyNS6WbMt+BLiMSp1n/0TWHBEFI/mCmADCC7RvnggOa8mmsu+uG6vKil0VrgQd2pPxKuYrB6NnoeGlX/ZKjBjDlCroHW2FcFoqsKXi++NRZ2INZv9bI/+2fPi/+aDqi85DZiLE1Fi2a8IyNML91y7EYD26vpBY+haevTdlQ5OB3Ghc5SRCDfx5+uSSgvVVdpx7WF9rOIkHnOLpSjYrNPpH6OJUdA+qJnYxkJCjYJfP6Vzrxs8IHcEPUvTMdVG/ky+qPA6UK0rKKYjBv0IQwE7sBrQG3JzpJlLNZZClzu/tF53V/NRlZ9/i7OAYpSkX2Ya1l8NnFhuX4SK5Q3CqWMZLIyMvtK966QoAUIduBpPmt0mHowtSSBJ5rMk=",
+      "correct_signature512": "2a6e7d939ff2f0e53d028b385b1ead604aab0accaf7177587a5bda61ee8f412fc41329826ab91d774e7776316da3c0bfef831591b5cb0cb695f596d9c1b48446399c7c729f4bae33ab98c774b99b0cd18e193875afc034901bb018a703f5495de39c570eef627e79df9a6a89844b10f94c9e6783c5bc50bdfe6e615753906ee4edb57541fd4c14652e74f3cf6e850c6d4c9196b20d259aa799c4bbbf4998121028cc79cb91787914680e99838c2df4571fa05dfc2aab29e152419a483d045325732779e973afee3ef9c1900db8ec22112504f07e0623c2615c23edb5a9f1afead146b5d116a055265d7b688c0da92a840d1a22f2e718aafae78b64eb3192a1a16cbe98de7924ff24f7585a2b326f5c15bd917a02fda05bcf722bfb76810394abe8ee1b143b7a8f5ae0299920def8a605fa18862bdfc91e57a6972a914681d31d3268a2f27a7c96fea32603c49d4e1ce3b4e723ce28a78567569e33f4e7a9499a5812d41e5b9e509b6895c6ac9af4c1a2aaa185aabf679262ca65d9f9b96c74d1c8b1c852a95ec0f6c18d0fe171c099140f814d3af43d9f9107f1849545687954b875039dbd05668ff0fb3c6a0ba2fc643a7ce5ce518f946f9329ff39b3e6cf69b1e8605b4eebdb9d4c69416fed89e21c4a1da1fd14a8483f86a59e73dcbbd6d286ba12f7c843e41269719e9e459299b060ac57df48b935e89df79e7190cd28ad"
     },
     "updateCenterVersion": "1",
     "warnings": [
@@ -140624,7 +140624,7 @@
     ]
   },
   "_metadata": {
-    "generatedAt": "2025-11-28T12:27:56.926Z",
+    "generatedAt": "2025-11-28T14:14:05.487Z",
     "bestMirror": "https://mirrors.tuna.tsinghua.edu.cn/jenkins/",
     "mirrorsChecked": 10,
     "pluginsModified": 2042,
