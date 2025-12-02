@@ -804,7 +804,7 @@
         "url": "https://wiki.jenkins-ci.org/display/JENKINS/ZAProxy+Plugin"
       }
     },
-    "generationTimestamp": "2025-12-02T08:08:14Z",
+    "generationTimestamp": "2025-12-02T10:06:25Z",
     "id": "default",
     "plugins": {
       "42crunch-security-audit": {
@@ -34941,7 +34941,7 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/covcomplplot/latest/covcomplplot.hpi"
       },
       "coverage": {
-        "buildDate": "Nov 18, 2025",
+        "buildDate": "Dec 02, 2025",
         "defaultBranch": "main",
         "dependencies": [
           {
@@ -35042,7 +35042,7 @@
           }
         ],
         "excerpt": "Collects code coverage results of different tools (JaCoCo, Cobertura, etc.) and visualizes the results.",
-        "gav": "io.jenkins.plugins:coverage:2.3036.v90d485b_810c6",
+        "gav": "io.jenkins.plugins:coverage:2.3054.ve1ff7b_a_a_123b_",
         "health": 96,
         "issueTrackers": [
           {
@@ -35054,17 +35054,17 @@
         "labels": [],
         "name": "coverage",
         "popularity": 16315,
-        "previousTimestamp": "2025-11-12T21:50:57.00Z",
-        "previousVersion": "2.3026.ve83b_5d9dfb_c4",
-        "releaseTimestamp": "2025-11-18T09:18:03.00Z",
+        "previousTimestamp": "2025-11-18T09:18:03.00Z",
+        "previousVersion": "2.3036.v90d485b_810c6",
+        "releaseTimestamp": "2025-12-02T09:17:27.00Z",
         "requiredCore": "2.516.3",
         "scm": "https://github.com/jenkinsci/coverage-plugin",
-        "sha1": "QV2fHxE62xvql5J8q61y8dRuiVg=",
-        "sha256": "lmDrQZ9cGzG3WnuA3O0moYS+Pf4XluPukjIYuFz3FXA=",
-        "size": 382377,
+        "sha1": "VJ12coa7DBUS04eELivq6OmI8Sc=",
+        "sha256": "kf9xRETnPGnV3mEU5rTER5Jhpzri7qMQ4jev1Syluog=",
+        "size": 382390,
         "title": "Coverage",
-        "url": "https://updates.jenkins.io/download/plugins/coverage/2.3036.v90d485b_810c6/coverage.hpi",
-        "version": "2.3036.v90d485b_810c6",
+        "url": "https://updates.jenkins.io/download/plugins/coverage/2.3054.ve1ff7b_a_a_123b_/coverage.hpi",
+        "version": "2.3054.ve1ff7b_a_a_123b_",
         "wiki": "https://plugins.jenkins.io/coverage",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/coverage/latest/coverage.hpi"
       },
@@ -121499,10 +121499,10 @@
       "certificates": [
         "MIIFqjCCA5KgAwIBAgIFAN6tvwQwDQYJKoZIhvcNAQENBQAwgYoxCzAJBgNVBAYTAlVTMRMwEQYDVQQIDApDYWxpZm9ybmlhMREwDwYDVQQHDAhTYW4gSm9zZTEYMBYGA1UECgwPSmVua2lucyBQcm9qZWN0MRowGAYDVQQDDBFLb2hzdWtlIEthd2FndWNoaTEdMBsGCSqGSIb3DQEJARYOa2tAa29oc3VrZS5vcmcwHhcNMjUwMjIxMTcxMjMwWhcNMjYwMjIxMTcxMjMwWjBeMQswCQYDVQQGEwJVUzETMBEGA1UECAwKQ2FsaWZvcm5pYTEYMBYGA1UECgwPSmVua2lucyBQcm9qZWN0MSAwHgYDVQQDDBdDb21tdW5pdHkgVXBkYXRlIENlbnRlcjCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBAOTsLRipDbc+XI4zhQnfxgc0Ydg0zIRA7OJnqXMLWFhECjrB85FL5ddITutpJU19YnAX4z/9vXg8qqU5hLdo5xcFsPs80/+XqxhBCcOBOF/IL6EQ2iMr0hkJwAwn+W8R8paDl6noud3fpGWrP8ncTkxuHtvKIXGgAYvYAu8ouHGIrb5tohG7yMyQSqDNN8T+w+Y5egqUf0U7+26Jp4PYqLjz4dBQYMqWLG/M3VJU2vwv/0DMOR0w08tmN2pbi7eV0eoQjYzlRgtHQJkJCD3k9NxSefQ4oQ99o+cxMAFnWPPEQTkv8raldyZ8zcI3ViS/0JbcMF/0wSkBlXgx8Z82rjKvSchXAx8Ydc4gxX2WFPZeBfpx366a2Xbtv+UnFNDpui0WonwQMP5ErJeyo1OESeg3Z0IDUv9dm2yAygwO9sipGD8YflTCRtDpJ/b60d62SOnepyTWJKQ8ecmM/AtkBTK+W9/uZaCp2e5kcsfTCeL+hmbw44vpcVwwnfewDZkKTji9BZFEiWyf3BpnpW6JkX56pzsqo7EzRROnLbKZ5gE67kl+GsrGXXxTLxMpUl6kytiUyH/hw6d3AOBZhxwR0pjEbp6UPeDTaUS5eYQVnVxEgZ6hQJvR/ytx309SbSYXTAtnPQKET8cyfawMYVGB/Dkw+hmmzwekEp7688rQjSoNAgMBAAGjQjBAMB0GA1UdDgQWBBRMeBx4CsBvRyeKYTIupBtaPvAwkDAfBgNVHSMEGDAWgBQRxuXUMC3pVcYBtWtQctI2frQBhzANBgkqhkiG9w0BAQ0FAAOCAgEAIjw545qmcLhWlc86JZQ6nS8OosWRhysWq15WbFPAIzH3ttdJrHLIDi0UNIAkEHZ1UVgVEsNuF3kS8dad+EznefD7S7/wH1woNmFCEri3sN+3nAx6f4tyzh4MZcTZ386ghRSL2Wr0thPoEbi3aLO5twRroCKlJC9HU7TtFWtqHQNM2Trp/oDo6vEObwaxaq+1TOkF7cF/OH+vuZ9FHRgE7X/DrYqFTfCThiXr01Z2SRS4dG8xKrelGGof2xHeN8hsDZN0nBvzRTQ9lfn0YLYG9vCsxKL5JuLGzkjDys1k2yzJxdFywcmG5Is2IlR99NrfbIhQ6pQcFUOWE+WmUFF2zgS9LjC0cDBY536PiKjnhHRYM/Nskj2xleFcJhl293F0VJuWvDHncM4IpEKFftjA/F32c02vkT7MbQdb/HoVd5+IAhSaa9kam1Bs9GBsiQy9nQQ2nviieAflSo8ehES78Y3XsqxUXAwReUYJVQo9DIRBIpkT+eQff0HHfI4RaokfeTZu4a0r/jRj9fMEA7KwwGpnhgrvI8kG8uVcObmRrygtVIcmJo0WFqC+r+Bn8CrVIGtPBN4tz+Gu21DkgRzeG2qViMzdpytMmlQSYl1R7hprtTbGM0pvoPjd2kbjFqOgQRkRlwseguKLAv5Drj11KqpEL679q55gGZao2adFc+k="
       ],
-      "correct_digest": "wa6b/v29kIL+ldLHBOX77IYOKc0=",
-      "correct_digest512": "f551b1561b01dfb58fb3fd66aee3d744686006a0c71c239f3b415e56a9cad5251d6167c7c18a3de7d61b4d2d64f2e16c020f5a128d06c54f35b16b0c7ad70772",
-      "correct_signature": "WhY+/nEeGsuBucEAz/DlcZ8Eu8uQoXt1Z/1rXJuBvBKIHYbipjs76UU3qSZGPuD30JIp/cF6WCz3Y1miqJCy4PgXCet7lQp8D3U6G8U6Ge51O6+qSy6UqNUgMf0QxyQFTi/th7ThLHKf+G13Jitc1ArEvzgVRzzMwHJdmdPg6WxwSN+toOb52KYKz90jtoBm7zvuwYgts2JZcijt4La2YpWs7hLrUWM1a/XiRjQvuuIsrlWpqqVfRbKgHiYVMyRAjAueh5p3kPjzayMAAPHannS/PMkunyhyTCZNzwbQqhSdDcU9sGDM0Gjf1s0lRzEmqWp1kCVc4O9u1VVXUhaxlExyu1mi0yWnJcM8pei2fhj3uom+dcJ1xi/2B/tXEfGv8fp6ARfgHUufvBlzdW7ovLTE0gwxelqRlBCk+hAnEWy8voxfsJL1VSyeNI9JcTzmdTFeKY2YP9pVIev7gKVAXTRTj1emjFxIiwZIU1flXh7nSKnR1m/nCXF/W0jwqO4/++gnAWo7WiICPt7QoRWcaQL47T6O7hrvs9YDyH1q0vYTQ7UXwxI8DIGfWGQG3RKnUPokAbio2XvmAC5Nx++PKfKofBhlxDEgngLJnt8UlomjxLS4Ft5yjuR1xVMSuvLK92B7pwLJ8YKUzoe2/ZbeDVN/ED+DihJC1XM2mwU9alI=",
-      "correct_signature512": "2e054892a11ffcedb7d85ff8dd4f785fc923ca12ccfcd4d944df500af304486dad7a4e48a668a16b3fceace1847d15ab9383247d11a2f73b84f5e04fa3a813fee816fa3d1b7e53dffa28498929cf17343aafd685ee44421bc1d651ce1ace24903f17d9852b4892439556bd3e643fa5e8148ab2b8441f3b87d38b71d3dc2964f906d1a44968365b0d65519527720b5007a6896b6fee610f511aa48db5e0ab3bbe65bc08dd4803a9149903dab42291f259d496cbd19cd087fb702c798a14cab0c7447907188b2571878dbb403f4fe6773428e1e9d6b9c1cf753e0e72024b495fbe64a690a779391c4e1bce001771dc4281e9141a1d8afad72723fdaeaa7a9e4a7e5091086d3022ae53cc4ce3d0c7f382e6ad93a76c3fa5d860603b1dee922886ef4d51de5d12e50d99c5d95c3740126a98a785e2cd72fb5adb1c9f9379e349284e70f9b47a1df052cc2ca2d5aa2eeb1c310190706470f60d81a9e7405b9c24d7d517020151d859110e03e0c62fab82693a0a127d46c972d7bb45f04214ae383985f255d2b121c1d6aa508616125b713c63d0a8a854599130830ae9b8a861b67e1075e77dc104ee59201640e826bdc64fd8fd33fab1e3337f8089b2a855b545f158a09a123f2c370e06ae5764da809badb9b08d5b405298a3fcabb77aca604a66334a2b960d752fb0515b9987fb519fa3e3df9bee75e5ddcfdeec9ca6d3d3d95ab3"
+      "correct_digest": "TzVIFsnrlCuYRRFq9DxIGKfBGro=",
+      "correct_digest512": "7fabbf8a95eb1f215ddafdcfeca5b8201da3bf89e0eb1b96954b60a178268c132b23dbd48bf68601c03f8ad63bf01368524505ba559c7bfb109a6a77c6b76b29",
+      "correct_signature": "hbAsYwb5AoE+YK+WUoJdSxOxmF9+bASleayPVuSGdtmFWBLXGUzOjsBf3pNn9s/NpAAzYor7cpK5GkL5I89eAu3aFOgSBoQs+FwJzsb4IH6V91hN+Z5x2uAwb6OP9Q4wkbH9+ijpBVOvEp4HUSb+a/aweZ6BYhdFFeiaDR2vlkoRpfoUEoc1Bp0L/lEL+/62nZk29g63i1opRSF5WITmL3SfSs9+8jOiBdqwzeIX5KRLhDeYMnYGm4uQx7taapDS7TQnHsNQTXvcbBRJeBK97dM2NOJUJWGTk0/3ehLnonfepT+pxan2uaDkmmCMdGdqgYn98uh9UE2/aXZM8etdo7gQt7Q9sKF2TpfGQ+fNn4fth4YK+FYCteETZZzhRdHREMWeDTpLRBMh3dUku9dzOGqFLcB/B2cmXXMOB41ZiAvb1UGJLh29yEPcg2LZzt7eVo+ctgooxwXrIPjKyOeWPzKi69hMu6W8zGE2V4HGskfsQax/ks0d+xgiOvRjKZS4Cr3Xzlrq4Yt2Vw+j3ob4eIupkCYgFgGFTm5kG7eNyolTAeDE2q/RqilPqnWpb2RUtsXz0sR8oOQzjgc59XBDnSV3Y+oajgYhe8bM7WaRdTrGv+0oHnKQXNiuR+7mMON/MozdkRGAxhaQxwcHJbHNvLZwyN8AMN//XJGayRQelj8=",
+      "correct_signature512": "250e5d8539c34c05b8e159a21364b1910ac00d55d3f13e2acb45a757b3818f661ce9d6749c552a72f16478d65e677eb218a543469a7296c62c0e377e56ab1c525ebd9ca84664cd7fea9381bc50e0b05cdd1c7869f68afb3116f70a79376b681b4a6023d7e945376eb77b43239b61e0826d42b189c7ed68c6e38bf827042780b6b3108b3c9797bccb65eed5c23590e0d42f7fd1ae469c1b5a1c5dc97173e67922f054cbea9a459913522986932de4607f66f3755de0b4871c31c5c40cd4faefcfe5073f4dcefd22a7149952d75058dd9fc4320114299fec559fe6835765b3383a4e72bccc982421f64e8beffb93654e30025c806c04ea95a39fbb7a0df1eb031b0df77c337a429d7ce0a11fa8925f52abeefd923b502ae6a7b85c75770acf6bb58662b0063ff8789e7771dc8c4cfc003b73c8caafbb8e4da30b08f5e5110ae5765f496d479e79d8abccc32e6a44ef6415b2cef721f9324d414a965e0c30feb9eae1371baa3d9762925e1a4b2ad893feb38cfc857c7516a6e7821babe2d0d50327eaac9afe0ed0f7b79e36cbe58cd7156b8bfc500315333a6e938bde8c673939e3c6dbf4159043f206307bc6b875f5622e93be3c04b792e57290710addade7fe7502ddc9063197f7679e1d2dd9bb5d279aebaa50a1138bb84054f00cf6e6a0e7b6722a2b380023c50e1eba458e7b4e2c2f0aad016cea917a2931ffb4d3d4171d38"
     },
     "updateCenterVersion": "1",
     "warnings": [
@@ -140646,7 +140646,7 @@
     ]
   },
   "_metadata": {
-    "generatedAt": "2025-12-02T08:21:09.362Z",
+    "generatedAt": "2025-12-02T10:16:38.819Z",
     "bestMirror": "https://mirror.nju.edu.cn/jenkins/",
     "mirrorsChecked": 10,
     "pluginsModified": 2042,
