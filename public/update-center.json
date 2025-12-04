@@ -804,7 +804,7 @@
         "url": "https://wiki.jenkins-ci.org/display/JENKINS/ZAProxy+Plugin"
       }
     },
-    "generationTimestamp": "2025-12-03T22:05:08Z",
+    "generationTimestamp": "2025-12-04T00:51:51Z",
     "id": "default",
     "plugins": {
       "42crunch-security-audit": {
@@ -41498,7 +41498,7 @@
         "archiveUrl": "https://mirrors.tuna.tsinghua.edu.cn/jenkins//plugins/distfork/latest/distfork.hpi"
       },
       "diversion-scm": {
-        "buildDate": "Nov 20, 2025",
+        "buildDate": "Dec 03, 2025",
         "defaultBranch": "main",
         "dependencies": [
           {
@@ -41529,7 +41529,7 @@
           }
         ],
         "excerpt": "Integrates Jenkins with Diversion for SCM operations. This plugin enables Jenkins to use Diversion repositories as SCM sources for both traditional pipeline jobs and Global Pipeline Libraries.",
-        "gav": "io.jenkins.plugins:diversion-scm:34.v6ce5984fe944",
+        "gav": "io.jenkins.plugins:diversion-scm:36.vf35049df081b_",
         "health": 100,
         "issueTrackers": [
           {
@@ -41541,15 +41541,17 @@
         "labels": [],
         "name": "diversion-scm",
         "popularity": 0,
-        "releaseTimestamp": "2025-11-20T15:18:20.00Z",
+        "previousTimestamp": "2025-11-20T15:18:20.00Z",
+        "previousVersion": "34.v6ce5984fe944",
+        "releaseTimestamp": "2025-12-03T23:42:41.00Z",
         "requiredCore": "2.504.3",
         "scm": "https://github.com/jenkinsci/diversion-scm-plugin",
-        "sha1": "TcETqMRE8uGZaNKlzjJDSB4nr0w=",
-        "sha256": "cSp2V0o6cu+DCfpCE5I7/G4uFt6pioTWdsq7HWKVX/Y=",
-        "size": 57764,
+        "sha1": "r48y2RA/2Oir7gcMFllUMRoVg3U=",
+        "sha256": "bmc4qEs64K3lUPIkb+THa51vbSRwG1aB0xjY06u17zI=",
+        "size": 58495,
         "title": "Diversion SCM",
-        "url": "https://updates.jenkins.io/download/plugins/diversion-scm/34.v6ce5984fe944/diversion-scm.hpi",
-        "version": "34.v6ce5984fe944",
+        "url": "https://updates.jenkins.io/download/plugins/diversion-scm/36.vf35049df081b_/diversion-scm.hpi",
+        "version": "36.vf35049df081b_",
         "wiki": "https://plugins.jenkins.io/diversion-scm",
         "archiveUrl": "https://mirrors.tuna.tsinghua.edu.cn/jenkins//plugins/diversion-scm/latest/diversion-scm.hpi"
       },
@@ -59436,7 +59438,7 @@
         "archiveUrl": "https://mirrors.tuna.tsinghua.edu.cn/jenkins//plugins/http-post/latest/http-post.hpi"
       },
       "http_request": {
-        "buildDate": "Oct 22, 2025",
+        "buildDate": "Dec 03, 2025",
         "compatibleSinceVersion": "1.16",
         "defaultBranch": "master",
         "dependencies": [
@@ -59490,7 +59492,7 @@
           }
         ],
         "excerpt": "This plugin sends a http request to an url with some parameters",
-        "gav": "org.jenkins-ci.plugins:http_request:1.22",
+        "gav": "org.jenkins-ci.plugins:http_request:1.23",
         "health": 80,
         "issueTrackers": [
           {
@@ -59505,17 +59507,17 @@
         ],
         "name": "http_request",
         "popularity": 30542,
-        "previousTimestamp": "2025-10-21T20:58:27.00Z",
-        "previousVersion": "1.21",
-        "releaseTimestamp": "2025-10-22T15:19:12.00Z",
+        "previousTimestamp": "2025-10-22T15:19:12.00Z",
+        "previousVersion": "1.22",
+        "releaseTimestamp": "2025-12-03T22:13:08.00Z",
         "requiredCore": "2.479.3",
         "scm": "https://github.com/jenkinsci/http-request-plugin",
-        "sha1": "jciumRteCMrF0dN36LhnpGeTny4=",
-        "sha256": "MKDUEFzqhBzHxropN9p9SmuIVontDJTKsfJ/V/cCf/s=",
-        "size": 84535,
+        "sha1": "Hnpr6ipvdR+AC8C3YGwDIfoAtag=",
+        "sha256": "RMlKb6QqPF3Aml6etibQfW2TUV0sjKbhI2Ithi58rq0=",
+        "size": 85375,
         "title": "HTTP Request",
-        "url": "https://updates.jenkins.io/download/plugins/http_request/1.22/http_request.hpi",
-        "version": "1.22",
+        "url": "https://updates.jenkins.io/download/plugins/http_request/1.23/http_request.hpi",
+        "version": "1.23",
         "wiki": "https://plugins.jenkins.io/http_request",
         "archiveUrl": "https://mirrors.tuna.tsinghua.edu.cn/jenkins//plugins/http_request/latest/http_request.hpi"
       },
@@ -121559,10 +121561,10 @@
       "certificates": [
         "MIIFqjCCA5KgAwIBAgIFAN6tvwQwDQYJKoZIhvcNAQENBQAwgYoxCzAJBgNVBAYTAlVTMRMwEQYDVQQIDApDYWxpZm9ybmlhMREwDwYDVQQHDAhTYW4gSm9zZTEYMBYGA1UECgwPSmVua2lucyBQcm9qZWN0MRowGAYDVQQDDBFLb2hzdWtlIEthd2FndWNoaTEdMBsGCSqGSIb3DQEJARYOa2tAa29oc3VrZS5vcmcwHhcNMjUwMjIxMTcxMjMwWhcNMjYwMjIxMTcxMjMwWjBeMQswCQYDVQQGEwJVUzETMBEGA1UECAwKQ2FsaWZvcm5pYTEYMBYGA1UECgwPSmVua2lucyBQcm9qZWN0MSAwHgYDVQQDDBdDb21tdW5pdHkgVXBkYXRlIENlbnRlcjCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBAOTsLRipDbc+XI4zhQnfxgc0Ydg0zIRA7OJnqXMLWFhECjrB85FL5ddITutpJU19YnAX4z/9vXg8qqU5hLdo5xcFsPs80/+XqxhBCcOBOF/IL6EQ2iMr0hkJwAwn+W8R8paDl6noud3fpGWrP8ncTkxuHtvKIXGgAYvYAu8ouHGIrb5tohG7yMyQSqDNN8T+w+Y5egqUf0U7+26Jp4PYqLjz4dBQYMqWLG/M3VJU2vwv/0DMOR0w08tmN2pbi7eV0eoQjYzlRgtHQJkJCD3k9NxSefQ4oQ99o+cxMAFnWPPEQTkv8raldyZ8zcI3ViS/0JbcMF/0wSkBlXgx8Z82rjKvSchXAx8Ydc4gxX2WFPZeBfpx366a2Xbtv+UnFNDpui0WonwQMP5ErJeyo1OESeg3Z0IDUv9dm2yAygwO9sipGD8YflTCRtDpJ/b60d62SOnepyTWJKQ8ecmM/AtkBTK+W9/uZaCp2e5kcsfTCeL+hmbw44vpcVwwnfewDZkKTji9BZFEiWyf3BpnpW6JkX56pzsqo7EzRROnLbKZ5gE67kl+GsrGXXxTLxMpUl6kytiUyH/hw6d3AOBZhxwR0pjEbp6UPeDTaUS5eYQVnVxEgZ6hQJvR/ytx309SbSYXTAtnPQKET8cyfawMYVGB/Dkw+hmmzwekEp7688rQjSoNAgMBAAGjQjBAMB0GA1UdDgQWBBRMeBx4CsBvRyeKYTIupBtaPvAwkDAfBgNVHSMEGDAWgBQRxuXUMC3pVcYBtWtQctI2frQBhzANBgkqhkiG9w0BAQ0FAAOCAgEAIjw545qmcLhWlc86JZQ6nS8OosWRhysWq15WbFPAIzH3ttdJrHLIDi0UNIAkEHZ1UVgVEsNuF3kS8dad+EznefD7S7/wH1woNmFCEri3sN+3nAx6f4tyzh4MZcTZ386ghRSL2Wr0thPoEbi3aLO5twRroCKlJC9HU7TtFWtqHQNM2Trp/oDo6vEObwaxaq+1TOkF7cF/OH+vuZ9FHRgE7X/DrYqFTfCThiXr01Z2SRS4dG8xKrelGGof2xHeN8hsDZN0nBvzRTQ9lfn0YLYG9vCsxKL5JuLGzkjDys1k2yzJxdFywcmG5Is2IlR99NrfbIhQ6pQcFUOWE+WmUFF2zgS9LjC0cDBY536PiKjnhHRYM/Nskj2xleFcJhl293F0VJuWvDHncM4IpEKFftjA/F32c02vkT7MbQdb/HoVd5+IAhSaa9kam1Bs9GBsiQy9nQQ2nviieAflSo8ehES78Y3XsqxUXAwReUYJVQo9DIRBIpkT+eQff0HHfI4RaokfeTZu4a0r/jRj9fMEA7KwwGpnhgrvI8kG8uVcObmRrygtVIcmJo0WFqC+r+Bn8CrVIGtPBN4tz+Gu21DkgRzeG2qViMzdpytMmlQSYl1R7hprtTbGM0pvoPjd2kbjFqOgQRkRlwseguKLAv5Drj11KqpEL679q55gGZao2adFc+k="
       ],
-      "correct_digest": "s93AjQg1V9/7QVhExPJHnlMaADw=",
-      "correct_digest512": "dba9b7f98cddecc563f5e6ed6f23613a549ba4f34002360996e946c8ab835bf6a137d6f12ceadbda83ea3a454836bd54279fad65ee64e7819fe7d14f000f4642",
-      "correct_signature": "FGtRGqk7bzmRfW924K0wq2Ine9IhjNDLyLPPt0tPoXQvcuHmirHfI5UhvRIvsU9x1kjYYDdkvC3tyoeWs76BijrX/nLbQOmAN+2XUEdZ1hUUfvwv39pYWuQj8xB/tIquNQm6MKmnje72HwKm4fTQYY3ZwZz4GWpmLG2z0jVfRi7brJ/ck1xPGCCN3EKZMxU+O2QasrG/PkDE4jrGKt1mg/NMNLOgJUAVmiSQszsNFFy126JQjVq3x5H8E0Ri7ElPXt+FENKqUNP8I30Gya6PZEuSWuNioOHU+qMXWpsIWip+Kjl1eU4RgL0rK9r2zerhb8aIx66oBOea8Xpo8EH6kHOQC7wf0F/gaI5lIXMoea+gPuxjcaipk7NQSw5dnUA2lgufsMFUgBoVQAJ6sd2/TVa/QYJyfAvs460WGAIhshTdkGWGp36MpmHl+paVhbup3kdmJL4qE53+ooxDc1MQmqM1SpfQlZQZgtQVJK388Xu6OVxBEyFl5qBCshedChJEuX0zZoPBUyawQxZK+t7YNCFhzI4rLrF6+MeoPaIcXTJ3c195WYchkTHN2vJKPSEKtB44hFCw+mAbkUo+QVw8LgbpzCQNz+A/bV/4KquVFGDLoYSV/J6oRLfRuoimr49mlDiKbmPuG8PwRV0EmXttH8g15yMS4RzvNBtm5887lac=",
-      "correct_signature512": "076cfaad699db5fc002f113cb1554a36a5ccf17a29e2fffd2698cca7dfa4c4e8f7df9b8a13b701b62e376acdd2879452313265bc5d02ba1de04fa54984a6d8164b62d2694404ac2ea5187f6c609c081795c5e5d29c8794f41b4264837d6f472cd685f19d96a1c1a969d08e395d357634053ff3a31832dd00d0a2d84ec7ace90985884923212d7e50272a68e16cf713f77fd7b87c366e79ffbe4cfc16701816cf3a0974eb4492d0413a5b1732fa94e3404b8646e4f0b511664ddbfcf684d99039bc40c119ca1201398f278f18636050d924a1ac9eef645fd94363971593a7a30f52e6af183b6eced48e2ff2521c6bd8587ccf85a57a9955b8b4c3f575181802cdb79f5066b687978ecbe89904e21b2efc0f16da4ddbe3f365bfb019e9742bf074e07ba22bd4282f7de2c4965550dc34a916bc325a043e225d91f06934f1c174d7b0a9111a21ab2b9f3bc6526e0ffdd46a0991f4977773cc62b4095fb119e6f08c4189935776daa2c2e0a89babf1bdebf1fae99f37b21bebd8cf7fbd6f495f574b830922b86e3b355247700883d76eaa9c4148f9c2cc22a5ac5a735537e24add0ca008be10f244c76a119f11dac719aaeda13578f333affba7f889137ef4fef5a001af2d7ac60ecef44137b99254529da281b235173efc94e2e0d20e82520bd5a713adacd1b3ba40336e191a2d859571c5237339e98f031ee3db82ec99655a0797"
+      "correct_digest": "fDzapyYatOSqSqL84PqWK0sqLKo=",
+      "correct_digest512": "02fc51a017e400e9982686ae4f2e67951aeef9b2bba12b61bbdaa0de49b49c720f1dda97f89f1522cdff6fbe1cb36e66911818d48bdea5bfa8f7419a13dc6644",
+      "correct_signature": "xMupXr+NJDtogYN1v5aF9qmVHbhHR3U0o2TgOob+7TIXR5n8AK6VO+8NAXgIXryifP3yfwbWn/XUH14BGiyeux6vHsHxuZkIF4w1LvdOrbcojUh6DTpBFEc1/H8kYXmbQdUMfXXsXOjtgthuOId1QJmi85lKsIWyFiqCeCd2q2F2nCKznvckDZMtlE8uTaXsJC9xPgiGTAR8T76/jpFYSSFH9A0Y+9ABtogytMThdwOslVKw3ksVq0ytuxIAJ9C7zitlU/NzOu1OtW6KS5rpsQJI3qEH5bGj/ugwg9pxFFCQeIHyMUbM3KtMSEuGpMsUKG7ESqccvaIx4leeYjpZfoZyWPI1PpoAUtVKC1MU9U16JCY7c+cx7EAU1RBFcnuo9kAyAId2Tri5duMFsUFxbX3b6XfhZBNSOPTwzvavYgGRutNSDDDoEx6tM+nzhWNJg6f0FPtE+aovyQhcwxZAYnQBRVKccRNEIw/L/7MV0cv5KvV583IRhReba7YPIqo+Bx/iCDhE5mRhwsVNYBwNGPHhC8xSyxyTR9UPs4xHpo5s8WcpaAGEoXlYpVZn6/Q39qh9HsAVnhWD+NpfgERjRbvfDDmyhImjnea9mVIObsunhwoki85J/VmLF4PU69Nx1qTbKWMEfzHKb/zLk63WJ+iVMMYopIaIcpkmPBOmvTU=",
+      "correct_signature512": "5ebd53b71578dd3faa01a93b80177bb48a437a34d51820b9b8a03156655ca600983e7d4db333dfcbba9c154a19c3b61a148b5f606f04a5531018abd23c5ebc4caf8831445aee55710721846e591e1f835acce155d77e33811aac16041895dca519629ad792406ca3a27477d04569c48f7d11d8db0ca34ced31269d48febc68a7987c1c94901834fd8cbb2a4362ea48b32c37213b527df6c4f1302514381946bf7f88b98eb090b3243a22e3f6eeb08485732aa9f3ba81bbcaeffcc079f75bc10f0e55480739684448b93a8bf640a7f50654df6358b7ca66037edbed8f91a45e48544d073cc81c15ccf90b66b004fb71b93046f7f813cf908cb599456bf96787ccfeae4305e755f3c96996dd1d0689d0aecfa32f6982480f43780a88b0f4b20baca84ac729e0a78b4e9c6b2b2db4adf1771c3bc28038074a4b03ee2fb1adbf409b7e26c5ae3e1f21bf287717f957b465839342ddb86def45092272d55899fe78a33ccac6d98dd25e02faab05c4875c21f373400223de20651088390a76d4b2a4d951352056cfee49f391a7a7c6ed90588e150263943cef3f52f33a62a6ef6dd1c7e0edf7a0f55d3b05963db27810735736e4b618f6d22a87628a1ae31e66482b5d7cdb9c14065b3eedff2f09ef2e6ae4c5064b2dd770100b1bd337866e81d8450a24acf288bb78555ec959cf13d49c5dd8bde63e59cf1596a8508708f8c5c67c0f"
     },
     "updateCenterVersion": "1",
     "warnings": [
@@ -140706,7 +140708,7 @@
     ]
   },
   "_metadata": {
-    "generatedAt": "2025-12-03T22:14:12.966Z",
+    "generatedAt": "2025-12-04T01:04:56.913Z",
     "bestMirror": "https://mirrors.tuna.tsinghua.edu.cn/jenkins/",
     "mirrorsChecked": 10,
     "pluginsModified": 2043,
