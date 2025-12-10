@@ -804,7 +804,7 @@
         "url": "https://wiki.jenkins-ci.org/display/JENKINS/ZAProxy+Plugin"
       }
     },
-    "generationTimestamp": "2025-12-09T22:05:11Z",
+    "generationTimestamp": "2025-12-10T01:02:12Z",
     "id": "default",
     "plugins": {
       "42crunch-security-audit": {
@@ -116483,9 +116483,9 @@
         "health": 96,
         "issueTrackers": [
           {
-            "reportUrl": "https://www.jenkins.io/participate/report-issue/redirect/#24526/warnings-ng",
-            "type": "jira",
-            "viewUrl": "https://issues.jenkins.io/issues/?jql=component=24526"
+            "reportUrl": "https://github.com/jenkinsci/warnings-ng-plugin/issues/new/choose",
+            "type": "github",
+            "viewUrl": "https://github.com/jenkinsci/warnings-ng-plugin/issues"
           }
         ],
         "labels": [],
@@ -121548,10 +121548,10 @@
       "certificates": [
         "MIIFqjCCA5KgAwIBAgIFAN6tvwQwDQYJKoZIhvcNAQENBQAwgYoxCzAJBgNVBAYTAlVTMRMwEQYDVQQIDApDYWxpZm9ybmlhMREwDwYDVQQHDAhTYW4gSm9zZTEYMBYGA1UECgwPSmVua2lucyBQcm9qZWN0MRowGAYDVQQDDBFLb2hzdWtlIEthd2FndWNoaTEdMBsGCSqGSIb3DQEJARYOa2tAa29oc3VrZS5vcmcwHhcNMjUwMjIxMTcxMjMwWhcNMjYwMjIxMTcxMjMwWjBeMQswCQYDVQQGEwJVUzETMBEGA1UECAwKQ2FsaWZvcm5pYTEYMBYGA1UECgwPSmVua2lucyBQcm9qZWN0MSAwHgYDVQQDDBdDb21tdW5pdHkgVXBkYXRlIENlbnRlcjCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBAOTsLRipDbc+XI4zhQnfxgc0Ydg0zIRA7OJnqXMLWFhECjrB85FL5ddITutpJU19YnAX4z/9vXg8qqU5hLdo5xcFsPs80/+XqxhBCcOBOF/IL6EQ2iMr0hkJwAwn+W8R8paDl6noud3fpGWrP8ncTkxuHtvKIXGgAYvYAu8ouHGIrb5tohG7yMyQSqDNN8T+w+Y5egqUf0U7+26Jp4PYqLjz4dBQYMqWLG/M3VJU2vwv/0DMOR0w08tmN2pbi7eV0eoQjYzlRgtHQJkJCD3k9NxSefQ4oQ99o+cxMAFnWPPEQTkv8raldyZ8zcI3ViS/0JbcMF/0wSkBlXgx8Z82rjKvSchXAx8Ydc4gxX2WFPZeBfpx366a2Xbtv+UnFNDpui0WonwQMP5ErJeyo1OESeg3Z0IDUv9dm2yAygwO9sipGD8YflTCRtDpJ/b60d62SOnepyTWJKQ8ecmM/AtkBTK+W9/uZaCp2e5kcsfTCeL+hmbw44vpcVwwnfewDZkKTji9BZFEiWyf3BpnpW6JkX56pzsqo7EzRROnLbKZ5gE67kl+GsrGXXxTLxMpUl6kytiUyH/hw6d3AOBZhxwR0pjEbp6UPeDTaUS5eYQVnVxEgZ6hQJvR/ytx309SbSYXTAtnPQKET8cyfawMYVGB/Dkw+hmmzwekEp7688rQjSoNAgMBAAGjQjBAMB0GA1UdDgQWBBRMeBx4CsBvRyeKYTIupBtaPvAwkDAfBgNVHSMEGDAWgBQRxuXUMC3pVcYBtWtQctI2frQBhzANBgkqhkiG9w0BAQ0FAAOCAgEAIjw545qmcLhWlc86JZQ6nS8OosWRhysWq15WbFPAIzH3ttdJrHLIDi0UNIAkEHZ1UVgVEsNuF3kS8dad+EznefD7S7/wH1woNmFCEri3sN+3nAx6f4tyzh4MZcTZ386ghRSL2Wr0thPoEbi3aLO5twRroCKlJC9HU7TtFWtqHQNM2Trp/oDo6vEObwaxaq+1TOkF7cF/OH+vuZ9FHRgE7X/DrYqFTfCThiXr01Z2SRS4dG8xKrelGGof2xHeN8hsDZN0nBvzRTQ9lfn0YLYG9vCsxKL5JuLGzkjDys1k2yzJxdFywcmG5Is2IlR99NrfbIhQ6pQcFUOWE+WmUFF2zgS9LjC0cDBY536PiKjnhHRYM/Nskj2xleFcJhl293F0VJuWvDHncM4IpEKFftjA/F32c02vkT7MbQdb/HoVd5+IAhSaa9kam1Bs9GBsiQy9nQQ2nviieAflSo8ehES78Y3XsqxUXAwReUYJVQo9DIRBIpkT+eQff0HHfI4RaokfeTZu4a0r/jRj9fMEA7KwwGpnhgrvI8kG8uVcObmRrygtVIcmJo0WFqC+r+Bn8CrVIGtPBN4tz+Gu21DkgRzeG2qViMzdpytMmlQSYl1R7hprtTbGM0pvoPjd2kbjFqOgQRkRlwseguKLAv5Drj11KqpEL679q55gGZao2adFc+k="
       ],
-      "correct_digest": "JU6T3DcNHMvUL6CG0xgMhAHlJ40=",
-      "correct_digest512": "810414faaf81dd47793cb795709af4fa92eabc1f6d8dc418c573062e840dbd39d3cf791371acc7e417c40167c0f5a38d87c44ea6fe3d709b84c4bbb6f835eaf7",
-      "correct_signature": "naz1/2DeKWY+FfGgcnAoXYIRV3Y0Z4n0vCRJi5MygiIt6dXQQSn7TNQ2m6tAdFPxjU9/9JrSN72VamPbuuH7cCKmQDqzBlNSprFfYTybL+Z9qhsGihV/TUgRTiHcygIVvI3zeWWJlP6+Donn867moCeiTbr279ESDRxtkLnKPW8E0A6EgQeybFFjB7pJPccL2bcw0O7cGrmL9FebI8MkTmg14KOQ4eAJ0zBHrc524nONgNjqSz5kGKAguo9q+w5QCobfGQ+2vIdydGa7Q60IK1TFFlkyKFuQohUSLJ43rTUWvkufrd5PJV0fqsAl2S7Mas/YG8tDV5nzpvegEXFsxsybXwEAGORvi/w3caCNRuInHORu/nYDv835HEY7guxSLIDaHlqhu78UlIoVGToxHzqlE1MvlROigfQSrp8vnu71u0KSzmOW0IOOqYSXEoeLMF0LGkem9Wcwgdi+uqfsqhKLtBPLNTAmpyVyY00Mb0uu8qCnnVQ/QDZiodWdzGpA+LTCLSPRafL9kipbSTVNkzDyIe5/AH3vQrW/4WEgNx+5gPexuFjr7EkXkzrnZEpjNPmuwS+6WocMmGQ7HRbOIM96ViYzm0+V3QQ/8jg4nVCgnd9+8qIRbB0sxC1pHCsk3ePtBqcF4QNw+qO+ZtcxFWWzpbmwpXwWiclcr1AHa4E=",
-      "correct_signature512": "6a628b4b4e109086b58a86e25c3af9123d73cbcdf80a9c559fe91e41c45713db3507c0e5fc90fc4b57e0d5ba6a57b424d45c75e0c55a3fd158c535b0c3bb1ced81203ba827699952eb5f9912d1b794f887feb545c08f503f01c407558192317163f2b33a62cb563f96f28c56e48de36d8bdade6fe229bf5525c0d6d5d515bb192cedc2da5e0ed3d1c849db3f620c6263244962394437d253706a74a9a3b0f4c3ad51c93d8208ec7b344ceaf2bf363ed7c70856692a6be4c4dabba7e0fbc71695adfd04efdfcdc2adbd5689c7d5b25fa44a48ac436688bad89aec617ec860ecf81ba3ccc5c87de53657465dbbb65db22a785114aa6a50cffb790e8dcc94b6204db97767d7d800ac5cfed4f2ea2509237a41b94ec3206a8b95d46e1ffd8678957e070215f0182ac3ecafe78f8e8dde1f44aa1d079acc19bd7fead96e9d4d3e70ad00170ddacd096931e0f0395a8b92ef2469acc1b85c0396be7d3a793e64839e76ead9b77f1a3509acc884652c76be3ffdb2dc106b5936f77942f0d3a566017bd80814a63ad0e9c847034e8746e4a069ab1c0ca33940e44a94afdfbd5bcd873998653a0e35673be7a72f38bd720f1d3d071b38952ef19c3a07c9c056e51034897a0360da71d6eb8f4284cec5d0d454e6cd5f11dc9ebf2f7f461246a32cc7808a4a86c4bc26e250b52e1de1c6b187394bbc15a85d64c2422fed2877e66a89453e3e"
+      "correct_digest": "qYfqAJDHnd0jTeGV2NvD7i0q/6A=",
+      "correct_digest512": "83cf99ebbb00ce078b553fbbfce95147797f31fc5b083231c7bf484c5d3588584141db6de0f5d477e2546a41bf38bff43f0764dc8117f1cf12144066db63e31f",
+      "correct_signature": "EZXBamDzbzlQIKpzccnoCxhJ1gHt1Q2NNII06JLb4SrkHqp2/MXzHpUAMIZJ545yKLtw7LattcaVamPEoCAjBxtSo6ETw8wUYLYjcvkWlWx66QNE+BW9XkUTNmSCkSguiAy5j194BdmkKmVcg/8+PRZ9u9bXc9Y9Xrt1rBZ5fMKt4nwDvqSEBKmgSIE0iPtbL5GUjV1Gks94gjSGoN7CaL3uWU8OXK4pBFWUnPKNsD5DlTR6LmZnvwzD6fb56XlXrf/6CuoxWDryGaard601nY3blv+fG/LgjOBWP6MGEJzrkc8IWGj14ky79Q0fESoZVsTa1JbpWb4l4b8qBQLULw5UlKI102hVySekU7+gcUCQFiCdNEpbsjI6wBt3cxF8jXPEWTLJnNcBqH4V+sv7DC+T0nn7AgzX4UE30zRXrYdB+/nSI2zsRSeEsCDsOwMiPV5zNgBYD8AIU0e/nhTB6sCCUMGbUMnyjFOg0c9h0nAmZezzU22iCsYNtb43iuupa2zRjHoUcLQ1+YWYarEAVNcl+mIaBho72R01ZNVM0w4jHj1qrfg/9wgTUeqKLkj0Ma+Aodgkjj8CGiPhQpLVbaczC8NEIjt89pxsO9SWKKRSReBNNB8O0s5lyhfHnBNVymUWoBR8Rgcag0pLEriX5M+dz6edPKaP+etiMUHOV3Y=",
+      "correct_signature512": "126cb0211907d2623f96fc9b64f89e3ed2ff7b1a082ecc1ba2e07dad4461b81972707b73751a3972978fe441003dbbb7cced79b0273464743ce0446ae263624f32d5bd6f9766f586c4c42c56cba30d1b00654a2bfffda594e22705913691d7b344403e82a59a212ade62c3fb778ddf00738a30054bcd11afa6744435e1879f6a0b22276257f20d591133c0df0f47c991f9532653c7bc44c365a4e4ed5bb1e72c93893c44da7e7ad27da6fb1c56ea856fccaeb031acfede172c75365823b2318399eff817f6a335f4e40ed5708838856e4aaef5d08baa631ae89046fec8f0e1cb99dd87510d05fd532df3c7432017ac530a7d7686b1dc5df7c5e6b546c241f9c842bf7370b7dcdac5f57b217cb7ac3fe95e98bfd89efe0e60c75a3906fa799fdba2a340b3de7c094927f331320fc7b4376a295e4490698e4fb02dd4775fe673eddf4d741caf2ee81b8b884b52455bf461da692330cc9ddfca4c47f0afee24950b6f71820352cabea83c367d43f7600adc48eb656cd54825ece6f4d9c3faa95710dcc78cf36501be34ded98d218c52e50add85e2201082ba1de8a0cb055d1eabb98c051c6117709134a9ab8cd10774a708267dae96784f16836003d9643c5e04512c752b45d57a3847d16b00b7ed09d9b3b6b10ec834c7a1f5b2524299cc28955ba14babc6ec6aee8fa704368e84acef587756ad32f7214a9ef4f87f91cc0538b0"
     },
     "updateCenterVersion": "1",
     "warnings": [
@@ -140695,7 +140695,7 @@
     ]
   },
   "_metadata": {
-    "generatedAt": "2025-12-09T22:14:22.745Z",
+    "generatedAt": "2025-12-10T01:06:55.343Z",
     "bestMirror": "https://mirrors.tuna.tsinghua.edu.cn/jenkins/",
     "mirrorsChecked": 10,
     "pluginsModified": 2043,
