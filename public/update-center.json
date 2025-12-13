@@ -804,7 +804,7 @@
         "url": "https://wiki.jenkins-ci.org/display/JENKINS/ZAProxy+Plugin"
       }
     },
-    "generationTimestamp": "2025-12-13T14:07:02Z",
+    "generationTimestamp": "2025-12-13T16:09:16Z",
     "id": "default",
     "plugins": {
       "42crunch-security-audit": {
@@ -25073,13 +25073,23 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/build-token-trigger/latest/build-token-trigger.hpi"
       },
       "build-user-vars-plugin": {
-        "buildDate": "Jan 27, 2025",
+        "buildDate": "Dec 13, 2025",
         "defaultBranch": "master",
         "dependencies": [
           {
+            "name": "commons-lang3-api",
+            "optional": false,
+            "version": "3.17.0-84.vb_b_938040b_078"
+          },
+          {
             "name": "branch-api",
             "optional": true,
-            "version": "2.1202.vc51412f3ed84"
+            "version": "2.1214.v3f652804588d"
+          },
+          {
+            "name": "generic-webhook-trigger",
+            "optional": true,
+            "version": "2.3.1"
           },
           {
             "name": "mailer",
@@ -25089,7 +25099,7 @@
           {
             "name": "saml",
             "optional": true,
-            "version": "4.511.vef666858a_167"
+            "version": "4.525.v4f6a_7209447e"
           }
         ],
         "developers": [
@@ -25111,8 +25121,8 @@
           }
         ],
         "excerpt": "This plugin is used to set user build variables: jenkins user name and id.",
-        "gav": "org.jenkins-ci.plugins:build-user-vars-plugin:195.v8c35f9d5c3dc",
-        "health": 93,
+        "gav": "org.jenkins-ci.plugins:build-user-vars-plugin:212.vd6b_e9f6d0cdb_",
+        "health": 97,
         "issueTrackers": [
           {
             "reportUrl": "https://github.com/jenkinsci/build-user-vars-plugin/issues/new/choose",
@@ -25132,17 +25142,17 @@
         ],
         "name": "build-user-vars-plugin",
         "popularity": 35937,
-        "previousTimestamp": "2024-10-01T17:02:14.00Z",
-        "previousVersion": "182.v378b_9f14b_487",
-        "releaseTimestamp": "2025-01-27T09:23:08.00Z",
+        "previousTimestamp": "2025-01-27T09:23:08.00Z",
+        "previousVersion": "195.v8c35f9d5c3dc",
+        "releaseTimestamp": "2025-12-13T14:35:41.00Z",
         "requiredCore": "2.479.1",
         "scm": "https://github.com/jenkinsci/build-user-vars-plugin",
-        "sha1": "aCA8J6p5r6R4w+uQQR/FFw7S39U=",
-        "sha256": "Idk0EOp6mU1LVsLbZUZHemcSCOzHOU02a1Oj1klcKCI=",
-        "size": 22749,
+        "sha1": "sX+kqMMGzfO0E/81V5kU/hpcyGg=",
+        "sha256": "Y4vR2zMxIbE10OOot4OoEdBmOJJZsdGNVCJEP0oC2Tc=",
+        "size": 24068,
         "title": "build user vars",
-        "url": "https://updates.jenkins.io/download/plugins/build-user-vars-plugin/195.v8c35f9d5c3dc/build-user-vars-plugin.hpi",
-        "version": "195.v8c35f9d5c3dc",
+        "url": "https://updates.jenkins.io/download/plugins/build-user-vars-plugin/212.vd6b_e9f6d0cdb_/build-user-vars-plugin.hpi",
+        "version": "212.vd6b_e9f6d0cdb_",
         "wiki": "https://plugins.jenkins.io/build-user-vars-plugin",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/build-user-vars-plugin/latest/build-user-vars-plugin.hpi"
       },
@@ -121609,10 +121619,10 @@
       "certificates": [
         "MIIFqjCCA5KgAwIBAgIFAN6tvwQwDQYJKoZIhvcNAQENBQAwgYoxCzAJBgNVBAYTAlVTMRMwEQYDVQQIDApDYWxpZm9ybmlhMREwDwYDVQQHDAhTYW4gSm9zZTEYMBYGA1UECgwPSmVua2lucyBQcm9qZWN0MRowGAYDVQQDDBFLb2hzdWtlIEthd2FndWNoaTEdMBsGCSqGSIb3DQEJARYOa2tAa29oc3VrZS5vcmcwHhcNMjUwMjIxMTcxMjMwWhcNMjYwMjIxMTcxMjMwWjBeMQswCQYDVQQGEwJVUzETMBEGA1UECAwKQ2FsaWZvcm5pYTEYMBYGA1UECgwPSmVua2lucyBQcm9qZWN0MSAwHgYDVQQDDBdDb21tdW5pdHkgVXBkYXRlIENlbnRlcjCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBAOTsLRipDbc+XI4zhQnfxgc0Ydg0zIRA7OJnqXMLWFhECjrB85FL5ddITutpJU19YnAX4z/9vXg8qqU5hLdo5xcFsPs80/+XqxhBCcOBOF/IL6EQ2iMr0hkJwAwn+W8R8paDl6noud3fpGWrP8ncTkxuHtvKIXGgAYvYAu8ouHGIrb5tohG7yMyQSqDNN8T+w+Y5egqUf0U7+26Jp4PYqLjz4dBQYMqWLG/M3VJU2vwv/0DMOR0w08tmN2pbi7eV0eoQjYzlRgtHQJkJCD3k9NxSefQ4oQ99o+cxMAFnWPPEQTkv8raldyZ8zcI3ViS/0JbcMF/0wSkBlXgx8Z82rjKvSchXAx8Ydc4gxX2WFPZeBfpx366a2Xbtv+UnFNDpui0WonwQMP5ErJeyo1OESeg3Z0IDUv9dm2yAygwO9sipGD8YflTCRtDpJ/b60d62SOnepyTWJKQ8ecmM/AtkBTK+W9/uZaCp2e5kcsfTCeL+hmbw44vpcVwwnfewDZkKTji9BZFEiWyf3BpnpW6JkX56pzsqo7EzRROnLbKZ5gE67kl+GsrGXXxTLxMpUl6kytiUyH/hw6d3AOBZhxwR0pjEbp6UPeDTaUS5eYQVnVxEgZ6hQJvR/ytx309SbSYXTAtnPQKET8cyfawMYVGB/Dkw+hmmzwekEp7688rQjSoNAgMBAAGjQjBAMB0GA1UdDgQWBBRMeBx4CsBvRyeKYTIupBtaPvAwkDAfBgNVHSMEGDAWgBQRxuXUMC3pVcYBtWtQctI2frQBhzANBgkqhkiG9w0BAQ0FAAOCAgEAIjw545qmcLhWlc86JZQ6nS8OosWRhysWq15WbFPAIzH3ttdJrHLIDi0UNIAkEHZ1UVgVEsNuF3kS8dad+EznefD7S7/wH1woNmFCEri3sN+3nAx6f4tyzh4MZcTZ386ghRSL2Wr0thPoEbi3aLO5twRroCKlJC9HU7TtFWtqHQNM2Trp/oDo6vEObwaxaq+1TOkF7cF/OH+vuZ9FHRgE7X/DrYqFTfCThiXr01Z2SRS4dG8xKrelGGof2xHeN8hsDZN0nBvzRTQ9lfn0YLYG9vCsxKL5JuLGzkjDys1k2yzJxdFywcmG5Is2IlR99NrfbIhQ6pQcFUOWE+WmUFF2zgS9LjC0cDBY536PiKjnhHRYM/Nskj2xleFcJhl293F0VJuWvDHncM4IpEKFftjA/F32c02vkT7MbQdb/HoVd5+IAhSaa9kam1Bs9GBsiQy9nQQ2nviieAflSo8ehES78Y3XsqxUXAwReUYJVQo9DIRBIpkT+eQff0HHfI4RaokfeTZu4a0r/jRj9fMEA7KwwGpnhgrvI8kG8uVcObmRrygtVIcmJo0WFqC+r+Bn8CrVIGtPBN4tz+Gu21DkgRzeG2qViMzdpytMmlQSYl1R7hprtTbGM0pvoPjd2kbjFqOgQRkRlwseguKLAv5Drj11KqpEL679q55gGZao2adFc+k="
       ],
-      "correct_digest": "yiITVIBDqY5kUkGGnjjKxHFLodw=",
-      "correct_digest512": "af0775959c5b59d756ca5f99cb46f669768370300cfa4cbc63dc65645d60eccf6d7c3984ff6f8f024f89c1d2e59d3a121fac32e163df54d930a87f663ee9e90b",
-      "correct_signature": "t0alxvQkyFx5LeFnX7rocL9PCVy/yEEg6VtOzQe/XtVzxZ+ndPQixMTbOzkJnM0iRCgtRSmcLWOHEz2K4jDskpsU+sUeVhJonJaNEIvVy6MNoidlAMpXdOaG4g47MKEQdhoiATsX3GEBdKZ0a8jRXEIgDE5HdkCyR6p2w1C8GFHO/5gcDDb8HTqt7HPX7x64lU6QQVMXDp7pKGC7QJZ/3Y8bmfDHZiR1lgvQNhlqmvFiEUw7hHJC/81QT4OP8oM6qX7kWjqyLuj8cwQ7RV15OjCIcDjuZHZZtLBkTs94KYx0YACywbATg0MYCVc+PQX0BcT/RgJwcSXckRcnoGU4W+SLXVAy1yBnM2EATpJlYx0Gd5i3srrjbP9/K49obegIeLkylITcsAZe4lacIrOKf4CSZViH/S3/T925xgFtwgA0PTXrnO3xeylHJlbjq7fy+1Sy5LMl1j+wEEqXkDjP8Z07hwJdZ1jEWfi2wIjChfE03CvkD6Pb0/ax574bDHqFSyPHkdYeK79w4noHNhWZ1UAPAM8XDcZi13FpdHTAlQon80eYBwLvYai/j0UvUggad+ZfD9APkht72qz4cOjgMZMy05fKcxxj1n1oFPHqdSQjuHbNk5WDBoWY+bvtP63/Ho3Ju0MpRiIJa3jsgRuJtZ9YWA8h+8Md/LQLPgGCspY=",
-      "correct_signature512": "91b09d48aaf4c26ef8ba5efa80b8bfa3f336be14e9241da22f70f6e2843567c9217521ef1d08d874e056fcdd2d7c3f920cd321163ad49d7f8dc75da91c9619143d0896f58dddea3656414e096cde21a226aea879acdc5c29ab898cf659e42dc9e53b97cdccb4f4e17596299311c312e618c5e5c980c3361b993d63b2b9d58467ee01b596a59f04774b0212181ed765e1582695af647647208837c750c206bbcc72c1ea92ffc621c3238812e0a46aa686943c51d8d76f2cd9d04b5c00a3cecb1a219d478a2557646eee558b9f5104c0ccac62ab17be6cf184fbf2ece0d025f51598c98589c41933af0aaea0c18c5f1ca048a532c350b6e9a06f5c834bfc72253f7de19944e3c76ddafbaff3be6016745138d744963c7e30cbff84ae34e6085a05a22d8272f10985abc06ff209244c4da6abd44296f52b652b8d40a6175d57d96266f2b39944c22b10dfa6b9adbb5054af69ca978387a212951c1ceab2d09f2997a44e6f7392e114972e1614c6f631cc5f625343c11741c24bf17d7e2b1e00dfc831b0ab396b5d0c9b0ec5ed0cc439ee04fd3195150225850f04214b47d69254339e75b0f705231b9c625846520e0a329bb52d1ce7aac10f691c1b36738f1ab482bec51a2ac107ed070855ba07be62e78b6e6feb16c319085d8ee747c73cb608a4c374e471dec0d759c8ce7dfc4fa8823c1c82fb47f93abd085bfd9bdcaf04cc28"
+      "correct_digest": "UP7e2OwDKAiPzTZa3xDvGWeQbAQ=",
+      "correct_digest512": "f7518aa4bbf533211331fa81140d3b990bd52ff5f859b174b2df2d85ab1c714f557f827540ceff4cd9a66d46aaab3c014ff2710fa8e15cfc0d976159357694cb",
+      "correct_signature": "qRULRtSS2oQlEtghMaaUtS+Tj7z790jMEwsooFx1uSxvqqX7yFT951p5swHcJB6aGZMtv0rJ66WIibX0L8rFTWHnGzQ1EJiNNnrdYXu3Jinlfd0SpvgzuQuX7VEF4ny1m4sfOB374QKili8iwOaH/1whhzXHzNtjsxr0p3k+p04NIKlluIOe/QLr0ZxYLL/C68Xt4V+yDtn5TgHGhLNKHKLZckQKUvc6Zguv4q2TaooNUfuYsJzXI+wwJr91JHZ3yvMLxn3ysdSc6nlGi7qJ3wgueuNzLCJDZXEphWz1oaB8GrGs0BoW2LpWCbJ/IXVVmJu9amlIjLy8PsWPquntv02x0kZSr20ZqyrYIFAXddLIiWxQe9Gw03adwDbPUQRSEanPUGx2gwsBFsGs2nK8uPNmmDtBsyNEF+rmUZTvBS/V/XE5bsYPY3s1yGZYUkpj8roXWB46WGnNTkiIX8ol6A6dg0ssIaAuZS/yNXo3MEe36pvlr5x0OOdXFnhxMS+ot56csZydxLEg2BGPrvuZgj+ie1C8AMhCR1vksIPHHlw/Brz3s8cl1F/mNCqet+fvPCrgbbMalmYPbj1yC94FX2YMoybH4GRfMbvAqCkwFALgiS6kvQBs3NSiTGkZqiShEiNg3goBhE49Xv+IeYYYNgKl5aZsj3prxd3j2lZx/j0=",
+      "correct_signature512": "067bcdd19c66213b0fb24f6b59d9ef6d2401442a94db46ed344dcb127f4a770242056ead713064e968792888e5af305469328f652d6175b4b37359b422b18c7d9715f7915afcdc86bd110d6b7f911e4434a3c8d89b9d1aee31ce5d027af77e859dedb852fb612e1d1d1455337c96a017310089d17020e2b405e67493b163bdf18b0f8b7459b2fedc07346f8a58eaaaee34574496de5b44f17b5ce5532b2ca1242bfd1a9849639f4d542ce75989638ea88118581787418c48cddf258c4f2ce48c855dc5cc317548b29a25856a6e94b8f8239b81ae427d851a2a1fd0a926815a49a0c9a0013e02be4c733a1ad6c5005f642df9c550f2175302ec6da9d8922354baff1b813afba06e734de0aa13b92c585803845d77e545828e5b9d7beb7854f1380fde668aba2ab01080c61669f69993c092b19c4a69c63662685f1e5cfd768ec19cb90e8b0d215cd907e635d688ad40cb32dcec5bdd0558caa55836841b13fc75048be766b05f7e74388b83206d78bd6d5381b0ea30f43accc8b1bc7b2fd4e98030aed69c420decfe3d4e6b970fad0547be400cbb007f90c38009479bdfe4551baeee7a0645855c12bc2be3986aa5eb917be425c95e750f13d8e803536caee681b884ecfebf98b011696c980beacc24457155958cb9e1e8d66457adb81a52dc916045c2c757db335e8a6723a41fc9705b71c0b2fb21128cf7a8d4625f3e3fc7aa"
     },
     "updateCenterVersion": "1",
     "warnings": [
@@ -140838,7 +140848,7 @@
     ]
   },
   "_metadata": {
-    "generatedAt": "2025-12-13T14:12:38.103Z",
+    "generatedAt": "2025-12-13T16:16:04.582Z",
     "bestMirror": "https://mirror.nju.edu.cn/jenkins/",
     "mirrorsChecked": 10,
     "pluginsModified": 2043,
