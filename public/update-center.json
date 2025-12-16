@@ -804,7 +804,7 @@
         "url": "https://wiki.jenkins-ci.org/display/JENKINS/ZAProxy+Plugin"
       }
     },
-    "generationTimestamp": "2025-12-16T18:10:29Z",
+    "generationTimestamp": "2025-12-16T20:08:42Z",
     "id": "default",
     "plugins": {
       "42crunch-security-audit": {
@@ -65287,29 +65287,29 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/jira-integration/latest/jira-integration.hpi"
       },
       "jira-steps": {
-        "buildDate": "Feb 17, 2025",
+        "buildDate": "Dec 16, 2025",
         "compatibleSinceVersion": "1.5.0",
         "defaultBranch": "master",
         "dependencies": [
           {
             "name": "workflow-step-api",
             "optional": false,
-            "version": "639.v6eca_cd8c04a_a_"
+            "version": "704.ve4f0967e98fa_"
           },
           {
             "name": "credentials",
             "optional": false,
-            "version": "1189.vf61b_a_5e2f62e"
+            "version": "1415.v831096eb_5534"
           },
           {
             "name": "jackson2-api",
             "optional": false,
-            "version": "2.13.4.20221013-295.v8e29ea_354141"
+            "version": "2.18.3-402.v74c4eb_f122b_2"
           },
           {
             "name": "script-security",
             "optional": false,
-            "version": "1228.vd93135a_2fb_25"
+            "version": "1373.vb_b_4a_a_c26fa_00"
           }
         ],
         "developers": [
@@ -65319,8 +65319,8 @@
           }
         ],
         "excerpt": "Jenkins Pipeline Steps for integration with JIRA.",
-        "gav": "org.jenkins-ci.plugins:jira-steps:2.0.180.vccfe35b_5910d",
-        "health": 100,
+        "gav": "org.jenkins-ci.plugins:jira-steps:2.1.183.va_d8e31df4a_9a_",
+        "health": 96,
         "issueTrackers": [
           {
             "reportUrl": "https://www.jenkins.io/participate/report-issue/redirect/#21974/jira-steps",
@@ -65335,17 +65335,17 @@
         ],
         "name": "jira-steps",
         "popularity": 5151,
-        "previousTimestamp": "2025-02-15T17:36:31.00Z",
-        "previousVersion": "2.0.172.vc456eb_0cfa_4f",
-        "releaseTimestamp": "2025-02-17T22:47:37.00Z",
-        "requiredCore": "2.361.1",
+        "previousTimestamp": "2025-02-17T22:47:37.00Z",
+        "previousVersion": "2.0.180.vccfe35b_5910d",
+        "releaseTimestamp": "2025-12-16T19:58:48.00Z",
+        "requiredCore": "2.479.3",
         "scm": "https://github.com/jenkinsci/jira-steps-plugin",
-        "sha1": "CABD3B783lmNV4f3c1ZvKkgdS0k=",
-        "sha256": "qFfSlviwSRIb/gJaNiRbF0UrI4tBKK+4OWDJ61kNRLM=",
-        "size": 6600053,
+        "sha1": "VAAJ5cSzz70sYhoBluGnVXNTVUk=",
+        "sha256": "ynmzZ6hWwWAd/V3XGLaYAho2xW/7nwsxQIXjOvXbml8=",
+        "size": 6717905,
         "title": "JIRA Pipeline Steps",
-        "url": "https://updates.jenkins.io/download/plugins/jira-steps/2.0.180.vccfe35b_5910d/jira-steps.hpi",
-        "version": "2.0.180.vccfe35b_5910d",
+        "url": "https://updates.jenkins.io/download/plugins/jira-steps/2.1.183.va_d8e31df4a_9a_/jira-steps.hpi",
+        "version": "2.1.183.va_d8e31df4a_9a_",
         "wiki": "https://plugins.jenkins.io/jira-steps",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/jira-steps/latest/jira-steps.hpi"
       },
@@ -121575,10 +121575,10 @@
       "certificates": [
         "MIIFqjCCA5KgAwIBAgIFAN6tvwQwDQYJKoZIhvcNAQENBQAwgYoxCzAJBgNVBAYTAlVTMRMwEQYDVQQIDApDYWxpZm9ybmlhMREwDwYDVQQHDAhTYW4gSm9zZTEYMBYGA1UECgwPSmVua2lucyBQcm9qZWN0MRowGAYDVQQDDBFLb2hzdWtlIEthd2FndWNoaTEdMBsGCSqGSIb3DQEJARYOa2tAa29oc3VrZS5vcmcwHhcNMjUwMjIxMTcxMjMwWhcNMjYwMjIxMTcxMjMwWjBeMQswCQYDVQQGEwJVUzETMBEGA1UECAwKQ2FsaWZvcm5pYTEYMBYGA1UECgwPSmVua2lucyBQcm9qZWN0MSAwHgYDVQQDDBdDb21tdW5pdHkgVXBkYXRlIENlbnRlcjCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBAOTsLRipDbc+XI4zhQnfxgc0Ydg0zIRA7OJnqXMLWFhECjrB85FL5ddITutpJU19YnAX4z/9vXg8qqU5hLdo5xcFsPs80/+XqxhBCcOBOF/IL6EQ2iMr0hkJwAwn+W8R8paDl6noud3fpGWrP8ncTkxuHtvKIXGgAYvYAu8ouHGIrb5tohG7yMyQSqDNN8T+w+Y5egqUf0U7+26Jp4PYqLjz4dBQYMqWLG/M3VJU2vwv/0DMOR0w08tmN2pbi7eV0eoQjYzlRgtHQJkJCD3k9NxSefQ4oQ99o+cxMAFnWPPEQTkv8raldyZ8zcI3ViS/0JbcMF/0wSkBlXgx8Z82rjKvSchXAx8Ydc4gxX2WFPZeBfpx366a2Xbtv+UnFNDpui0WonwQMP5ErJeyo1OESeg3Z0IDUv9dm2yAygwO9sipGD8YflTCRtDpJ/b60d62SOnepyTWJKQ8ecmM/AtkBTK+W9/uZaCp2e5kcsfTCeL+hmbw44vpcVwwnfewDZkKTji9BZFEiWyf3BpnpW6JkX56pzsqo7EzRROnLbKZ5gE67kl+GsrGXXxTLxMpUl6kytiUyH/hw6d3AOBZhxwR0pjEbp6UPeDTaUS5eYQVnVxEgZ6hQJvR/ytx309SbSYXTAtnPQKET8cyfawMYVGB/Dkw+hmmzwekEp7688rQjSoNAgMBAAGjQjBAMB0GA1UdDgQWBBRMeBx4CsBvRyeKYTIupBtaPvAwkDAfBgNVHSMEGDAWgBQRxuXUMC3pVcYBtWtQctI2frQBhzANBgkqhkiG9w0BAQ0FAAOCAgEAIjw545qmcLhWlc86JZQ6nS8OosWRhysWq15WbFPAIzH3ttdJrHLIDi0UNIAkEHZ1UVgVEsNuF3kS8dad+EznefD7S7/wH1woNmFCEri3sN+3nAx6f4tyzh4MZcTZ386ghRSL2Wr0thPoEbi3aLO5twRroCKlJC9HU7TtFWtqHQNM2Trp/oDo6vEObwaxaq+1TOkF7cF/OH+vuZ9FHRgE7X/DrYqFTfCThiXr01Z2SRS4dG8xKrelGGof2xHeN8hsDZN0nBvzRTQ9lfn0YLYG9vCsxKL5JuLGzkjDys1k2yzJxdFywcmG5Is2IlR99NrfbIhQ6pQcFUOWE+WmUFF2zgS9LjC0cDBY536PiKjnhHRYM/Nskj2xleFcJhl293F0VJuWvDHncM4IpEKFftjA/F32c02vkT7MbQdb/HoVd5+IAhSaa9kam1Bs9GBsiQy9nQQ2nviieAflSo8ehES78Y3XsqxUXAwReUYJVQo9DIRBIpkT+eQff0HHfI4RaokfeTZu4a0r/jRj9fMEA7KwwGpnhgrvI8kG8uVcObmRrygtVIcmJo0WFqC+r+Bn8CrVIGtPBN4tz+Gu21DkgRzeG2qViMzdpytMmlQSYl1R7hprtTbGM0pvoPjd2kbjFqOgQRkRlwseguKLAv5Drj11KqpEL679q55gGZao2adFc+k="
       ],
-      "correct_digest": "tGzV0U8JJcXri05VSz0rNyGFRuo=",
-      "correct_digest512": "fca795b9f1967292aba6c9b1b87193c09ba485137b24f83e7c51c38b23ec307bbb0b482a33108a47d55b88b9c8cf30f122ccae9281f8bcc114ad8663976ef6a2",
-      "correct_signature": "CQ3DUvRwaaBlVTfLVzbgccZYwoN+edUEXC/tT/NoSZZBne3u3EfveZR5j8iCUjSXK4m/DdskdD2Men5G7rjGauWjADf7mAl1KcqBvspwctLr1Hovv5PELuHWYpP57CBWyh41rIXWO86RiEucXSHzCR0U8GoXt2I8MwfoJ6Jcu/yZ/ekab7tml5svmq+l+QcwPVFbLB8O8CIcQKaqH+rLIqrrQ5GweUa5GU1bnbaeja86wOoRTp0rrISfcG967r7cSGngHlJt4IoZF8Sk1H8tw66RteEBMp3go9ZkS5S0m8CTw8opaYg91naDUkr2nBul1RBul0B9LupDqf/AqeSXJLU9BQzZfR/ckJHA+powCJI8Yv0VHaFMrrT5sU8VcGyjoc1t82z+8lRIutx1e0RZUldYJSk6gcADmbg1f24xPx+frt/XD6hpsH0M/4PP3UnTEB+266iGdkjHuXez+ABMmTCK2OVbikbhokBYM2XC5XacW6tJJ64bm8fyRj+yh+nvdMWPEN4DkN7HT/ustpIwxOjDItIlZ1jIlkc574MIF7iOiU+x7soxUkblaIiGBZHT/18EEnrK5dFA6LFpq+xVWD4Su/SoVl9jrlm9r/W7f5PkX1Awu3yR9/EQvjG9sEfnbOv3nUfdCBkE4aheeo6mplYinsUDATXiWjlH1wMsy58=",
-      "correct_signature512": "402fb5ad5f3671f511cfa18944aaa2e216bda262172a58bf395e70929df5f3a43091735632534970936ca66524e82cdd70a3bb4bb5ceecc204ee33158c7b5a2c6c6e3b00d039439b48329035abd355f18b2a7e315b71afd973567c7f5ac1d72375028d265e519cd689a9e061ed3ceed04da0a3dd94c658fcf643b1da16a96ab373e4ae3240b41fc7c71b7e121b0d00146db26fd8bea9ca19fc71d8518426591523eb4b09a94ab8e89bd6296ca61c11e019fbef7e575bd75044670e0ad763dd1a783ab19fa51cd8c82838a35615c4118e59c9b1ff0c098ad27a4f37506efa21a6d62fc1fc350e6fc9868c31d7c7138f776b547e8bfb36352eaddcd80eb0ce2727170af2b30d67edd83e0e2bc759c08a66a4f5aae517a016b361f1192dfb29e3775feae697ecb0a9199b7086d3a636f508ed37a199f6b40201d856123f750e808a5dbf498699cb1710d18fd2d4c452f519b8fae32fc645713317538c535d43bf87c3e99580cdc4fb3a30635cfadb799acf7fcac711c89df7313473a28bada4186ccf7d58d3ca90e43b240836ade8368cbb7e1886aab3a64aa18ade9fd5a20fb6a8970070e1ad387ca617e4c3a3cd3d8c840af0bdd491fe5649b328aedc3061c45001376f41c0f53b361a66210b844db33b7d3faea72a190bc61110b4cb1141cc80f8813d32faddb6e412eaf1d0a1e9fbbcda73d8ee01fe74025cff39dae179a6ca"
+      "correct_digest": "g5/ZnP7hDJXYhymw/I+0uAQmk9g=",
+      "correct_digest512": "94e2c67f0d1c6eaf02d6066008f35e2c2262b13871a46b0dbce7291a7e774430ecd2e6dbfec07036b19b5377bd46d414bbc3dc8976d46f9bf9779267e598b55c",
+      "correct_signature": "Aiq+Fl8qmkOvbfGUa8HBzNdNGNAjGwu3UwPLtY9RgptosPwXX+i4EgGrmdCR7yr2EIiCOqNW8ReS+DJboFolaWpNQwIu/W7/sz+CWzGPM7zeUXoDdXNo2GYrULW8N77Iy3uOGCwKDIJIopi+SrIgXWic2bkiMeN7Lvw//ykv1hARAblcDRphKMvaWMLLzBFKkLRg5D77hIfor0V2gRKf+uu8hGpOtvQ9vGui0his8zAgV2tpVQQmseVLFSHCQS4Ha718TwXyGXqjzlJsvHppE+I9UDLCfhrCTCHbA4Ubf4TuspsHsbKoTlv3JZ6iNmlpBJnmXfvqV/UlFBYBF3/IcCcnmYdLtonen7aFCX18h5Y1oScXs6yd7Eh6/nCW0O+7520Id2C2hatIRAP2bwkgCwC5DamNJV6IxhqsUGt56g1/viQZuDH6NLZQAzTua+hH/+ygQg43eFBrIRJBWmDWc4Yh/wrfTfProCR8iKJaWiQtwGAW1SiXiw2rlAmucIUHswT0XppsEt9n1Y4TV/QjUR5fUdpvbWfDX125Vkb/EL7nmdP90HmXvsfDy9CxDEwac3aJN6qt2r0GvQAB5Yi/sjpl0NfzoXmTtlpqmSqp2QmjObsCkcSq1kX1JBVwqPjoMovds+kK7atLYi5IFjp46XFG9Q+fK9tPFP1U8lLQAMc=",
+      "correct_signature512": "dd121fc9f1d0c0e732b25853001565568704a2d27f04e7d35d073f3d509fa7f466efb420aa6a58d47761385a93beed565dc6c46f8c65ea16592765b32b3dc820467c898943efe47347e33d78f9e2a18df18a9ddd9d84a066bed957697fec01a256289a8374fb47021809700c894c3800f57a384dc53c0808e809177940236d70cd980f3ce3b571f4eb8a62a0a8fad51d4758442200a2189a9a002f2fdd5219669030cc28b3f6272fd832fc87e199aa9581b5208f10a7ac940b5c8844620dd034ba3f3ad3541e0580a5452a03496076a8a6a8f92dc06042d22e9a78537a6e1e3c0cc65e2755ac75481d1ba7742ca10111627f2a33138a574b9b844d715210345cb67615e6c8bcc8522ef539218dc5a262252db2d1b6603b2fd0dd56d26871ccddbfc3ff40f786582b3429527d5dca674753c514f6df56e0a8ed208ef1bf531997e289c0ac81429457388ee25749c1d1356f0e87da41c0764daf1e91ac4dd322ebc619045c5599ac8d28381e82162f12cb04278e9d04dc5d4066d8cbe3aead00e9c33d1c16b75f50823e813b193b0a4bf9bd767894462e222ffa3dd585ab8cf7b2f154cf07a2cf4e89912f1d04c85fc3cfebfff5b99bd52a7324b483f34233e60c90cbbf969d99749a0ab03305adc0e154fda3aa6d50095479252d5a9b7bc6138551fd9e84dab3da45aa2d00578aedd083a3ad691716567cc538986ce2bae73c0c"
     },
     "updateCenterVersion": "1",
     "warnings": [
@@ -140804,7 +140804,7 @@
     ]
   },
   "_metadata": {
-    "generatedAt": "2025-12-16T18:21:51.987Z",
+    "generatedAt": "2025-12-16T20:16:54.512Z",
     "bestMirror": "https://mirror.nju.edu.cn/jenkins/",
     "mirrorsChecked": 10,
     "pluginsModified": 2044,
