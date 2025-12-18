@@ -2,7 +2,7 @@ name: Jenkins Plugins Mirror Health Check
 
 on:
   schedule:
-    - cron: "0 */2 * * *"
+    - cron: "0 */8 * * *"
   workflow_dispatch:
 
 jobs:
