@@ -807,7 +807,7 @@
         "url": "https://wiki.jenkins-ci.org/display/JENKINS/ZAProxy+Plugin"
       }
     },
-    "generationTimestamp": "2025-12-23T08:23:57Z",
+    "generationTimestamp": "2025-12-23T16:21:08Z",
     "id": "default",
     "plugins": {
       "42crunch-security-audit": {
@@ -116344,13 +116344,13 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/waptpro/latest/waptpro.hpi"
       },
       "warnings-ng": {
-        "buildDate": "Dec 16, 2025",
+        "buildDate": "Dec 23, 2025",
         "defaultBranch": "main",
         "dependencies": [
           {
             "name": "analysis-model-api",
             "optional": false,
-            "version": "13.17.0-931.v730d8659ea_9c"
+            "version": "13.18.0-935.v784ca_107400a_"
           },
           {
             "name": "bootstrap5-api",
@@ -116375,7 +116375,7 @@
           {
             "name": "data-tables-api",
             "optional": false,
-            "version": "2.3.4-1451.vb_0b_5238f9054"
+            "version": "2.3.5-1482.vb_47a_3c19f78c"
           },
           {
             "name": "echarts-api",
@@ -116435,7 +116435,7 @@
           {
             "name": "workflow-cps",
             "optional": false,
-            "version": "4218.vff679a_5c0f3a_"
+            "version": "4238.va_6fb_65c1f699"
           },
           {
             "name": "workflow-job",
@@ -116460,7 +116460,7 @@
           {
             "name": "credentials",
             "optional": false,
-            "version": "1447.v4cb_b_539b_5321"
+            "version": "1453.v9b_a_29777a_b_fd"
           },
           {
             "name": "dashboard-view",
@@ -116500,7 +116500,7 @@
           }
         ],
         "excerpt": "Collects compiler warnings or issues reported by static analysis tools and visualizes the results. It has built-in support for many compilers (cpp, clang, java, ...) and tools (spotbugs, pmd, checkstyle, eslint, phpstan, ...), see the list of <a href=\"https://github.com/jenkinsci/warnings-ng-plugin/blob/main/SUPPORTED-FORMATS.md\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">supported report formats</a>.",
-        "gav": "io.jenkins.plugins:warnings-ng:12.9936.vda_5743ded29a_",
+        "gav": "io.jenkins.plugins:warnings-ng:12.9957.v418f12633413",
         "health": 96,
         "issueTrackers": [
           {
@@ -116512,17 +116512,17 @@
         "labels": [],
         "name": "warnings-ng",
         "popularity": 21053,
-        "previousTimestamp": "2025-12-16T10:06:14.00Z",
-        "previousVersion": "12.9923.v0a_d61546e93d",
-        "releaseTimestamp": "2025-12-16T20:29:17.00Z",
+        "previousTimestamp": "2025-12-16T20:29:17.00Z",
+        "previousVersion": "12.9936.vda_5743ded29a_",
+        "releaseTimestamp": "2025-12-23T14:54:22.00Z",
         "requiredCore": "2.516.3",
         "scm": "https://github.com/jenkinsci/warnings-ng-plugin",
-        "sha1": "bt4xCu8S2wugZIQtMQToghUat+8=",
-        "sha256": "ShPU0ndYte/zhcIZc+g0FLdXVvVQc3yz7nNtxwGvg0E=",
-        "size": 10819595,
+        "sha1": "hF8yIdvE2Liz62mAy3i2lAhA8Zs=",
+        "sha256": "tKuPpgLXuWVKBNRXqcg1IndwMeLI2hjCUlzXiKB2pbk=",
+        "size": 10820712,
         "title": "Warnings",
-        "url": "https://updates.jenkins.io/download/plugins/warnings-ng/12.9936.vda_5743ded29a_/warnings-ng.hpi",
-        "version": "12.9936.vda_5743ded29a_",
+        "url": "https://updates.jenkins.io/download/plugins/warnings-ng/12.9957.v418f12633413/warnings-ng.hpi",
+        "version": "12.9957.v418f12633413",
         "wiki": "https://plugins.jenkins.io/warnings-ng",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/warnings-ng/latest/warnings-ng.hpi"
       },
@@ -121617,10 +121617,10 @@
       "certificates": [
         "MIIFqjCCA5KgAwIBAgIFAN6tvwQwDQYJKoZIhvcNAQENBQAwgYoxCzAJBgNVBAYTAlVTMRMwEQYDVQQIDApDYWxpZm9ybmlhMREwDwYDVQQHDAhTYW4gSm9zZTEYMBYGA1UECgwPSmVua2lucyBQcm9qZWN0MRowGAYDVQQDDBFLb2hzdWtlIEthd2FndWNoaTEdMBsGCSqGSIb3DQEJARYOa2tAa29oc3VrZS5vcmcwHhcNMjUwMjIxMTcxMjMwWhcNMjYwMjIxMTcxMjMwWjBeMQswCQYDVQQGEwJVUzETMBEGA1UECAwKQ2FsaWZvcm5pYTEYMBYGA1UECgwPSmVua2lucyBQcm9qZWN0MSAwHgYDVQQDDBdDb21tdW5pdHkgVXBkYXRlIENlbnRlcjCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBAOTsLRipDbc+XI4zhQnfxgc0Ydg0zIRA7OJnqXMLWFhECjrB85FL5ddITutpJU19YnAX4z/9vXg8qqU5hLdo5xcFsPs80/+XqxhBCcOBOF/IL6EQ2iMr0hkJwAwn+W8R8paDl6noud3fpGWrP8ncTkxuHtvKIXGgAYvYAu8ouHGIrb5tohG7yMyQSqDNN8T+w+Y5egqUf0U7+26Jp4PYqLjz4dBQYMqWLG/M3VJU2vwv/0DMOR0w08tmN2pbi7eV0eoQjYzlRgtHQJkJCD3k9NxSefQ4oQ99o+cxMAFnWPPEQTkv8raldyZ8zcI3ViS/0JbcMF/0wSkBlXgx8Z82rjKvSchXAx8Ydc4gxX2WFPZeBfpx366a2Xbtv+UnFNDpui0WonwQMP5ErJeyo1OESeg3Z0IDUv9dm2yAygwO9sipGD8YflTCRtDpJ/b60d62SOnepyTWJKQ8ecmM/AtkBTK+W9/uZaCp2e5kcsfTCeL+hmbw44vpcVwwnfewDZkKTji9BZFEiWyf3BpnpW6JkX56pzsqo7EzRROnLbKZ5gE67kl+GsrGXXxTLxMpUl6kytiUyH/hw6d3AOBZhxwR0pjEbp6UPeDTaUS5eYQVnVxEgZ6hQJvR/ytx309SbSYXTAtnPQKET8cyfawMYVGB/Dkw+hmmzwekEp7688rQjSoNAgMBAAGjQjBAMB0GA1UdDgQWBBRMeBx4CsBvRyeKYTIupBtaPvAwkDAfBgNVHSMEGDAWgBQRxuXUMC3pVcYBtWtQctI2frQBhzANBgkqhkiG9w0BAQ0FAAOCAgEAIjw545qmcLhWlc86JZQ6nS8OosWRhysWq15WbFPAIzH3ttdJrHLIDi0UNIAkEHZ1UVgVEsNuF3kS8dad+EznefD7S7/wH1woNmFCEri3sN+3nAx6f4tyzh4MZcTZ386ghRSL2Wr0thPoEbi3aLO5twRroCKlJC9HU7TtFWtqHQNM2Trp/oDo6vEObwaxaq+1TOkF7cF/OH+vuZ9FHRgE7X/DrYqFTfCThiXr01Z2SRS4dG8xKrelGGof2xHeN8hsDZN0nBvzRTQ9lfn0YLYG9vCsxKL5JuLGzkjDys1k2yzJxdFywcmG5Is2IlR99NrfbIhQ6pQcFUOWE+WmUFF2zgS9LjC0cDBY536PiKjnhHRYM/Nskj2xleFcJhl293F0VJuWvDHncM4IpEKFftjA/F32c02vkT7MbQdb/HoVd5+IAhSaa9kam1Bs9GBsiQy9nQQ2nviieAflSo8ehES78Y3XsqxUXAwReUYJVQo9DIRBIpkT+eQff0HHfI4RaokfeTZu4a0r/jRj9fMEA7KwwGpnhgrvI8kG8uVcObmRrygtVIcmJo0WFqC+r+Bn8CrVIGtPBN4tz+Gu21DkgRzeG2qViMzdpytMmlQSYl1R7hprtTbGM0pvoPjd2kbjFqOgQRkRlwseguKLAv5Drj11KqpEL679q55gGZao2adFc+k="
       ],
-      "correct_digest": "6KHjQaaY25HOtKhm3naHLKDgs+E=",
-      "correct_digest512": "089f00ffadddebabb2252669f84db3ca8708fbcba68ca42df2aab69a2d462a6a67e5a2abe2fa3adb23a293612262efeea6754dd8d2215ba6b884aded7851efc6",
-      "correct_signature": "4RkjclGsIGTSGuGd3KPuo0ARSCOMdR1sV4kbo9ZkP6Q80gYZ6uw6P+BKUeoA2fHkkcgnGU3CbxJu9Oe+V1ZUX9JYPAR5n9khDLnUigSId+7erSE2ZPP95WJqks8VFIa8913siMVKF/LtTZUjrS91ROHIQZebQQRWMCRk/0dnwVRyYvgX5L1W16z6EwDSob/MsMWMaZ/BA4mX9fV+Gh1Bvf7ASq3lUrJhSGiwzc9VIkrB/TDLFdn8AagMjZTg/f1K4UghHPgZTGFWd3E6aLYKpbdKYo32Hu0BgIIL+eo2q9KLozq3aawyotN+DUBZr4YfBOIXSY08mbj+O0pSVmr178AAUb2HNd+eC/N2yYKPrvrXUQYlXFt7VVHE/UeNieUUC9O4I2U3EZY4hXWB59RkuhO+ctZozYmk9xnVOzWbDMk2VB2qdSjjWR9fE5NscTVrY6By64trsrmXa5tZMdsMbgR98bgRZDHYjHhAZ/sUfsXrjWpi2XuE8J+8hs86z1bHIjzYuY6C71Z/++jjLce+X/jTatm219zIoceT5t6ts2Gm365gqPoM7Y8ENZoeiUfUHCzmcSkWlfDjce0eS39DYnDC4B/V69MYFlvfZT0AAWeUniuIwcaYQc9KgWXdjOcyABfhTxU1UA+uWqaSwprvEM171ozlC4470ydBBXw2mOw=",
-      "correct_signature512": "a76c4c677006cdf89b70350548c4792fc5300403634ac75a2c9212e2860a6b26175eae488bc503d46c27c2205b346eafe19fabc7bc09a68eb7a52fd68e584c5992ebc97926fa58bb07d69aa8c9cdc70ee386123d7d10bff8905970e268435b9668993942a3d8eba70559d353df470d00c9670614526fba49f98c522e35e2d0e29484cf19b9fde1fea3c9e0b592d4198b902a817bc6e578c71dcbd3b9afa8e9f99af85cc0d1b069009aab5713ccafe1beede62e233cd4e6358e7312bb8bc98dd0ea3866570ad1d77cb66523b7d6647464c93a016312470f3de7c342cfdcb820b3d5f2031a23cefc9035dc226d459acbec1222c7d60873b2bbdebe86f39a30c801c26acc52457010323eee5b9e8139cf0aa8d569582251349f6fee669464135dd85b463c9e37a502e5cfd0b4b1586480b0ad97085e0c1dcc8926df1396d2bc850287e093031cf7640e7f648949ce4f028434a713f50048f990f6c9895efa80f822c5aeea43a277a4903d2aa3bcc9a8230c40ead419e7dedab898784c0d7b6d9e12890933571678230b688edb7caef3206e0442e2eaf758f9f2fd2f7623270f833a522c17c27ffd70c746a60d875837a62ea0c4d46fa8737b1d4e6dc0fcd00a974eddbc5ab674cc11500de24a2cf520656ce5ef259e29b281d1aab244b81a78426663fc0516def8684e9d09477ab1070bece36965a554b8d74e3f5382826ac1076f"
+      "correct_digest": "y7n3WV4BrtdUPYGzykeltNmjm3g=",
+      "correct_digest512": "569df13a90a108f274c5eeea294dd697baade1d9239ac9156acca857dd07c20a0f9b7a2fae576c7273c55518da95831df325492f755a5e03cc2dad54f4c6a948",
+      "correct_signature": "iytfPwQqN1GY8HB3kqKNxmkGkO1XvEThVw1JLyiP+JQGJCPn1Ex443hzKtGsrbkwi9HLV7eVevs8l/TiPgt5phNT4LvHjJvuXUcUBXY5WCW6j/dX4Ox6hv65NYrzXbfp4gL69JSV87/pEAx7MphbKQBqhnoIhMHxaG2x+7rP2xy/rkjJ0JzwernrDiYKkCZkvS9k8fbVVpoz2RadWptKjft6/Zh3flyobrwFcfVzIIkHuFwwZ87c4lYm8wmvaf5xW3go3JY5jMGUFy+7KMvdeBEWPzewol4Ltx+MohGPE22Tl+OwPY+NvsW73vU10jyuARaz70mwOVOAJATuGXfECyofQdjIL6xMilpA7Yj/VnWArj1rZWU4J7MCY0BQ2CcUe47F9P3uanyN1tOsnw6TWFW8fuOFCw7RctMB4PVp025afXPrqSK5tJx0Cxvhxxks2vsOKgbfMcErCyHUhMzAC+aswa4ROJSqIuGpzJhMxJdhwTkbabDv5U62iwO8fGCeoBbkuc3S6v6J9nIDnwWzYa/hL53b8A/Sp0Dil0MmG81kQezCyGHrj1dxYhNNgHhfCzd1CJ1W7Gf+Z7wH43LV7oTNjJ+kkpHWMAlt+3Sfc5UfHo3i9SZNMRTfZAoB/95gqqR4p+zL9aXs/QxmGfez5LudAqvzEPi7GA0rhAi5EGg=",
+      "correct_signature512": "2ddb0aa8ec60a29772c33b954ab96293ac0770b9eba3683301737d56b5f1326a325af04ddf89a85e66adc3bf9d5fe766b891df2b3a19c24bb5a79908871f7e5e827ecfd1d5cdebcd2a393daf4ba0a81e7fcdfee613000b68d5b3947e9db652f0eb1f042c2ce88f97e9f9caac7fb340b76e69c40bdc2e60da8c2243f8ae36e8d548426ef3dac9d1d402a9cf8eceb8870526aa3bb0b3cfc81fce401c848411e809fa25fb3db98234bde0942e1e5f6cb6a620081e83c19d8eee9e77476b3d64826a00c2350aaadf65cbd75b49f44cdf5ff9be909e8b26999e21cec77522254a42eeec233b3bdd63b15308fe19a888c31bbc27c0321ec23c94471c8773961240fa499475f8206de9c8373dcff164b993b72923f3023a9e7a33a1293a46a45d5ef5d8bf27288a5e112d31dda5394436399e1ce9af95fe6570fdc6dff265c1ee18af35964e9054c31a910c09081d5822ce85e5f37f810f133fa83ce583019e59c158db1c3bdb1c9416bb50c3ce92b07051077cda8ceabc9660a2270970e4dbe98899dad27ffab7b4f6e24cc4c44d25abb593ce1eeb18e577215781219d72f864b10ea3a17b26705fc5958d5eb7bf1a568823640e21cb23b2ba3292f244a2468e6c9f60357d49eae7962db4598c2286ff457721eb44016a93b26a03f2dc05146807be695c4623ba43e54da756cd9ae72eb31adfe6cc0f2bc722d4c23c3da523249a41cf"
     },
     "updateCenterVersion": "1",
     "warnings": [
@@ -140846,7 +140846,7 @@
     ]
   },
   "_metadata": {
-    "generatedAt": "2025-12-23T08:35:24.295Z",
+    "generatedAt": "2025-12-23T16:33:14.661Z",
     "bestMirror": "https://mirror.nju.edu.cn/jenkins/",
     "mirrorsChecked": 10,
     "pluginsModified": 2045,
