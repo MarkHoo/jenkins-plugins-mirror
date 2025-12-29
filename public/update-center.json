@@ -807,7 +807,7 @@
         "url": "https://wiki.jenkins-ci.org/display/JENKINS/ZAProxy+Plugin"
       }
     },
-    "generationTimestamp": "2025-12-29T01:57:54Z",
+    "generationTimestamp": "2025-12-29T08:25:16Z",
     "id": "default",
     "plugins": {
       "42crunch-security-audit": {
@@ -24877,23 +24877,23 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/build-time-blame/latest/build-time-blame.hpi"
       },
       "build-timeout": {
-        "buildDate": "Apr 10, 2025",
+        "buildDate": "Dec 29, 2025",
         "defaultBranch": "master",
         "dependencies": [
           {
             "name": "json-path-api",
             "optional": false,
-            "version": "2.9.0-148.v22a_7ffe323ce"
+            "version": "2.9.0-190.veefca_05d5477"
           },
           {
             "name": "naginator",
             "optional": true,
-            "version": "1.496.v94260e77b_3f5"
+            "version": "1.530.vb_6d120f250b_1"
           },
           {
             "name": "token-macro",
             "optional": false,
-            "version": "444.v52de7e9c573d"
+            "version": "477.vd4f0dc3cb_cf1"
           }
         ],
         "developers": [
@@ -24907,8 +24907,8 @@
           }
         ],
         "excerpt": "This plugin allows you to automatically terminate a build if it&#39;s taking too long.",
-        "gav": "org.jenkins-ci.plugins:build-timeout:1.38",
-        "health": 96,
+        "gav": "org.jenkins-ci.plugins:build-timeout:1.39",
+        "health": 100,
         "issueTrackers": [
           {
             "reportUrl": "https://www.jenkins.io/participate/report-issue/redirect/#15530/build-timeout",
@@ -24926,17 +24926,17 @@
         ],
         "name": "build-timeout",
         "popularity": 227056,
-        "previousTimestamp": "2025-03-20T18:23:32.00Z",
-        "previousVersion": "1.37",
-        "releaseTimestamp": "2025-04-10T16:58:22.00Z",
-        "requiredCore": "2.479.3",
+        "previousTimestamp": "2025-04-10T16:58:22.00Z",
+        "previousVersion": "1.38",
+        "releaseTimestamp": "2025-12-29T02:27:55.00Z",
+        "requiredCore": "2.516.3",
         "scm": "https://github.com/jenkinsci/build-timeout-plugin",
-        "sha1": "oPx1UhN9PZrMLR9drO8sHqVNgE8=",
-        "sha256": "SnW7Tv3FFT0sNv3MojBE1Fu3cxNsaiyFBGum+lbOnhs=",
-        "size": 111063,
+        "sha1": "OZ1qATp9jQGGRo+31j++6acUDdM=",
+        "sha256": "Pigv5UyvMnve6buJls5T/dHTVIGGiJokNio/i7QEBgA=",
+        "size": 110877,
         "title": "Build Timeout",
-        "url": "https://updates.jenkins.io/download/plugins/build-timeout/1.38/build-timeout.hpi",
-        "version": "1.38",
+        "url": "https://updates.jenkins.io/download/plugins/build-timeout/1.39/build-timeout.hpi",
+        "version": "1.39",
         "wiki": "https://plugins.jenkins.io/build-timeout",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/build-timeout/latest/build-timeout.hpi"
       },
@@ -55037,7 +55037,7 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/gitlab-oauth/latest/gitlab-oauth.hpi"
       },
       "gitlab-plugin": {
-        "buildDate": "Dec 27, 2025",
+        "buildDate": "Dec 29, 2025",
         "compatibleSinceVersion": "1.4.0",
         "defaultBranch": "master",
         "dependencies": [
@@ -55155,7 +55155,7 @@
           }
         ],
         "excerpt": "This plugin allows <a href=\"http://gitlab.com/\" target=\"_blank\" rel=\"noopener noreferrer nofollow\">GitLab</a> to trigger Jenkins builds and display their results in the GitLab UI.",
-        "gav": "org.jenkins-ci.plugins:gitlab-plugin:1.9.12",
+        "gav": "org.jenkins-ci.plugins:gitlab-plugin:1.9.13",
         "health": 100,
         "issueTrackers": [
           {
@@ -55169,17 +55169,17 @@
         ],
         "name": "gitlab-plugin",
         "popularity": 53010,
-        "previousTimestamp": "2025-12-08T11:44:05.00Z",
-        "previousVersion": "1.9.11",
-        "releaseTimestamp": "2025-12-27T09:04:57.00Z",
-        "requiredCore": "2.504.3",
+        "previousTimestamp": "2025-12-27T09:04:57.00Z",
+        "previousVersion": "1.9.12",
+        "releaseTimestamp": "2025-12-29T02:21:41.00Z",
+        "requiredCore": "2.516.3",
         "scm": "https://github.com/jenkinsci/gitlab-plugin",
-        "sha1": "FyHbg4bBNe+Q+QtIGvgdnl7Xw6I=",
-        "sha256": "n+t70YFUHcTaT8W5+JA4H5ye9wRh5IPdBzMwSw9yK2Y=",
-        "size": 1968451,
+        "sha1": "v6usa4pPZ/vQ25WqH+Hgy+9LnUg=",
+        "sha256": "tIMw3qoAeAHUjh/herPcDng97OWQDij7GcDPkk9E+fk=",
+        "size": 1968472,
         "title": "GitLab",
-        "url": "https://updates.jenkins.io/download/plugins/gitlab-plugin/1.9.12/gitlab-plugin.hpi",
-        "version": "1.9.12",
+        "url": "https://updates.jenkins.io/download/plugins/gitlab-plugin/1.9.13/gitlab-plugin.hpi",
+        "version": "1.9.13",
         "wiki": "https://plugins.jenkins.io/gitlab-plugin",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/gitlab-plugin/latest/gitlab-plugin.hpi"
       },
@@ -97280,7 +97280,7 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/resource-disposer/latest/resource-disposer.hpi"
       },
       "resources-ai-chatbot": {
-        "buildDate": "Dec 26, 2025",
+        "buildDate": "Dec 29, 2025",
         "defaultBranch": "main",
         "dependencies": [],
         "developers": [
@@ -97294,7 +97294,7 @@
           }
         ],
         "excerpt": "TODO",
-        "gav": "io.jenkins.plugins:resources-ai-chatbot:393.v1fc36efb_cee6",
+        "gav": "io.jenkins.plugins:resources-ai-chatbot:402.v13306d2084b_6",
         "health": 94,
         "issueTrackers": [
           {
@@ -97306,17 +97306,17 @@
         "labels": [],
         "name": "resources-ai-chatbot",
         "popularity": 0,
-        "previousTimestamp": "2025-12-22T12:49:22.00Z",
-        "previousVersion": "383.v7d7b_9a_76a_582",
-        "releaseTimestamp": "2025-12-26T13:31:47.00Z",
+        "previousTimestamp": "2025-12-26T13:31:47.00Z",
+        "previousVersion": "393.v1fc36efb_cee6",
+        "releaseTimestamp": "2025-12-29T06:40:54.00Z",
         "requiredCore": "2.504.3",
         "scm": "https://github.com/jenkinsci/resources-ai-chatbot-plugin",
-        "sha1": "LfJ/iQL01JHgr9rIwegBSI4+c2Q=",
-        "sha256": "aEErS0aHBLS2DkQo8C0/6zHvSkqjo8yKzT4W2A0VUWA=",
-        "size": 6084,
+        "sha1": "RTqv2NXYS/w61ZcEBWvnedU5wCQ=",
+        "sha256": "TBBfIflMJ/1D3ZV0y/Gtzx7jBBQkt+6tT/zwUm63Ezo=",
+        "size": 6091,
         "title": "Resources AI Chatbot",
-        "url": "https://updates.jenkins.io/download/plugins/resources-ai-chatbot/393.v1fc36efb_cee6/resources-ai-chatbot.hpi",
-        "version": "393.v1fc36efb_cee6",
+        "url": "https://updates.jenkins.io/download/plugins/resources-ai-chatbot/402.v13306d2084b_6/resources-ai-chatbot.hpi",
+        "version": "402.v13306d2084b_6",
         "wiki": "https://plugins.jenkins.io/resources-ai-chatbot",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/resources-ai-chatbot/latest/resources-ai-chatbot.hpi"
       },
@@ -121622,10 +121622,10 @@
       "certificates": [
         "MIIFqjCCA5KgAwIBAgIFAN6tvwQwDQYJKoZIhvcNAQENBQAwgYoxCzAJBgNVBAYTAlVTMRMwEQYDVQQIDApDYWxpZm9ybmlhMREwDwYDVQQHDAhTYW4gSm9zZTEYMBYGA1UECgwPSmVua2lucyBQcm9qZWN0MRowGAYDVQQDDBFLb2hzdWtlIEthd2FndWNoaTEdMBsGCSqGSIb3DQEJARYOa2tAa29oc3VrZS5vcmcwHhcNMjUwMjIxMTcxMjMwWhcNMjYwMjIxMTcxMjMwWjBeMQswCQYDVQQGEwJVUzETMBEGA1UECAwKQ2FsaWZvcm5pYTEYMBYGA1UECgwPSmVua2lucyBQcm9qZWN0MSAwHgYDVQQDDBdDb21tdW5pdHkgVXBkYXRlIENlbnRlcjCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBAOTsLRipDbc+XI4zhQnfxgc0Ydg0zIRA7OJnqXMLWFhECjrB85FL5ddITutpJU19YnAX4z/9vXg8qqU5hLdo5xcFsPs80/+XqxhBCcOBOF/IL6EQ2iMr0hkJwAwn+W8R8paDl6noud3fpGWrP8ncTkxuHtvKIXGgAYvYAu8ouHGIrb5tohG7yMyQSqDNN8T+w+Y5egqUf0U7+26Jp4PYqLjz4dBQYMqWLG/M3VJU2vwv/0DMOR0w08tmN2pbi7eV0eoQjYzlRgtHQJkJCD3k9NxSefQ4oQ99o+cxMAFnWPPEQTkv8raldyZ8zcI3ViS/0JbcMF/0wSkBlXgx8Z82rjKvSchXAx8Ydc4gxX2WFPZeBfpx366a2Xbtv+UnFNDpui0WonwQMP5ErJeyo1OESeg3Z0IDUv9dm2yAygwO9sipGD8YflTCRtDpJ/b60d62SOnepyTWJKQ8ecmM/AtkBTK+W9/uZaCp2e5kcsfTCeL+hmbw44vpcVwwnfewDZkKTji9BZFEiWyf3BpnpW6JkX56pzsqo7EzRROnLbKZ5gE67kl+GsrGXXxTLxMpUl6kytiUyH/hw6d3AOBZhxwR0pjEbp6UPeDTaUS5eYQVnVxEgZ6hQJvR/ytx309SbSYXTAtnPQKET8cyfawMYVGB/Dkw+hmmzwekEp7688rQjSoNAgMBAAGjQjBAMB0GA1UdDgQWBBRMeBx4CsBvRyeKYTIupBtaPvAwkDAfBgNVHSMEGDAWgBQRxuXUMC3pVcYBtWtQctI2frQBhzANBgkqhkiG9w0BAQ0FAAOCAgEAIjw545qmcLhWlc86JZQ6nS8OosWRhysWq15WbFPAIzH3ttdJrHLIDi0UNIAkEHZ1UVgVEsNuF3kS8dad+EznefD7S7/wH1woNmFCEri3sN+3nAx6f4tyzh4MZcTZ386ghRSL2Wr0thPoEbi3aLO5twRroCKlJC9HU7TtFWtqHQNM2Trp/oDo6vEObwaxaq+1TOkF7cF/OH+vuZ9FHRgE7X/DrYqFTfCThiXr01Z2SRS4dG8xKrelGGof2xHeN8hsDZN0nBvzRTQ9lfn0YLYG9vCsxKL5JuLGzkjDys1k2yzJxdFywcmG5Is2IlR99NrfbIhQ6pQcFUOWE+WmUFF2zgS9LjC0cDBY536PiKjnhHRYM/Nskj2xleFcJhl293F0VJuWvDHncM4IpEKFftjA/F32c02vkT7MbQdb/HoVd5+IAhSaa9kam1Bs9GBsiQy9nQQ2nviieAflSo8ehES78Y3XsqxUXAwReUYJVQo9DIRBIpkT+eQff0HHfI4RaokfeTZu4a0r/jRj9fMEA7KwwGpnhgrvI8kG8uVcObmRrygtVIcmJo0WFqC+r+Bn8CrVIGtPBN4tz+Gu21DkgRzeG2qViMzdpytMmlQSYl1R7hprtTbGM0pvoPjd2kbjFqOgQRkRlwseguKLAv5Drj11KqpEL679q55gGZao2adFc+k="
       ],
-      "correct_digest": "nI3yDg5O80ll6ZPsUoLJ4KzQIqw=",
-      "correct_digest512": "b34f09eba68edbf128837138b16d9872931f4d5496e133e372233455733bf221d8d9d5d9a73a56db2a2c6d6e73f35164b6b582fe4ca5692f32689f219092a53a",
-      "correct_signature": "lqXw85PzGHodLsYGb7+CkEb5HR10I9B7wUp0uIRyG9ylI1nLga36/1oPYOq8Bh+sBjbUIyijiaCtfUpe2ySg1WsdIjJOXr4j+ZOaekLoIOCZh+mjx3XQjSElmjixRWgdy8HkjGMrqt0D5uxJ/G6fzy0zmofOc2cSMD7k9ZQ3tZsIJ22YWZhJqEr8pJ93rtJpEIVciNPlg5Xo7p/wWFMfrjZklEdd7cA3+4BwTy9pItCbX8PfxwTi5/j7V4niLWV0Z2nReptyEj/iEDvclOCtONWtXVnbanNLuWex+2kRWxwdnv880IKb931U5IKAbRrpmXNZPgr/lseM2IKo0InWGeN7s3/DJewhriqAse7UH+wKdXqG43Opn+lDbN5yoJ+P4+ZlCagwCmogM1ZsWwr6VvsXlFNko0QGhNJqui1NEYSohvgM7/a2/ZGvxYXST7eTshU1RWA/S8i+OC18iWJvXsRNd3rMuAs3EQibgTcXVCc1deaWQYQBUFJjp1DhmbL9WPO3/F/HSHmB1Uk+mhGtezu7u1gLuCPcZG15L0z9VGBhFMYwfv86bVWRo/rw21T+tcY4BWII38TXabLwA4FeFjtLWdpkZEUH+9oq0YIqVFgSt9axmAzBiuN412JnmIWiP38ayVSP90ARtC5v2TSI1DA2WDMDlA1XbvRxC75bUms=",
-      "correct_signature512": "a4689e3c4530d1d4579bc78f0d57b18a30f077832aa88839efe3b9f3cadd2d9edc81da88b6cafd755e2612030cc2a214ab33d8a1b40cbc6942983daab9cf9bc4889f2eb656bde34a68eb5ffd126c056ff531e395147254a0f9805185a63341b2414263453bec4d525454c7ad9cd25aa358e9fa19b12840a19ceb60c7bfcf1b7f900b7acf4b3660678a5d75d124d7231e5a87e39811bfcb2d240c96cf30a6757f94d7899315cc045cffcc853b3410fed0e0bca03d04d72563b726c7165f1dc007913ba01a83ca45a374b5b5b49c1e6524c7ed0227ea65cebbc93f5d9319e21f8569aeff44c1915cf82ec0f40466f98ef9f6fa9d746776cfde1b236eb7fe6e430cbadfa2cbf6410b78a1fc4b587e90c44efa98ee03d0d8e89cc2e6a22ec392561073a7cf683ad7c88ac539e8e2d9b9e17cb6761b6cab512e962bb018fa995f5488a8ada4a819133fb2351425c9efa070522de7d1bd87e0ac911455e9878e5a0df471db98dff760a0237d3444ff07fc48741e9b88cedb40218abfc220f163d73c1563639b4992f6bd51af853ceec082191e9db97d330db433161cd1707f2e7dbb078c3a2ddd8a5ebabc02d03c6d3f0beb67c62dadb8a78f1b9e4397c0d036c4f7a281a0ff0811d1828f9fb8b87e0907081645353ecb838bcd741a58dfc35dd7c6dda186654e4ce5a5070a2d3833cec80554843af5fdebebeed1ca5663176f9da723"
+      "correct_digest": "XlhldhrUT//eeKEAXMvuRvlq7is=",
+      "correct_digest512": "fb7a5c6c14a63f15cabad909fd71449501a5d670a2d1416c6393d22478fa84fa47e7b52ab619355aea2d9a8a54d734274b5908d76aee6d6fa549876c3ee1c1af",
+      "correct_signature": "41S0srQ6h43PJAiQGzOVosOTyxXh0QhZqFZX5s7n5fo1toltOvyR7vUmhhV6MRoL6CyBcGmHJl2Va3DTm8wxWrNrfgWJSyF7wCs4D4PBl+0gadwT6hmB6qrxfFJLHlDz5zCaONCPLimZoFFPf6QBMtxojwq8lhRKN3zcpt1oElOTgeNMWutrnWg8OaVp1zwus8PiwMbs2jW3DZ/kamMfhQKm+lP2bCbrbfBMik/YUWR4D+2PySM0QP6DUiYQycj7TZHPonZ3GVFyDSlKaO/B9RjuitqeUk+Os89shLivPzO+2ththpnMVXq154JvxbbwhsV9ZMCG4GRMMon1+JrW9Er7e+Dx4H0Y3TvEaTTiBtgu/X9gV+82Ld1+WqXOR3UBlQIyGYh41J1pLDU5hN1Tr7YvULOKp1cNjGuCLfJ6eyS3Od1wMpYY142BfAh3y3scOJWpYjGcXucVJ44sOlbPXA/9KyNJsOMGTnRYy/MUns3TP6EaMmA/t5+eiJJGdEm7RUxbMJ5st5Jm86c+aqFV8vdwtuanEYojEX5m8fbpz4NbKPJzszV5VGTHnle+VMa4gmgpLAR6pVrRbWpkNiqjUpW5UPIPELo2gpVCBeVwfmp9K8zxl60YyRQ40q/JLL8tX/KGaKYotsz2Jq7a0pizxJoF72TsDQetH25bZuxpWTY=",
+      "correct_signature512": "6551ed8cebf9bf6c7675490a3491811e6b5c1bfa78a1fc701e068e8e1fadda92c1bf6d1e784b3e21892d9fb6ce1bad538567980760b202ac336a80c6b492a0868d0bd2ae83eef8ff3b7d3295752c8516e9874e695afd0205bf989d2f2110cd8e1c2012dfa5ee0851b8957cf07309723b766a1eb2533eaf76c155ce43697502505e3a8e8b88df42519b3a5b32cd687c08b5039d40444af31c0ca487ef9c7659914aab2cbd4ab6300e55dad05745f2de7ff3d97a68d83841dda88edaf9ea7f654890948d9104276393a32252d4c8068baee0b2bbe1d77595272f95669a6a163737674dbca25f1ee5d6367bc771b088f3317f44f48f0b7ae1b8f5f5b43588c9d57ecd095c3b4999e3eb7b4f65609a83356153505c9bfddeddc530ccbaa8560a3627dd74f0bd925e2b8ee94d20f84a5425e9777b8a9d93881dd84992731dcae53ddd2b257c2d211bf7d6f166a767833c2833e7954921578852d0aeacafabdc625c243d7b4b8bafda4f9e27cc3c1fae492cde22b74417230ef768c43a638afe19330524f35f18b24eac4eae1a5a5958ed4565abc45c6972ebc0b3c4db65913f29ffb381c01184860291106a5df051b3b1f9dd8de7671e524b8e779d461bb4ac72b6f5261c75f61f226d35caf940afdac6bf8e48fe98c1db0abcc764c3eae5e70d1acf4b06f5af3b0ffbf65f39f01a72e188039b53c82c2e10ac9cb1dded11724cd4ef"
     },
     "updateCenterVersion": "1",
     "warnings": [
@@ -140851,7 +140851,7 @@
     ]
   },
   "_metadata": {
-    "generatedAt": "2025-12-29T02:08:46.810Z",
+    "generatedAt": "2025-12-29T08:37:28.016Z",
     "bestMirror": "https://mirror.nju.edu.cn/jenkins/",
     "mirrorsChecked": 10,
     "pluginsModified": 2045,
