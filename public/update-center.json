@@ -2,13 +2,13 @@
   "updateCenter": {
     "connectionCheckUrl": "https://www.google.com/",
     "core": {
-      "buildDate": "Jan 06, 2026",
+      "buildDate": "Jan 13, 2026",
       "name": "core",
-      "sha1": "zNvxQE/2JntRPc/0hEb6QPlp2aI=",
-      "sha256": "2b5c2AkAdLhZsmT4nhnnjjso79Cs32pH4dEtXSvWitU=",
-      "size": 97202320,
-      "url": "https://updates.jenkins.io/download/war/2.545/jenkins.war",
-      "version": "2.545"
+      "sha1": "Sb9nnQDQOYUCtwF0ZXKi40TvXco=",
+      "sha256": "8bA+v4/bCsiT+6yd+YNdc2q5glOZ3EPeigDT85E9iYM=",
+      "size": 97202804,
+      "url": "https://updates.jenkins.io/download/war/2.546/jenkins.war",
+      "version": "2.546"
     },
     "deprecations": {
       "BlameSubversion": {
@@ -807,7 +807,7 @@
         "url": "https://wiki.jenkins-ci.org/display/JENKINS/ZAProxy+Plugin"
       }
     },
-    "generationTimestamp": "2026-01-13T01:43:36Z",
+    "generationTimestamp": "2026-01-13T08:27:52Z",
     "id": "default",
     "plugins": {
       "42crunch-security-audit": {
@@ -36629,7 +36629,7 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/cucumber-perf/latest/cucumber-perf.hpi"
       },
       "cucumber-reports": {
-        "buildDate": "Aug 24, 2025",
+        "buildDate": "Jan 13, 2026",
         "defaultBranch": "master",
         "dependencies": [
           {
@@ -36638,14 +36638,44 @@
             "version": "4.5.0-8.va_d5448ef9011"
           },
           {
+            "name": "commons-lang3-api",
+            "optional": false,
+            "version": "3.20.0-109.ve43756e2d2b_4"
+          },
+          {
+            "name": "commons-text-api",
+            "optional": false,
+            "version": "1.15.0-210.v7480a_da_70b_9e"
+          },
+          {
+            "name": "joda-time-api",
+            "optional": false,
+            "version": "2.14.0-149.v1c3ce991d1b_9"
+          },
+          {
+            "name": "antisamy-markup-formatter",
+            "optional": false,
+            "version": "173.v680e3a_b_69ff3"
+          },
+          {
+            "name": "jackson2-api",
+            "optional": false,
+            "version": "2.20.1-423.v13951f6b_6532"
+          },
+          {
+            "name": "jsoup",
+            "optional": false,
+            "version": "1.22.1-76.v9cdb_2456c0e3"
+          },
+          {
             "name": "structs",
             "optional": false,
-            "version": "350.v3b_30f09f2363"
+            "version": "362.va_b_695ef4fdf9"
           },
           {
             "name": "token-macro",
             "optional": false,
-            "version": "444.v52de7e9c573d"
+            "version": "477.vd4f0dc3cb_cf1"
           }
         ],
         "developers": [
@@ -36659,7 +36689,7 @@
           }
         ],
         "excerpt": "Provides pretty html reports for Cucumber. Can be used anywhere a json report is generated (Java, Ruby, JavaScript and other implementations).",
-        "gav": "net.masterthought.jenkins:cucumber-reports:5.10.0",
+        "gav": "net.masterthought.jenkins:cucumber-reports:5.10.2",
         "health": 100,
         "issueTrackers": [
           {
@@ -36678,17 +36708,17 @@
         ],
         "name": "cucumber-reports",
         "popularity": 9965,
-        "previousTimestamp": "2025-06-21T08:51:04.00Z",
-        "previousVersion": "5.9.0",
-        "releaseTimestamp": "2025-08-24T07:22:27.00Z",
-        "requiredCore": "2.479.3",
+        "previousTimestamp": "2025-08-24T07:22:27.00Z",
+        "previousVersion": "5.10.0",
+        "releaseTimestamp": "2026-01-13T07:44:00.00Z",
+        "requiredCore": "2.504.3",
         "scm": "https://github.com/jenkinsci/cucumber-reports-plugin",
-        "sha1": "zCVTyBiwnB0rWEyXeWUDku6hZcg=",
-        "sha256": "pehHJgd0bzyAOMAhTj00g1d4EcwF3YB8dCqKbHxuszo=",
-        "size": 6446759,
+        "sha1": "xOgJG8CB4liae9yYnX+/ogIHwqg=",
+        "sha256": "OIS94GWv4I5KnqnESNXaCJeiwS6ZJ+XhDGZuUFd97NI=",
+        "size": 2043071,
         "title": "Cucumber reports",
-        "url": "https://updates.jenkins.io/download/plugins/cucumber-reports/5.10.0/cucumber-reports.hpi",
-        "version": "5.10.0",
+        "url": "https://updates.jenkins.io/download/plugins/cucumber-reports/5.10.2/cucumber-reports.hpi",
+        "version": "5.10.2",
         "wiki": "https://plugins.jenkins.io/cucumber-reports",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/cucumber-reports/latest/cucumber-reports.hpi"
       },
@@ -112921,7 +112951,7 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/uleska/latest/uleska.hpi"
       },
       "unblocked": {
-        "buildDate": "Nov 04, 2025",
+        "buildDate": "Jan 13, 2026",
         "defaultBranch": "main",
         "dependencies": [
           {
@@ -112977,7 +113007,7 @@
           }
         ],
         "excerpt": "This plugin integrates <a href=\"http://getunblocked.com\" target=\"_blank\" rel=\"noreferrer nofollow noopener\">Unblocked</a> with Jenkins.",
-        "gav": "io.jenkins.plugins:unblocked:1.78.v7320a_c151526",
+        "gav": "io.jenkins.plugins:unblocked:1.86.vfb_9ea_19e2084",
         "health": 100,
         "issueTrackers": [
           {
@@ -112989,17 +113019,17 @@
         "labels": [],
         "name": "unblocked",
         "popularity": 0,
-        "previousTimestamp": "2025-11-04T00:48:06.00Z",
-        "previousVersion": "1.75.v43518c0f9972",
-        "releaseTimestamp": "2025-11-04T22:58:29.00Z",
+        "previousTimestamp": "2025-11-04T22:58:29.00Z",
+        "previousVersion": "1.78.v7320a_c151526",
+        "releaseTimestamp": "2026-01-13T02:03:56.00Z",
         "requiredCore": "2.426.3",
         "scm": "https://github.com/jenkinsci/unblocked-plugin",
-        "sha1": "KvBD5lhWFnN2DYqSrhAJB21GJzM=",
-        "sha256": "kl4DdQMtWSwn1GCZfO7DV0c9PCxndY5htHDj05N3a+0=",
-        "size": 25445,
+        "sha1": "DDJi6312r7l04S8J4LoXe5Tx8Qg=",
+        "sha256": "LUhw4UrQ6LNczCpALEMFbJutbeFM9FJeL39xO3hIb+0=",
+        "size": 25552,
         "title": "Unblocked Notify",
-        "url": "https://updates.jenkins.io/download/plugins/unblocked/1.78.v7320a_c151526/unblocked.hpi",
-        "version": "1.78.v7320a_c151526",
+        "url": "https://updates.jenkins.io/download/plugins/unblocked/1.86.vfb_9ea_19e2084/unblocked.hpi",
+        "version": "1.86.vfb_9ea_19e2084",
         "wiki": "https://plugins.jenkins.io/unblocked",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/unblocked/latest/unblocked.hpi"
       },
@@ -122129,10 +122159,10 @@
       "certificates": [
         "MIIFqjCCA5KgAwIBAgIFAN6tvwQwDQYJKoZIhvcNAQENBQAwgYoxCzAJBgNVBAYTAlVTMRMwEQYDVQQIDApDYWxpZm9ybmlhMREwDwYDVQQHDAhTYW4gSm9zZTEYMBYGA1UECgwPSmVua2lucyBQcm9qZWN0MRowGAYDVQQDDBFLb2hzdWtlIEthd2FndWNoaTEdMBsGCSqGSIb3DQEJARYOa2tAa29oc3VrZS5vcmcwHhcNMjUwMjIxMTcxMjMwWhcNMjYwMjIxMTcxMjMwWjBeMQswCQYDVQQGEwJVUzETMBEGA1UECAwKQ2FsaWZvcm5pYTEYMBYGA1UECgwPSmVua2lucyBQcm9qZWN0MSAwHgYDVQQDDBdDb21tdW5pdHkgVXBkYXRlIENlbnRlcjCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBAOTsLRipDbc+XI4zhQnfxgc0Ydg0zIRA7OJnqXMLWFhECjrB85FL5ddITutpJU19YnAX4z/9vXg8qqU5hLdo5xcFsPs80/+XqxhBCcOBOF/IL6EQ2iMr0hkJwAwn+W8R8paDl6noud3fpGWrP8ncTkxuHtvKIXGgAYvYAu8ouHGIrb5tohG7yMyQSqDNN8T+w+Y5egqUf0U7+26Jp4PYqLjz4dBQYMqWLG/M3VJU2vwv/0DMOR0w08tmN2pbi7eV0eoQjYzlRgtHQJkJCD3k9NxSefQ4oQ99o+cxMAFnWPPEQTkv8raldyZ8zcI3ViS/0JbcMF/0wSkBlXgx8Z82rjKvSchXAx8Ydc4gxX2WFPZeBfpx366a2Xbtv+UnFNDpui0WonwQMP5ErJeyo1OESeg3Z0IDUv9dm2yAygwO9sipGD8YflTCRtDpJ/b60d62SOnepyTWJKQ8ecmM/AtkBTK+W9/uZaCp2e5kcsfTCeL+hmbw44vpcVwwnfewDZkKTji9BZFEiWyf3BpnpW6JkX56pzsqo7EzRROnLbKZ5gE67kl+GsrGXXxTLxMpUl6kytiUyH/hw6d3AOBZhxwR0pjEbp6UPeDTaUS5eYQVnVxEgZ6hQJvR/ytx309SbSYXTAtnPQKET8cyfawMYVGB/Dkw+hmmzwekEp7688rQjSoNAgMBAAGjQjBAMB0GA1UdDgQWBBRMeBx4CsBvRyeKYTIupBtaPvAwkDAfBgNVHSMEGDAWgBQRxuXUMC3pVcYBtWtQctI2frQBhzANBgkqhkiG9w0BAQ0FAAOCAgEAIjw545qmcLhWlc86JZQ6nS8OosWRhysWq15WbFPAIzH3ttdJrHLIDi0UNIAkEHZ1UVgVEsNuF3kS8dad+EznefD7S7/wH1woNmFCEri3sN+3nAx6f4tyzh4MZcTZ386ghRSL2Wr0thPoEbi3aLO5twRroCKlJC9HU7TtFWtqHQNM2Trp/oDo6vEObwaxaq+1TOkF7cF/OH+vuZ9FHRgE7X/DrYqFTfCThiXr01Z2SRS4dG8xKrelGGof2xHeN8hsDZN0nBvzRTQ9lfn0YLYG9vCsxKL5JuLGzkjDys1k2yzJxdFywcmG5Is2IlR99NrfbIhQ6pQcFUOWE+WmUFF2zgS9LjC0cDBY536PiKjnhHRYM/Nskj2xleFcJhl293F0VJuWvDHncM4IpEKFftjA/F32c02vkT7MbQdb/HoVd5+IAhSaa9kam1Bs9GBsiQy9nQQ2nviieAflSo8ehES78Y3XsqxUXAwReUYJVQo9DIRBIpkT+eQff0HHfI4RaokfeTZu4a0r/jRj9fMEA7KwwGpnhgrvI8kG8uVcObmRrygtVIcmJo0WFqC+r+Bn8CrVIGtPBN4tz+Gu21DkgRzeG2qViMzdpytMmlQSYl1R7hprtTbGM0pvoPjd2kbjFqOgQRkRlwseguKLAv5Drj11KqpEL679q55gGZao2adFc+k="
       ],
-      "correct_digest": "pXL3pwy2Mgfw1kYHMY7wgNxQqzw=",
-      "correct_digest512": "434d0e0cc59ed4cdb9aa41c381a8d253d893ece4667d92bbca1c6198dc2fde6bf2dcd13d72416c8f6d706bb8db99bce2774c027e05349e0e86dfd7ffad19af7b",
-      "correct_signature": "dcDgh/BuObD0YUUGSctKoYkRKaVPSRzvMD08UGIPFEE5F59sG/9/gIfyb1RwlDhrG9r/628A9zHfls7sf1iycnn7VRQ6qxDPRdA9ui4XX3FB7tRMn1NNJzqrYpxy5uI93u3oW8ii/GE6854XjX8eR/qphV8za8E/ocaYScrsMmZlFNbtCfyAdvR0hlCylpm+Fk37oIWYg8rSU/T0csntzPk+/IuWQyFQz5ZA4gkSuZjHdMTN+jshXraeEr5tBXiSAufUQUu2oYRYE6lfOgI9XSTRQBwCgzNRVUC9FvvJdhjsjlweQv2AeGoOYPb+EYx7/wEWCAMFnVOvdMlvCTYNIqwWwXuqAiPaVcFaHOBKVLfuQ/ifniLeGlQrzWwXXC/mDR6sjUSKBPELj99WjbXlR5A2Z132lTAJqhgszbIRjfP4yaH542ikyxAGBVH8mKGTLqZUEMqYj1gZw7etI3AmVjq3mEJwxcy0weLRhQLi9SDBv8NTki2zq8lo49U3Lc/kRY8kYBGkSnwxXwB97kTj/7uhIlCU69bIm2aT+FsNi4dnhdI2tjPc4vtR8/bLHT5kM5I40W29H5SMWvs+ZhQwrjCwyloNQ0DGEVCdgEQAlQA4kBcTOxnnOjo74Ttwqf0RQ27Mzmjd3THu460NRp2JYf1LBpwee90qCwf63my9Rv0=",
-      "correct_signature512": "99b73b515dd086a1936acc24594f4d1795bf64f4312d1abb5deb1fa16618f89e2acb6f58e81a8ffd2aaa4bcbdfb69bb48e97df78aa077fdf89be7671b7e71913aee120abde953161558a1187bdf689d14f721250f0e9eb0b4bda66fdcb50ca8d066025110af8e0c4264d3294cd839e3100c17d3d25c88b1fa2d466a83de30d991dc3a63f90e5bc477ec11cf32140a9ef3132f5a7068f10eb2755585e506cbdf082a7f8df3a13265708b09af71c3fa0d6772aed1098d84bec1b7a2a9519306cd5b39cff212e0b279cbb87cf59c1506137079a4d0d7d0970f104f58043347dbca2af44fb726599d9d3a6f4fb93314f5782369eaf927f923555476df54469c5a59859c4c5d6b445a39118fed6dea06dbe215de199859c22a7e4e3dc5fa0f4a133f4126ad4e575373d3fab71fcb2a4d8e4b410393c08e8eac9a4a3331c878e69c56f0be5b3220bb72867102cacb1948b57f44fa7696c16aa7a16fccf33ef21edf0954d35997334becd51caab6e18b2609e4de873df3f42789d778b0a1ed695f2a88634007afd407b4460a14e9368968814f7b57612ad87c72c824da0d07d0fe8a660c24fc89b512e19ffb0516555cb0663c25abeec0c3967a144c4269c5b2170f7507e4eb4b3752b107ba738ca8dbcee8e0868f7091be1a8cfed4885f9f0aac8065606517e745d037ac18783c82a542f861c358b79c3f16d37ab7e72092073ae6983"
+      "correct_digest": "XZZJCtQeUlAq7bQJD30i+rMRJjg=",
+      "correct_digest512": "239f906360e5daecd3027f1526e8741b8a1d67bbf5c53cdfc0d719d24bd9cabfe4dc0a301ec9b35523d62d80355d0ae2ad40dd8e8202f10779c97ec257e9f053",
+      "correct_signature": "11xwAOFy/xoSzezDKV/lkI5GJTSanX+lj+bdR/vKEGKEe5C5uwIS8Sg3FLUimjIhqzMktGs6/zBUsC0GkEiy0aVrdH1qgRNS8SYiqm1xwdFy6GfkyH19Y1oH60BrHNaPPvrpECUswbkbptNS+D0942267ZDwvMZOThjKGhq2oefoPxzuIoF7Z/HLMcSd99Zfez87coplcGtIOGU4d099UuTH2Ln+2rA8XSqJbAXGBBmfHbw6yqcnwmlPoZ+WXM+89uKVr4yZ03iCrlgC6Gj0UsIVXq6ZT3Y+l4dtgX9ssYCgnqxl5iqucG/Qv63rWhyIGa4OSE+gzYd9uU0mFnj+W3lf4cUKdyOacjuMOTe1gOJNTifoKDGjzMRGs28tTvd7/HaYnQVBPC7T7bDMVUaV7qCp50yhryUZ6+9Yei+X8kCilKfb+GUidn6YpRQUnk9XskwkWVi/kE6RYHKrQXlruiyb5qPYlsP5v1gjyYYMqy+zEIvdUknpHlrfdEqey/bEg4hO/Mu69xDFv09XgXmQXWBrXnxj5QheT35akQ8WFmQJlKeODmTEn9dD5SXvZewPsUKtplSWfKmlZ1A63mbVrmWyY/EmUjN/E7oyG07jvKFBE/Qk711JqU/cG96oIQUWBMqJG0sAjEybVa98jryQ8v4s+JXZn1VoS1sshoq/gHY=",
+      "correct_signature512": "19ee0e716dc5d0efd7d032cc2be92ab88f56bc73b5f4ae060baf74be7f41a4452cbce3de8c5f8f4d246eb18488fe6515d12cb8152668e6f7ef472f27acca80f9c2a340217edfdf2f3481125e37d7dc375267afab28fdb3c0ec6a11cdeb709a5d01a283c8dc59c08518bd81462ca96964e6529734dfae669de32fb048a1529bfab0c510893fb0cc26ae5704b66bfb80531551e886281b55924207d2eabb0bb26a859a91621a2253387c9d870b4584563bad41ee7eb01d0b8de6c76478839fcc976e1417189232ed21d456ea1f1ba19f3c3425641a618669b353ab065c97963159d8808bb48bbf5838ebb8a25ccaf42124a9a67948d6faf6f38a1388b21666f23221fb34bb96da52cb13b4726d9fc05850e815c58b5d9b8b68ba210047f52646d31c9623fdb52508abf6bd810b128b3254a9b5be488a17555c1d728f243495dd913e596ea59b4bba8b9b239ce94cc30781f37e9a38386db8e690f924052d5f3c8c735886d9aff9d82707de51c17d1e519e7d7fceacff9a1b787b40b2b9d442550f83ecc00e19dd8aee4e4113a10f0cf75a1bc49827f90390c7ddcce6d9a3d231350a58f624a1f4bc69a29733c1abfe3ea7cd6baf03062d77b0acc8716565e3669ba590ecb175436d0e37cb355e5bb7173fa1431975aa6151a80a10c14449b2ec789b4b318a21ae06fa4ac53d5895f5d89c298e244ebefca4325f6cedcbbe3c81fa"
     },
     "updateCenterVersion": "1",
     "warnings": [
@@ -141358,7 +141388,7 @@
     ]
   },
   "_metadata": {
-    "generatedAt": "2026-01-13T01:59:41.098Z",
+    "generatedAt": "2026-01-13T08:36:44.911Z",
     "bestMirror": "https://mirror.nju.edu.cn/jenkins/",
     "mirrorsChecked": 10,
     "pluginsModified": 2046,
