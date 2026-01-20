@@ -807,7 +807,7 @@
         "url": "https://wiki.jenkins-ci.org/display/JENKINS/ZAProxy+Plugin"
       }
     },
-    "generationTimestamp": "2026-01-19T02:56:06Z",
+    "generationTimestamp": "2026-01-20T02:47:57Z",
     "id": "default",
     "plugins": {
       "42crunch-security-audit": {
@@ -37441,7 +37441,7 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/customized-build-message/latest/customized-build-message.hpi"
       },
       "cvs": {
-        "buildDate": "May 07, 2025",
+        "buildDate": "Jan 19, 2026",
         "defaultBranch": "master",
         "dependencies": [
           {
@@ -37466,7 +37466,7 @@
           }
         ],
         "excerpt": "Integrates Jenkins with CVS version control system using a modified version of the Netbeans cvsclient.",
-        "gav": "org.jenkins-ci.plugins:cvs:483.v69a_98dfd973b_",
+        "gav": "org.jenkins-ci.plugins:cvs:502.v02d5a_0c6b_9a_3",
         "health": 80,
         "issueTrackers": [
           {
@@ -37481,17 +37481,17 @@
         ],
         "name": "cvs",
         "popularity": 15675,
-        "previousTimestamp": "2025-03-27T16:41:49.00Z",
-        "previousVersion": "476.v1a_f0c9e7e218",
-        "releaseTimestamp": "2025-05-07T11:10:12.00Z",
+        "previousTimestamp": "2025-05-07T11:10:12.00Z",
+        "previousVersion": "483.v69a_98dfd973b_",
+        "releaseTimestamp": "2026-01-19T14:09:37.00Z",
         "requiredCore": "2.479.3",
         "scm": "https://github.com/jenkinsci/cvs-plugin",
-        "sha1": "UWLq/gJ/jXuVwR4VpzN+iHgF3G8=",
-        "sha256": "5/uT7gu7ok2vFpcUvrZIxuby0CXTdZDD0UhLUWN3u60=",
-        "size": 1565836,
+        "sha1": "1gVGYXoD7y6Cfxy70tk4PEdG+94=",
+        "sha256": "VCG1CBTCMvmIk9ntJ1bzkE+89ZAovdZS0n10HY6hZhQ=",
+        "size": 1339860,
         "title": "CVS",
-        "url": "https://updates.jenkins.io/download/plugins/cvs/483.v69a_98dfd973b_/cvs.hpi",
-        "version": "483.v69a_98dfd973b_",
+        "url": "https://updates.jenkins.io/download/plugins/cvs/502.v02d5a_0c6b_9a_3/cvs.hpi",
+        "version": "502.v02d5a_0c6b_9a_3",
         "wiki": "https://plugins.jenkins.io/cvs",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/cvs/latest/cvs.hpi"
       },
@@ -44931,7 +44931,7 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/ecutest/latest/ecutest.hpi"
       },
       "eddsa-api": {
-        "buildDate": "Jan 07, 2026",
+        "buildDate": "Jan 19, 2026",
         "defaultBranch": "master",
         "dependencies": [],
         "developers": [
@@ -45025,7 +45025,7 @@
           }
         ],
         "excerpt": "<a href=\"https://github.com/str4d/ed25519-java\" target=\"_blank\" rel=\"noopener nofollow noreferrer\">EDDSA</a> api plugin for use by other Jenkins plugins. <br /> <em>Note:</em>Modern (&gt; 15) JDK variants natively support EdDSA signatures via JCE but some libraries still target JDK 11 and have a need of this library.",
-        "gav": "io.jenkins.plugins:eddsa-api:0.3.0.1-27.v6ea_07b_e90d1a_",
+        "gav": "io.jenkins.plugins:eddsa-api:0.3.0.1-29.v67e9a_1c969b_b_",
         "health": 97,
         "issueTrackers": [
           {
@@ -45039,17 +45039,17 @@
         ],
         "name": "eddsa-api",
         "popularity": 166474,
-        "previousTimestamp": "2025-03-21T10:18:12.00Z",
-        "previousVersion": "0.3.0.1-19.vc432d923e5ee",
-        "releaseTimestamp": "2026-01-07T17:11:10.00Z",
+        "previousTimestamp": "2026-01-07T17:11:10.00Z",
+        "previousVersion": "0.3.0.1-27.v6ea_07b_e90d1a_",
+        "releaseTimestamp": "2026-01-19T17:31:49.00Z",
         "requiredCore": "2.479.1",
         "scm": "https://github.com/jenkinsci/eddsa-api-plugin",
-        "sha1": "CVkzoGp2FOr+vXA6hAv/ld2crts=",
-        "sha256": "oaU/ZosuXlCzE2rJ2LITsGFg+5DEsROq50fD3VgEnSQ=",
-        "size": 63182,
+        "sha1": "2yoShGjyGLMysseT7onLqxFEqsI=",
+        "sha256": "7a79dZvalG5cEjFBvJKLbApdnI9EtNA4kzU3buHRlqM=",
+        "size": 63180,
         "title": "EDDSA API",
-        "url": "https://updates.jenkins.io/download/plugins/eddsa-api/0.3.0.1-27.v6ea_07b_e90d1a_/eddsa-api.hpi",
-        "version": "0.3.0.1-27.v6ea_07b_e90d1a_",
+        "url": "https://updates.jenkins.io/download/plugins/eddsa-api/0.3.0.1-29.v67e9a_1c969b_b_/eddsa-api.hpi",
+        "version": "0.3.0.1-29.v67e9a_1c969b_b_",
         "wiki": "https://plugins.jenkins.io/eddsa-api",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/eddsa-api/latest/eddsa-api.hpi"
       },
@@ -45811,13 +45811,13 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/email-ext-recipients-column/latest/email-ext-recipients-column.hpi"
       },
       "emailext-template": {
-        "buildDate": "Apr 28, 2025",
+        "buildDate": "Jan 19, 2026",
         "defaultBranch": "master",
         "dependencies": [
           {
             "name": "ionicons-api",
             "optional": false,
-            "version": "82.v0597178874e1"
+            "version": "88.va_4187cb_eddf1"
           },
           {
             "name": "configurationslicing",
@@ -45827,7 +45827,7 @@
           {
             "name": "email-ext",
             "optional": false,
-            "version": "1876.v28d8d38315b_d"
+            "version": "1916.vc954a_f86ff21"
           }
         ],
         "developers": [
@@ -45837,7 +45837,7 @@
           }
         ],
         "excerpt": "This plugin allows administrators to create global templates for the Extended Email Publisher.",
-        "gav": "org.jenkinsci.plugins:emailext-template:233.v1eb_88fc160b_5",
+        "gav": "org.jenkinsci.plugins:emailext-template:249.v81d6ea_f33f2e",
         "health": 80,
         "issueTrackers": [
           {
@@ -45853,17 +45853,17 @@
         ],
         "name": "emailext-template",
         "popularity": 20620,
-        "previousTimestamp": "2025-01-27T15:51:10.00Z",
-        "previousVersion": "224.va_f6a_ecd5d46e",
-        "releaseTimestamp": "2025-04-28T23:02:44.00Z",
+        "previousTimestamp": "2025-04-28T23:02:44.00Z",
+        "previousVersion": "233.v1eb_88fc160b_5",
+        "releaseTimestamp": "2026-01-19T13:01:46.00Z",
         "requiredCore": "2.479.3",
         "scm": "https://github.com/jenkinsci/emailext-template-plugin",
-        "sha1": "MACmSctTrjyMou4CErISP3JO83A=",
-        "sha256": "W2fNGOkGFq7DH0kjI/KNxuK5mnBnZSKxGZdGWSgMw1c=",
-        "size": 24288,
+        "sha1": "WiYidG3F/N1Idr/iTuaiPQ4qZX8=",
+        "sha256": "7T25dGSMBSXeQplbKNxALqh7S6SUcw3UvO1hwA37VOI=",
+        "size": 24333,
         "title": "Email Extension Template",
-        "url": "https://updates.jenkins.io/download/plugins/emailext-template/233.v1eb_88fc160b_5/emailext-template.hpi",
-        "version": "233.v1eb_88fc160b_5",
+        "url": "https://updates.jenkins.io/download/plugins/emailext-template/249.v81d6ea_f33f2e/emailext-template.hpi",
+        "version": "249.v81d6ea_f33f2e",
         "wiki": "https://plugins.jenkins.io/emailext-template",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/emailext-template/latest/emailext-template.hpi"
       },
@@ -48632,13 +48632,18 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/files-found-trigger/latest/files-found-trigger.hpi"
       },
       "filesystem-list-parameter-plugin": {
-        "buildDate": "Feb 19, 2025",
+        "buildDate": "Jan 19, 2026",
         "defaultBranch": "main",
         "dependencies": [
           {
             "name": "rebuild",
             "optional": true,
-            "version": "332.va_1ee476d8f6d"
+            "version": "338.va_0a_b_50e29397"
+          },
+          {
+            "name": "commons-lang3-api",
+            "optional": false,
+            "version": "3.17.0-87.v5cf526e63b_8b_"
           }
         ],
         "developers": [
@@ -48648,8 +48653,8 @@
           }
         ],
         "excerpt": "Plugin lists file system objects to choose as build parameter",
-        "gav": "aendter.jenkins.plugins:filesystem-list-parameter-plugin:0.0.17",
-        "health": 90,
+        "gav": "aendter.jenkins.plugins:filesystem-list-parameter-plugin:0.0.18",
+        "health": 94,
         "issueTrackers": [
           {
             "reportUrl": "https://www.jenkins.io/participate/report-issue/redirect/#18823/filesystem-list-parameter-plugin",
@@ -48662,17 +48667,17 @@
         ],
         "name": "filesystem-list-parameter-plugin",
         "popularity": 1783,
-        "previousTimestamp": "2024-12-04T22:45:57.00Z",
-        "previousVersion": "0.0.16",
-        "releaseTimestamp": "2025-02-19T20:37:00.00Z",
-        "requiredCore": "2.479.1",
+        "previousTimestamp": "2025-02-19T20:37:00.00Z",
+        "previousVersion": "0.0.17",
+        "releaseTimestamp": "2026-01-19T20:09:58.00Z",
+        "requiredCore": "2.479.3",
         "scm": "https://github.com/jenkinsci/filesystem-list-parameter-plugin",
-        "sha1": "LwhuZu3IZWJZO8TRbAVhl3vlalk=",
-        "sha256": "4yREOPJH3iIH6qDUoodBmH+GLkIuhUDp6BCFP0rEOyc=",
-        "size": 31682,
+        "sha1": "mJtBJax12jWpKCrB94HR6+WhBRY=",
+        "sha256": "WiTpLkNna6kzJYvPzqvdi/YdIj41sHlE+XkyMDjZVw8=",
+        "size": 32246,
         "title": "Filesystem List Parameter",
-        "url": "https://updates.jenkins.io/download/plugins/filesystem-list-parameter-plugin/0.0.17/filesystem-list-parameter-plugin.hpi",
-        "version": "0.0.17",
+        "url": "https://updates.jenkins.io/download/plugins/filesystem-list-parameter-plugin/0.0.18/filesystem-list-parameter-plugin.hpi",
+        "version": "0.0.18",
         "wiki": "https://plugins.jenkins.io/filesystem-list-parameter-plugin",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/filesystem-list-parameter-plugin/latest/filesystem-list-parameter-plugin.hpi"
       },
@@ -53083,7 +53088,7 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/gitea/latest/gitea.hpi"
       },
       "gitea-checks": {
-        "buildDate": "Jan 09, 2026",
+        "buildDate": "Jan 19, 2026",
         "defaultBranch": "main",
         "dependencies": [
           {
@@ -53109,7 +53114,7 @@
           {
             "name": "workflow-cps",
             "optional": false,
-            "version": "4238.va_6fb_65c1f699"
+            "version": "4252.v465f588eb_52f"
           },
           {
             "name": "workflow-job",
@@ -53119,7 +53124,7 @@
           {
             "name": "credentials",
             "optional": false,
-            "version": "1460.v48765a_c7d849"
+            "version": "1480.v2246fd131e83"
           },
           {
             "name": "gitea",
@@ -53138,7 +53143,7 @@
           }
         ],
         "excerpt": "This plugin provides Gitea commit checks API for other plugins.",
-        "gav": "io.jenkins.plugins:gitea-checks:603.618.v511559cdca_a_a_",
+        "gav": "io.jenkins.plugins:gitea-checks:603.621.vc708da_fb_371d",
         "health": 100,
         "issueTrackers": [
           {
@@ -53154,17 +53159,17 @@
         ],
         "name": "gitea-checks",
         "popularity": 939,
-        "previousTimestamp": "2025-12-15T10:51:51.00Z",
-        "previousVersion": "602.615.veed470de4039",
-        "releaseTimestamp": "2026-01-09T13:29:11.00Z",
+        "previousTimestamp": "2026-01-09T13:29:11.00Z",
+        "previousVersion": "603.618.v511559cdca_a_a_",
+        "releaseTimestamp": "2026-01-19T12:12:47.00Z",
         "requiredCore": "2.528.3",
         "scm": "https://github.com/jenkinsci/gitea-checks-plugin",
-        "sha1": "TWUlTkLt6JMcwWi5NU2J/ayl8JI=",
-        "sha256": "w6owRS3/z7Jubgs7HDdKaXtXZav48rjEJXvCOm9fn0Q=",
-        "size": 28272,
+        "sha1": "C0vpSkzNBIQsWj0DN3qluU9rPfE=",
+        "sha256": "CezPN4mI8rYXSOSMl4Dsb6YxqLHiy5N5vQbxTcBOnmc=",
+        "size": 28281,
         "title": "Gitea Checks",
-        "url": "https://updates.jenkins.io/download/plugins/gitea-checks/603.618.v511559cdca_a_a_/gitea-checks.hpi",
-        "version": "603.618.v511559cdca_a_a_",
+        "url": "https://updates.jenkins.io/download/plugins/gitea-checks/603.621.vc708da_fb_371d/gitea-checks.hpi",
+        "version": "603.621.vc708da_fb_371d",
         "wiki": "https://plugins.jenkins.io/gitea-checks",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/gitea-checks/latest/gitea-checks.hpi"
       },
@@ -54228,7 +54233,7 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/github-label-filter/latest/github-label-filter.hpi"
       },
       "github-oauth": {
-        "buildDate": "Dec 31, 2025",
+        "buildDate": "Jan 19, 2026",
         "compatibleSinceVersion": "0.3",
         "defaultBranch": "master",
         "dependencies": [
@@ -54236,6 +54241,11 @@
             "name": "caffeine-api",
             "optional": false,
             "version": "3.2.0-166.v72a_6d74b_870f"
+          },
+          {
+            "name": "commons-lang3-api",
+            "optional": false,
+            "version": "3.18.0-98.v3a_674c06072d"
           },
           {
             "name": "workflow-multibranch",
@@ -54300,7 +54310,7 @@
           }
         ],
         "excerpt": "Authentication plugin using GitHub OAuth to provide authentication and authorization capabilities for GitHub and GitHub Enterprise.",
-        "gav": "org.jenkins-ci.plugins:github-oauth:683.v04a_a_b_e9d7e07",
+        "gav": "org.jenkins-ci.plugins:github-oauth:685.v53b_070455063",
         "health": 100,
         "issueTrackers": [
           {
@@ -54316,17 +54326,17 @@
         ],
         "name": "github-oauth",
         "popularity": 12286,
-        "previousTimestamp": "2025-03-29T16:25:06.00Z",
-        "previousVersion": "651.v135e939e8b_60",
-        "releaseTimestamp": "2025-12-31T19:01:02.00Z",
+        "previousTimestamp": "2025-12-31T19:01:02.00Z",
+        "previousVersion": "683.v04a_a_b_e9d7e07",
+        "releaseTimestamp": "2026-01-19T17:02:34.00Z",
         "requiredCore": "2.479.3",
         "scm": "https://github.com/jenkinsci/github-oauth-plugin",
-        "sha1": "IIBWaa+tT716oC3WGO7HEzAuawY=",
-        "sha256": "TtvTpyOYpdWwWrdM7vb8+VU63LGz6pG0YXKi2FadSP4=",
-        "size": 58948,
+        "sha1": "oRhym5kG/F2jNVEFk2hcmHuJvJc=",
+        "sha256": "lYYa/uY9RXdoINfJrSqJ1BnJIBp0CHr4GxcR0HF2ZtM=",
+        "size": 59059,
         "title": "GitHub Authentication",
-        "url": "https://updates.jenkins.io/download/plugins/github-oauth/683.v04a_a_b_e9d7e07/github-oauth.hpi",
-        "version": "683.v04a_a_b_e9d7e07",
+        "url": "https://updates.jenkins.io/download/plugins/github-oauth/685.v53b_070455063/github-oauth.hpi",
+        "version": "685.v53b_070455063",
         "wiki": "https://plugins.jenkins.io/github-oauth",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/github-oauth/latest/github-oauth.hpi"
       },
@@ -58042,28 +58052,28 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/groovy-label-assignment/latest/groovy-label-assignment.hpi"
       },
       "groovy-postbuild": {
-        "buildDate": "Jan 17, 2025",
+        "buildDate": "Jan 19, 2026",
         "defaultBranch": "master",
         "dependencies": [
           {
             "name": "workflow-cps",
             "optional": true,
-            "version": "4007.vd705fc76a_34e"
+            "version": "4165.vf547819734da_"
           },
           {
             "name": "badge",
             "optional": false,
-            "version": "2.5"
+            "version": "2.8"
           },
           {
             "name": "matrix-project",
             "optional": false,
-            "version": "840.v812f627cb_578"
+            "version": "849.v0cd64ed7e531"
           },
           {
             "name": "script-security",
             "optional": false,
-            "version": "1369.v9b_98a_4e95b_2d"
+            "version": "1373.vb_b_4a_a_c26fa_00"
           }
         ],
         "developers": [
@@ -58073,8 +58083,8 @@
           }
         ],
         "excerpt": "Groovy postbuild task.",
-        "gav": "org.jvnet.hudson.plugins:groovy-postbuild:272.v52a_03efb_8653",
-        "health": 96,
+        "gav": "org.jvnet.hudson.plugins:groovy-postbuild:300.va_253b_2988cb_1",
+        "health": 100,
         "issueTrackers": [
           {
             "reportUrl": "https://github.com/jenkinsci/groovy-postbuild-plugin/issues/new/choose",
@@ -58088,17 +58098,17 @@
         ],
         "name": "groovy-postbuild",
         "popularity": 17533,
-        "previousTimestamp": "2024-11-13T19:59:23.00Z",
-        "previousVersion": "267.va_df06de9fa_fa_",
-        "releaseTimestamp": "2025-01-17T18:11:52.00Z",
-        "requiredCore": "2.479.1",
+        "previousTimestamp": "2025-01-17T18:11:52.00Z",
+        "previousVersion": "272.v52a_03efb_8653",
+        "releaseTimestamp": "2026-01-19T13:02:33.00Z",
+        "requiredCore": "2.479.3",
         "scm": "https://github.com/jenkinsci/groovy-postbuild-plugin",
-        "sha1": "hkmIQuTsFcvQ5qs35naVIGRi84c=",
-        "sha256": "8dtk3glyq5Uj6AuX0kaUkn6RnBjVrmUibfQFT9dkmfw=",
-        "size": 30867,
+        "sha1": "2z4mOy9nN42HXPpShLwRKi9Q0/8=",
+        "sha256": "NIM/tKRZj1xJd7fJtO1wtkkix52a6yctmb0tS32NXHk=",
+        "size": 31083,
         "title": "Groovy Postbuild",
-        "url": "https://updates.jenkins.io/download/plugins/groovy-postbuild/272.v52a_03efb_8653/groovy-postbuild.hpi",
-        "version": "272.v52a_03efb_8653",
+        "url": "https://updates.jenkins.io/download/plugins/groovy-postbuild/300.va_253b_2988cb_1/groovy-postbuild.hpi",
+        "version": "300.va_253b_2988cb_1",
         "wiki": "https://plugins.jenkins.io/groovy-postbuild",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/groovy-postbuild/latest/groovy-postbuild.hpi"
       },
@@ -66027,29 +66037,34 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/job-fan-in/latest/job-fan-in.hpi"
       },
       "job-import-plugin": {
-        "buildDate": "Feb 24, 2025",
+        "buildDate": "Jan 19, 2026",
         "compatibleSinceVersion": "3.0",
         "defaultBranch": "master",
         "dependencies": [
           {
             "name": "commons-lang3-api",
             "optional": false,
-            "version": "3.17.0-84.vb_b_938040b_078"
+            "version": "3.18.0-98.v3a_674c06072d"
+          },
+          {
+            "name": "commons-text-api",
+            "optional": false,
+            "version": "1.13.1-176.v74d88f22034b_"
           },
           {
             "name": "apache-httpcomponents-client-4-api",
             "optional": false,
-            "version": "4.5.14-208.v438351942757"
+            "version": "4.5.14-269.vfa_2321039a_83"
           },
           {
             "name": "cloudbees-folder",
             "optional": false,
-            "version": "6.975.v4161e479479f"
+            "version": "6.1026.ve06dfa_cf31c3"
           },
           {
             "name": "credentials",
             "optional": false,
-            "version": "1405.vb_cda_74a_f8974"
+            "version": "1415.v831096eb_5534"
           }
         ],
         "developers": [
@@ -66063,8 +66078,8 @@
           }
         ],
         "excerpt": "The <a href=\"http://wiki.jenkins-ci.org/display/JENKINS/Job&#43;Import&#43;Plugin\" target=\"_blank\" rel=\"noopener nofollow noreferrer\">Job Import Plugin</a> lets you import jobs from another Jenkins instance.",
-        "gav": "org.jenkins-ci.plugins:job-import-plugin:122.v35289550f1e6",
-        "health": 96,
+        "gav": "org.jenkins-ci.plugins:job-import-plugin:143.v044a_2e819b_27",
+        "health": 100,
         "issueTrackers": [
           {
             "reportUrl": "https://github.com/jenkinsci/job-import-plugin/issues/new/choose",
@@ -66077,17 +66092,17 @@
         ],
         "name": "job-import-plugin",
         "popularity": 15628,
-        "previousTimestamp": "2022-10-18T10:20:12.00Z",
-        "previousVersion": "3.6",
-        "releaseTimestamp": "2025-02-24T19:48:14.00Z",
-        "requiredCore": "2.479.1",
+        "previousTimestamp": "2025-02-24T19:48:14.00Z",
+        "previousVersion": "122.v35289550f1e6",
+        "releaseTimestamp": "2026-01-19T14:13:58.00Z",
+        "requiredCore": "2.479.3",
         "scm": "https://github.com/jenkinsci/job-import-plugin",
-        "sha1": "QgvB8d0Jrg2Hp96iH7vzjHtq1d8=",
-        "sha256": "LozJvW1OM3vJe1saDQfGQhad/ZfvHMKQegTCNEtB7G0=",
-        "size": 37907,
+        "sha1": "Iy09g7thnkDH5zP3ibA6J0chGdY=",
+        "sha256": "x0/hdfYTF1rD5UW774uj259jkTwRixa1zAKHb61Cj9U=",
+        "size": 38266,
         "title": "Job Import",
-        "url": "https://updates.jenkins.io/download/plugins/job-import-plugin/122.v35289550f1e6/job-import-plugin.hpi",
-        "version": "122.v35289550f1e6",
+        "url": "https://updates.jenkins.io/download/plugins/job-import-plugin/143.v044a_2e819b_27/job-import-plugin.hpi",
+        "version": "143.v044a_2e819b_27",
         "wiki": "https://plugins.jenkins.io/job-import-plugin",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/job-import-plugin/latest/job-import-plugin.hpi"
       },
@@ -96927,7 +96942,7 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/remote-file/latest/remote-file.hpi"
       },
       "remote-result-trigger": {
-        "buildDate": "Oct 15, 2025",
+        "buildDate": "Jan 19, 2026",
         "defaultBranch": "main",
         "dependencies": [
           {
@@ -96963,7 +96978,7 @@
           }
         ],
         "excerpt": "This plugin triggers a job on a remote Jenkins build result",
-        "gav": "io.jenkins.plugins:remote-result-trigger:3.164.vec9b_9b_25e61c",
+        "gav": "io.jenkins.plugins:remote-result-trigger:3.176.v995ed6028604",
         "health": 96,
         "issueTrackers": [
           {
@@ -96975,17 +96990,17 @@
         "labels": [],
         "name": "remote-result-trigger",
         "popularity": 31,
-        "previousTimestamp": "2025-05-30T14:05:11.00Z",
-        "previousVersion": "3.162.v2cddcd0a_5c9e",
-        "releaseTimestamp": "2025-10-15T05:43:58.00Z",
+        "previousTimestamp": "2026-01-19T08:01:12.00Z",
+        "previousVersion": "3.174.ve283d1b_e5eed",
+        "releaseTimestamp": "2026-01-19T08:43:44.00Z",
         "requiredCore": "2.479.3",
         "scm": "https://github.com/jenkinsci/remote-result-trigger-plugin",
-        "sha1": "hnnqz64sKTX/x3QAUCw7dJVFHGE=",
-        "sha256": "MxQDxnTEPR9Z/H0tq4KVaFziQln0kmSsSZ/2Z8Rj6+8=",
-        "size": 70731,
+        "sha1": "1xrFoQ1g7krTwhmcOMeqUZknvGk=",
+        "sha256": "IKhgYLXba+tI2KAUwDmruxNiSn7LqF3CDfb5/IQBmp8=",
+        "size": 73330,
         "title": "Remote Result Trigger",
-        "url": "https://updates.jenkins.io/download/plugins/remote-result-trigger/3.164.vec9b_9b_25e61c/remote-result-trigger.hpi",
-        "version": "3.164.vec9b_9b_25e61c",
+        "url": "https://updates.jenkins.io/download/plugins/remote-result-trigger/3.176.v995ed6028604/remote-result-trigger.hpi",
+        "version": "3.176.v995ed6028604",
         "wiki": "https://plugins.jenkins.io/remote-result-trigger",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/remote-result-trigger/latest/remote-result-trigger.hpi"
       },
@@ -97651,7 +97666,7 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/resource-disposer/latest/resource-disposer.hpi"
       },
       "resources-ai-chatbot": {
-        "buildDate": "Jan 16, 2026",
+        "buildDate": "Jan 19, 2026",
         "defaultBranch": "main",
         "dependencies": [],
         "developers": [
@@ -97665,7 +97680,7 @@
           }
         ],
         "excerpt": "TODO",
-        "gav": "io.jenkins.plugins:resources-ai-chatbot:493.v4837f61b_7101",
+        "gav": "io.jenkins.plugins:resources-ai-chatbot:495.v55a_0e562675b_",
         "health": 94,
         "issueTrackers": [
           {
@@ -97677,17 +97692,17 @@
         "labels": [],
         "name": "resources-ai-chatbot",
         "popularity": 0,
-        "previousTimestamp": "2026-01-16T05:58:01.00Z",
-        "previousVersion": "482.v46cb_33a_1a_6f1",
-        "releaseTimestamp": "2026-01-16T07:23:29.00Z",
+        "previousTimestamp": "2026-01-16T07:23:29.00Z",
+        "previousVersion": "493.v4837f61b_7101",
+        "releaseTimestamp": "2026-01-19T06:05:22.00Z",
         "requiredCore": "2.504.3",
         "scm": "https://github.com/jenkinsci/resources-ai-chatbot-plugin",
-        "sha1": "GigVI/Trz2mK7Uhf3YqInHQMYb8=",
-        "sha256": "G4Ws/naUxOe/OPcuHvaMYpHfkCxjDa9Q81p5zOvs46k=",
-        "size": 6106,
+        "sha1": "w8ZB4Vv3eHVXa4kZUlRXj2a4ANk=",
+        "sha256": "tqxNtV/x2QjjQB2LuFonKuW38g3DrenaVFa+qPrm4bg=",
+        "size": 6105,
         "title": "Resources AI Chatbot",
-        "url": "https://updates.jenkins.io/download/plugins/resources-ai-chatbot/493.v4837f61b_7101/resources-ai-chatbot.hpi",
-        "version": "493.v4837f61b_7101",
+        "url": "https://updates.jenkins.io/download/plugins/resources-ai-chatbot/495.v55a_0e562675b_/resources-ai-chatbot.hpi",
+        "version": "495.v55a_0e562675b_",
         "wiki": "https://plugins.jenkins.io/resources-ai-chatbot",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/resources-ai-chatbot/latest/resources-ai-chatbot.hpi"
       },
@@ -122248,10 +122263,10 @@
       "certificates": [
         "MIIFqjCCA5KgAwIBAgIFAN6tvwUwDQYJKoZIhvcNAQENBQAwgYoxCzAJBgNVBAYTAlVTMRMwEQYDVQQIDApDYWxpZm9ybmlhMREwDwYDVQQHDAhTYW4gSm9zZTEYMBYGA1UECgwPSmVua2lucyBQcm9qZWN0MRowGAYDVQQDDBFLb2hzdWtlIEthd2FndWNoaTEdMBsGCSqGSIb3DQEJARYOa2tAa29oc3VrZS5vcmcwHhcNMjYwMTE0MTU0MjQyWhcNMjcwMTE0MTU0MjQyWjBeMQswCQYDVQQGEwJVUzETMBEGA1UECAwKQ2FsaWZvcm5pYTEYMBYGA1UECgwPSmVua2lucyBQcm9qZWN0MSAwHgYDVQQDDBdDb21tdW5pdHkgVXBkYXRlIENlbnRlcjCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBALQMWCFq7SaGA+hp98UAzgLkCO6NFlcK9n2mMQ0c6/4b6qI3n53Ak/ljF+4ekEb3p5tnI0iwj0GZjFc5hW1gtz3mfbkxTb7fk5LJFj90NZHr0isb5D21w2fkjGp9h81kGliUZcm3dpdrXMW2Gh1HYcF4uijuz1mzrFt2Ew2vgDse5EFYb32bk6Xmi/dhf0l9r+oKT6bChijgHr3WynRSdDL9y1XDqUq06ZAVp4RqVwwpezrYgJ/OPRZeg9CctnUoFR8BgHKWeNgwuyWrtBKST5pnQmhTEM53qVHzQTgrBP4Vqj38I1R39qPZa4cu3QUXMr8CsfrJ1wF8y3OmXp3pNfbXivb7RoanXYO+uZzoYOaaHAXTICFLUqR0sxJfiOTejm87P9F+EzEvuPGFDAkbo7qrW/hReHYycOiiqPggfLsglZTNJEdd4oLdvDZLnBJWBQscl98f/pVu3Pzld0RnU9phhCMXfVLkeQBQtAxfmqaVnMurELBNeK8ybriTQlAdnkBRzv3NAilUaAfI0gSh/beN2qNlII3kEOSpasAbEVbfBB+r9hNzFj4+Sqi8E+YZbMQjFtdHdO/iQCrcUiqDnTBsxL7u7xzfvLJTxoISUrCigVgUGryaouyUhARHpQwcVG4hewFspJZUaQv7aj0hlpQUC42+2zWr/NK5rVQAZD9RAgMBAAGjQjBAMB0GA1UdDgQWBBR2GjaTNzVHFuMTbEl9hRAbjCtQ2DAfBgNVHSMEGDAWgBQRxuXUMC3pVcYBtWtQctI2frQBhzANBgkqhkiG9w0BAQ0FAAOCAgEAOgskYoOGDmEZIjYUy2tYTKI6eKnpAiQA0yETLdam9wOGGL6J6e7BT5JoyxBrDXy4xrZsDyFOBPB8Di8ETF1mr9k6GsyBO8S/SYd/1qYg9kkHXq2x62WmDs0K7h9N2M9LAEFDvdZYvOnDzgFhcaFfsxUPS9qDFws33NDBTKo/Ya2UIjzyl1H68bw5VG1temOtAzvW+6EA4j2bzgv5NbaUGrZq5Y8yiWRDjdAbMBu0lDnJP7pTLs16jEE1FWfkJhkaU6TbMP6rzehjMkiplu+S0qnVQBUgME2U4EMxCM31oixUl/+WvZ5GQHR8GVdsFkQYs2K3L0i7a9bxc8jD6kzU/sSJwJxnqocB1JnZF1CFbT78bdTaBtZty7MVSUdXYCAf6XZPCMYOGN7Cb7YpLqn0hUCy2tIdHw6TUluyOkP0AoOLFijThtafcgQI19QyCa85DUZxwG1QsVFbGyqv6+47DbX2CUKzNLyfKJhivzwfagKZDo5KaZouv7lO5RMj8onHK+MrkzvJG1kFcFw5lO1ms5QKPNi3RfrQqWQ4rjVBbPdNx4xRpHVpcXp9MXCg64prwGHXrPN2yl2VRYrxwlLRhee27H07ZA9ujLB4PU8ppb6uQH2GQiKpXoRlzQBQej4zhquVM8rQaPfXV8DGNu4lx77tNtgK8uetQxyh4vBOpGA="
       ],
-      "correct_digest": "crFh4rmrZSNWxRV4v3tD0C8/5Ck=",
-      "correct_digest512": "a09eae54f91d4eae04df079dbd00041cf5d0c08a9e3280d621b1a3d483125af6f4197e935322f4b1bab7163ef56e28cdb182d7b47f48693b5de9d3e82bb17da0",
-      "correct_signature": "AhUQ5TjZyhgrqPA9AXbNXetOQTDVLC0jjyCZsusYwBjCAPy9pK4i3/N3buyVZsMPGCP8enixouczNbRHRBPD61x0Ptw5ESg0T9Ah6SfsIn4z7+u+A3/rUnLYhjJf7DYrXEtqEnbCTmCm/StDj21AiUB9fy9CVdibJTjtXENFCsNhYquziBVZbfSy6exhwxt1oxiRezR/+yEx/vxlz3ChfU93tEbbMs+NV49AI68H9l+vWJIlZv5hNQ/Rr8IcQGDouPB2iYMDDvkg1zFzJyY7rXL0KXG07m6pGyZKM5ZLO6ET4WQmUfc3Qk6bZnlxhT/DQSApexGf0nnL+0dMIi3A9awEJEp3HO5rkAEHyOHp2RB79Us2yu/kH9uPYXpZ1W580lOSnV9B0EJnblmoIpO+gHeXx3xPsNztTh4DKASkfqxWgDh6FWNlesqVt6Usqk1aU0NieOtnG2tH5+WL3ow3+0gvkkvWII/YTH40FIPQmB+X9bZSrH675+2TxY91sEVWxkfQI/JAJAvcUj+Mv9o3we2SlU3E5WMbKQxNEjxugcoQc1TeU1C+MHp7lud7WwAG0D09OQyoJQ0qUkmVqlnQs3VLvqEVlhiEtKgY4Fuxq2xlqM5qopP0kAWcOvm9Xklu1i4LUBEPQdN2hubUD84tDZsh7Zrj5ZWU+2W8t6pCi/8=",
-      "correct_signature512": "11097075422adf6c61bda9383825c2912ee36055ebce1a5c573bb19946a3482a6a614822ebb670987add8b79c2d20e517e92dad205afdd609d905328018c8f2a2658ec9d90f6fb1834bd2dab6f3f41cf6f375593193cccfc58df9411ffa4c8ffc43cfaedcbd1930eb3ef624b18bf2f9f435a9fe6d85e784f04340b06d3cb1199d87884e3cd9b02b94ac76f4966561c40a8fd035571a3cf44e3eee8cc363529bdeef4149fa742c0c082cfca1559f2961a22e971c78db2750eeacf092700b6428ae1be5287080d96af46d3a7dfacf9d7018609e635e2e0b23bfcb644998504fbc0d7ad6d5c9835a849c6c452f9359e7e93f7ed2268b6e9bccac01474dba596a563f67547321cb492ae1d02bf272bbfa25e930ed51b8a8ec59fcde888c02add334f9937aa8bce0c913247b7aafcf6ad9ee896f3795f895eb69343e8a97cfa745e1dc9e5e188a9f84eccc91c73637fc716bab9fe910fa173d700062b6dd5fa2b5ce0e5942d88ef03f4465790468d22978ef510957ea46941e556c1865fb426bebe76e1e3d87d02eec7e6ba9043eb26922a1a8db03c627f8b7e071b4c89442c89f01b58dd4ca1b4a445ec0c70e2384117dcf76a3c7f5f4bc209bde00339b3a8849155de1936f8168f00e12cfc25ee350e73d27fcd9a640811fe4b2c1f30cbaeb4d27918cefc4374fa900b4d66de5018c6f7a9e7933c51f90d6105140afe38f8d8101d"
+      "correct_digest": "A+8bfWkl0yaGL5b3xY4MlKf+mJQ=",
+      "correct_digest512": "7d98bc7f9c071b34cf86a097ec805933c61fa64b341fd988f15bc1a2a1ed45764e668a79b683b57237bda3cacb28b7d4e3b85ffe74ecc0d67ef34fc3254f1b18",
+      "correct_signature": "T+prp6OPwi4JHsUMpC+BHmP3sMj6yt2IZ7lD6bQYgzJORvjD9qkIccoR0hkt8UKrtxDygdGv2nPJnqP1SvikgTohBQ57mgBWc5P8EwCw9ttXiyIBrevCt82CgkLzs2CHkllSPjbbOPz6mhfjhs6ifyfuw2Wh6r6V8NnAdjWkie3zKsdBqghK7dq4DqJwWJp3iLR7Tq1MvhOr9AdaxF48T4QF4AqY0k4cYQi0QawMHhcWHFcUvid3FQVg+ledbxFkLiO8z6hI00bWZOLXSKlgPx0VtxPFQ736BpFkekBIk0gfurldsuLIqe4+cy20hkrZ3uHXp8yKp8QwPctv9eeZdXz2RdPtIa6q/v4Fg0dnF4n+Se9GeVVSsGMdHy05NlOZMbanrmHv+IxAA8+u9SB+sPBb7TbO1AJxxGfbMj6ZMjBTXnFLUIQdG7IHpQme5TstcpYlxdx3u74JA9LsIaG4Bawq2rq/NfJ6SQiMj6Z/oRM3gVCOv4e0vv8HP1Wy5+nOzrT7aPmOOeyuEREchVlITfm8pIKrU9xc/GAiacg4Zy/d8CyDPRl9Kh/OzkFaIqMKy6qU/U7gtqqsJAWkJtpzIQ+N8ciyl3x8f57X6CUGoiX3hYxFMmv5wiN1touPMIy6xW+68mOefQOM2tgb2xNah/1AAMbLrIfYEtm88LISEQM=",
+      "correct_signature512": "4e90a5263948c47e6654fee93af2f2f9ba44747c230aeb7e8cfe89c55c45583ab164bf40306cb0fa5538c78eda95e58d3cf751f691bbc0dee2efb10c31e5e9abe19c50a1ed8db4f0326fe11b0dfb7f0153765ca50bef886714551b272ae57c14c4c3c8be36fe19d13523b9c14ff5bbd819d587e0c06ce85d60ca98428c1dd24abcb967769e04e97c9798746d9611326ed5cabac4a6fcb8392a54f549cf8d1d6dfb027e4697eac62c78fd264f2e25f9cae4c21fc981a7222b3988b06605c94984ba42a63bb02c52ce423a645366a60f6b3cbf6816b6de000aaca0ab79d998d40ad9301f43d000daaf313217cd4a40d4b374085430517d42e9dec044e4747e438f1fb0e5a51bd05f49e8a94e79a45aba1b342a5a25f0463cd6d129af82c130b2652c83551b46bacd0bc5877b3155b233361297c174ea8a4bb7d7e7c1749102e41751c742e82e91a09bdc7e8758dbaf68593537e4bc0237a53e51c59426436bdce920dd1a738ad4115b9f18638bb80d7d6c55a579fef837f9f4b43b57bec866b334935d1f30575b7f7396967368ad97da581739271ae9913593d46829fa8ba2fb23c31ce1218e5a0e277d35edbc52e9d584bb5a9536dec92d17e3e8ab87d45816fdb868b4c072a44286882eac84343bd08daa487e8209fdd086b798b30f4c89530e9416dcd3442c45d8f36d2ab060bcb3255f7a215b5bed352d9a9775f2376ce088"
     },
     "updateCenterVersion": "1",
     "warnings": [
@@ -141477,7 +141492,7 @@
     ]
   },
   "_metadata": {
-    "generatedAt": "2026-01-19T03:05:48.486Z",
+    "generatedAt": "2026-01-20T03:00:37.657Z",
     "bestMirror": "https://mirror.nju.edu.cn/jenkins/",
     "mirrorsChecked": 10,
     "pluginsModified": 2047,
