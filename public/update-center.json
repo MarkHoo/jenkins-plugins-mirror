@@ -807,7 +807,7 @@
         "url": "https://wiki.jenkins-ci.org/display/JENKINS/ZAProxy+Plugin"
       }
     },
-    "generationTimestamp": "2026-01-26T03:04:56Z",
+    "generationTimestamp": "2026-01-27T03:00:34Z",
     "id": "default",
     "plugins": {
       "42crunch-security-audit": {
@@ -19792,7 +19792,7 @@
         ],
         "excerpt": "Adds a filtering trait according to a ref date to an existing Bitbucket Branch Source Plugin configuration.",
         "gav": "org.jenkins-ci.plugins:bitbucket-scm-filter-aged-refs:59.vc6b_39c26988c",
-        "health": 93,
+        "health": 96,
         "issueTrackers": [
           {
             "reportUrl": "https://github.com/jenkinsci/scm-filter-aged-refs-plugin/issues/new/choose",
@@ -32182,7 +32182,7 @@
         ],
         "excerpt": "More compact columns for showing last success and failure. Easier to understand, and takes less room in your view.",
         "gav": "org.jenkins-ci.plugins:compact-columns:1.222.vcd19e64d7ef5",
-        "health": 97,
+        "health": 100,
         "issueTrackers": [
           {
             "reportUrl": "https://github.com/jenkinsci/compact-columns-plugin/issues/new/choose",
@@ -33462,7 +33462,7 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/config-file-provider/latest/config-file-provider.hpi"
       },
       "configuration-as-code": {
-        "buildDate": "Jan 16, 2026",
+        "buildDate": "Jan 27, 2026",
         "compatibleSinceVersion": "1.28",
         "defaultBranch": "master",
         "dependencies": [
@@ -33484,7 +33484,7 @@
           {
             "name": "json-api",
             "optional": false,
-            "version": "20250517-173.v596efb_962a_31"
+            "version": "20251224-185.v0cc18490c62c"
           },
           {
             "name": "prism-api",
@@ -33516,7 +33516,7 @@
           }
         ],
         "excerpt": "This plugin allows configuration of Jenkins based on human-readable declarative configuration files.",
-        "gav": "io.jenkins:configuration-as-code:2031.veb_a_fdda_b_3ffd",
+        "gav": "io.jenkins:configuration-as-code:2036.v0b_c2de701dcb_",
         "health": 100,
         "issueTrackers": [
           {
@@ -33530,17 +33530,17 @@
         ],
         "name": "configuration-as-code",
         "popularity": 40295,
-        "previousTimestamp": "2025-10-20T14:16:01.00Z",
-        "previousVersion": "2006.v001a_2ca_6b_574",
-        "releaseTimestamp": "2026-01-16T09:27:36.00Z",
+        "previousTimestamp": "2026-01-16T09:27:36.00Z",
+        "previousVersion": "2031.veb_a_fdda_b_3ffd",
+        "releaseTimestamp": "2026-01-27T00:18:02.00Z",
         "requiredCore": "2.504.3",
         "scm": "https://github.com/jenkinsci/configuration-as-code-plugin",
-        "sha1": "Cb7Q66qKlfTzYKLySewxX97M5Gk=",
-        "sha256": "AYZwdM8KbLg2LHwxIIJ15K9kDAWVFeB9ZxVpoPND8bg=",
-        "size": 1230284,
+        "sha1": "zDkIqH4LtN6tHQLXYXhhPLot47k=",
+        "sha256": "/+OQ08rp5ubdD8RVR/xbcAE/YhRcSgZkM1TagZHzqgg=",
+        "size": 1232423,
         "title": "Configuration as Code",
-        "url": "https://updates.jenkins.io/download/plugins/configuration-as-code/2031.veb_a_fdda_b_3ffd/configuration-as-code.hpi",
-        "version": "2031.veb_a_fdda_b_3ffd",
+        "url": "https://updates.jenkins.io/download/plugins/configuration-as-code/2036.v0b_c2de701dcb_/configuration-as-code.hpi",
+        "version": "2036.v0b_c2de701dcb_",
         "wiki": "https://plugins.jenkins.io/configuration-as-code",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/configuration-as-code/latest/configuration-as-code.hpi"
       },
@@ -51922,18 +51922,18 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/ghprb/latest/ghprb.hpi"
       },
       "git": {
-        "buildDate": "Dec 02, 2025",
+        "buildDate": "Jan 26, 2026",
         "defaultBranch": "master",
         "dependencies": [
           {
             "name": "commons-lang3-api",
             "optional": false,
-            "version": "3.19.0-104.v12125f33a_255"
+            "version": "3.20.0-109.ve43756e2d2b_4"
           },
           {
             "name": "configuration-as-code",
             "optional": true,
-            "version": "2006.v001a_2ca_6b_574"
+            "version": "2031.veb_a_fdda_b_3ffd"
           },
           {
             "name": "workflow-scm-step",
@@ -51953,17 +51953,17 @@
           {
             "name": "credentials",
             "optional": false,
-            "version": "1453.v9b_a_29777a_b_fd"
+            "version": "1480.v2246fd131e83"
           },
           {
             "name": "git-client",
             "optional": false,
-            "version": "6.4.0"
+            "version": "6.5.0"
           },
           {
             "name": "mailer",
             "optional": false,
-            "version": "522.va_995fa_cfb_8b_d"
+            "version": "525.v2458b_d8a_1a_71"
           },
           {
             "name": "matrix-project",
@@ -52021,7 +52021,7 @@
           }
         ],
         "excerpt": "This plugin integrates <a href=\"https://git-scm.com/\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Git</a> with Jenkins.",
-        "gav": "org.jenkins-ci.plugins:git:5.8.1",
+        "gav": "org.jenkins-ci.plugins:git:5.9.0",
         "health": 100,
         "issueTrackers": [
           {
@@ -52036,17 +52036,17 @@
         ],
         "name": "git",
         "popularity": 267611,
-        "previousTimestamp": "2025-10-08T00:52:44.00Z",
-        "previousVersion": "5.8.0",
-        "releaseTimestamp": "2025-12-02T14:53:21.00Z",
+        "previousTimestamp": "2025-12-02T14:53:21.00Z",
+        "previousVersion": "5.8.1",
+        "releaseTimestamp": "2026-01-26T03:27:56.00Z",
         "requiredCore": "2.504.3",
         "scm": "https://github.com/jenkinsci/git-plugin",
-        "sha1": "VjdTiwma0HnJITDKCghicYer3vo=",
-        "sha256": "LbXot3AfdC+cX+t8fDPbpxyKPqfH00bqv9lUlUBghMw=",
-        "size": 618896,
+        "sha1": "KauJcC7FcYjIVaoFnU5/o58XG+Y=",
+        "sha256": "Q1Bb5Xp8NeO/f0hrZnTmCSI1fF309RmmnHclJ6qhYtA=",
+        "size": 620494,
         "title": "Git",
-        "url": "https://updates.jenkins.io/download/plugins/git/5.8.1/git.hpi",
-        "version": "5.8.1",
+        "url": "https://updates.jenkins.io/download/plugins/git/5.9.0/git.hpi",
+        "version": "5.9.0",
         "wiki": "https://plugins.jenkins.io/git",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/git/latest/git.hpi"
       },
@@ -54783,7 +54783,7 @@
         ],
         "excerpt": "Adds a filtering trait according to a ref date to an existing GitHub Branch Source Plugin configuration.",
         "gav": "org.jenkins-ci.plugins:github-scm-filter-aged-refs:59.vc6b_39c26988c",
-        "health": 97,
+        "health": 100,
         "issueTrackers": [
           {
             "reportUrl": "https://github.com/jenkinsci/scm-filter-aged-refs-plugin/issues/new/choose",
@@ -57775,7 +57775,7 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/graphql-server/latest/graphql-server.hpi"
       },
       "gravatar": {
-        "buildDate": "Dec 15, 2025",
+        "buildDate": "Jan 26, 2026",
         "defaultBranch": "main",
         "dependencies": [
           {
@@ -57795,7 +57795,7 @@
           }
         ],
         "excerpt": "This plugin shows <a href=\"http://www.gravatar.com/\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Gravatar</a> avatar images for Jenkins users.",
-        "gav": "org.jenkins-ci.plugins:gravatar:213.212.v09426a_2eb_553",
+        "gav": "org.jenkins-ci.plugins:gravatar:213.219.v181f17b_22f8b_",
         "health": 100,
         "issueTrackers": [
           {
@@ -57810,17 +57810,17 @@
         ],
         "name": "gravatar",
         "popularity": 1240,
-        "previousTimestamp": "2025-12-15T10:03:57.00Z",
-        "previousVersion": "212.210.v6a_4ffe269ef8",
-        "releaseTimestamp": "2025-12-15T10:44:03.00Z",
+        "previousTimestamp": "2025-12-15T10:44:03.00Z",
+        "previousVersion": "213.212.v09426a_2eb_553",
+        "releaseTimestamp": "2026-01-26T17:11:26.00Z",
         "requiredCore": "2.539",
         "scm": "https://github.com/jenkinsci/gravatar-plugin",
-        "sha1": "ixhQfdKmlDx3kZvXaAMaDOmqYIA=",
-        "sha256": "utF9oC4VklTYFvyZk3UygCTjegs35hT9nUgSNH3y88M=",
-        "size": 26004,
+        "sha1": "ijU5R7IePs+LW7haCF7fDMVJRyo=",
+        "sha256": "DCWOod2zg/RV6tUgr42u5PtMXX6Rt4VAsODrLER8ONo=",
+        "size": 26012,
         "title": "Gravatar",
-        "url": "https://updates.jenkins.io/download/plugins/gravatar/213.212.v09426a_2eb_553/gravatar.hpi",
-        "version": "213.212.v09426a_2eb_553",
+        "url": "https://updates.jenkins.io/download/plugins/gravatar/213.219.v181f17b_22f8b_/gravatar.hpi",
+        "version": "213.219.v181f17b_22f8b_",
         "wiki": "https://plugins.jenkins.io/gravatar",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/gravatar/latest/gravatar.hpi"
       },
@@ -67814,7 +67814,7 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/jucies/latest/jucies.hpi"
       },
       "junit": {
-        "buildDate": "Nov 23, 2025",
+        "buildDate": "Jan 26, 2026",
         "defaultBranch": "master",
         "dependencies": [
           {
@@ -67825,7 +67825,7 @@
           {
             "name": "checks-api",
             "optional": false,
-            "version": "373.vfe7645102093"
+            "version": "402.vca_263b_f200e3"
           },
           {
             "name": "echarts-api",
@@ -67845,7 +67845,7 @@
           {
             "name": "prism-api",
             "optional": false,
-            "version": "1.30.0-630.va_e19d17f83b_0"
+            "version": "1.30.0-701.vf8f8f1f3fd55"
           },
           {
             "name": "workflow-api",
@@ -67920,7 +67920,7 @@
           }
         ],
         "excerpt": "Allows JUnit-format test results to be published.",
-        "gav": "org.jenkins-ci.plugins:junit:1380.v491ff054cd35",
+        "gav": "org.jenkins-ci.plugins:junit:1396.v095840ed8491",
         "health": 97,
         "issueTrackers": [
           {
@@ -67934,17 +67934,17 @@
         ],
         "name": "junit",
         "popularity": 270584,
-        "previousTimestamp": "2025-10-25T21:15:19.00Z",
-        "previousVersion": "1372.vfea_f21efa_b_26",
-        "releaseTimestamp": "2025-11-23T14:25:21.00Z",
+        "previousTimestamp": "2025-11-23T14:25:21.00Z",
+        "previousVersion": "1380.v491ff054cd35",
+        "releaseTimestamp": "2026-01-26T16:15:23.00Z",
         "requiredCore": "2.533",
         "scm": "https://github.com/jenkinsci/junit-plugin",
-        "sha1": "5v0aBCpSJ8AhFvmxnMHplegGhXA=",
-        "sha256": "E/7ogB/JEEvn0iMxQpNoFaEq9ojMhFACWlm4/d/t38s=",
-        "size": 480673,
+        "sha1": "AcNUiO4Pl8R+K8xWunsC9gAeEmk=",
+        "sha256": "qYTDsyHFaw2PsooKKp1uDJ7YUlduXn7bEBndy+aa26Q=",
+        "size": 480565,
         "title": "JUnit",
-        "url": "https://updates.jenkins.io/download/plugins/junit/1380.v491ff054cd35/junit.hpi",
-        "version": "1380.v491ff054cd35",
+        "url": "https://updates.jenkins.io/download/plugins/junit/1396.v095840ed8491/junit.hpi",
+        "version": "1396.v095840ed8491",
         "wiki": "https://plugins.jenkins.io/junit",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/junit/latest/junit.hpi"
       },
@@ -121031,7 +121031,7 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/xygeni-sensor/latest/xygeni-sensor.hpi"
       },
       "yaml-axis": {
-        "buildDate": "Jan 05, 2026",
+        "buildDate": "Jan 27, 2026",
         "defaultBranch": "master",
         "dependencies": [
           {
@@ -121052,7 +121052,7 @@
           }
         ],
         "excerpt": "This plugin allows you to define a matrix build axis that is dynamically populated from a yaml file",
-        "gav": "org.jenkins-ci.plugins:yaml-axis:380.v09eb_4d50d200",
+        "gav": "org.jenkins-ci.plugins:yaml-axis:384.v3ff947797a_88",
         "health": 96,
         "issueTrackers": [
           {
@@ -121066,17 +121066,17 @@
         ],
         "name": "yaml-axis",
         "popularity": 204,
-        "previousTimestamp": "2025-12-20T16:30:15.00Z",
-        "previousVersion": "370.vef22e32ca_b_87",
-        "releaseTimestamp": "2026-01-05T14:10:13.00Z",
+        "previousTimestamp": "2026-01-05T14:10:13.00Z",
+        "previousVersion": "380.v09eb_4d50d200",
+        "releaseTimestamp": "2026-01-27T01:07:05.00Z",
         "requiredCore": "2.479.3",
         "scm": "https://github.com/jenkinsci/yaml-axis-plugin",
-        "sha1": "iNoZJjDGn9L33mKTHeG1vgO1m7s=",
-        "sha256": "hoZWfg0gQGySoHzBhOhBiZiDFYcfVM/+QHNpvP2WhHE=",
-        "size": 25675,
+        "sha1": "kRSXigMe5BjNrFgvAnNE8V/skVg=",
+        "sha256": "vrFD8k6xP8FI1dI+ZKjemi2zP13+TG9ZIpruFDicVqg=",
+        "size": 25679,
         "title": "Yaml Axis",
-        "url": "https://updates.jenkins.io/download/plugins/yaml-axis/380.v09eb_4d50d200/yaml-axis.hpi",
-        "version": "380.v09eb_4d50d200",
+        "url": "https://updates.jenkins.io/download/plugins/yaml-axis/384.v3ff947797a_88/yaml-axis.hpi",
+        "version": "384.v3ff947797a_88",
         "wiki": "https://plugins.jenkins.io/yaml-axis",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/yaml-axis/latest/yaml-axis.hpi"
       },
@@ -122330,10 +122330,10 @@
       "certificates": [
         "MIIFqjCCA5KgAwIBAgIFAN6tvwUwDQYJKoZIhvcNAQENBQAwgYoxCzAJBgNVBAYTAlVTMRMwEQYDVQQIDApDYWxpZm9ybmlhMREwDwYDVQQHDAhTYW4gSm9zZTEYMBYGA1UECgwPSmVua2lucyBQcm9qZWN0MRowGAYDVQQDDBFLb2hzdWtlIEthd2FndWNoaTEdMBsGCSqGSIb3DQEJARYOa2tAa29oc3VrZS5vcmcwHhcNMjYwMTE0MTU0MjQyWhcNMjcwMTE0MTU0MjQyWjBeMQswCQYDVQQGEwJVUzETMBEGA1UECAwKQ2FsaWZvcm5pYTEYMBYGA1UECgwPSmVua2lucyBQcm9qZWN0MSAwHgYDVQQDDBdDb21tdW5pdHkgVXBkYXRlIENlbnRlcjCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBALQMWCFq7SaGA+hp98UAzgLkCO6NFlcK9n2mMQ0c6/4b6qI3n53Ak/ljF+4ekEb3p5tnI0iwj0GZjFc5hW1gtz3mfbkxTb7fk5LJFj90NZHr0isb5D21w2fkjGp9h81kGliUZcm3dpdrXMW2Gh1HYcF4uijuz1mzrFt2Ew2vgDse5EFYb32bk6Xmi/dhf0l9r+oKT6bChijgHr3WynRSdDL9y1XDqUq06ZAVp4RqVwwpezrYgJ/OPRZeg9CctnUoFR8BgHKWeNgwuyWrtBKST5pnQmhTEM53qVHzQTgrBP4Vqj38I1R39qPZa4cu3QUXMr8CsfrJ1wF8y3OmXp3pNfbXivb7RoanXYO+uZzoYOaaHAXTICFLUqR0sxJfiOTejm87P9F+EzEvuPGFDAkbo7qrW/hReHYycOiiqPggfLsglZTNJEdd4oLdvDZLnBJWBQscl98f/pVu3Pzld0RnU9phhCMXfVLkeQBQtAxfmqaVnMurELBNeK8ybriTQlAdnkBRzv3NAilUaAfI0gSh/beN2qNlII3kEOSpasAbEVbfBB+r9hNzFj4+Sqi8E+YZbMQjFtdHdO/iQCrcUiqDnTBsxL7u7xzfvLJTxoISUrCigVgUGryaouyUhARHpQwcVG4hewFspJZUaQv7aj0hlpQUC42+2zWr/NK5rVQAZD9RAgMBAAGjQjBAMB0GA1UdDgQWBBR2GjaTNzVHFuMTbEl9hRAbjCtQ2DAfBgNVHSMEGDAWgBQRxuXUMC3pVcYBtWtQctI2frQBhzANBgkqhkiG9w0BAQ0FAAOCAgEAOgskYoOGDmEZIjYUy2tYTKI6eKnpAiQA0yETLdam9wOGGL6J6e7BT5JoyxBrDXy4xrZsDyFOBPB8Di8ETF1mr9k6GsyBO8S/SYd/1qYg9kkHXq2x62WmDs0K7h9N2M9LAEFDvdZYvOnDzgFhcaFfsxUPS9qDFws33NDBTKo/Ya2UIjzyl1H68bw5VG1temOtAzvW+6EA4j2bzgv5NbaUGrZq5Y8yiWRDjdAbMBu0lDnJP7pTLs16jEE1FWfkJhkaU6TbMP6rzehjMkiplu+S0qnVQBUgME2U4EMxCM31oixUl/+WvZ5GQHR8GVdsFkQYs2K3L0i7a9bxc8jD6kzU/sSJwJxnqocB1JnZF1CFbT78bdTaBtZty7MVSUdXYCAf6XZPCMYOGN7Cb7YpLqn0hUCy2tIdHw6TUluyOkP0AoOLFijThtafcgQI19QyCa85DUZxwG1QsVFbGyqv6+47DbX2CUKzNLyfKJhivzwfagKZDo5KaZouv7lO5RMj8onHK+MrkzvJG1kFcFw5lO1ms5QKPNi3RfrQqWQ4rjVBbPdNx4xRpHVpcXp9MXCg64prwGHXrPN2yl2VRYrxwlLRhee27H07ZA9ujLB4PU8ppb6uQH2GQiKpXoRlzQBQej4zhquVM8rQaPfXV8DGNu4lx77tNtgK8uetQxyh4vBOpGA="
       ],
-      "correct_digest": "IesUUzcLgoLszUICpgRgXkNeA28=",
-      "correct_digest512": "4f2d2137edeca1cf179ac371bfa0b07e0bcf19f795d048b7d916c6750186f3f0bb1cf80f2b49c4c7475a00f295927f551f63d5f75d40525d498fa5bbe31669ae",
-      "correct_signature": "OrHowcCr31rYBer+wvpYWox64Uxw83U0392l2TOcEG0zta8wfwZ/Pb0wsAPZ/dvWONMkiITqjSfFJRaxYEVSadPON0151nVoStbqwTeVDLYwiOav95cuHjddEKbbLOTZSe3WKhC6y3aLYiJlBRRT/jU0jdRmnv9Cm8ogwQ3yeWSlKagnPnYvD3IHE6lDldQQ4ZahYbQ7pbXnF5HI81Cvhde4ejXGxT7IWwD3C5PkmJhvUHwcwD/792w0bxOdkhKJlXZ9x1lBEeQQQbtGxBDF5ip2E/A/JX+/HgcRIQ4rif6cb3znIPCk/ajU1YSRdv3IbwO7RuBSCDLwdLVvuov2gxJl2XYACy6AEuPVpg+ESp1QUf3lZ80O7xwEYLE4pRQScEiVIoZx/BIggl3yA9/OAxnT6e7WBTHIuSxFK37EPak6roSZYLCjVGrS9svnHvfAtgV2h95DxvWhkErM52hleuHxpH6orjGmZdX10/4zYHBemp9WobsfiSJLM9ehctlqtXGV67zEVNm9raOENMEbfpqo6bE01drtRLAqmAsKEsBQTOFvC35GG1yUk1pqjiC3vT8aHRxGEVL0FI99JC31oCHVbWAirViMzIw0b7FERERm19os6YoV7zvxAOJDRvLeGeQ0p71G6Ok9qDbxGjbaLjqjMTRcweAz3YYJ8KNFFXE=",
-      "correct_signature512": "3fb6aeb75bab1da78349dedafb147f81143598347b912aa7723b33f4bed11092a64ad89c83c4f0a4390b232a71b684c87cc39df3209ed2bdcfe61abfdf40250a7cb57642b72e12aa7d89c49e2aa8111ab7896ea50a78406f42b0396213b15fe556febd8bddb0bdef5cc59839deadf2b76f6ff75da1fec5e14a5662ccb5b1321b67009a33762fa795bbadb7549a11e6946001cce7531bf1c3febf70dfaee969028e1bdf7004fefd169cbc4767d05475b5db93fd18aaa7f2e7699093aa703ff5f0a1ebe0f958920558cab09360f7e542a01135baea31810d2fd0d386d2a7f2cbc010cef399e81b011c2ac426f5731fb740e21810a4c3123021ee2939b58cadb5d2d055428a713e233843b780245a51e1bae17b4d73a00aba13bd831bc295309d6aa569bc6a861e264ea9cd643a75e53f2b0d75598806a4a6ff69af26bdd568fe8da879698b15cfb700541b27cf4e09628ad02b8f9bcfa6e21bfe5020a64677a965f9b2b1e72e19bc7652fd6fe86c063279f7de4768648bed4e60adadca66bdb041e6999741632fef387394434dae8ae3343d19dd0cc382ae14eff57ea3788120862f7099aa292eb869e71613b933c092f917589fa223cdaa23c0e12f9673b30a0e0383c8466d12fd6475ddc86d0cad2c6c1c5a9f8336d563b2acd21ff74e658cb289da0a12745a9604e7d9167597df7d7968717f3b2c7dddf47526eeaf644085c6"
+      "correct_digest": "ZZELRgYk1ISUULHQbQ+hJ19b2nQ=",
+      "correct_digest512": "dfd5dfa3631c0e0fe3ac6640070ef4b044e081eb36fd9875f43b69b4af9d577628b2de270e53ab076365bbd5b5445b601b4df4bfb5de4dcf4dbb60a127134b7f",
+      "correct_signature": "AVQYeOU7A7N1/FP+OHnCYHj4b/V8iVpVX3F+vAmLFALhuCkY4cqfPU7lz93x0njS+XW9zAyk4goBHXR+Es342vmIItYAxW+PZ3CM9bKkJPoacxgEzP60QR9aZPwop21K/l6ZA3d5wRLWfgrDzhnyrI1PxJS7Q41tU1MIQX5O7ap8zfTXeM2FTgay2k129fZ3m3saa5bLBKUD5ItTiMMN+L5WjVGvCUQDNTC41woGMkTIQbau3ChNsVjbKFnMDN5T1uNOoSzSLi7WOtYv30O7Xv+V5gl05U/006RRcUXWbZQmjl0o+F3kB0aYobHWC86FJ9/mkvVk79dRYx1U9o8QZRN7UQCh7YO0oyPP6+txHzMGs4kgEx6rrib7A0aboe2bhXWP76KWgK9LKn9nDXpHelLaqgJvCQlLap/MWwI5GeL/Ff747p+1On36W2pz/qzRUfI34fjKeO/xhX/mKvIhQYPtEul/eC5Yia1uw39crPOjdHodvYdYQ596uoE4KDl99jWYOczSxaTU010mZHMMqt+8wCUEUqDWIy3ge6RvaUjE4rfbk+r0PpO9iXsvIanHwhLcKs5FGPM1gb+jaTz/NyQHLzNTl28IRJDI/0fJw5MgekoyCdt45SOcE3Y5dmwlBuFHPEHd44ofINzMUcTDbpuz+9MR8fsJsd6ugNIM5T0=",
+      "correct_signature512": "08a7bf2b0a74c8c1ad5d3ec0eb6aef1f13d0a5c1396c66e11507d59911219c38fccf0f52360319fee52ae26d846f6a3412356a1efc4d503fadc837a3274a4c89b67634e06ea576925f5db0c177850fb515c7441d055c44fd9dde968cd420b3e0bf2ac217921e13cb6baa15ecb99e13a551fd7e5a1df01e46f6495dd78d7ecaa960bd2391b035d2dfb55475bbcb62605e2bf3bcc3f43ea86e14d6c1fdb7ab98e291e58ca6d2cc4ffe96269b9292c5114ab445387d67a93d22cb3f659a0c2b7ccfdb79844ac1b54fc719c9a455358d9fb12c90128038a9fa7ca337af07279f886e16c97db85043301dc693478b7ce317c6948c311749ba486b4a14cf17a369e53fc9346dd2496140e5b9ffe1568365f833d46618e93b64214c000fafe10253d4238379c49ee3e4132c73044244b8ae28ad8a90ecb264f2ba14910ae19f40903d1ee02ecd361410d57d963ffdbc6f9411db3620f65989d160e1397720f2cbb254f7cfc5dbd4d4f27a011f80970d008f4bedd74e3e1314a672ddb59554a554969e9ea72bb0ce3ec4fa99299c62961e2403b22d5b4a0aecf60dd52b39f85687e670bb452dfafde8161cdc8b5b3a881701c43d675ce415fdfb242be80126a8918cf84e5e32c5855aa4071975c23e15cb7ffe9ef3a871c3067c8ca4c265ea66ebd8938045cf7e87e1d86368fe4cab95bbb1c442ccacb480c7696f7e5b190da6df584dcb"
     },
     "updateCenterVersion": "1",
     "warnings": [
@@ -141559,7 +141559,7 @@
     ]
   },
   "_metadata": {
-    "generatedAt": "2026-01-26T03:12:24.948Z",
+    "generatedAt": "2026-01-27T03:05:06.559Z",
     "bestMirror": "https://mirror.nju.edu.cn/jenkins/",
     "mirrorsChecked": 10,
     "pluginsModified": 2048,
