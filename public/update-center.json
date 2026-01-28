@@ -2,13 +2,13 @@
   "updateCenter": {
     "connectionCheckUrl": "https://www.google.com/",
     "core": {
-      "buildDate": "Jan 20, 2026",
+      "buildDate": "Jan 27, 2026",
       "name": "core",
-      "sha1": "q/DDeSuysfTZXPEWEPfjDmG+KI8=",
-      "sha256": "7wMBzjW/9+rXYgGoICrK1jOFaPCDJmaiZygxsmDggIg=",
-      "size": 97202377,
-      "url": "https://updates.jenkins.io/download/war/2.547/jenkins.war",
-      "version": "2.547"
+      "sha1": "+04uDI8PFWJTfHUCAUpYrv2aIk4=",
+      "sha256": "guYlcMLKmfLXHAnUvQcxBaupkodsJX3YR8Jhq4kA3BM=",
+      "size": 97183329,
+      "url": "https://updates.jenkins.io/download/war/2.548/jenkins.war",
+      "version": "2.548"
     },
     "deprecations": {
       "BlameSubversion": {
@@ -807,7 +807,7 @@
         "url": "https://wiki.jenkins-ci.org/display/JENKINS/ZAProxy+Plugin"
       }
     },
-    "generationTimestamp": "2026-01-27T03:00:34Z",
+    "generationTimestamp": "2026-01-28T02:50:30Z",
     "id": "default",
     "plugins": {
       "42crunch-security-audit": {
@@ -35225,7 +35225,7 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/covcomplplot/latest/covcomplplot.hpi"
       },
       "coverage": {
-        "buildDate": "Jan 18, 2026",
+        "buildDate": "Jan 27, 2026",
         "defaultBranch": "main",
         "dependencies": [
           {
@@ -35326,7 +35326,7 @@
           }
         ],
         "excerpt": "Collects code coverage results of different tools (JaCoCo, Cobertura, etc.) and visualizes the results.",
-        "gav": "io.jenkins.plugins:coverage:2.3120.v73353a_97726e",
+        "gav": "io.jenkins.plugins:coverage:2.3130.vcc932e7702b_8",
         "health": 96,
         "issueTrackers": [
           {
@@ -35338,17 +35338,17 @@
         "labels": [],
         "name": "coverage",
         "popularity": 16315,
-        "previousTimestamp": "2025-12-10T18:58:26.00Z",
-        "previousVersion": "2.3060.v035a_5557cdb_c",
-        "releaseTimestamp": "2026-01-18T20:16:20.00Z",
+        "previousTimestamp": "2026-01-18T20:16:20.00Z",
+        "previousVersion": "2.3120.v73353a_97726e",
+        "releaseTimestamp": "2026-01-27T09:22:52.00Z",
         "requiredCore": "2.516.3",
         "scm": "https://github.com/jenkinsci/coverage-plugin",
-        "sha1": "wlMWkM63p0qqyUKPe2JJCYtUWoA=",
-        "sha256": "cUrR+0VJDtNpdfySgIkm7+xWEzoIxim3BaE9Z0WTV7k=",
-        "size": 389795,
+        "sha1": "cvbKvsNNIOB7OXhuA9n4ljR7ZuA=",
+        "sha256": "gY9U0DaHCEUI9dT41F7xi/XJQSf8C/+wodPNm8CBHZE=",
+        "size": 391064,
         "title": "Coverage",
-        "url": "https://updates.jenkins.io/download/plugins/coverage/2.3120.v73353a_97726e/coverage.hpi",
-        "version": "2.3120.v73353a_97726e",
+        "url": "https://updates.jenkins.io/download/plugins/coverage/2.3130.vcc932e7702b_8/coverage.hpi",
+        "version": "2.3130.vcc932e7702b_8",
         "wiki": "https://plugins.jenkins.io/coverage",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/coverage/latest/coverage.hpi"
       },
@@ -49291,7 +49291,7 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/fluentd/latest/fluentd.hpi"
       },
       "flyway-api": {
-        "buildDate": "Jan 15, 2026",
+        "buildDate": "Jan 27, 2026",
         "defaultBranch": "main",
         "dependencies": [
           {
@@ -49311,8 +49311,8 @@
             "name": "Valentin Delaye"
           }
         ],
-        "excerpt": "This plugin provides the <a href=\"https://github.com/flyway/flyway\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Flyway</a> APIs (v11.20.2) for other plugins.",
-        "gav": "io.jenkins.plugins:flyway-api:11.20.2-404.v5a_37d081847a_",
+        "excerpt": "This plugin provides the <a href=\"https://github.com/flyway/flyway\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Flyway</a> APIs (v11.20.3) for other plugins.",
+        "gav": "io.jenkins.plugins:flyway-api:11.20.3-409.vef84459a_6ee3",
         "health": 100,
         "issueTrackers": [
           {
@@ -49327,17 +49327,17 @@
         ],
         "name": "flyway-api",
         "popularity": 690,
-        "previousTimestamp": "2026-01-10T20:36:14.00Z",
-        "previousVersion": "11.20.1-398.v4cea_08266fa_6",
-        "releaseTimestamp": "2026-01-15T13:54:14.00Z",
+        "previousTimestamp": "2026-01-15T13:54:14.00Z",
+        "previousVersion": "11.20.2-404.v5a_37d081847a_",
+        "releaseTimestamp": "2026-01-27T07:42:01.00Z",
         "requiredCore": "2.479.3",
         "scm": "https://github.com/jenkinsci/flyway-api-plugin",
-        "sha1": "ASjQbbBC0drVE27dLXHx6LchvXk=",
-        "sha256": "0BMbZdrDlfT1yj6Eo1jzcKbKXBIAQuFarqmfqWb7qYE=",
-        "size": 812073,
+        "sha1": "plbo9r0eXdHEAEhdRu9gIui4QBI=",
+        "sha256": "2KifIz/pGj9inssPMUWE8J3J5RNARquNYxM6fUwaj0s=",
+        "size": 811914,
         "title": "Flyway API",
-        "url": "https://updates.jenkins.io/download/plugins/flyway-api/11.20.2-404.v5a_37d081847a_/flyway-api.hpi",
-        "version": "11.20.2-404.v5a_37d081847a_",
+        "url": "https://updates.jenkins.io/download/plugins/flyway-api/11.20.3-409.vef84459a_6ee3/flyway-api.hpi",
+        "version": "11.20.3-409.vef84459a_6ee3",
         "wiki": "https://plugins.jenkins.io/flyway-api",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/flyway-api/latest/flyway-api.hpi"
       },
@@ -53203,7 +53203,7 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/gitea-pat-kubernetes-credentials/latest/gitea-pat-kubernetes-credentials.hpi"
       },
       "gitee": {
-        "buildDate": "Jan 23, 2026",
+        "buildDate": "Jan 27, 2026",
         "defaultBranch": "master",
         "dependencies": [
           {
@@ -53282,7 +53282,7 @@
           }
         ],
         "excerpt": "This plugin integrates <a href=\"http://gitee.com/\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Gitee</a> to Jenkins by faking a Gitee CI Server. This plugin allows Gitee to trigger builds in Jenkins when code is committed or pull requests are opened/updated. It can also send build status back to Gitee.",
-        "gav": "org.jenkins-ci.plugins:gitee:1271.vf8493ca_07721",
+        "gav": "org.jenkins-ci.plugins:gitee:1272.v583461cd985b_",
         "health": 100,
         "issueTrackers": [
           {
@@ -53294,17 +53294,17 @@
         "labels": [],
         "name": "gitee",
         "popularity": 3629,
-        "previousTimestamp": "2025-12-31T14:51:04.00Z",
-        "previousVersion": "1266.v5743e3349d54",
-        "releaseTimestamp": "2026-01-23T15:49:04.00Z",
+        "previousTimestamp": "2026-01-23T15:49:04.00Z",
+        "previousVersion": "1271.vf8493ca_07721",
+        "releaseTimestamp": "2026-01-27T16:37:37.00Z",
         "requiredCore": "2.504.3",
         "scm": "https://github.com/jenkinsci/gitee-plugin",
-        "sha1": "xxBUWSm6z2NWj/Cvdl2V+vfiiv8=",
-        "sha256": "Zo7E3blUICxkC9/Zj1qIf8UL6ADMzXNMzSeyQ6VECHM=",
-        "size": 2751634,
+        "sha1": "+/s8cDAa68TWOzCAbTteqQaTW3Q=",
+        "sha256": "8fq2u4/OU9lJSolGgwfg9RUavNjvfOZ3W/SwU4aS7W4=",
+        "size": 7375373,
         "title": "Gitee",
-        "url": "https://updates.jenkins.io/download/plugins/gitee/1271.vf8493ca_07721/gitee.hpi",
-        "version": "1271.vf8493ca_07721",
+        "url": "https://updates.jenkins.io/download/plugins/gitee/1272.v583461cd985b_/gitee.hpi",
+        "version": "1272.v583461cd985b_",
         "wiki": "https://plugins.jenkins.io/gitee",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/gitee/latest/gitee.hpi"
       },
@@ -59231,7 +59231,7 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/housekeeper/latest/housekeeper.hpi"
       },
       "hp-application-automation-tools-plugin": {
-        "buildDate": "Oct 21, 2025",
+        "buildDate": "Jan 27, 2026",
         "dependencies": [
           {
             "name": "eddsa-api",
@@ -59396,22 +59396,30 @@
         ],
         "developers": [
           {
+            "developerId": "abarbura",
+            "name": "Razvan"
+          },
+          {
             "developerId": "andreibangau",
             "name": "Andrei"
           },
           {
             "developerId": "buzas",
             "name": "Laura Buzas"
+          },
+          {
+            "developerId": "tudordecea",
+            "name": "Tudor"
           }
         ],
         "excerpt": "This plugin enables integration with OpenText Application Quality Management, OpenText Software Delivery Management, OpenText Functional Testing, OpenText Performance Engineering, and OpenText Enterprise Performance Engineering.",
-        "gav": "org.jenkins-ci.plugins:hp-application-automation-tools-plugin:25.4",
+        "gav": "org.jenkins-ci.plugins:hp-application-automation-tools-plugin:26.1",
         "health": 85,
         "issueTrackers": [
           {
-            "reportUrl": "https://www.jenkins.io/participate/report-issue/redirect/#17322/hp-application-automation-tools-plugin",
-            "type": "jira",
-            "viewUrl": "https://issues.jenkins.io/issues/?jql=component=17322"
+            "reportUrl": "https://github.com/jenkinsci/hpe-application-automation-tools-plugin/issues/new/choose",
+            "type": "github",
+            "viewUrl": "https://github.com/jenkinsci/hpe-application-automation-tools-plugin/issues"
           }
         ],
         "labels": [
@@ -59419,17 +59427,17 @@
         ],
         "name": "hp-application-automation-tools-plugin",
         "popularity": 1445,
-        "previousTimestamp": "2025-07-08T08:57:49.00Z",
-        "previousVersion": "25.3",
-        "releaseTimestamp": "2025-10-21T14:17:21.00Z",
+        "previousTimestamp": "2025-10-21T14:17:21.00Z",
+        "previousVersion": "25.4",
+        "releaseTimestamp": "2026-01-27T14:27:48.00Z",
         "requiredCore": "2.479.3",
         "scm": "https://github.com/jenkinsci/hp-application-automation-tools-plugin",
-        "sha1": "A31fWZXAbdnMXJ/NFlnlgCnjMtE=",
-        "sha256": "DIEkyH6ZzewQ2bGVXbdvwySN603toQTyYCStM8p508g=",
-        "size": 27724729,
+        "sha1": "QvafYVmMiD2rM+9jm81Xx3R74yM=",
+        "sha256": "jQnNmYE8UaUBAGumbKPz5vbqNI5nZBJMixzMvzGXE24=",
+        "size": 27725236,
         "title": "OpenText Application Automation Tools",
-        "url": "https://updates.jenkins.io/download/plugins/hp-application-automation-tools-plugin/25.4/hp-application-automation-tools-plugin.hpi",
-        "version": "25.4",
+        "url": "https://updates.jenkins.io/download/plugins/hp-application-automation-tools-plugin/26.1/hp-application-automation-tools-plugin.hpi",
+        "version": "26.1",
         "wiki": "https://plugins.jenkins.io/hp-application-automation-tools-plugin",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/hp-application-automation-tools-plugin/latest/hp-application-automation-tools-plugin.hpi"
       },
@@ -69351,39 +69359,39 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/kubernetes/latest/kubernetes.hpi"
       },
       "kubernetes-cli": {
-        "buildDate": "Mar 21, 2025",
+        "buildDate": "Jan 27, 2026",
         "compatibleSinceVersion": "1.0.0",
         "defaultBranch": "master",
         "dependencies": [
           {
             "name": "workflow-step-api",
             "optional": false,
-            "version": "678.v3ee58b_469476"
+            "version": "704.ve4f0967e98fa_"
           },
           {
             "name": "apache-httpcomponents-client-4-api",
             "optional": false,
-            "version": "4.5.14-208.v438351942757"
+            "version": "4.5.14-269.vfa_2321039a_83"
           },
           {
             "name": "authentication-tokens",
             "optional": false,
-            "version": "1.119.v50285141b_7e1"
+            "version": "1.131.v7199556c3004"
           },
           {
             "name": "credentials",
             "optional": false,
-            "version": "1405.vb_cda_74a_f8974"
+            "version": "1415.v831096eb_5534"
           },
           {
             "name": "plain-credentials",
             "optional": false,
-            "version": "183.va_de8f1dd5a_2b_"
+            "version": "199.v9f8e1f741799"
           },
           {
             "name": "kubernetes-credentials",
             "optional": false,
-            "version": "190.v03c305394deb_"
+            "version": "192.v4d5b_1c429d17"
           }
         ],
         "developers": [
@@ -69397,8 +69405,8 @@
           }
         ],
         "excerpt": "Configure kubectl for Kubernetes",
-        "gav": "org.jenkins-ci.plugins:kubernetes-cli:1.364.vadef8cb8b823",
-        "health": 96,
+        "gav": "org.jenkins-ci.plugins:kubernetes-cli:1.375.v8001982544ba",
+        "health": 100,
         "issueTrackers": [
           {
             "reportUrl": "https://github.com/jenkinsci/kubernetes-cli-plugin/issues/new/choose",
@@ -69416,17 +69424,17 @@
         ],
         "name": "kubernetes-cli",
         "popularity": 11606,
-        "previousTimestamp": "2023-08-30T07:38:54.00Z",
-        "previousVersion": "1.12.1",
-        "releaseTimestamp": "2025-03-21T16:19:51.00Z",
-        "requiredCore": "2.479.1",
+        "previousTimestamp": "2025-03-21T16:19:51.00Z",
+        "previousVersion": "1.364.vadef8cb8b823",
+        "releaseTimestamp": "2026-01-27T07:19:09.00Z",
+        "requiredCore": "2.479.3",
         "scm": "https://github.com/jenkinsci/kubernetes-cli-plugin",
-        "sha1": "ISJ/lG+AvcH3l48oOPJkiREzsFY=",
-        "sha256": "Yuzc77aLTbP9dydVRr6zJ1MnKvzo7utEXgTlJxDxMA8=",
-        "size": 31249,
+        "sha1": "rlOWuxjTMzYLldlGUtpzfVqRWps=",
+        "sha256": "B/vEzPzHuKQEIv/d/WP7P+Zpk2hWOlrMlCgjNAXu18Q=",
+        "size": 31224,
         "title": "Kubernetes CLI",
-        "url": "https://updates.jenkins.io/download/plugins/kubernetes-cli/1.364.vadef8cb8b823/kubernetes-cli.hpi",
-        "version": "1.364.vadef8cb8b823",
+        "url": "https://updates.jenkins.io/download/plugins/kubernetes-cli/1.375.v8001982544ba/kubernetes-cli.hpi",
+        "version": "1.375.v8001982544ba",
         "wiki": "https://plugins.jenkins.io/kubernetes-cli",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/kubernetes-cli/latest/kubernetes-cli.hpi"
       },
@@ -72716,7 +72724,7 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/login-theme/latest/login-theme.hpi"
       },
       "logstash": {
-        "buildDate": "Aug 30, 2023",
+        "buildDate": "Jan 27, 2026",
         "compatibleSinceVersion": "2.0",
         "defaultBranch": "master",
         "dependencies": [
@@ -72767,8 +72775,8 @@
           }
         ],
         "excerpt": "Adds the possibility to push builds logs and build data to a Logstash indexer such as Redis, RabbitMQ, Elastic Search or to Syslog.",
-        "gav": "org.jenkins-ci.plugins:logstash:2.5.0218.v0a_ff8fefc12b_",
-        "health": 85,
+        "gav": "org.jenkins-ci.plugins:logstash:2.5.0221.vdb_e90c1e47d8",
+        "health": 97,
         "issueTrackers": [
           {
             "reportUrl": "https://www.jenkins.io/participate/report-issue/redirect/#17517/logstash",
@@ -72785,17 +72793,17 @@
         ],
         "name": "logstash",
         "popularity": 3272,
-        "previousTimestamp": "2021-09-21T15:48:01.00Z",
-        "previousVersion": "2.5.0205.vd05825ed46bd",
-        "releaseTimestamp": "2023-08-30T17:41:54.00Z",
+        "previousTimestamp": "2023-08-30T17:41:54.00Z",
+        "previousVersion": "2.5.0218.v0a_ff8fefc12b_",
+        "releaseTimestamp": "2026-01-27T16:28:04.00Z",
         "requiredCore": "2.387.3",
         "scm": "https://github.com/jenkinsci/logstash-plugin",
-        "sha1": "0MDlBf4BiZ4hkeGXe+nWBBS3oco=",
-        "sha256": "LP/UDDpI3teBjYTl9s3gKz0W+k9sHFz00xut/9TNC4k=",
-        "size": 1096251,
+        "sha1": "IjQW8ULap9H/+/kYZpasPrfO65Y=",
+        "sha256": "RBQZd62CNYNmEjoxhz/NJLson1c5nYezzKnxrp7HDy8=",
+        "size": 1097360,
         "title": "Logstash",
-        "url": "https://updates.jenkins.io/download/plugins/logstash/2.5.0218.v0a_ff8fefc12b_/logstash.hpi",
-        "version": "2.5.0218.v0a_ff8fefc12b_",
+        "url": "https://updates.jenkins.io/download/plugins/logstash/2.5.0221.vdb_e90c1e47d8/logstash.hpi",
+        "version": "2.5.0221.vdb_e90c1e47d8",
         "wiki": "https://plugins.jenkins.io/logstash",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/logstash/latest/logstash.hpi"
       },
@@ -77364,18 +77372,18 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/mock-security-realm/latest/mock-security-realm.hpi"
       },
       "mock-slave": {
-        "buildDate": "Mar 03, 2025",
+        "buildDate": "Jan 27, 2026",
         "defaultBranch": "master",
         "dependencies": [
           {
             "name": "durable-task",
             "optional": false,
-            "version": "581.v299a_5609d767"
+            "version": "587.v84b_877235b_45"
           },
           {
             "name": "structs",
             "optional": false,
-            "version": "338.v848422169819"
+            "version": "350.v3b_30f09f2363"
           }
         ],
         "developers": [
@@ -77385,8 +77393,8 @@
           }
         ],
         "excerpt": "Launches an agent on the local machine to simulate a remote agent. Optionally simulates network latency problems.",
-        "gav": "org.jenkins-ci.plugins:mock-slave:193.v88c279d0c584",
-        "health": 96,
+        "gav": "org.jenkins-ci.plugins:mock-slave:217.v67c790ca_a_c31",
+        "health": 100,
         "issueTrackers": [
           {
             "reportUrl": "https://www.jenkins.io/participate/report-issue/redirect/#17334/mock-slave",
@@ -77399,17 +77407,17 @@
         ],
         "name": "mock-slave",
         "popularity": 267,
-        "previousTimestamp": "2025-01-24T15:28:23.00Z",
-        "previousVersion": "189.vca_72fb_1d2b_52",
-        "releaseTimestamp": "2025-03-03T17:02:00.00Z",
-        "requiredCore": "2.479.1",
+        "previousTimestamp": "2025-03-03T17:02:00.00Z",
+        "previousVersion": "193.v88c279d0c584",
+        "releaseTimestamp": "2026-01-27T20:18:02.00Z",
+        "requiredCore": "2.479.3",
         "scm": "https://github.com/jenkinsci/mock-slave-plugin",
-        "sha1": "QmSNU9oj+kN/F8zN6dY2EZzE7qQ=",
-        "sha256": "mQsC+5b2K82A3yf3nurTThGS572ZA17izwzbXJ+IpqA=",
-        "size": 36473,
+        "sha1": "2hTnUi0wkbkJn2oCE1xpXlVFn20=",
+        "sha256": "jw+KCVs5F2IzlZoKvBda3WiTdfy+4Lyi0DuCh6G/nhg=",
+        "size": 37722,
         "title": "Mock Agent",
-        "url": "https://updates.jenkins.io/download/plugins/mock-slave/193.v88c279d0c584/mock-slave.hpi",
-        "version": "193.v88c279d0c584",
+        "url": "https://updates.jenkins.io/download/plugins/mock-slave/217.v67c790ca_a_c31/mock-slave.hpi",
+        "version": "217.v67c790ca_a_c31",
         "wiki": "https://plugins.jenkins.io/mock-slave",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/mock-slave/latest/mock-slave.hpi"
       },
@@ -92185,7 +92193,7 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/pretested-integration/latest/pretested-integration.hpi"
       },
       "prism-api": {
-        "buildDate": "Jan 22, 2026",
+        "buildDate": "Jan 27, 2026",
         "compatibleSinceVersion": "1.29.0-9",
         "defaultBranch": "main",
         "dependencies": [
@@ -92227,7 +92235,7 @@
           }
         ],
         "excerpt": "Provides <a href=\"https://prismjs.com/\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Prism</a> for Jenkins Plugins. Prism is a lightweight, extensible syntax highlighter, built with modern web standards in mind. It’s used in millions of websites, including some of those you visit daily.",
-        "gav": "io.jenkins.plugins:prism-api:1.30.0-701.vf8f8f1f3fd55",
+        "gav": "io.jenkins.plugins:prism-api:1.30.0-703.v116fb_3b_5b_b_a_a_",
         "health": 96,
         "issueTrackers": [
           {
@@ -92239,17 +92247,17 @@
         "labels": [],
         "name": "prism-api",
         "popularity": 51080,
-        "previousTimestamp": "2025-09-25T19:02:20.00Z",
-        "previousVersion": "1.30.0-630.va_e19d17f83b_0",
-        "releaseTimestamp": "2026-01-22T08:11:46.00Z",
+        "previousTimestamp": "2026-01-22T08:11:46.00Z",
+        "previousVersion": "1.30.0-701.vf8f8f1f3fd55",
+        "releaseTimestamp": "2026-01-27T19:28:47.00Z",
         "requiredCore": "2.516.3",
         "scm": "https://github.com/jenkinsci/prism-api-plugin",
-        "sha1": "DCj56USPpsNFUoyNx5G0NVb+3Eg=",
-        "sha256": "1wmWJ2gpE1bnQ1wFJIsHnUemNk73YCdbed8xcZGnfoI=",
-        "size": 848802,
+        "sha1": "7e80EnwDOSf2z6Lk+Q3e10DlBL4=",
+        "sha256": "k/1Ou3YdUlhjw7CLUnTH5Yt/lMQYRvRyU9GWmhLtHLs=",
+        "size": 849045,
         "title": "Prism API",
-        "url": "https://updates.jenkins.io/download/plugins/prism-api/1.30.0-701.vf8f8f1f3fd55/prism-api.hpi",
-        "version": "1.30.0-701.vf8f8f1f3fd55",
+        "url": "https://updates.jenkins.io/download/plugins/prism-api/1.30.0-703.v116fb_3b_5b_b_a_a_/prism-api.hpi",
+        "version": "1.30.0-703.v116fb_3b_5b_b_a_a_",
         "wiki": "https://plugins.jenkins.io/prism-api",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/prism-api/latest/prism-api.hpi"
       },
@@ -108291,7 +108299,7 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/swarm/latest/swarm.hpi"
       },
       "swarm-agents-cloud": {
-        "buildDate": "Jan 22, 2026",
+        "buildDate": "Jan 27, 2026",
         "defaultBranch": "master",
         "dependencies": [
           {
@@ -108352,7 +108360,7 @@
           }
         ],
         "excerpt": "Swarm Agents Cloud plugin provisions Jenkins agents on a Docker Swarm cluster. Features: WebSocket-based agent connectionsReal-time cluster monitoringConfiguration as Code (JCasC) supportResource constraints (CPU, memory limits)Volume and bind mountsPlacement constraintsPer-template instance limits",
-        "gav": "io.jenkins.plugins:swarm-agents-cloud:1.0.48",
+        "gav": "io.jenkins.plugins:swarm-agents-cloud:1.0.51",
         "health": 100,
         "issueTrackers": [
           {
@@ -108364,17 +108372,17 @@
         "labels": [],
         "name": "swarm-agents-cloud",
         "popularity": 0,
-        "previousTimestamp": "2026-01-22T04:59:35.00Z",
-        "previousVersion": "1.0.46",
-        "releaseTimestamp": "2026-01-22T20:50:21.00Z",
+        "previousTimestamp": "2026-01-22T20:50:21.00Z",
+        "previousVersion": "1.0.48",
+        "releaseTimestamp": "2026-01-27T09:00:02.00Z",
         "requiredCore": "2.528.3",
         "scm": "https://github.com/jenkinsci/swarm-agents-cloud-plugin",
-        "sha1": "KGBTnup0CowzEqxV2xPH2YJY278=",
-        "sha256": "X51EU1qpb1FtRE6+gs3jP5T+FsFyZasynoo7xmTtcXc=",
-        "size": 146023,
+        "sha1": "cFLfmW543GVBGmX+5g7JcpkzS4E=",
+        "sha256": "3/tl5fGphU7deS6nFZhmxNmQk7xHTCuSXkFrs43M/nc=",
+        "size": 150316,
         "title": "Swarm Agents Cloud",
-        "url": "https://updates.jenkins.io/download/plugins/swarm-agents-cloud/1.0.48/swarm-agents-cloud.hpi",
-        "version": "1.0.48",
+        "url": "https://updates.jenkins.io/download/plugins/swarm-agents-cloud/1.0.51/swarm-agents-cloud.hpi",
+        "version": "1.0.51",
         "wiki": "https://plugins.jenkins.io/swarm-agents-cloud",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/swarm-agents-cloud/latest/swarm-agents-cloud.hpi"
       },
@@ -122330,10 +122338,10 @@
       "certificates": [
         "MIIFqjCCA5KgAwIBAgIFAN6tvwUwDQYJKoZIhvcNAQENBQAwgYoxCzAJBgNVBAYTAlVTMRMwEQYDVQQIDApDYWxpZm9ybmlhMREwDwYDVQQHDAhTYW4gSm9zZTEYMBYGA1UECgwPSmVua2lucyBQcm9qZWN0MRowGAYDVQQDDBFLb2hzdWtlIEthd2FndWNoaTEdMBsGCSqGSIb3DQEJARYOa2tAa29oc3VrZS5vcmcwHhcNMjYwMTE0MTU0MjQyWhcNMjcwMTE0MTU0MjQyWjBeMQswCQYDVQQGEwJVUzETMBEGA1UECAwKQ2FsaWZvcm5pYTEYMBYGA1UECgwPSmVua2lucyBQcm9qZWN0MSAwHgYDVQQDDBdDb21tdW5pdHkgVXBkYXRlIENlbnRlcjCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBALQMWCFq7SaGA+hp98UAzgLkCO6NFlcK9n2mMQ0c6/4b6qI3n53Ak/ljF+4ekEb3p5tnI0iwj0GZjFc5hW1gtz3mfbkxTb7fk5LJFj90NZHr0isb5D21w2fkjGp9h81kGliUZcm3dpdrXMW2Gh1HYcF4uijuz1mzrFt2Ew2vgDse5EFYb32bk6Xmi/dhf0l9r+oKT6bChijgHr3WynRSdDL9y1XDqUq06ZAVp4RqVwwpezrYgJ/OPRZeg9CctnUoFR8BgHKWeNgwuyWrtBKST5pnQmhTEM53qVHzQTgrBP4Vqj38I1R39qPZa4cu3QUXMr8CsfrJ1wF8y3OmXp3pNfbXivb7RoanXYO+uZzoYOaaHAXTICFLUqR0sxJfiOTejm87P9F+EzEvuPGFDAkbo7qrW/hReHYycOiiqPggfLsglZTNJEdd4oLdvDZLnBJWBQscl98f/pVu3Pzld0RnU9phhCMXfVLkeQBQtAxfmqaVnMurELBNeK8ybriTQlAdnkBRzv3NAilUaAfI0gSh/beN2qNlII3kEOSpasAbEVbfBB+r9hNzFj4+Sqi8E+YZbMQjFtdHdO/iQCrcUiqDnTBsxL7u7xzfvLJTxoISUrCigVgUGryaouyUhARHpQwcVG4hewFspJZUaQv7aj0hlpQUC42+2zWr/NK5rVQAZD9RAgMBAAGjQjBAMB0GA1UdDgQWBBR2GjaTNzVHFuMTbEl9hRAbjCtQ2DAfBgNVHSMEGDAWgBQRxuXUMC3pVcYBtWtQctI2frQBhzANBgkqhkiG9w0BAQ0FAAOCAgEAOgskYoOGDmEZIjYUy2tYTKI6eKnpAiQA0yETLdam9wOGGL6J6e7BT5JoyxBrDXy4xrZsDyFOBPB8Di8ETF1mr9k6GsyBO8S/SYd/1qYg9kkHXq2x62WmDs0K7h9N2M9LAEFDvdZYvOnDzgFhcaFfsxUPS9qDFws33NDBTKo/Ya2UIjzyl1H68bw5VG1temOtAzvW+6EA4j2bzgv5NbaUGrZq5Y8yiWRDjdAbMBu0lDnJP7pTLs16jEE1FWfkJhkaU6TbMP6rzehjMkiplu+S0qnVQBUgME2U4EMxCM31oixUl/+WvZ5GQHR8GVdsFkQYs2K3L0i7a9bxc8jD6kzU/sSJwJxnqocB1JnZF1CFbT78bdTaBtZty7MVSUdXYCAf6XZPCMYOGN7Cb7YpLqn0hUCy2tIdHw6TUluyOkP0AoOLFijThtafcgQI19QyCa85DUZxwG1QsVFbGyqv6+47DbX2CUKzNLyfKJhivzwfagKZDo5KaZouv7lO5RMj8onHK+MrkzvJG1kFcFw5lO1ms5QKPNi3RfrQqWQ4rjVBbPdNx4xRpHVpcXp9MXCg64prwGHXrPN2yl2VRYrxwlLRhee27H07ZA9ujLB4PU8ppb6uQH2GQiKpXoRlzQBQej4zhquVM8rQaPfXV8DGNu4lx77tNtgK8uetQxyh4vBOpGA="
       ],
-      "correct_digest": "ZZELRgYk1ISUULHQbQ+hJ19b2nQ=",
-      "correct_digest512": "dfd5dfa3631c0e0fe3ac6640070ef4b044e081eb36fd9875f43b69b4af9d577628b2de270e53ab076365bbd5b5445b601b4df4bfb5de4dcf4dbb60a127134b7f",
-      "correct_signature": "AVQYeOU7A7N1/FP+OHnCYHj4b/V8iVpVX3F+vAmLFALhuCkY4cqfPU7lz93x0njS+XW9zAyk4goBHXR+Es342vmIItYAxW+PZ3CM9bKkJPoacxgEzP60QR9aZPwop21K/l6ZA3d5wRLWfgrDzhnyrI1PxJS7Q41tU1MIQX5O7ap8zfTXeM2FTgay2k129fZ3m3saa5bLBKUD5ItTiMMN+L5WjVGvCUQDNTC41woGMkTIQbau3ChNsVjbKFnMDN5T1uNOoSzSLi7WOtYv30O7Xv+V5gl05U/006RRcUXWbZQmjl0o+F3kB0aYobHWC86FJ9/mkvVk79dRYx1U9o8QZRN7UQCh7YO0oyPP6+txHzMGs4kgEx6rrib7A0aboe2bhXWP76KWgK9LKn9nDXpHelLaqgJvCQlLap/MWwI5GeL/Ff747p+1On36W2pz/qzRUfI34fjKeO/xhX/mKvIhQYPtEul/eC5Yia1uw39crPOjdHodvYdYQ596uoE4KDl99jWYOczSxaTU010mZHMMqt+8wCUEUqDWIy3ge6RvaUjE4rfbk+r0PpO9iXsvIanHwhLcKs5FGPM1gb+jaTz/NyQHLzNTl28IRJDI/0fJw5MgekoyCdt45SOcE3Y5dmwlBuFHPEHd44ofINzMUcTDbpuz+9MR8fsJsd6ugNIM5T0=",
-      "correct_signature512": "08a7bf2b0a74c8c1ad5d3ec0eb6aef1f13d0a5c1396c66e11507d59911219c38fccf0f52360319fee52ae26d846f6a3412356a1efc4d503fadc837a3274a4c89b67634e06ea576925f5db0c177850fb515c7441d055c44fd9dde968cd420b3e0bf2ac217921e13cb6baa15ecb99e13a551fd7e5a1df01e46f6495dd78d7ecaa960bd2391b035d2dfb55475bbcb62605e2bf3bcc3f43ea86e14d6c1fdb7ab98e291e58ca6d2cc4ffe96269b9292c5114ab445387d67a93d22cb3f659a0c2b7ccfdb79844ac1b54fc719c9a455358d9fb12c90128038a9fa7ca337af07279f886e16c97db85043301dc693478b7ce317c6948c311749ba486b4a14cf17a369e53fc9346dd2496140e5b9ffe1568365f833d46618e93b64214c000fafe10253d4238379c49ee3e4132c73044244b8ae28ad8a90ecb264f2ba14910ae19f40903d1ee02ecd361410d57d963ffdbc6f9411db3620f65989d160e1397720f2cbb254f7cfc5dbd4d4f27a011f80970d008f4bedd74e3e1314a672ddb59554a554969e9ea72bb0ce3ec4fa99299c62961e2403b22d5b4a0aecf60dd52b39f85687e670bb452dfafde8161cdc8b5b3a881701c43d675ce415fdfb242be80126a8918cf84e5e32c5855aa4071975c23e15cb7ffe9ef3a871c3067c8ca4c265ea66ebd8938045cf7e87e1d86368fe4cab95bbb1c442ccacb480c7696f7e5b190da6df584dcb"
+      "correct_digest": "Q6rWbjaZAFb6o3mkubR87NxM05o=",
+      "correct_digest512": "4870bb454e64364db12b5e4562ec6fb8d90b2d625754e4bc4649cfada344774cf84fb25428a85d326f51df2f11ccb2d0d566c570e06c635987bb9261c3323ddc",
+      "correct_signature": "ZRAVGa95iNCyhrDOfskxBU7bJ5BgYmJo0VdMmzfZLFqmjoWa3jb9M+DRC4SZ6Pntt/HkLTlQte4NSs7UWn0aWg8tBm5PlbRfFSazmRjWRFV8OpXcde+v/NkqbFt/UjA7ZnYMRxNXZak41IYjj2dPqZe0c7HuVVfTH/Lmyr2kr4Gr6hmJ5RDNdCkASEA591CGjRV6zRDmf3SLNXjWgNBE5KSu6XaHSHvEuTvtOuk7DvEjKnahbVSYd1RpvgfXPngNxneGxhSOWPT1jx15zqfzmsY55qbg3XNs9YPrcKXXs34jFEtbvzBKyeDEix5uitcM6GzQAUyo6t/H5cr+wdhYn0gi0ZDuNq9iC+CAQskWN773qdaLWeMa+Lmseka5UDR6WztdoCv4PPx/44BGoz8q2oWqWGvapkZuaQxlsbKFj3PjzRR5MlExYo61ZqBc4bpL7VmV5vu3R8vRBhnbZfhoxJQm+HgX2mPEi3AfZnkQo02rHaI+eSbWI/NXGaK2qUwWqCLooBPT4iLwcBIS/cFpp3do+ziTZDNu3jgFyOVY8X9tFTnup9h932vVVmPOejzGoUSv72vwSdPCtEuc4bVrRRveaY0+GPK7wXfigedjyVY/OQ6oPjiMbLe6VwM/jrVhH89WE8q2nakL5TuBG7X0212m6O80qbkXUWlH23kUJtY=",
+      "correct_signature512": "23d377928a9682fadca18039c49d19de2feb2c68526a8688f76e0fa033e8a45b511c3a30e196b7e36ee61a4dcea7a715467fffbc699e02a84235c9df41756cbf18ceb282853dc3792dd4c80df99382599dc0f676685727df7960979b2ebd9b26313c9555cceb52e4d272762f851b7faabef89e3c9755b398a4a0d8b69b463188cc46efda544ac56552164d69c0b42eb918931f42f84243f82b401454fa19d05b07f5599df9beeff3c39b1ffb92cbec8175fbce2009a8cc66af189c8e7b6d115b2925737ad3edd4a746f69672c15c5e0a44f58c4342a54ce3e3541835c7147b77d6d0a7bf5d702e8eb59ee680d74f74a3fe5236209a2c74d05057bc9ae4082060216462ea224c1d90763f4151ab352599592734e2708c6f82c2348541849bf6cecf522820dc4aea865ac9ca133f6c8e859ccf0b14e794c13883ef28db8af102851475d413db4efb4ad3ad49d1c2a79979446596c0ee9528e53b0dd50b6e694fbe6e58902e00744abf777953183fbe8ee8572c12b25651588e3d763b9ff1cebf4e9633ea3e326744992d47040447c6c64f54bb2b1b926f060af7b074fba0c0a82c75db160a1a3d6132e33c6a9c4dfa05f8f0534591b16d32aeec3a51a2b66fc20f9520f43b81cea607e38e23eccf4b70ed70c234562366c078c55b38b9be184a972ec16af79c052c6918a9f96a83c1d2d079198f4d4b5de774ed1c613684cad52e"
     },
     "updateCenterVersion": "1",
     "warnings": [
@@ -141559,7 +141567,7 @@
     ]
   },
   "_metadata": {
-    "generatedAt": "2026-01-27T03:05:06.559Z",
+    "generatedAt": "2026-01-28T03:02:30.152Z",
     "bestMirror": "https://mirror.nju.edu.cn/jenkins/",
     "mirrorsChecked": 10,
     "pluginsModified": 2048,
