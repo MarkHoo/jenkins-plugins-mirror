@@ -807,7 +807,7 @@
         "url": "https://wiki.jenkins-ci.org/display/JENKINS/ZAProxy+Plugin"
       }
     },
-    "generationTimestamp": "2026-02-08T03:41:03Z",
+    "generationTimestamp": "2026-02-09T03:36:19Z",
     "id": "default",
     "plugins": {
       "42crunch-security-audit": {
@@ -2082,7 +2082,7 @@
         ],
         "excerpt": "Provides Jenkins integration for the AbsInt Advanced Analyzer (a³) tools.",
         "gav": "org.jenkins-ci.plugins:absint-a3:1.1.0",
-        "health": 44,
+        "health": 24,
         "issueTrackers": [
           {
             "reportUrl": "https://www.jenkins.io/participate/report-issue/redirect/#21698/absint-a3",
@@ -2091,7 +2091,8 @@
           }
         ],
         "labels": [
-          "buildwrapper"
+          "buildwrapper",
+          "deprecated"
         ],
         "name": "absint-a3",
         "popularity": 11,
@@ -20015,13 +20016,13 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/bitkeeper/latest/bitkeeper.hpi"
       },
       "bitwarden-credentials-provider": {
-        "buildDate": "Nov 17, 2025",
+        "buildDate": "Feb 08, 2026",
         "defaultBranch": "main",
         "dependencies": [
           {
             "name": "credentials",
             "optional": false,
-            "version": "1447.v4cb_b_539b_5321"
+            "version": "1453.v9b_a_29777a_b_fd"
           },
           {
             "name": "jackson2-api",
@@ -20046,7 +20047,7 @@
           }
         ],
         "excerpt": "Allows fetching secrets from a Bitwarden or Vaultwarden vault and using them as native Jenkins credentials.",
-        "gav": "io.jenkins.plugins:bitwarden-credentials-provider:243.v0dcb_22a_ce3da_",
+        "gav": "io.jenkins.plugins:bitwarden-credentials-provider:254.vd33c35d1b_fb_5",
         "health": 100,
         "issueTrackers": [
           {
@@ -20060,17 +20061,17 @@
         ],
         "name": "bitwarden-credentials-provider",
         "popularity": 0,
-        "previousTimestamp": "2025-10-10T03:15:13.00Z",
-        "previousVersion": "215.vff8230a_06dd8",
-        "releaseTimestamp": "2025-11-17T05:30:42.00Z",
+        "previousTimestamp": "2025-11-17T05:30:42.00Z",
+        "previousVersion": "243.v0dcb_22a_ce3da_",
+        "releaseTimestamp": "2026-02-08T21:55:28.00Z",
         "requiredCore": "2.504.3",
         "scm": "https://github.com/jenkinsci/bitwarden-credentials-provider-plugin",
-        "sha1": "a3KPEcwNxrmNVO57M6ooVQEh/QA=",
-        "sha256": "ZSrhrPTzoUfAVDvQS1ps7VOLUqQZ6+QN9Jl5RGTKqZU=",
-        "size": 65159,
+        "sha1": "1NmXNmX2h1N7bT0pqwYUmjqPbK4=",
+        "sha256": "XVnE32Dejh4Y47wBIvmWMgBKbnT7RPtM3xwvIMX2UzA=",
+        "size": 65610,
         "title": "Bitwarden Credentials Provider",
-        "url": "https://updates.jenkins.io/download/plugins/bitwarden-credentials-provider/243.v0dcb_22a_ce3da_/bitwarden-credentials-provider.hpi",
-        "version": "243.v0dcb_22a_ce3da_",
+        "url": "https://updates.jenkins.io/download/plugins/bitwarden-credentials-provider/254.vd33c35d1b_fb_5/bitwarden-credentials-provider.hpi",
+        "version": "254.vd33c35d1b_fb_5",
         "wiki": "https://plugins.jenkins.io/bitwarden-credentials-provider",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/bitwarden-credentials-provider/latest/bitwarden-credentials-provider.hpi"
       },
@@ -83894,7 +83895,7 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/oracle-cloud-infrastructure-devops/latest/oracle-cloud-infrastructure-devops.hpi"
       },
       "oras-java-api": {
-        "buildDate": "Feb 05, 2026",
+        "buildDate": "Feb 08, 2026",
         "defaultBranch": "main",
         "dependencies": [
           {
@@ -83924,8 +83925,8 @@
             "name": "Valentin Delaye"
           }
         ],
-        "excerpt": "This plugin provides the <a href=\"https://github.com/oras-project/oras-java\" target=\"_blank\" rel=\"nofollow noreferrer noopener\">ORAS Java</a> SDK (v0.3.2) for other plugins.",
-        "gav": "io.jenkins.plugins:oras-java-api:0.3.2-153.vf3f1881f393d",
+        "excerpt": "This plugin provides the <a href=\"https://github.com/oras-project/oras-java\" target=\"_blank\" rel=\"nofollow noreferrer noopener\">ORAS Java</a> SDK (v0.3.3) for other plugins.",
+        "gav": "io.jenkins.plugins:oras-java-api:0.3.3-155.v2cb_7e276c5f8",
         "health": 100,
         "issueTrackers": [
           {
@@ -83939,17 +83940,17 @@
         ],
         "name": "oras-java-api",
         "popularity": 1,
-        "previousTimestamp": "2025-11-13T08:24:40.00Z",
-        "previousVersion": "0.3.1-126.vb_58a_7a_7b_ce43",
-        "releaseTimestamp": "2026-02-05T05:45:53.00Z",
+        "previousTimestamp": "2026-02-05T05:45:53.00Z",
+        "previousVersion": "0.3.2-153.vf3f1881f393d",
+        "releaseTimestamp": "2026-02-08T13:12:34.00Z",
         "requiredCore": "2.504.1",
         "scm": "https://github.com/jenkinsci/oras-java-api-plugin",
-        "sha1": "wBOG7R05fB4dquxOl7kRpP1o3Ns=",
-        "sha256": "Ay5/CbsEmjMZiIuI72V7IXG6jOabSml21Z5ULchueps=",
-        "size": 121339,
+        "sha1": "QhRmXp4dc+VPddUXu9ALdz4ktT8=",
+        "sha256": "M3TS3UJFHdGJ34eeMmNd1gtdUA21njK61OWq4siR6fE=",
+        "size": 124173,
         "title": "ORAS Java API",
-        "url": "https://updates.jenkins.io/download/plugins/oras-java-api/0.3.2-153.vf3f1881f393d/oras-java-api.hpi",
-        "version": "0.3.2-153.vf3f1881f393d",
+        "url": "https://updates.jenkins.io/download/plugins/oras-java-api/0.3.3-155.v2cb_7e276c5f8/oras-java-api.hpi",
+        "version": "0.3.3-155.v2cb_7e276c5f8",
         "wiki": "https://plugins.jenkins.io/oras-java-api",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/oras-java-api/latest/oras-java-api.hpi"
       },
@@ -93219,18 +93220,18 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/publish-over/latest/publish-over.hpi"
       },
       "publish-over-cifs": {
-        "buildDate": "Dec 02, 2020",
+        "buildDate": "Feb 08, 2026",
         "defaultBranch": "main",
         "dependencies": [
+          {
+            "name": "bouncycastle-api",
+            "optional": false,
+            "version": "2.30.1.80-261.v00c0e2618ec3"
+          },
           {
             "name": "publish-over",
             "optional": false,
             "version": "0.22"
-          },
-          {
-            "name": "structs",
-            "optional": false,
-            "version": "1.20"
           }
         ],
         "developers": [
@@ -93244,8 +93245,8 @@
           }
         ],
         "excerpt": "Send build artifacts to a windows share (CIFS/SMB/samba)",
-        "gav": "org.jenkins-ci.plugins:publish-over-cifs:0.16",
-        "health": 68,
+        "gav": "org.jenkins-ci.plugins:publish-over-cifs:194.v0274950f275c",
+        "health": 94,
         "issueTrackers": [
           {
             "reportUrl": "https://www.jenkins.io/participate/report-issue/redirect/#15850/publish-over-cifs",
@@ -93258,17 +93259,17 @@
         ],
         "name": "publish-over-cifs",
         "popularity": 3453,
-        "previousTimestamp": "2020-11-27T20:40:49.00Z",
-        "previousVersion": "0.15",
-        "releaseTimestamp": "2020-12-02T20:33:38.00Z",
-        "requiredCore": "2.204.6",
+        "previousTimestamp": "2020-12-02T20:33:38.00Z",
+        "previousVersion": "0.16",
+        "releaseTimestamp": "2026-02-08T08:01:27.00Z",
+        "requiredCore": "2.479.3",
         "scm": "https://github.com/jenkinsci/publish-over-cifs-plugin",
-        "sha1": "ij+OGHDuskVoLiwVb0O1SpH5zpg=",
-        "sha256": "bY4qphDpVsqIEY0L2vjq5h7otKCYkuCNBt74td2Ia9k=",
-        "size": 4806741,
+        "sha1": "nzHJLbc0WOO9LZHhZGTol1IlmCo=",
+        "sha256": "kBjOnIyWM29O/Uvud+vjzJHlcoIG1IhCbBYY4UF5qDI=",
+        "size": 890855,
         "title": "Publish Over CIFS",
-        "url": "https://updates.jenkins.io/download/plugins/publish-over-cifs/0.16/publish-over-cifs.hpi",
-        "version": "0.16",
+        "url": "https://updates.jenkins.io/download/plugins/publish-over-cifs/194.v0274950f275c/publish-over-cifs.hpi",
+        "version": "194.v0274950f275c",
         "wiki": "https://plugins.jenkins.io/publish-over-cifs",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/publish-over-cifs/latest/publish-over-cifs.hpi"
       },
@@ -122503,10 +122504,10 @@
       "certificates": [
         "MIIFqjCCA5KgAwIBAgIFAN6tvwUwDQYJKoZIhvcNAQENBQAwgYoxCzAJBgNVBAYTAlVTMRMwEQYDVQQIDApDYWxpZm9ybmlhMREwDwYDVQQHDAhTYW4gSm9zZTEYMBYGA1UECgwPSmVua2lucyBQcm9qZWN0MRowGAYDVQQDDBFLb2hzdWtlIEthd2FndWNoaTEdMBsGCSqGSIb3DQEJARYOa2tAa29oc3VrZS5vcmcwHhcNMjYwMTE0MTU0MjQyWhcNMjcwMTE0MTU0MjQyWjBeMQswCQYDVQQGEwJVUzETMBEGA1UECAwKQ2FsaWZvcm5pYTEYMBYGA1UECgwPSmVua2lucyBQcm9qZWN0MSAwHgYDVQQDDBdDb21tdW5pdHkgVXBkYXRlIENlbnRlcjCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBALQMWCFq7SaGA+hp98UAzgLkCO6NFlcK9n2mMQ0c6/4b6qI3n53Ak/ljF+4ekEb3p5tnI0iwj0GZjFc5hW1gtz3mfbkxTb7fk5LJFj90NZHr0isb5D21w2fkjGp9h81kGliUZcm3dpdrXMW2Gh1HYcF4uijuz1mzrFt2Ew2vgDse5EFYb32bk6Xmi/dhf0l9r+oKT6bChijgHr3WynRSdDL9y1XDqUq06ZAVp4RqVwwpezrYgJ/OPRZeg9CctnUoFR8BgHKWeNgwuyWrtBKST5pnQmhTEM53qVHzQTgrBP4Vqj38I1R39qPZa4cu3QUXMr8CsfrJ1wF8y3OmXp3pNfbXivb7RoanXYO+uZzoYOaaHAXTICFLUqR0sxJfiOTejm87P9F+EzEvuPGFDAkbo7qrW/hReHYycOiiqPggfLsglZTNJEdd4oLdvDZLnBJWBQscl98f/pVu3Pzld0RnU9phhCMXfVLkeQBQtAxfmqaVnMurELBNeK8ybriTQlAdnkBRzv3NAilUaAfI0gSh/beN2qNlII3kEOSpasAbEVbfBB+r9hNzFj4+Sqi8E+YZbMQjFtdHdO/iQCrcUiqDnTBsxL7u7xzfvLJTxoISUrCigVgUGryaouyUhARHpQwcVG4hewFspJZUaQv7aj0hlpQUC42+2zWr/NK5rVQAZD9RAgMBAAGjQjBAMB0GA1UdDgQWBBR2GjaTNzVHFuMTbEl9hRAbjCtQ2DAfBgNVHSMEGDAWgBQRxuXUMC3pVcYBtWtQctI2frQBhzANBgkqhkiG9w0BAQ0FAAOCAgEAOgskYoOGDmEZIjYUy2tYTKI6eKnpAiQA0yETLdam9wOGGL6J6e7BT5JoyxBrDXy4xrZsDyFOBPB8Di8ETF1mr9k6GsyBO8S/SYd/1qYg9kkHXq2x62WmDs0K7h9N2M9LAEFDvdZYvOnDzgFhcaFfsxUPS9qDFws33NDBTKo/Ya2UIjzyl1H68bw5VG1temOtAzvW+6EA4j2bzgv5NbaUGrZq5Y8yiWRDjdAbMBu0lDnJP7pTLs16jEE1FWfkJhkaU6TbMP6rzehjMkiplu+S0qnVQBUgME2U4EMxCM31oixUl/+WvZ5GQHR8GVdsFkQYs2K3L0i7a9bxc8jD6kzU/sSJwJxnqocB1JnZF1CFbT78bdTaBtZty7MVSUdXYCAf6XZPCMYOGN7Cb7YpLqn0hUCy2tIdHw6TUluyOkP0AoOLFijThtafcgQI19QyCa85DUZxwG1QsVFbGyqv6+47DbX2CUKzNLyfKJhivzwfagKZDo5KaZouv7lO5RMj8onHK+MrkzvJG1kFcFw5lO1ms5QKPNi3RfrQqWQ4rjVBbPdNx4xRpHVpcXp9MXCg64prwGHXrPN2yl2VRYrxwlLRhee27H07ZA9ujLB4PU8ppb6uQH2GQiKpXoRlzQBQej4zhquVM8rQaPfXV8DGNu4lx77tNtgK8uetQxyh4vBOpGA="
       ],
-      "correct_digest": "2+7rxCEd6VcNqDZJkmKpAmjpUVw=",
-      "correct_digest512": "2d520424c8248be3bfed30696b75058f6eb511924f67be14855581fd8f1260953b3b0ee24d1c727d1c00af591b1c27685b9144945fdc06d448d9d714b44cb2ab",
-      "correct_signature": "Jp/SEVc3+M8Pv6kExBZeTh3tBHkTrn0V2+Opr8/YJgjfMYd/0YyhGx9aPbbwh2t4J8csE6JrNd5BT0l7ivQ+SVszYBFdKpc1z3jU+h3Fy1gu4bn+S1wGdV354Qr+pxlVsY3qOCHAWVEWLhSVBgul9+pvYCn3LCM1hej1c0Ff+lJdJmuTGAcvUBaCCq2kGPzmpQ+jNKaxUsSTqc8ofHvuuUYNMzfgqMkdbcnmDgdggxOrrbMJKLumq/CCE1LkV+gNNRAGUFlB6ILYF1pMc0pUGgGZaxWaQBQqgwXE6IIs5SS6ec6oirjwY0f7pABZE19VU12/Lk+yGvYf0TcDRzA458QyyJMhPkHjgvFzc4WxCXuFVML6NoWQVFSVs297BVbzxP/y/cfg5kP1M6Jzx5CApbVB8zHRaxo6+2/xtW2ZEc5ljlov3YMVkJA7vbdCfIsLosVe6LHGzqtGd7b+VqnCbwuotaXwK3H2qBo2o6tfj3dP5uWFW7cyeextoG1ew9lfz+la5cbn6gGGSTpiW8fVdqeIZ2WrI549Pc6OOFZ0SaLFihotyIkDpR338QB7K8OZFn9ptzsLNx56MVe7ToZu8b/zJwWaTfk3C63KDInAmT8GfE+pvIAKkZ9faHkiA22DA9GGhJpAkfp3I/oXmqD5P1CzwZmi8CNIn2ZZK2L3T5M=",
-      "correct_signature512": "551d264ce6ef0445d3932a1f2c1f47867b35852629be84a5add1fe97ba69c6c82ff0b0892bf4081448c0c68e59df8fab52b8c45d774084f7baa4523adb503f61f2a9a237f76471f8624610f59beb154e9644808c77f686f3af7efe0d295e2a149baeb0d070d26e6b10e0d60254d5f2b600f5e24fa605319cabf7745a74a354387d14d98ea39d88b0378dfadafdd73aa935d19438a8aaa771237e828a29a8acaecb84eb0d917c9c7fc136a36ba33409cf6c6eaa14b295715fa36f2a023a0501337b6daf4d61aead07c518d1c266cdcfdc46fe2a13c5948aaab7b4d7f19d9d3ceb2909d1aa30e8efea540af0140153440ea2148ddce3578e97482e01ae11c2b82a63133b255c8a311ed61d59f2143c3cc47f45006d3285e7c1681dff5519940c2c90d06a5f54bf6aeaf8e21467a5f684d7ea78f701f2ac526e72516624ce106678c854c63e3563277658eb292cd84e6ecbf7eef4e64e974e374a3e97cfdfcc24903331c1bf5a6b4cba95da0d80e88a3995218c15305ef86348408abb99900b99f0d04dfdf78cc21b7eda4222bd416f5894ebffdfeedc6fd23bca8f8e79ca36fe777e1bec32b95a26cec1116c4077f6d0c9df78284b35480de2af301a2ff5aab9b1b6bd8d076841ab1c1011063bb347bbf0c7ccdbe867f329bd3c0a88f42aa29abd3c904d24f526c663d1cd39a4f32344b1b3e56a5ab5aa22a81db6557dfe08a742"
+      "correct_digest": "x0OWIU/3/PpDYeBzTdA2uVt4Gkc=",
+      "correct_digest512": "0d3bb55ed7b715d6dc7c1625a1e90ad2fa2285e727f9b9b208a91bab5c0aa7f5d2f38c42a1a320baac4ea042565e239c8e6f162770ea8ce246fdb8255e4172a8",
+      "correct_signature": "X7VWHY5xWSBy1vV5KWH0CKe8ycstXdbg353qPU/Y3tTCMPBCRiZCJaUBfVNRwLqD9Ee6K5Ek2+cqmovrh7Hz9y8PLRek9joSooyijt45N0ZIgQhykusj3NLXSuRk+9sANb/P138zQc7CEOjhTVU8jitX9YkzLJ5gx8dokAqNB+rTY+iYRVsUpL9XBPjDqcEZVHVVdV956ZlcTAsYfWX6AIKH/k1IGYs8RT/FyItnhGIxl7pSFIKKwHGdMQH2pzbCfGeIx6PTXT4L/BN1pH2ruQ37N6UiMHoHy3AgqL6OyBi/vWhgxzppmhXy+XO3VKwnFv+0zqHWatUlAfda5hB+ze3GSUU9GPk9ZfPbT0Hz1tdr2ZmJL3ONHr0zK+/E/oYdkPYyNMTsscEmx2zpc/T/M79IwLL5ygo1CDzf8gyM7nNWgpFtBZS3bwH3voSnkjzLpRQGDLh2ebBk3DFaMGx9LOYhs0nZBBbbRZoDadgC9x2s5fueKp+f0ZN+IB0WJ2xSstFf46cmpsYG08wE3PF8UMxICe/XK5ley9zJJ0DTo/uFRDB6jiC1h7CUAHuLOP+ngguUl0+9/VFGyUvA+kCGpFSHAWSaXmGWfqsZ1pxPm0ygtMgGdlEZZwGtc9LKySBfnz5Y7Yb2LW4xCo6S267CM1z00gp2OuCbjP4z2mtd47E=",
+      "correct_signature512": "20ff2fe0d40dcf76f185ef72d88fa0b79f47e953aaa5579fd92652a83206186c07f71eb1bc4efe56c15119d05f86611526e396ad21f61f674fbb6f7afd23733d66a7ab4ac9d4f7be0f020c1ca7364491ffba8802138b7c15cd21cab645479f601cb01759887e67c5d4fbd1ea68131cc2306ae50d9c5d84444c2cbd53d7dc146bf23350bcf85e44219d837eb26a231d1d8d3f35212a4c407473a2397a4d13511fd6995059f10a1cb6d6dd9a1c3e0eb3c2bff12b1f38ccb365618e1a4c31f8836917f186cca6bcdc9d24ce0785bd2a2dccc72fe5fcf147282ab126b712c23f6d47f6612a9edd5a6fded2f724c0dbace5c5d2ffcfa4c38120354454340d9c225a4ce838ff0c983232c407354c5f5a10e8a81aaf555608bd988f08cd838f1b2f29ddce3b194635da4d94a5f003e52a7e74b79ba6ad00c97a9ff87913564869ae2eb8f0c1ed35bc0e7e38c7536cf8924b2d5cbf2d3fbadc9ccfe58852531976372d113f6b40abdc233684c418687743a301236dfcf54a7868ffab98d996629bc047a0676c457c37ec861607e87040c5192cb483ba217a31ab90e41aafdbaf4d614ede80972cd5bc14ba34a9e09dd8a8b54cb4091af055206e0b830237ee058e6bb8000e615172aab409ba4a22d9def694ce608c1d683c7ee2f5ec0ef662f905b28e892b72b55085debf2f64653dd02fc94e8e7cd03f6517031d32fc3c6e6962105519"
     },
     "updateCenterVersion": "1",
     "warnings": [
@@ -141732,7 +141733,7 @@
     ]
   },
   "_metadata": {
-    "generatedAt": "2026-02-08T03:53:21.602Z",
+    "generatedAt": "2026-02-09T03:42:30.599Z",
     "bestMirror": "https://mirror.nju.edu.cn/jenkins/",
     "mirrorsChecked": 10,
     "pluginsModified": 2050,
