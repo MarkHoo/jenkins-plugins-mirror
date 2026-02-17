@@ -41,6 +41,9 @@
       "SCTMExecutor": {
         "url": "https://github.com/jenkins-infra/update-center2/pull/324"
       },
+      "absint-a3": {
+        "url": "https://github.com/jenkins-infra/update-center2/pull/906"
+      },
       "ace-editor": {
         "url": "https://github.com/jenkins-infra/update-center2/pull/857"
       },
@@ -807,7 +810,7 @@
         "url": "https://wiki.jenkins-ci.org/display/JENKINS/ZAProxy+Plugin"
       }
     },
-    "generationTimestamp": "2026-02-16T03:31:33Z",
+    "generationTimestamp": "2026-02-17T03:27:20Z",
     "id": "default",
     "plugins": {
       "42crunch-security-audit": {
@@ -5144,18 +5147,18 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/ant-in-workspace/latest/ant-in-workspace.hpi"
       },
       "antexec": {
-        "buildDate": "Jan 12, 2026",
+        "buildDate": "Feb 16, 2026",
         "defaultBranch": "main",
         "dependencies": [
           {
             "name": "ant",
             "optional": false,
-            "version": "513.vde9e7b_a_0da_0f"
+            "version": "520.vd082ecfb_16a_9"
           },
           {
             "name": "token-macro",
             "optional": false,
-            "version": "444.v52de7e9c573d"
+            "version": "477.vd4f0dc3cb_cf1"
           }
         ],
         "developers": [
@@ -5165,7 +5168,7 @@
           }
         ],
         "excerpt": "This plugin makes it possible to run Apache Ant code directly from Jenkins-CI",
-        "gav": "org.jenkins-ci.plugins:antexec:474.v6b_2a_ec53635f",
+        "gav": "org.jenkins-ci.plugins:antexec:477.v8fc8a_46c0d17",
         "health": 100,
         "issueTrackers": [
           {
@@ -5177,17 +5180,17 @@
         "labels": [],
         "name": "antexec",
         "popularity": 701,
-        "previousTimestamp": "2025-09-29T17:40:29.00Z",
-        "previousVersion": "454.v1a_6526458b_f4",
-        "releaseTimestamp": "2026-01-12T14:05:01.00Z",
-        "requiredCore": "2.479.1",
+        "previousTimestamp": "2026-01-12T14:05:01.00Z",
+        "previousVersion": "474.v6b_2a_ec53635f",
+        "releaseTimestamp": "2026-02-16T21:23:19.00Z",
+        "requiredCore": "2.528.3",
         "scm": "https://github.com/jenkinsci/antexec-plugin",
-        "sha1": "au6rhiegIHjikTrOBX9HCxMTxYk=",
-        "sha256": "AQVML3yjMmp59thqEAATPg0WjJ3LaBSmnUe+VVXj3N8=",
-        "size": 227412,
+        "sha1": "mB3x7+gclPogvGsbH0Oq+akNgdw=",
+        "sha256": "dBVwEvDesqIGYe34jeeygf3j+fim5UT141KfN4zcgR4=",
+        "size": 227410,
         "title": "AntExec",
-        "url": "https://updates.jenkins.io/download/plugins/antexec/474.v6b_2a_ec53635f/antexec.hpi",
-        "version": "474.v6b_2a_ec53635f",
+        "url": "https://updates.jenkins.io/download/plugins/antexec/477.v8fc8a_46c0d17/antexec.hpi",
+        "version": "477.v8fc8a_46c0d17",
         "wiki": "https://plugins.jenkins.io/antexec",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/antexec/latest/antexec.hpi"
       },
@@ -39725,7 +39728,7 @@
         ],
         "excerpt": "This plug-in publishes Software Bill-of-Materials (SBOM) to Dependency-Track for continuous analysis. <a href=\"https://dependencytrack.org/\" target=\"_blank\" rel=\"nofollow noreferrer noopener\">Dependency-Track</a> is an intelligent Software Supply Chain Component Analysis platform that allows organizations to identify and reduce risk from the use of third-party and open source components.",
         "gav": "org.jenkins-ci.plugins:dependency-track:6.0.2",
-        "health": 96,
+        "health": 98,
         "issueTrackers": [
           {
             "type": "jira",
@@ -53278,7 +53281,7 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/gitea-pat-kubernetes-credentials/latest/gitea-pat-kubernetes-credentials.hpi"
       },
       "gitee": {
-        "buildDate": "Feb 04, 2026",
+        "buildDate": "Feb 16, 2026",
         "defaultBranch": "master",
         "dependencies": [
           {
@@ -53357,7 +53360,7 @@
           }
         ],
         "excerpt": "This plugin integrates <a href=\"http://gitee.com/\" target=\"_blank\" rel=\"nofollow noreferrer noopener\">Gitee</a> to Jenkins by faking a Gitee CI Server. This plugin allows Gitee to trigger builds in Jenkins when code is committed or pull requests are opened/updated. It can also send build status back to Gitee.",
-        "gav": "org.jenkins-ci.plugins:gitee:1277.v4988370637e3",
+        "gav": "org.jenkins-ci.plugins:gitee:1278.v35c10a_5844c0",
         "health": 100,
         "issueTrackers": [
           {
@@ -53369,17 +53372,17 @@
         "labels": [],
         "name": "gitee",
         "popularity": 3629,
-        "previousTimestamp": "2026-01-27T16:37:37.00Z",
-        "previousVersion": "1272.v583461cd985b_",
-        "releaseTimestamp": "2026-02-04T16:08:21.00Z",
+        "previousTimestamp": "2026-02-04T16:08:21.00Z",
+        "previousVersion": "1277.v4988370637e3",
+        "releaseTimestamp": "2026-02-16T15:26:39.00Z",
         "requiredCore": "2.504.3",
         "scm": "https://github.com/jenkinsci/gitee-plugin",
-        "sha1": "h/76zlTeDXiLEoUc0Z4tJ03Jkd4=",
-        "sha256": "Uok6LLpe/mgkIrDGq5ZnGivOKszCZEkX1gQnN3dYFC4=",
-        "size": 7398548,
+        "sha1": "AkO+Pu1Wmw3nCCl3oSoU2+kiYsU=",
+        "sha256": "5XiqrODtQUiH+5ugyGZ9Mgh5fkeeyQpUhOd1WKP6CyQ=",
+        "size": 7398426,
         "title": "Gitee",
-        "url": "https://updates.jenkins.io/download/plugins/gitee/1277.v4988370637e3/gitee.hpi",
-        "version": "1277.v4988370637e3",
+        "url": "https://updates.jenkins.io/download/plugins/gitee/1278.v35c10a_5844c0/gitee.hpi",
+        "version": "1278.v35c10a_5844c0",
         "wiki": "https://plugins.jenkins.io/gitee",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/gitee/latest/gitee.hpi"
       },
@@ -54016,7 +54019,7 @@
         ],
         "excerpt": "Multibranch projects and organization folders from GitHub. Maintained by CloudBees, Inc.",
         "gav": "org.jenkins-ci.plugins:github-branch-source:1967.vdea_d580c1a_b_a_",
-        "health": 100,
+        "health": 97,
         "issueTrackers": [
           {
             "reportUrl": "https://github.com/jenkinsci/github-branch-source-plugin/issues/new/choose",
@@ -58750,7 +58753,7 @@
         ],
         "excerpt": "Jenkins plugin to populate environment variables from secrets stored in HashiCorp&#39;s <a href=\"http://vaultproject.io/\" target=\"_blank\" rel=\"nofollow noreferrer noopener\">Vault</a>",
         "gav": "com.datapipe.jenkins.plugins:hashicorp-vault-plugin:379.v080d932e61e4",
-        "health": 69,
+        "health": 94,
         "issueTrackers": [
           {
             "reportUrl": "https://github.com/jenkinsci/hashicorp-vault-plugin/issues/new/choose",
@@ -69513,7 +69516,7 @@
         ],
         "excerpt": "This plugin integrates Jenkins with <a href=\"https://github.com/GoogleCloudPlatform/kubernetes/\" target=\"_blank\" rel=\"nofollow noreferrer noopener\">Kubernetes</a>",
         "gav": "org.csanchez.jenkins.plugins:kubernetes:4423.vb_59f230b_ce53",
-        "health": 100,
+        "health": 97,
         "issueTrackers": [
           {
             "reportUrl": "https://github.com/jenkinsci/kubernetes-plugin/issues/new/choose",
@@ -94987,7 +94990,7 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/qualys-vm/latest/qualys-vm.hpi"
       },
       "qualys-was": {
-        "buildDate": "Jul 05, 2024",
+        "buildDate": "Feb 16, 2026",
         "defaultBranch": "master",
         "dependencies": [
           {
@@ -95008,8 +95011,8 @@
           }
         ],
         "excerpt": "Provides a post-deploy step to run a vulnerability scan using the Qualys Web Application Scanning (WAS) service.",
-        "gav": "com.qualys.plugins:qualys-was:2.1.3",
-        "health": 83,
+        "gav": "com.qualys.plugins:qualys-was:3.0.0",
+        "health": 91,
         "issueTrackers": [
           {
             "reportUrl": "https://www.jenkins.io/participate/report-issue/redirect/#26228/qualys-was",
@@ -95020,17 +95023,17 @@
         "labels": [],
         "name": "qualys-was",
         "popularity": 298,
-        "previousTimestamp": "2024-06-28T06:41:53.00Z",
-        "previousVersion": "2.1.2",
-        "releaseTimestamp": "2024-07-05T04:43:10.00Z",
-        "requiredCore": "2.319.3",
+        "previousTimestamp": "2024-07-05T04:43:10.00Z",
+        "previousVersion": "2.1.3",
+        "releaseTimestamp": "2026-02-16T14:11:25.00Z",
+        "requiredCore": "2.426.2",
         "scm": "https://github.com/jenkinsci/qualys-was-plugin",
-        "sha1": "lgvW6A3GU3I2KORWHLWJ0RetjBM=",
-        "sha256": "ikVlbvEWgP1CJmyWl4kGEO1b2Iq60F13K/UM6x3Wj/M=",
-        "size": 1986787,
+        "sha1": "jmR1wqFP+qhuDyr/EanKK0hlaEU=",
+        "sha256": "oqlEeFgplSwD4eYrQ0KDS4d2p4RQcUfKhDOZdHuV1o4=",
+        "size": 2006915,
         "title": "Qualys Web App Scanning Connector",
-        "url": "https://updates.jenkins.io/download/plugins/qualys-was/2.1.3/qualys-was.hpi",
-        "version": "2.1.3",
+        "url": "https://updates.jenkins.io/download/plugins/qualys-was/3.0.0/qualys-was.hpi",
+        "version": "3.0.0",
         "wiki": "https://plugins.jenkins.io/qualys-was",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/qualys-was/latest/qualys-was.hpi"
       },
@@ -113717,24 +113720,24 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/unleash/latest/unleash.hpi"
       },
       "uno-choice": {
-        "buildDate": "May 04, 2025",
+        "buildDate": "Feb 16, 2026",
         "compatibleSinceVersion": "2.0",
         "defaultBranch": "master",
         "dependencies": [
           {
             "name": "commons-lang3-api",
             "optional": false,
-            "version": "3.17.0-87.v5cf526e63b_8b_"
+            "version": "3.20.0-109.ve43756e2d2b_4"
           },
           {
             "name": "commons-text-api",
             "optional": false,
-            "version": "1.13.0-153.v91dcd89e2a_22"
+            "version": "1.15.0-210.v7480a_da_70b_9e"
           },
           {
             "name": "jquery3-api",
             "optional": false,
-            "version": "3.7.1-3"
+            "version": "3.7.1-594.vb_3864f326cf0"
           },
           {
             "name": "antisamy-markup-formatter",
@@ -113744,12 +113747,12 @@
           {
             "name": "script-security",
             "optional": false,
-            "version": "1373.vb_b_4a_a_c26fa_00"
+            "version": "1385.v7d2d9ec4d909"
           },
           {
             "name": "scriptler",
             "optional": true,
-            "version": "397.vc46f19cb_3c18"
+            "version": "444.v7fd079eb_3b_86"
           }
         ],
         "developers": [
@@ -113759,8 +113762,8 @@
           }
         ],
         "excerpt": "This plug-in provides additional parameter types for jobs, that allow you to cascade changes and render images or other HTML elements instead of the traditional parameter.",
-        "gav": "org.biouno:uno-choice:2.8.8",
-        "health": 96,
+        "gav": "org.biouno:uno-choice:2.8.9",
+        "health": 100,
         "issueTrackers": [
           {
             "reportUrl": "https://github.com/jenkinsci/active-choices-plugin/issues/new/choose",
@@ -113774,17 +113777,17 @@
         ],
         "name": "uno-choice",
         "popularity": 41212,
-        "previousTimestamp": "2025-04-19T22:18:35.00Z",
-        "previousVersion": "2.8.7",
-        "releaseTimestamp": "2025-05-04T09:19:35.00Z",
-        "requiredCore": "2.482",
+        "previousTimestamp": "2025-05-04T09:19:35.00Z",
+        "previousVersion": "2.8.8",
+        "releaseTimestamp": "2026-02-16T18:53:58.00Z",
+        "requiredCore": "2.504.3",
         "scm": "https://github.com/jenkinsci/active-choices-plugin",
-        "sha1": "2dot3LrHjetDQWy6bjcGReUszew=",
-        "sha256": "/xCd3+v8SKGV+8unp8BqcVhRCElggRNx9CwXYur7xvU=",
-        "size": 92250,
+        "sha1": "BN2rlafcPoTdGiudK8SU9Uhj5O8=",
+        "sha256": "mHItnrYCOmLVyFEhd4YfB15rNXXCx+w2E5Mq/aGP+OE=",
+        "size": 92320,
         "title": "Active Choices",
-        "url": "https://updates.jenkins.io/download/plugins/uno-choice/2.8.8/uno-choice.hpi",
-        "version": "2.8.8",
+        "url": "https://updates.jenkins.io/download/plugins/uno-choice/2.8.9/uno-choice.hpi",
+        "version": "2.8.9",
         "wiki": "https://plugins.jenkins.io/uno-choice",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/uno-choice/latest/uno-choice.hpi"
       },
@@ -122648,10 +122651,10 @@
       "certificates": [
         "MIIFqjCCA5KgAwIBAgIFAN6tvwUwDQYJKoZIhvcNAQENBQAwgYoxCzAJBgNVBAYTAlVTMRMwEQYDVQQIDApDYWxpZm9ybmlhMREwDwYDVQQHDAhTYW4gSm9zZTEYMBYGA1UECgwPSmVua2lucyBQcm9qZWN0MRowGAYDVQQDDBFLb2hzdWtlIEthd2FndWNoaTEdMBsGCSqGSIb3DQEJARYOa2tAa29oc3VrZS5vcmcwHhcNMjYwMTE0MTU0MjQyWhcNMjcwMTE0MTU0MjQyWjBeMQswCQYDVQQGEwJVUzETMBEGA1UECAwKQ2FsaWZvcm5pYTEYMBYGA1UECgwPSmVua2lucyBQcm9qZWN0MSAwHgYDVQQDDBdDb21tdW5pdHkgVXBkYXRlIENlbnRlcjCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBALQMWCFq7SaGA+hp98UAzgLkCO6NFlcK9n2mMQ0c6/4b6qI3n53Ak/ljF+4ekEb3p5tnI0iwj0GZjFc5hW1gtz3mfbkxTb7fk5LJFj90NZHr0isb5D21w2fkjGp9h81kGliUZcm3dpdrXMW2Gh1HYcF4uijuz1mzrFt2Ew2vgDse5EFYb32bk6Xmi/dhf0l9r+oKT6bChijgHr3WynRSdDL9y1XDqUq06ZAVp4RqVwwpezrYgJ/OPRZeg9CctnUoFR8BgHKWeNgwuyWrtBKST5pnQmhTEM53qVHzQTgrBP4Vqj38I1R39qPZa4cu3QUXMr8CsfrJ1wF8y3OmXp3pNfbXivb7RoanXYO+uZzoYOaaHAXTICFLUqR0sxJfiOTejm87P9F+EzEvuPGFDAkbo7qrW/hReHYycOiiqPggfLsglZTNJEdd4oLdvDZLnBJWBQscl98f/pVu3Pzld0RnU9phhCMXfVLkeQBQtAxfmqaVnMurELBNeK8ybriTQlAdnkBRzv3NAilUaAfI0gSh/beN2qNlII3kEOSpasAbEVbfBB+r9hNzFj4+Sqi8E+YZbMQjFtdHdO/iQCrcUiqDnTBsxL7u7xzfvLJTxoISUrCigVgUGryaouyUhARHpQwcVG4hewFspJZUaQv7aj0hlpQUC42+2zWr/NK5rVQAZD9RAgMBAAGjQjBAMB0GA1UdDgQWBBR2GjaTNzVHFuMTbEl9hRAbjCtQ2DAfBgNVHSMEGDAWgBQRxuXUMC3pVcYBtWtQctI2frQBhzANBgkqhkiG9w0BAQ0FAAOCAgEAOgskYoOGDmEZIjYUy2tYTKI6eKnpAiQA0yETLdam9wOGGL6J6e7BT5JoyxBrDXy4xrZsDyFOBPB8Di8ETF1mr9k6GsyBO8S/SYd/1qYg9kkHXq2x62WmDs0K7h9N2M9LAEFDvdZYvOnDzgFhcaFfsxUPS9qDFws33NDBTKo/Ya2UIjzyl1H68bw5VG1temOtAzvW+6EA4j2bzgv5NbaUGrZq5Y8yiWRDjdAbMBu0lDnJP7pTLs16jEE1FWfkJhkaU6TbMP6rzehjMkiplu+S0qnVQBUgME2U4EMxCM31oixUl/+WvZ5GQHR8GVdsFkQYs2K3L0i7a9bxc8jD6kzU/sSJwJxnqocB1JnZF1CFbT78bdTaBtZty7MVSUdXYCAf6XZPCMYOGN7Cb7YpLqn0hUCy2tIdHw6TUluyOkP0AoOLFijThtafcgQI19QyCa85DUZxwG1QsVFbGyqv6+47DbX2CUKzNLyfKJhivzwfagKZDo5KaZouv7lO5RMj8onHK+MrkzvJG1kFcFw5lO1ms5QKPNi3RfrQqWQ4rjVBbPdNx4xRpHVpcXp9MXCg64prwGHXrPN2yl2VRYrxwlLRhee27H07ZA9ujLB4PU8ppb6uQH2GQiKpXoRlzQBQej4zhquVM8rQaPfXV8DGNu4lx77tNtgK8uetQxyh4vBOpGA="
       ],
-      "correct_digest": "vrmSnc7Li9FlhI5yf9TPcXwxxeo=",
-      "correct_digest512": "131bb3359e93dbe39ecf12a8da984d60a0fd045c76624e7f985c068ea1869768ba13e3de72e02e34090b1c6968c8bb60a935a809ed51e485f54f1552f15a1fb1",
-      "correct_signature": "pFYkHixI00F57kJ89nWnm8x2biaX1Qkew1C1rU7Qjyo5pBge7kuIgwpsnzrxckyVCE/lbAA0iOdzEcOagysQnW3UU7oUxSorFvcBI26l0dNl9cSV+PZ0d9gL19NoxNmapcmTedmTrPjWoacHhIekC7FJLF4Gfiv4K3YWGdxxfwg+TKcfIlYVD9HenHAgNdv5IhVfPo/E8xwiYCJNrlJl2LzOewbu2ONd0VuzrrJO4wR9r2WAxRcj5qV2rwQ+GcLTKXfBSOtvEa+qJA3tzmT7uIFY2EOFwCo3utSJHK7IMv4kkdyalOCTPcB1tIBCByD3V5pS5EF+YGSMZnADyRCbzP1+HcZbwfQIm6XaVaxUhHivb9s+NDiCkZwnUcHKItFTYV2HmkibtkR2BPmUjGibtVDGbfLrCe/JumP7EcgrDjT9GJbx9swYsOKnO6ZsyqVtr/PiXMwZf5IQYNud+I2xZ4hs871OSTtqsLDc3OcD6rxIJZsZ7xvcRBYwkxckkpX++BiRBaMU1gJrFoHFWkeEW/x55cbc8eIHeDsdKGI2dwVCB/UAMgV9vZYoWV29g/94HXrnX5WD60uBB834P9uQ+FGQ6KvQL8zux5p5Bc016Ihxk7Ml7P82mX9TPIo4CDHdSWsz/US+2SDIVnsyetdVtgr1oSwevO8nJb2xBFCkD20=",
-      "correct_signature512": "39c0e71545cb6c6d7ee475144e27418b567fb11112090a07eb95c3913a69ad151b2af5ba18013953471388991c7deab68fee5febc9e6e2f9e5c078911ad105c2a772b397e0a9106b34c4674677f8505e2a417b3c1b228c841ffc48aaa0dc9f4e8564adf43e1d11b63f1c4a844d87ddb9b18764aaa2f5e776586a3142ceb192ae1cf82650c1ff014cb453ffdbf7ae8f2a8cc5c510ea54dd26f94994c16370bfc92ad4950519e80fa396ccce303d38df2e0b80c499eac34ebc88373664bc04686c687428fcabb7e3fad10c55de2a064e8d1eb2e2b2a41b653f548c2bb37e19219636e5ed56776a0351fb40cc5cea4bf886a3bb879f79d8e500c1a09a4061afc8202852f8da59bed8adbadfedf2749f38a0801247d46ed4d52960710b96afa11b21c8a8d67cc74b1e2bdd342d9519978516178bb876d63c30405fbd5a6c36f261f75fa18e2b8beedd8fdc1e02a55cc57fccdf48eec71b68334b69e2641aeca108643e89f4ebb851a4d65b4f72b8818915e7202875f47bc51f722d27d57d9d8129c6967e3428b9bd30830a8515e3a1cbd0ab5009d63848ccf5e567c293dc3f140e514e6bae3c007b3ec5328a0ea0f06b89cfb05356bb5e0352a14c6e7c409b2305b39a134c456247f9d7f9079360a6afc54824ebdcb384e2d0351b5b970ec7d38f72c31c06657cfffaff5ac8bab4ee348b7cadc1e87a33493669e3b7763bdd14ccfa"
+      "correct_digest": "X2+evUUD39UVklJ3seAkpWjrj1Y=",
+      "correct_digest512": "bff7271e582092e0bfd31603e3bfc74e326601dc05bd6ec79dffc23bd002f9edb29fc12a08e93fafb421f9c7ed40bcc5336109162cdee36837645bf2ea3ab332",
+      "correct_signature": "YU6r3Cl9c2SefCGy8vZ60f08s7KIKvmkvC3wtXEP1NxRD/upH4xo7gwiDpM3zFwEsYCP4gZzSGYRa9f49AzgZKUB0MuegHY/hMxfdngLed0CpQ9HpF/JxCMa9weI6fWoEo+gqcCVdoFyZXpxNJB2JJv4mkwW3MsR/JBlzgnlSqeb2YN2F2x/YEf7imGcGIdfjY38P7k65LlzUoa+sSnEYsp++rKqoYeOKUotXhpNBFZbcdlxXFOUa6KBVRGgK6RxnMXIlUWHsMU31e767ZFs3L5FmKIB9QasHWHkZHwE4NJADVb3HRQg+oTfhtXOaPiVla+Dcj9GWopTjKh+KRcDMhoivhjuuZ5O+V4R6thqXsy5NwH4IReMHGuKLDEKukLg+JpQPC/lkmoqN6HklHvsmOHLmkIJwEp0PDdAsid7O59sL0cpAt6oH9tcFXS1Esla2Qt4EFLwVKHe3FYAVrt4flgdrU1mgeXtMwCy7EMrOV578Dtu/3gLDhSQkqE8NNTJzY3E1SWgrAgh9/OASQ2jD9rjpgNI1whp/cUaFgjicIn8BuswUgSpj3ErNH/VLsMRvmb+98NG7JgVLRN7UbmdNOXjhu2HQmmAlxuYem+HtGZGoq6XCt6xVobsOC6xEK68NFQgR840DlzjX5ShC2yTuXzFRv1Uik89qquqoTnKy4Y=",
+      "correct_signature512": "12e42e479bd2a4de7685f11854520e1e64f9da431e7085c209a1ccf51b10012a4a8b8e5e59066e35dd30d5c44cd68774c0e32ed12f2f892fd57e814e0f8a963b3275e812f8abb853b15f9cc85e392a9ff16943dd98fe030ded48dc30fca0450c16c6a80b2d3c7567c547306d493e241bb80ad206dafa39042960f9d46304eae4eca21dec784016ce1e83456df98391e9d9c3a6b710341bd27fa36004b933ae7047b48dbbedb2babc2589fa3a30865caed4aabe1b69ff0a73b5f52faaae223a31b3b9e03dc3f528b7c72225019b3847fd9709402516445fcb5fb9ae7f51d643b3eb50d3b1b8524e2cebd11aef042006cca305a6278560fd947977084cdfd4157d2c029631804d5635cc498a74ec9e4be312c355c72b45e4a2478f10e738a528db10669e46c332ed9de87d0f6dbc5ed54a3bde958393cbfacd25264cbe56e1a2ce332eb9cd08a75e4e52dc32e349d57afe4dee22d69d2666f4fe9250fb518fd7f8ed9e7020616607e3abe6df6d6e66a11083100d28c11b53151e4cbace32c35d516cd802c88e8fb62c93f1a7fc04fc5770551d1f311eee834c008dd3f1dd0c901d9abc80062b6498d19b5ff87a093b507d264012811362b06b09410a30375b40fb8a7fe9d3aea9b3f9e0f93dcceff7b6962eb7631ec76746650f00e8bc1fbd76b57b0dd81be21ff7d25ee4da601713dd8242fcc07406a837bfd4a2e4b4e2de47a5"
     },
     "updateCenterVersion": "1",
     "warnings": [
@@ -141817,8 +141820,8 @@
         "url": "https://www.jenkins.io/security/advisory/2025-12-10/#SECURITY-3045",
         "versions": [
           {
-            "lastVersion": "371.v884a_4dd60fb_6",
-            "pattern": ".*"
+            "lastVersion": "378.v4d9b_90a_b_361d",
+            "pattern": "([1-3]|3[0-6][0-9]|37[0-8])(|[.-].+)"
           }
         ]
       },
@@ -141877,7 +141880,7 @@
     ]
   },
   "_metadata": {
-    "generatedAt": "2026-02-16T03:40:38.240Z",
+    "generatedAt": "2026-02-17T03:35:21.636Z",
     "bestMirror": "https://mirror.nju.edu.cn/jenkins/",
     "mirrorsChecked": 10,
     "pluginsModified": 2051,
