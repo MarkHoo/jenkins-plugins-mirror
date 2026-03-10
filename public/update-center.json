@@ -810,7 +810,7 @@
         "url": "https://wiki.jenkins-ci.org/display/JENKINS/ZAProxy+Plugin"
       }
     },
-    "generationTimestamp": "2026-03-09T03:26:45Z",
+    "generationTimestamp": "2026-03-10T03:13:03Z",
     "id": "default",
     "plugins": {
       "42crunch-security-audit": {
@@ -28419,7 +28419,7 @@
         ],
         "excerpt": "Get daily reports on security, performance, and/or stability issues found in your Jenkins instance by using Jenkins Health Advisor by CloudBees.",
         "gav": "org.jenkins-ci.plugins:cloudbees-jenkins-advisor:392.v6ca_b_ff4e12fa_",
-        "health": 100,
+        "health": 96,
         "issueTrackers": [
           {
             "reportUrl": "https://www.jenkins.io/participate/report-issue/redirect/#23162/cloudbees-jenkins-advisor",
@@ -75425,6 +75425,54 @@
         "wiki": "https://plugins.jenkins.io/microdocs-integration",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/microdocs-integration/latest/microdocs-integration.hpi"
       },
+      "micrometer-core-api": {
+        "buildDate": "Mar 09, 2026",
+        "defaultBranch": "main",
+        "dependencies": [
+          {
+            "name": "caffeine-api",
+            "optional": false,
+            "version": "3.2.3-194.v31a_b_f7a_b_5a_81"
+          },
+          {
+            "name": "jspecify-api",
+            "optional": false,
+            "version": "1.0.0-1.ve7231e6d0d15"
+          }
+        ],
+        "developers": [
+          {
+            "developerId": "jonesbusy",
+            "name": "Valentin Delaye"
+          }
+        ],
+        "excerpt": "This plugin provides <a href=\"https://github.com/micrometer-metrics/micrometer\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Micrometer Core </a> (v1.16.4) for other plugins.",
+        "gav": "io.jenkins.plugins:micrometer-core-api:1.16.4-7.v317a_961b_8da_2",
+        "health": 100,
+        "issueTrackers": [
+          {
+            "reportUrl": "https://github.com/jenkinsci/micrometer-core-api-plugin/issues/new/choose",
+            "type": "github",
+            "viewUrl": "https://github.com/jenkinsci/micrometer-core-api-plugin/issues"
+          }
+        ],
+        "labels": [],
+        "name": "micrometer-core-api",
+        "popularity": 0,
+        "previousTimestamp": "2026-03-09T16:56:49.00Z",
+        "previousVersion": "1.16.4-4.vb_dfa_edea_107c",
+        "releaseTimestamp": "2026-03-09T19:19:37.00Z",
+        "requiredCore": "2.504.3",
+        "scm": "https://github.com/jenkinsci/micrometer-core-api-plugin",
+        "sha1": "5lDu1up2MWONv6zm8/OgC9ilYu0=",
+        "sha256": "Bw9o1JT2zOWmj1xkGl5mOTznIOF+8G4dPgsZmP1VrJ8=",
+        "size": 1102576,
+        "title": "Micrometer Core API",
+        "url": "https://updates.jenkins.io/download/plugins/micrometer-core-api/1.16.4-7.v317a_961b_8da_2/micrometer-core-api.hpi",
+        "version": "1.16.4-7.v317a_961b_8da_2",
+        "wiki": "https://plugins.jenkins.io/micrometer-core-api",
+        "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/micrometer-core-api/latest/micrometer-core-api.hpi"
+      },
       "mina-sshd-api-common": {
         "buildDate": "Aug 28, 2025",
         "defaultBranch": "main",
@@ -80787,6 +80835,57 @@
         "wiki": "https://plugins.jenkins.io/oki-docki",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/oki-docki/latest/oki-docki.hpi"
       },
+      "ompass-2fa": {
+        "buildDate": "Mar 09, 2026",
+        "defaultBranch": "main",
+        "dependencies": [
+          {
+            "name": "json-api",
+            "optional": false,
+            "version": "20251224-185.v0cc18490c62c"
+          },
+          {
+            "name": "okhttp-api",
+            "optional": false,
+            "version": "4.12.0-195.vc02552c04ffd"
+          },
+          {
+            "name": "jackson2-api",
+            "optional": false,
+            "version": "2.20.1-423.v13951f6b_6532"
+          }
+        ],
+        "developers": [
+          {
+            "developerId": "oms",
+            "name": "hanseob"
+          }
+        ],
+        "excerpt": "Two-Factor Authentication for Jenkins using OMPASS. Adds a second authentication step after primary login (LDAP, AD, Jenkins DB, etc.) using the OMPASS mobile authenticator app.",
+        "gav": "io.jenkins.plugins:ompass-2fa:1.0.011.vda_e03a_9fea_b_9",
+        "health": 100,
+        "issueTrackers": [
+          {
+            "reportUrl": "https://github.com/jenkinsci/ompass-2fa-plugin/issues/new/choose",
+            "type": "github",
+            "viewUrl": "https://github.com/jenkinsci/ompass-2fa-plugin/issues"
+          }
+        ],
+        "labels": [],
+        "name": "ompass-2fa",
+        "popularity": 0,
+        "releaseTimestamp": "2026-03-09T04:30:56.00Z",
+        "requiredCore": "2.528.3",
+        "scm": "https://github.com/jenkinsci/ompass-2fa-plugin",
+        "sha1": "pHY1pRTLYybGtWKkSxcq+kLP3HY=",
+        "sha256": "aGlgw1NyXXuLnHBC8uQ9P7Kz9bTodSY84AQK7fH/oGQ=",
+        "size": 52270,
+        "title": "OMPASS 2FA Authentication",
+        "url": "https://updates.jenkins.io/download/plugins/ompass-2fa/1.0.011.vda_e03a_9fea_b_9/ompass-2fa.hpi",
+        "version": "1.0.011.vda_e03a_9fea_b_9",
+        "wiki": "https://plugins.jenkins.io/ompass-2fa",
+        "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/ompass-2fa/latest/ompass-2fa.hpi"
+      },
       "one-shot-executor": {
         "buildDate": "Jan 16, 2017",
         "defaultBranch": "master",
@@ -82611,9 +82710,14 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/oracle-cloud-infrastructure-devops/latest/oracle-cloud-infrastructure-devops.hpi"
       },
       "oras-java-api": {
-        "buildDate": "Mar 04, 2026",
+        "buildDate": "Mar 09, 2026",
         "defaultBranch": "main",
         "dependencies": [
+          {
+            "name": "caffeine-api",
+            "optional": false,
+            "version": "3.2.3-194.v31a_b_f7a_b_5a_81"
+          },
           {
             "name": "commons-compress-api",
             "optional": false,
@@ -82630,6 +82734,11 @@
             "version": "1.0.0-1.ve7231e6d0d15"
           },
           {
+            "name": "micrometer-core-api",
+            "optional": false,
+            "version": "1.16.4-7.v317a_961b_8da_2"
+          },
+          {
             "name": "bouncycastle-api",
             "optional": false,
             "version": "2.30.1.83-289.v8426fcd19371"
@@ -82641,8 +82750,8 @@
             "name": "Valentin Delaye"
           }
         ],
-        "excerpt": "This plugin provides the <a href=\"https://github.com/oras-project/oras-java\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">ORAS Java</a> SDK (v0.4.2) for other plugins.",
-        "gav": "io.jenkins.plugins:oras-java-api:0.4.2-167.v790a_9f6f113d",
+        "excerpt": "This plugin provides the <a href=\"https://github.com/oras-project/oras-java\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">ORAS Java</a> SDK (v0.5.0) for other plugins.",
+        "gav": "io.jenkins.plugins:oras-java-api:0.5.0-171.v3a_b_b_986a_7890",
         "health": 100,
         "issueTrackers": [
           {
@@ -82656,17 +82765,17 @@
         ],
         "name": "oras-java-api",
         "popularity": 1,
-        "previousTimestamp": "2026-02-24T13:47:52.00Z",
-        "previousVersion": "0.4.1-163.vccfffa_3de2a_3",
-        "releaseTimestamp": "2026-03-04T15:50:26.00Z",
+        "previousTimestamp": "2026-03-09T17:42:30.00Z",
+        "previousVersion": "0.5.0-169.v526f7e9df62b_",
+        "releaseTimestamp": "2026-03-09T19:46:11.00Z",
         "requiredCore": "2.516.1",
         "scm": "https://github.com/jenkinsci/oras-java-api-plugin",
-        "sha1": "8CcQ3q2frzY+0p/+mKHyE1rx+04=",
-        "sha256": "ySP/JcLQejNs8+B/cfuaMcK3iGl43HeDjpbFALoBDuA=",
-        "size": 150549,
+        "sha1": "pCVNlXaqgvSra9HnA1J45DcAZ5A=",
+        "sha256": "e2DQnBgXjDeMmLKMMY/mSS7HNHM8gi58V20H/Lw0o/4=",
+        "size": 162274,
         "title": "ORAS Java API",
-        "url": "https://updates.jenkins.io/download/plugins/oras-java-api/0.4.2-167.v790a_9f6f113d/oras-java-api.hpi",
-        "version": "0.4.2-167.v790a_9f6f113d",
+        "url": "https://updates.jenkins.io/download/plugins/oras-java-api/0.5.0-171.v3a_b_b_986a_7890/oras-java-api.hpi",
+        "version": "0.5.0-171.v3a_b_b_986a_7890",
         "wiki": "https://plugins.jenkins.io/oras-java-api",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/oras-java-api/latest/oras-java-api.hpi"
       },
@@ -99703,7 +99812,7 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/scripted-cloud-plugin/latest/scripted-cloud-plugin.hpi"
       },
       "scriptler": {
-        "buildDate": "Jan 01, 2026",
+        "buildDate": "Mar 09, 2026",
         "defaultBranch": "main",
         "dependencies": [
           {
@@ -99739,7 +99848,7 @@
           }
         ],
         "excerpt": "Scriptler allows you to store/edit/execute Groovy scripts on any of the nodes... no need for copy paste Groovy code anymore. Beside administer your scripts, Scriptler also provides a way to share scripts between users via hosted script catalogs on the internet.",
-        "gav": "org.jenkins-ci.plugins:scriptler:444.v7fd079eb_3b_86",
+        "gav": "org.jenkins-ci.plugins:scriptler:451.v02fdb_b_d6c619",
         "health": 96,
         "issueTrackers": [
           {
@@ -99755,17 +99864,17 @@
         ],
         "name": "scriptler",
         "popularity": 6662,
-        "previousTimestamp": "2025-10-01T23:47:44.00Z",
-        "previousVersion": "432.v872ed6cd6d5b_",
-        "releaseTimestamp": "2026-01-01T16:06:39.00Z",
+        "previousTimestamp": "2026-01-01T16:06:39.00Z",
+        "previousVersion": "444.v7fd079eb_3b_86",
+        "releaseTimestamp": "2026-03-09T19:11:29.00Z",
         "requiredCore": "2.504.3",
         "scm": "https://github.com/jenkinsci/scriptler-plugin",
-        "sha1": "9V9CtQuB/yT2kIGUVsSCN23ByQY=",
-        "sha256": "ANrp1igzxNZQswQ2KEYrsbwEZ7dmrLgerhrsd+2/BgI=",
-        "size": 124457,
+        "sha1": "+bHB0w7IQwI9iMipVhqaoEH/dzc=",
+        "sha256": "G6t7ggHQZTfDQm4kabIlozb+vbIRI+HIsjrlXhZnzZk=",
+        "size": 125654,
         "title": "Scriptler",
-        "url": "https://updates.jenkins.io/download/plugins/scriptler/444.v7fd079eb_3b_86/scriptler.hpi",
-        "version": "444.v7fd079eb_3b_86",
+        "url": "https://updates.jenkins.io/download/plugins/scriptler/451.v02fdb_b_d6c619/scriptler.hpi",
+        "version": "451.v02fdb_b_d6c619",
         "wiki": "https://plugins.jenkins.io/scriptler",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/scriptler/latest/scriptler.hpi"
       },
@@ -121183,10 +121292,10 @@
       "certificates": [
         "MIIFqjCCA5KgAwIBAgIFAN6tvwUwDQYJKoZIhvcNAQENBQAwgYoxCzAJBgNVBAYTAlVTMRMwEQYDVQQIDApDYWxpZm9ybmlhMREwDwYDVQQHDAhTYW4gSm9zZTEYMBYGA1UECgwPSmVua2lucyBQcm9qZWN0MRowGAYDVQQDDBFLb2hzdWtlIEthd2FndWNoaTEdMBsGCSqGSIb3DQEJARYOa2tAa29oc3VrZS5vcmcwHhcNMjYwMTE0MTU0MjQyWhcNMjcwMTE0MTU0MjQyWjBeMQswCQYDVQQGEwJVUzETMBEGA1UECAwKQ2FsaWZvcm5pYTEYMBYGA1UECgwPSmVua2lucyBQcm9qZWN0MSAwHgYDVQQDDBdDb21tdW5pdHkgVXBkYXRlIENlbnRlcjCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBALQMWCFq7SaGA+hp98UAzgLkCO6NFlcK9n2mMQ0c6/4b6qI3n53Ak/ljF+4ekEb3p5tnI0iwj0GZjFc5hW1gtz3mfbkxTb7fk5LJFj90NZHr0isb5D21w2fkjGp9h81kGliUZcm3dpdrXMW2Gh1HYcF4uijuz1mzrFt2Ew2vgDse5EFYb32bk6Xmi/dhf0l9r+oKT6bChijgHr3WynRSdDL9y1XDqUq06ZAVp4RqVwwpezrYgJ/OPRZeg9CctnUoFR8BgHKWeNgwuyWrtBKST5pnQmhTEM53qVHzQTgrBP4Vqj38I1R39qPZa4cu3QUXMr8CsfrJ1wF8y3OmXp3pNfbXivb7RoanXYO+uZzoYOaaHAXTICFLUqR0sxJfiOTejm87P9F+EzEvuPGFDAkbo7qrW/hReHYycOiiqPggfLsglZTNJEdd4oLdvDZLnBJWBQscl98f/pVu3Pzld0RnU9phhCMXfVLkeQBQtAxfmqaVnMurELBNeK8ybriTQlAdnkBRzv3NAilUaAfI0gSh/beN2qNlII3kEOSpasAbEVbfBB+r9hNzFj4+Sqi8E+YZbMQjFtdHdO/iQCrcUiqDnTBsxL7u7xzfvLJTxoISUrCigVgUGryaouyUhARHpQwcVG4hewFspJZUaQv7aj0hlpQUC42+2zWr/NK5rVQAZD9RAgMBAAGjQjBAMB0GA1UdDgQWBBR2GjaTNzVHFuMTbEl9hRAbjCtQ2DAfBgNVHSMEGDAWgBQRxuXUMC3pVcYBtWtQctI2frQBhzANBgkqhkiG9w0BAQ0FAAOCAgEAOgskYoOGDmEZIjYUy2tYTKI6eKnpAiQA0yETLdam9wOGGL6J6e7BT5JoyxBrDXy4xrZsDyFOBPB8Di8ETF1mr9k6GsyBO8S/SYd/1qYg9kkHXq2x62WmDs0K7h9N2M9LAEFDvdZYvOnDzgFhcaFfsxUPS9qDFws33NDBTKo/Ya2UIjzyl1H68bw5VG1temOtAzvW+6EA4j2bzgv5NbaUGrZq5Y8yiWRDjdAbMBu0lDnJP7pTLs16jEE1FWfkJhkaU6TbMP6rzehjMkiplu+S0qnVQBUgME2U4EMxCM31oixUl/+WvZ5GQHR8GVdsFkQYs2K3L0i7a9bxc8jD6kzU/sSJwJxnqocB1JnZF1CFbT78bdTaBtZty7MVSUdXYCAf6XZPCMYOGN7Cb7YpLqn0hUCy2tIdHw6TUluyOkP0AoOLFijThtafcgQI19QyCa85DUZxwG1QsVFbGyqv6+47DbX2CUKzNLyfKJhivzwfagKZDo5KaZouv7lO5RMj8onHK+MrkzvJG1kFcFw5lO1ms5QKPNi3RfrQqWQ4rjVBbPdNx4xRpHVpcXp9MXCg64prwGHXrPN2yl2VRYrxwlLRhee27H07ZA9ujLB4PU8ppb6uQH2GQiKpXoRlzQBQej4zhquVM8rQaPfXV8DGNu4lx77tNtgK8uetQxyh4vBOpGA="
       ],
-      "correct_digest": "w4cDRxM3xjQjBJ9QT123kxBqfPk=",
-      "correct_digest512": "58ec072d6babfe5ec49791c3ea8064fe4c21c45f7a306119281b7564175146c58803079f2df9472175390d3a74ad68e062441056d89f1778bc6bafd458488c93",
-      "correct_signature": "b9jjgVuL7MIhkA4tOsPXUXdyIF/pY94JqtOPiGWI536Y9cHeVbVfM7PqyQALZINzOlolf0YtsyPmzWlwqGNer/9+Wqj7FM6iQzeUmMbqsm4YfYv3K6htNy0ixEtsNPriGJHKdins8akFUZ/yoL4B2KjNUnKQL8igLMS23vLCD+8gfvogvTg8OapyttfJ2agQIeVog4c+R4/Px+g9hXNY2IgkKV74/Caz1SYgucIaU4iHRLg++zvHqB60pIZzTfVkF4UL//Us7X056nP8I7CduW+6jsA4p0dhNzpNgVb9SAuzZuRQ2DhAWwa04htRTKqbzOpYfzRi2Z4tkm4UILwfS2/g01QJgiNRjSeHN5CbD0XqCMCHPoMdUsmAZ4x5GnHmkLCDdOjX1REBmh+z85WPxqKeM8ZxyHFdn30DILYK561vX/fQSwjd426nvq0n8ZrK6DAJ9aDBQRIILQ7Zj+S9SzC+yPucSq5MV74CH7CQJXnfVxfIRMI65KqTrmQ7uiFvZJFmbEgunwqCRaLYm3+hqV/FyMK20ANXBA6ZOqL7yQwPQE2Xt5S2xzMKJq7ErcOWh9lD3Bsw7y55vUZ3cl+fBUn/1pWv0yNwT/Kb6QelMikP9J1DOYskIHFqZaK702UdkPi8MAKq79PGLOVp24gCfkGOIbxcEY2Mf8WkEUcPZ2Q=",
-      "correct_signature512": "678cd134e3d1c3b357d05eb66d1aa41571ea8b85e0c9d76aa240f0d4f63c877126c12491cbd5368e5e332800823c89cb7e8f23bc76811c3c26e50cf702874a045f01aab47c63abfca7dd66a3131b208a675c7bab706aec6b1f1a142f9d6c56a68a6d9b08ea4cd00f03ac0836f70a3953d3570c70c92e44fbcafe7787c59a52fcd473d6002c676b3dd1d3592fbe4dbac1cbea72b01476c8c48e82edef9e8c398442c1d5be75f5f5043da2f2a19b8525b3f3f037412f0cd7ea9b52cb4cdbfb97c59d0f1b4f4bd5e38cbbec4a7d4e6686acd8bcd61121d347527c578fa171efc9aab89c44214b5a20ae7bda30cce4214acde60fb04ed1385593ddca6c5c1d1e012aca6723affe4dc00e33bbe092c1e6f6d631527afff77de006f4eb17fc780a87bda2cfb2836b83eb8022512dc7b634d63fe071baab20a2a0777d6fe5391c554baace11aabaa6aebcf00648b7c7201d2a9619805d3dbecebb25b9d543a8098967135496e400ba806e1dcf41a206e67f0186ea935c16643af94671dfcfdbecc931e11072f592481f874530bd0a23de5f09f17907ee3f3f1ee7bac77e052154be0a64c0a4e6e64eb18df6c6e64e38b82ea6b359bd85679b6f34d0632a1b12a7ee89212c2fcd903055328c0e3e59b849d2476d3331b670ad6f6d1345d28bc2f00090a9ab63e1924161df5a839a52a0d5c9cf37b78cf1ee73a0d09e9e015201cbe252ae"
+      "correct_digest": "bbvufQ7OnHERQwt/8YF8tcC8GJo=",
+      "correct_digest512": "9160ab0417ee009612c9f019a411988cf16aff72f9af3fdc92840f07cdf80504fe3f628d836e4b1afe5c6cab18e4b2ff685a7cde7b2c6e4b8620bedb47c5c161",
+      "correct_signature": "KpwwxBXcmxQnsPSEg+18hOsPpjlBcqH1nCYnphKvROJw3/jL0VKOGQtGGN6BOLD25E2QpzGke+QhgdQBue8riceTAzRF+1oevtGHrrD79qRwiMST+yVv3YwGCSi4EOGkEAcMjROIW/OgQzNa6AQk39eG31ZQhgjWxZnH0vDdWT7LpgW7ni7nw5Z1WSY28YNAEoP/KAedHkdYBV140ZuAQozr4W88FnLOJx+rmc4kf4Naq5gZ2ZieeugREuL3o0OxGdewGnuLPHUzZqccNhbWFbDu+lDAeFxaggN9CiVcsn5U8TVCzlt2jUIpUzQeptC893jxomsVM4h/Jnjx9fViJaUoWPHzYmOaGsfqFeY+n1Qz5x7Vp8qvgvjALp1d27Kbwph5/beUQSrgwIVG3OSPf/IuIzXU8Vxm5moGa2lzvWg/BbUIEh/kMGluCVewKz/kFf9TmLdkJteCK7e1vH5GZKp5Av5re5lnhr2W8k56vmb+xuvhJGOni3h/6jyTiW9Pm8lIHGcYTx8HD4oPiiSf5NCppM6tolyaxlrvCaU9BGtkO5fBEFCV4EMAZ1wEHutM6lCONlix34LqkDbNeoQyjmHZfXDBRHgRNEsn5tqp2/H9wm4htbThqjzYWzNhObHUfkvXycwZ2GDly1ZljK+hnxcdSMOqR1Q5+ffVmerC49c=",
+      "correct_signature512": "27f239b5260d808cdad7f81950a856cbb5c1c50dd58371627c169a64afb01dd8a5f4cd479ad07ab7382a371c9d9ff90eb22052a2483b52a8af5e8200c1373961b20f9e3e69a610837c4682de910fd57e18cbd6008129c7a1c96cfea28948889e33afa07b4ac143a4d34b7b39b48cde9b9e9fe6ecfdf62a8df367ebf703dd50df751a985e13d2dfc78d16258c4e2c52f8120241b4e1fe1352c9bda7c2a2f27793ea5e04a8c08c6cb3205702643284ae9986f8f5570387057f1215970c6d5881950d320fd2436946a3ac22591f3249debbdeb308c9ca92b75be82af9558078c0e80391cb54b88931cd465f3dcff1aea0a0018b74cd8149f09c55b876e5560d4acf90f17a0ee07be8a8ef136664079e4f14fb5b399abee07fc7c92e6264f1ac6e995bdc9ea8fd51be9de295027f18e92d209f933044560486077f866bcf30eb6be2769e633990c9b54943c3c1628f2a6048f827be0373d6e8e6d361e002254ff3b1069b14888279a18e93d7a06f087aa23c906eced6e05dd8d324f16bdbcebee4ba6c2613273257b247181789f00fa91a1bf7b42eeca478e688c45cfaab249da66ce9d75a78f207eb24a66c8bfd59017028a62b3159afece0e7f8c1cea5d1af73c387c3cd5454b54b461603adbbf885b1305e4573171e1a08bb9f7316d715f9cf253c0250229380047a685f1b07a80658b2a7b255a70ba2c8a91f284f59aac91f59"
     },
     "updateCenterVersion": "1",
     "warnings": [
@@ -140429,10 +140538,10 @@
     ]
   },
   "_metadata": {
-    "generatedAt": "2026-03-09T03:33:45.200Z",
+    "generatedAt": "2026-03-10T03:26:06.647Z",
     "bestMirror": "https://mirror.nju.edu.cn/jenkins/",
     "mirrorsChecked": 10,
-    "pluginsModified": 2055,
+    "pluginsModified": 2057,
     "officialSource": "https://updates.jenkins.io/update-center.json?version=latest",
     "generator": "jenkins-plugins-mirror (https://github.com/your-username/jenkins-plugins-mirror)"
   }
