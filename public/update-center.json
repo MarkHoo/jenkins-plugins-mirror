@@ -2,13 +2,13 @@
   "updateCenter": {
     "connectionCheckUrl": "https://www.google.com/",
     "core": {
-      "buildDate": "Mar 17, 2026",
+      "buildDate": "Mar 24, 2026",
       "name": "core",
-      "sha1": "HQrbNQ2uTal/jtAmSjAoElCuOlc=",
-      "sha256": "PwBdzU46ZRjaQ3P2fXfWXcCNIJ9DMkGefc+iXUFmCAE=",
-      "size": 100122808,
-      "url": "https://updates.jenkins.io/download/war/2.555/jenkins.war",
-      "version": "2.555"
+      "sha1": "9e0sUa93wGu+dA0V5lEAb+VHgXQ=",
+      "sha256": "wdy6zZKMGsnNKkqAbT5O+Qi4kBdrA0mbhp+rWG6RG1E=",
+      "size": 100273902,
+      "url": "https://updates.jenkins.io/download/war/2.556/jenkins.war",
+      "version": "2.556"
     },
     "deprecations": {
       "BlameSubversion": {
@@ -810,7 +810,7 @@
         "url": "https://wiki.jenkins-ci.org/display/JENKINS/ZAProxy+Plugin"
       }
     },
-    "generationTimestamp": "2026-03-24T03:24:23Z",
+    "generationTimestamp": "2026-03-25T03:32:03Z",
     "id": "default",
     "plugins": {
       "42crunch-security-audit": {
@@ -6852,7 +6852,7 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/artifact-diff-plugin/latest/artifact-diff-plugin.hpi"
       },
       "artifact-manager-s3": {
-        "buildDate": "Dec 08, 2025",
+        "buildDate": "Mar 24, 2026",
         "defaultBranch": "master",
         "dependencies": [
           {
@@ -6975,7 +6975,7 @@
           }
         ],
         "excerpt": "A Jenkins plugin to keep artifacts and Pipeline stashes in Amazon S3.",
-        "gav": "io.jenkins.plugins:artifact-manager-s3:962.v15f7000205fa_",
+        "gav": "io.jenkins.plugins:artifact-manager-s3:973.v6a_51253e896b_",
         "health": 97,
         "issueTrackers": [
           {
@@ -6989,17 +6989,17 @@
         ],
         "name": "artifact-manager-s3",
         "popularity": 2477,
-        "previousTimestamp": "2025-08-27T16:09:09.00Z",
-        "previousVersion": "951.v74e888e4e3f2",
-        "releaseTimestamp": "2025-12-08T13:35:22.00Z",
+        "previousTimestamp": "2025-12-08T13:35:22.00Z",
+        "previousVersion": "962.v15f7000205fa_",
+        "releaseTimestamp": "2026-03-24T21:26:33.00Z",
         "requiredCore": "2.504.3",
         "scm": "https://github.com/jenkinsci/artifact-manager-s3-plugin",
-        "sha1": "IOiEAEZic6hE33inK3pn+m4dIMc=",
-        "sha256": "2Cx3kz8KhSZFIxwauN3vNupK71L+RuJCURc5TzKN4bE=",
-        "size": 2041295,
+        "sha1": "Rd81+kZmbqxnzo1ZxBlIm62OVLY=",
+        "sha256": "lVYUhSbKwsYg4kk3b4NG4l3RZKhaHV7CAm8eoBn7Tgg=",
+        "size": 2041345,
         "title": "Artifact Manager on S3",
-        "url": "https://updates.jenkins.io/download/plugins/artifact-manager-s3/962.v15f7000205fa_/artifact-manager-s3.hpi",
-        "version": "962.v15f7000205fa_",
+        "url": "https://updates.jenkins.io/download/plugins/artifact-manager-s3/973.v6a_51253e896b_/artifact-manager-s3.hpi",
+        "version": "973.v6a_51253e896b_",
         "wiki": "https://plugins.jenkins.io/artifact-manager-s3",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/artifact-manager-s3/latest/artifact-manager-s3.hpi"
       },
@@ -12737,13 +12737,13 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/aws-java-sdk-ssm/latest/aws-java-sdk-ssm.hpi"
       },
       "aws-java-sdk2-apigateway": {
-        "buildDate": "Sep 09, 2025",
+        "buildDate": "Mar 24, 2026",
         "defaultBranch": "master",
         "dependencies": [
           {
             "name": "aws-java-sdk2-core",
             "optional": false,
-            "version": "2.33.4-62.vc1a_8df64b_4c9"
+            "version": "2.38.2-66.v466fe61729d1"
           }
         ],
         "developers": [
@@ -12817,7 +12817,7 @@
           }
         ],
         "excerpt": "API Gateway module for the <a href=\"https://aws.amazon.com/sdk-for-java/\" target=\"_blank\" rel=\"noopener noreferrer nofollow\">AWS SDK for Java</a>.",
-        "gav": "io.jenkins.plugins.aws-java-sdk2:aws-java-sdk2-apigateway:2.33.4-62.vc1a_8df64b_4c9",
+        "gav": "io.jenkins.plugins.aws-java-sdk2:aws-java-sdk2-apigateway:2.38.2-66.v466fe61729d1",
         "health": 100,
         "issueTrackers": [
           {
@@ -12829,28 +12829,28 @@
         "labels": [],
         "name": "aws-java-sdk2-apigateway",
         "popularity": 29,
-        "previousTimestamp": "2025-06-16T16:16:57.00Z",
-        "previousVersion": "2.31.63-54.vcf1e5a_c56c49",
-        "releaseTimestamp": "2025-09-09T09:24:40.00Z",
+        "previousTimestamp": "2025-09-09T09:24:40.00Z",
+        "previousVersion": "2.33.4-62.vc1a_8df64b_4c9",
+        "releaseTimestamp": "2026-03-24T17:10:10.00Z",
         "requiredCore": "2.479.1",
         "scm": "https://github.com/jenkinsci/aws-java-sdk2-plugin",
-        "sha1": "E+sKUMG7Q0RWsL8etIajWIXFc5Q=",
-        "sha256": "9sZT0dM0u+gNNVmpzl5Gdpk6i2MqP7tphremROrxbYM=",
-        "size": 2726141,
+        "sha1": "OdeVUuoejUkJ4ZZoMtkCGbGd/2M=",
+        "sha256": "QNYCPFWHELaroKgaUxY0qmxWtlHmHC7Grtp1iLJPWkU=",
+        "size": 2726119,
         "title": "Amazon Web Services SDK 2 :: Api Gateway",
-        "url": "https://updates.jenkins.io/download/plugins/aws-java-sdk2-apigateway/2.33.4-62.vc1a_8df64b_4c9/aws-java-sdk2-apigateway.hpi",
-        "version": "2.33.4-62.vc1a_8df64b_4c9",
+        "url": "https://updates.jenkins.io/download/plugins/aws-java-sdk2-apigateway/2.38.2-66.v466fe61729d1/aws-java-sdk2-apigateway.hpi",
+        "version": "2.38.2-66.v466fe61729d1",
         "wiki": "https://plugins.jenkins.io/aws-java-sdk2-apigateway",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/aws-java-sdk2-apigateway/latest/aws-java-sdk2-apigateway.hpi"
       },
       "aws-java-sdk2-autoscaling": {
-        "buildDate": "Sep 09, 2025",
+        "buildDate": "Mar 24, 2026",
         "defaultBranch": "master",
         "dependencies": [
           {
             "name": "aws-java-sdk2-core",
             "optional": false,
-            "version": "2.33.4-62.vc1a_8df64b_4c9"
+            "version": "2.38.2-66.v466fe61729d1"
           }
         ],
         "developers": [
@@ -12924,7 +12924,7 @@
           }
         ],
         "excerpt": "Autoscaling module for the <a href=\"https://aws.amazon.com/sdk-for-java/\" target=\"_blank\" rel=\"noopener noreferrer nofollow\">AWS SDK for Java</a>.",
-        "gav": "io.jenkins.plugins.aws-java-sdk2:aws-java-sdk2-autoscaling:2.33.4-62.vc1a_8df64b_4c9",
+        "gav": "io.jenkins.plugins.aws-java-sdk2:aws-java-sdk2-autoscaling:2.38.2-66.v466fe61729d1",
         "health": 100,
         "issueTrackers": [
           {
@@ -12936,28 +12936,28 @@
         "labels": [],
         "name": "aws-java-sdk2-autoscaling",
         "popularity": 37,
-        "previousTimestamp": "2025-06-16T16:16:57.00Z",
-        "previousVersion": "2.31.63-54.vcf1e5a_c56c49",
-        "releaseTimestamp": "2025-09-09T09:24:40.00Z",
+        "previousTimestamp": "2025-09-09T09:24:40.00Z",
+        "previousVersion": "2.33.4-62.vc1a_8df64b_4c9",
+        "releaseTimestamp": "2026-03-24T17:10:10.00Z",
         "requiredCore": "2.479.1",
         "scm": "https://github.com/jenkinsci/aws-java-sdk2-plugin",
-        "sha1": "nGa6jpyh5yWyhXKhWEMs9ni6EYw=",
-        "sha256": "tPEhH7RHtdz/yjOtVp717+nNtbocLsmj+NqrNVyz+Dk=",
-        "size": 1974198,
+        "sha1": "8QuMC3OeAJU3odK1SO3YrSrDMYY=",
+        "sha256": "kelvaZXF2/xlQG6dzaTYxBsNIDCvOOogFMrKgXnfs8k=",
+        "size": 1974578,
         "title": "Amazon Web Services SDK 2 :: Autoscaling",
-        "url": "https://updates.jenkins.io/download/plugins/aws-java-sdk2-autoscaling/2.33.4-62.vc1a_8df64b_4c9/aws-java-sdk2-autoscaling.hpi",
-        "version": "2.33.4-62.vc1a_8df64b_4c9",
+        "url": "https://updates.jenkins.io/download/plugins/aws-java-sdk2-autoscaling/2.38.2-66.v466fe61729d1/aws-java-sdk2-autoscaling.hpi",
+        "version": "2.38.2-66.v466fe61729d1",
         "wiki": "https://plugins.jenkins.io/aws-java-sdk2-autoscaling",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/aws-java-sdk2-autoscaling/latest/aws-java-sdk2-autoscaling.hpi"
       },
       "aws-java-sdk2-cloudformation": {
-        "buildDate": "Sep 09, 2025",
+        "buildDate": "Mar 24, 2026",
         "defaultBranch": "master",
         "dependencies": [
           {
             "name": "aws-java-sdk2-core",
             "optional": false,
-            "version": "2.33.4-62.vc1a_8df64b_4c9"
+            "version": "2.38.2-66.v466fe61729d1"
           }
         ],
         "developers": [
@@ -13031,7 +13031,7 @@
           }
         ],
         "excerpt": "CloudFormation module for the <a href=\"https://aws.amazon.com/sdk-for-java/\" target=\"_blank\" rel=\"noopener noreferrer nofollow\">AWS SDK for Java</a>.",
-        "gav": "io.jenkins.plugins.aws-java-sdk2:aws-java-sdk2-cloudformation:2.33.4-62.vc1a_8df64b_4c9",
+        "gav": "io.jenkins.plugins.aws-java-sdk2:aws-java-sdk2-cloudformation:2.38.2-66.v466fe61729d1",
         "health": 100,
         "issueTrackers": [
           {
@@ -13043,28 +13043,28 @@
         "labels": [],
         "name": "aws-java-sdk2-cloudformation",
         "popularity": 42,
-        "previousTimestamp": "2025-06-16T16:16:57.00Z",
-        "previousVersion": "2.31.63-54.vcf1e5a_c56c49",
-        "releaseTimestamp": "2025-09-09T09:24:41.00Z",
+        "previousTimestamp": "2025-09-09T09:24:41.00Z",
+        "previousVersion": "2.33.4-62.vc1a_8df64b_4c9",
+        "releaseTimestamp": "2026-03-24T17:10:11.00Z",
         "requiredCore": "2.479.1",
         "scm": "https://github.com/jenkinsci/aws-java-sdk2-plugin",
-        "sha1": "XAm22xtsuRq6GQYeNPTqhcfz5ig=",
-        "sha256": "EcRf+NTuPqkC1iwPMin3HGqiACpNHnm6HbpuCVHEKMc=",
-        "size": 2640842,
+        "sha1": "0Awh72paNAz9We2YdXEiEDJ2VHI=",
+        "sha256": "OldiCDX7Ah8lPFW26fjS1gPaWjIMWhpEkyMeo290nFw=",
+        "size": 2640383,
         "title": "Amazon Web Services SDK 2 :: CloudFormation",
-        "url": "https://updates.jenkins.io/download/plugins/aws-java-sdk2-cloudformation/2.33.4-62.vc1a_8df64b_4c9/aws-java-sdk2-cloudformation.hpi",
-        "version": "2.33.4-62.vc1a_8df64b_4c9",
+        "url": "https://updates.jenkins.io/download/plugins/aws-java-sdk2-cloudformation/2.38.2-66.v466fe61729d1/aws-java-sdk2-cloudformation.hpi",
+        "version": "2.38.2-66.v466fe61729d1",
         "wiki": "https://plugins.jenkins.io/aws-java-sdk2-cloudformation",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/aws-java-sdk2-cloudformation/latest/aws-java-sdk2-cloudformation.hpi"
       },
       "aws-java-sdk2-cloudfront": {
-        "buildDate": "Sep 09, 2025",
+        "buildDate": "Mar 24, 2026",
         "defaultBranch": "master",
         "dependencies": [
           {
             "name": "aws-java-sdk2-core",
             "optional": false,
-            "version": "2.33.4-62.vc1a_8df64b_4c9"
+            "version": "2.38.2-66.v466fe61729d1"
           }
         ],
         "developers": [
@@ -13138,7 +13138,7 @@
           }
         ],
         "excerpt": "CloudFront module for the <a href=\"https://aws.amazon.com/sdk-for-java/\" target=\"_blank\" rel=\"noopener noreferrer nofollow\">AWS SDK for Java</a>.",
-        "gav": "io.jenkins.plugins.aws-java-sdk2:aws-java-sdk2-cloudfront:2.33.4-62.vc1a_8df64b_4c9",
+        "gav": "io.jenkins.plugins.aws-java-sdk2:aws-java-sdk2-cloudfront:2.38.2-66.v466fe61729d1",
         "health": 100,
         "issueTrackers": [
           {
@@ -13150,28 +13150,28 @@
         "labels": [],
         "name": "aws-java-sdk2-cloudfront",
         "popularity": 41,
-        "previousTimestamp": "2025-06-16T16:16:57.00Z",
-        "previousVersion": "2.31.63-54.vcf1e5a_c56c49",
-        "releaseTimestamp": "2025-09-09T09:24:41.00Z",
+        "previousTimestamp": "2025-09-09T09:24:41.00Z",
+        "previousVersion": "2.33.4-62.vc1a_8df64b_4c9",
+        "releaseTimestamp": "2026-03-24T17:10:11.00Z",
         "requiredCore": "2.479.1",
         "scm": "https://github.com/jenkinsci/aws-java-sdk2-plugin",
-        "sha1": "Oa/Dah5KyJjRrvvErei456V1+GU=",
-        "sha256": "JioMECobuuzM1dALI7+abomel+xulyY6LOy1fZ0H/N4=",
-        "size": 4552385,
+        "sha1": "KbYVXFQih2swIIcttlL21Z4vCHM=",
+        "sha256": "E1zua+YPmPa+HUYUaEAJ4w8aftDOy4forJgDallNfn0=",
+        "size": 4630617,
         "title": "Amazon Web Services SDK 2 :: CloudFront",
-        "url": "https://updates.jenkins.io/download/plugins/aws-java-sdk2-cloudfront/2.33.4-62.vc1a_8df64b_4c9/aws-java-sdk2-cloudfront.hpi",
-        "version": "2.33.4-62.vc1a_8df64b_4c9",
+        "url": "https://updates.jenkins.io/download/plugins/aws-java-sdk2-cloudfront/2.38.2-66.v466fe61729d1/aws-java-sdk2-cloudfront.hpi",
+        "version": "2.38.2-66.v466fe61729d1",
         "wiki": "https://plugins.jenkins.io/aws-java-sdk2-cloudfront",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/aws-java-sdk2-cloudfront/latest/aws-java-sdk2-cloudfront.hpi"
       },
       "aws-java-sdk2-cloudwatch": {
-        "buildDate": "Sep 09, 2025",
+        "buildDate": "Mar 24, 2026",
         "defaultBranch": "master",
         "dependencies": [
           {
             "name": "aws-java-sdk2-core",
             "optional": false,
-            "version": "2.33.4-62.vc1a_8df64b_4c9"
+            "version": "2.38.2-66.v466fe61729d1"
           }
         ],
         "developers": [
@@ -13245,7 +13245,7 @@
           }
         ],
         "excerpt": "CloudWatch module for the <a href=\"https://aws.amazon.com/sdk-for-java/\" target=\"_blank\" rel=\"noopener noreferrer nofollow\">AWS SDK for Java</a>.",
-        "gav": "io.jenkins.plugins.aws-java-sdk2:aws-java-sdk2-cloudwatch:2.33.4-62.vc1a_8df64b_4c9",
+        "gav": "io.jenkins.plugins.aws-java-sdk2:aws-java-sdk2-cloudwatch:2.38.2-66.v466fe61729d1",
         "health": 100,
         "issueTrackers": [
           {
@@ -13257,28 +13257,28 @@
         "labels": [],
         "name": "aws-java-sdk2-cloudwatch",
         "popularity": 28,
-        "previousTimestamp": "2025-06-16T16:16:58.00Z",
-        "previousVersion": "2.31.63-54.vcf1e5a_c56c49",
-        "releaseTimestamp": "2025-09-09T09:24:41.00Z",
+        "previousTimestamp": "2025-09-09T09:24:41.00Z",
+        "previousVersion": "2.33.4-62.vc1a_8df64b_4c9",
+        "releaseTimestamp": "2026-03-24T17:10:11.00Z",
         "requiredCore": "2.479.1",
         "scm": "https://github.com/jenkinsci/aws-java-sdk2-plugin",
-        "sha1": "rmYYX0yIP8mC0iKP+dTg/grrBAI=",
-        "sha256": "0r7MdNPAZC4YRPp/Nj+zheE34Viy8/PE9i/rfPY0vS8=",
-        "size": 1283191,
+        "sha1": "lnvxM+gTbifqTmrJxTr3O2fIPWg=",
+        "sha256": "RmuwQRR35R9a3iiOzJRpTzelNJ9MWtkK56v5a+RrBeA=",
+        "size": 1308175,
         "title": "Amazon Web Services SDK 2 :: CloudWatch",
-        "url": "https://updates.jenkins.io/download/plugins/aws-java-sdk2-cloudwatch/2.33.4-62.vc1a_8df64b_4c9/aws-java-sdk2-cloudwatch.hpi",
-        "version": "2.33.4-62.vc1a_8df64b_4c9",
+        "url": "https://updates.jenkins.io/download/plugins/aws-java-sdk2-cloudwatch/2.38.2-66.v466fe61729d1/aws-java-sdk2-cloudwatch.hpi",
+        "version": "2.38.2-66.v466fe61729d1",
         "wiki": "https://plugins.jenkins.io/aws-java-sdk2-cloudwatch",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/aws-java-sdk2-cloudwatch/latest/aws-java-sdk2-cloudwatch.hpi"
       },
       "aws-java-sdk2-cloudwatchlogs": {
-        "buildDate": "Sep 09, 2025",
+        "buildDate": "Mar 24, 2026",
         "defaultBranch": "master",
         "dependencies": [
           {
             "name": "aws-java-sdk2-core",
             "optional": false,
-            "version": "2.33.4-62.vc1a_8df64b_4c9"
+            "version": "2.38.2-66.v466fe61729d1"
           }
         ],
         "developers": [
@@ -13352,7 +13352,7 @@
           }
         ],
         "excerpt": "CloudWatch Logs module for the <a href=\"https://aws.amazon.com/sdk-for-java/\" target=\"_blank\" rel=\"noopener noreferrer nofollow\">AWS SDK for Java</a>.",
-        "gav": "io.jenkins.plugins.aws-java-sdk2:aws-java-sdk2-cloudwatchlogs:2.33.4-62.vc1a_8df64b_4c9",
+        "gav": "io.jenkins.plugins.aws-java-sdk2:aws-java-sdk2-cloudwatchlogs:2.38.2-66.v466fe61729d1",
         "health": 100,
         "issueTrackers": [
           {
@@ -13364,28 +13364,28 @@
         "labels": [],
         "name": "aws-java-sdk2-cloudwatchlogs",
         "popularity": 30,
-        "previousTimestamp": "2025-06-16T16:16:58.00Z",
-        "previousVersion": "2.31.63-54.vcf1e5a_c56c49",
-        "releaseTimestamp": "2025-09-09T09:24:42.00Z",
+        "previousTimestamp": "2025-09-09T09:24:42.00Z",
+        "previousVersion": "2.33.4-62.vc1a_8df64b_4c9",
+        "releaseTimestamp": "2026-03-24T17:10:12.00Z",
         "requiredCore": "2.479.1",
         "scm": "https://github.com/jenkinsci/aws-java-sdk2-plugin",
-        "sha1": "RE8AdMcvP8tuE//JfU3xyDg0ap0=",
-        "sha256": "uqKX11ZG2aS3pIH/xMtvd2ApceGN+lG3QrbcmvGfQWY=",
-        "size": 2461229,
+        "sha1": "3DAbNoeQa3x1Jk2HIAnhZgcXKYU=",
+        "sha256": "Kxs65s41FIPbQ5vwlZlO2TrkBORH4vgUCwrspNghlRc=",
+        "size": 2465696,
         "title": "Amazon Web Services SDK 2 :: CloudWatch Logs",
-        "url": "https://updates.jenkins.io/download/plugins/aws-java-sdk2-cloudwatchlogs/2.33.4-62.vc1a_8df64b_4c9/aws-java-sdk2-cloudwatchlogs.hpi",
-        "version": "2.33.4-62.vc1a_8df64b_4c9",
+        "url": "https://updates.jenkins.io/download/plugins/aws-java-sdk2-cloudwatchlogs/2.38.2-66.v466fe61729d1/aws-java-sdk2-cloudwatchlogs.hpi",
+        "version": "2.38.2-66.v466fe61729d1",
         "wiki": "https://plugins.jenkins.io/aws-java-sdk2-cloudwatchlogs",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/aws-java-sdk2-cloudwatchlogs/latest/aws-java-sdk2-cloudwatchlogs.hpi"
       },
       "aws-java-sdk2-codebuild": {
-        "buildDate": "Sep 09, 2025",
+        "buildDate": "Mar 24, 2026",
         "defaultBranch": "master",
         "dependencies": [
           {
             "name": "aws-java-sdk2-core",
             "optional": false,
-            "version": "2.33.4-62.vc1a_8df64b_4c9"
+            "version": "2.38.2-66.v466fe61729d1"
           }
         ],
         "developers": [
@@ -13459,7 +13459,7 @@
           }
         ],
         "excerpt": "CodeBuild module for the <a href=\"https://aws.amazon.com/sdk-for-java/\" target=\"_blank\" rel=\"noopener noreferrer nofollow\">AWS SDK for Java</a>.",
-        "gav": "io.jenkins.plugins.aws-java-sdk2:aws-java-sdk2-codebuild:2.33.4-62.vc1a_8df64b_4c9",
+        "gav": "io.jenkins.plugins.aws-java-sdk2:aws-java-sdk2-codebuild:2.38.2-66.v466fe61729d1",
         "health": 100,
         "issueTrackers": [
           {
@@ -13471,28 +13471,28 @@
         "labels": [],
         "name": "aws-java-sdk2-codebuild",
         "popularity": 29,
-        "previousTimestamp": "2025-06-16T16:16:58.00Z",
-        "previousVersion": "2.31.63-54.vcf1e5a_c56c49",
-        "releaseTimestamp": "2025-09-09T09:24:42.00Z",
+        "previousTimestamp": "2025-09-09T09:24:42.00Z",
+        "previousVersion": "2.33.4-62.vc1a_8df64b_4c9",
+        "releaseTimestamp": "2026-03-24T17:10:12.00Z",
         "requiredCore": "2.479.1",
         "scm": "https://github.com/jenkinsci/aws-java-sdk2-plugin",
-        "sha1": "XGXqjZ5pcwM3mZ+KieN8CLafhxo=",
-        "sha256": "F8ASn4e/eYDnudNbrskf1OtMvbCArPFEvANj1kOTv/w=",
-        "size": 1947728,
+        "sha1": "dq7FgQrNkiRpYZJHqMntadWChMw=",
+        "sha256": "6k4IKlX1TSsusPq25WUfsMTG7dqHWih9CzDShpDy78k=",
+        "size": 1948890,
         "title": "Amazon Web Services SDK 2 :: CodeBuild",
-        "url": "https://updates.jenkins.io/download/plugins/aws-java-sdk2-codebuild/2.33.4-62.vc1a_8df64b_4c9/aws-java-sdk2-codebuild.hpi",
-        "version": "2.33.4-62.vc1a_8df64b_4c9",
+        "url": "https://updates.jenkins.io/download/plugins/aws-java-sdk2-codebuild/2.38.2-66.v466fe61729d1/aws-java-sdk2-codebuild.hpi",
+        "version": "2.38.2-66.v466fe61729d1",
         "wiki": "https://plugins.jenkins.io/aws-java-sdk2-codebuild",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/aws-java-sdk2-codebuild/latest/aws-java-sdk2-codebuild.hpi"
       },
       "aws-java-sdk2-codedeploy": {
-        "buildDate": "Sep 09, 2025",
+        "buildDate": "Mar 24, 2026",
         "defaultBranch": "master",
         "dependencies": [
           {
             "name": "aws-java-sdk2-core",
             "optional": false,
-            "version": "2.33.4-62.vc1a_8df64b_4c9"
+            "version": "2.38.2-66.v466fe61729d1"
           }
         ],
         "developers": [
@@ -13566,7 +13566,7 @@
           }
         ],
         "excerpt": "CodeDeploy module for the <a href=\"https://aws.amazon.com/sdk-for-java/\" target=\"_blank\" rel=\"noopener noreferrer nofollow\">AWS SDK for Java</a>.",
-        "gav": "io.jenkins.plugins.aws-java-sdk2:aws-java-sdk2-codedeploy:2.33.4-62.vc1a_8df64b_4c9",
+        "gav": "io.jenkins.plugins.aws-java-sdk2:aws-java-sdk2-codedeploy:2.38.2-66.v466fe61729d1",
         "health": 100,
         "issueTrackers": [
           {
@@ -13578,22 +13578,22 @@
         "labels": [],
         "name": "aws-java-sdk2-codedeploy",
         "popularity": 33,
-        "previousTimestamp": "2025-06-16T16:16:59.00Z",
-        "previousVersion": "2.31.63-54.vcf1e5a_c56c49",
-        "releaseTimestamp": "2025-09-09T09:24:42.00Z",
+        "previousTimestamp": "2025-09-09T09:24:42.00Z",
+        "previousVersion": "2.33.4-62.vc1a_8df64b_4c9",
+        "releaseTimestamp": "2026-03-24T17:10:12.00Z",
         "requiredCore": "2.479.1",
         "scm": "https://github.com/jenkinsci/aws-java-sdk2-plugin",
-        "sha1": "41EUQ2hEiCXoZYGfin64vhs8p3c=",
-        "sha256": "Mo2KuluAiAUU2sAoj51sKh0jhjX8PlKcjHAbuFZ9QqU=",
-        "size": 1940182,
+        "sha1": "D86Fjj5Z5L+qBsm+qG9LjpRpJg4=",
+        "sha256": "1jw4P2XV9hNnQ8+3kRPzfh2riRfuUUTBMptWgiwUUg0=",
+        "size": 1931664,
         "title": "Amazon Web Services SDK 2 :: CodeDeploy",
-        "url": "https://updates.jenkins.io/download/plugins/aws-java-sdk2-codedeploy/2.33.4-62.vc1a_8df64b_4c9/aws-java-sdk2-codedeploy.hpi",
-        "version": "2.33.4-62.vc1a_8df64b_4c9",
+        "url": "https://updates.jenkins.io/download/plugins/aws-java-sdk2-codedeploy/2.38.2-66.v466fe61729d1/aws-java-sdk2-codedeploy.hpi",
+        "version": "2.38.2-66.v466fe61729d1",
         "wiki": "https://plugins.jenkins.io/aws-java-sdk2-codedeploy",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/aws-java-sdk2-codedeploy/latest/aws-java-sdk2-codedeploy.hpi"
       },
       "aws-java-sdk2-core": {
-        "buildDate": "Sep 09, 2025",
+        "buildDate": "Mar 24, 2026",
         "defaultBranch": "master",
         "dependencies": [
           {
@@ -13673,7 +13673,7 @@
           }
         ],
         "excerpt": "Core modules for the <a href=\"https://aws.amazon.com/sdk-for-java/\" target=\"_blank\" rel=\"noopener noreferrer nofollow\">AWS SDK for Java</a>.",
-        "gav": "io.jenkins.plugins.aws-java-sdk2:aws-java-sdk2-core:2.33.4-62.vc1a_8df64b_4c9",
+        "gav": "io.jenkins.plugins.aws-java-sdk2:aws-java-sdk2-core:2.38.2-66.v466fe61729d1",
         "health": 100,
         "issueTrackers": [
           {
@@ -13685,28 +13685,28 @@
         "labels": [],
         "name": "aws-java-sdk2-core",
         "popularity": 14336,
-        "previousTimestamp": "2025-06-16T16:16:56.00Z",
-        "previousVersion": "2.31.63-54.vcf1e5a_c56c49",
-        "releaseTimestamp": "2025-09-09T09:24:40.00Z",
+        "previousTimestamp": "2025-09-09T09:24:40.00Z",
+        "previousVersion": "2.33.4-62.vc1a_8df64b_4c9",
+        "releaseTimestamp": "2026-03-24T17:10:10.00Z",
         "requiredCore": "2.479.1",
         "scm": "https://github.com/jenkinsci/aws-java-sdk2-plugin",
-        "sha1": "6ZpncQf1i2CITpqgVCvIR+96MOs=",
-        "sha256": "qBh3ii3LJ3HYTHujfYu2DnOrJU18Yilm//E3KphRgBo=",
-        "size": 4414823,
+        "sha1": "woV+jpLGWL/YZ5zw6OjGBD7egNQ=",
+        "sha256": "VHRvg0HRdCuSDE3zWO0h8zDDP06WAX41SUYFE7zfj6o=",
+        "size": 4439004,
         "title": "Amazon Web Services SDK 2 :: Core",
-        "url": "https://updates.jenkins.io/download/plugins/aws-java-sdk2-core/2.33.4-62.vc1a_8df64b_4c9/aws-java-sdk2-core.hpi",
-        "version": "2.33.4-62.vc1a_8df64b_4c9",
+        "url": "https://updates.jenkins.io/download/plugins/aws-java-sdk2-core/2.38.2-66.v466fe61729d1/aws-java-sdk2-core.hpi",
+        "version": "2.38.2-66.v466fe61729d1",
         "wiki": "https://plugins.jenkins.io/aws-java-sdk2-core",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/aws-java-sdk2-core/latest/aws-java-sdk2-core.hpi"
       },
       "aws-java-sdk2-ec2": {
-        "buildDate": "Sep 09, 2025",
+        "buildDate": "Mar 24, 2026",
         "defaultBranch": "master",
         "dependencies": [
           {
             "name": "aws-java-sdk2-core",
             "optional": false,
-            "version": "2.33.4-62.vc1a_8df64b_4c9"
+            "version": "2.38.2-66.v466fe61729d1"
           }
         ],
         "developers": [
@@ -13780,7 +13780,7 @@
           }
         ],
         "excerpt": "EC2 module for the <a href=\"https://aws.amazon.com/sdk-for-java/\" target=\"_blank\" rel=\"noopener noreferrer nofollow\">AWS SDK for Java</a>.",
-        "gav": "io.jenkins.plugins.aws-java-sdk2:aws-java-sdk2-ec2:2.33.4-62.vc1a_8df64b_4c9",
+        "gav": "io.jenkins.plugins.aws-java-sdk2:aws-java-sdk2-ec2:2.38.2-66.v466fe61729d1",
         "health": 100,
         "issueTrackers": [
           {
@@ -13792,28 +13792,28 @@
         "labels": [],
         "name": "aws-java-sdk2-ec2",
         "popularity": 14301,
-        "previousTimestamp": "2025-06-16T16:16:59.00Z",
-        "previousVersion": "2.31.63-54.vcf1e5a_c56c49",
-        "releaseTimestamp": "2025-09-09T09:24:43.00Z",
+        "previousTimestamp": "2025-09-09T09:24:43.00Z",
+        "previousVersion": "2.33.4-62.vc1a_8df64b_4c9",
+        "releaseTimestamp": "2026-03-24T17:10:13.00Z",
         "requiredCore": "2.479.1",
         "scm": "https://github.com/jenkinsci/aws-java-sdk2-plugin",
-        "sha1": "E8t3hVQltNR+5yNpBpfZS7c+m8o=",
-        "sha256": "GDh0VG8fCl5wcu8tUraNcyhfbPtw7hVDR8ObiTvr+y0=",
-        "size": 19864282,
+        "sha1": "Xp8npoC1xLqSfvyas5kUTZWPW18=",
+        "sha256": "HmQl4Bv4Bp2OVTCIWW7C/NXSgVXcRdwDOgRb31Eh2ec=",
+        "size": 20507307,
         "title": "Amazon Web Services SDK 2 :: EC2",
-        "url": "https://updates.jenkins.io/download/plugins/aws-java-sdk2-ec2/2.33.4-62.vc1a_8df64b_4c9/aws-java-sdk2-ec2.hpi",
-        "version": "2.33.4-62.vc1a_8df64b_4c9",
+        "url": "https://updates.jenkins.io/download/plugins/aws-java-sdk2-ec2/2.38.2-66.v466fe61729d1/aws-java-sdk2-ec2.hpi",
+        "version": "2.38.2-66.v466fe61729d1",
         "wiki": "https://plugins.jenkins.io/aws-java-sdk2-ec2",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/aws-java-sdk2-ec2/latest/aws-java-sdk2-ec2.hpi"
       },
       "aws-java-sdk2-ecr": {
-        "buildDate": "Sep 09, 2025",
+        "buildDate": "Mar 24, 2026",
         "defaultBranch": "master",
         "dependencies": [
           {
             "name": "aws-java-sdk2-core",
             "optional": false,
-            "version": "2.33.4-62.vc1a_8df64b_4c9"
+            "version": "2.38.2-66.v466fe61729d1"
           }
         ],
         "developers": [
@@ -13887,7 +13887,7 @@
           }
         ],
         "excerpt": "ECR module for the <a href=\"https://aws.amazon.com/sdk-for-java/\" target=\"_blank\" rel=\"noopener noreferrer nofollow\">AWS SDK for Java</a>.",
-        "gav": "io.jenkins.plugins.aws-java-sdk2:aws-java-sdk2-ecr:2.33.4-62.vc1a_8df64b_4c9",
+        "gav": "io.jenkins.plugins.aws-java-sdk2:aws-java-sdk2-ecr:2.38.2-66.v466fe61729d1",
         "health": 100,
         "issueTrackers": [
           {
@@ -13899,28 +13899,28 @@
         "labels": [],
         "name": "aws-java-sdk2-ecr",
         "popularity": 2742,
-        "previousTimestamp": "2025-06-16T16:16:59.00Z",
-        "previousVersion": "2.31.63-54.vcf1e5a_c56c49",
-        "releaseTimestamp": "2025-09-09T09:24:43.00Z",
+        "previousTimestamp": "2025-09-09T09:24:43.00Z",
+        "previousVersion": "2.33.4-62.vc1a_8df64b_4c9",
+        "releaseTimestamp": "2026-03-24T17:10:13.00Z",
         "requiredCore": "2.479.1",
         "scm": "https://github.com/jenkinsci/aws-java-sdk2-plugin",
-        "sha1": "LAQq5GTgrjK7lF/Y51tcKDDsTk4=",
-        "sha256": "GYvcSEacOpiFFofT9T41j+J4J5V3bPWi1npYVqKKXI4=",
-        "size": 1663612,
+        "sha1": "DxcGEISOm5zjnAJwSvyLBHYrkj0=",
+        "sha256": "Fuchh7cDR0gPoa9YIVdBti7tpIJGEkcu2vBcBgwmxnk=",
+        "size": 1664185,
         "title": "Amazon Web Services SDK 2 :: ECR",
-        "url": "https://updates.jenkins.io/download/plugins/aws-java-sdk2-ecr/2.33.4-62.vc1a_8df64b_4c9/aws-java-sdk2-ecr.hpi",
-        "version": "2.33.4-62.vc1a_8df64b_4c9",
+        "url": "https://updates.jenkins.io/download/plugins/aws-java-sdk2-ecr/2.38.2-66.v466fe61729d1/aws-java-sdk2-ecr.hpi",
+        "version": "2.38.2-66.v466fe61729d1",
         "wiki": "https://plugins.jenkins.io/aws-java-sdk2-ecr",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/aws-java-sdk2-ecr/latest/aws-java-sdk2-ecr.hpi"
       },
       "aws-java-sdk2-ecs": {
-        "buildDate": "Sep 09, 2025",
+        "buildDate": "Mar 24, 2026",
         "defaultBranch": "master",
         "dependencies": [
           {
             "name": "aws-java-sdk2-core",
             "optional": false,
-            "version": "2.33.4-62.vc1a_8df64b_4c9"
+            "version": "2.38.2-66.v466fe61729d1"
           }
         ],
         "developers": [
@@ -13994,7 +13994,7 @@
           }
         ],
         "excerpt": "ECS module for the <a href=\"https://aws.amazon.com/sdk-for-java/\" target=\"_blank\" rel=\"noopener noreferrer nofollow\">AWS SDK for Java</a>.",
-        "gav": "io.jenkins.plugins.aws-java-sdk2:aws-java-sdk2-ecs:2.33.4-62.vc1a_8df64b_4c9",
+        "gav": "io.jenkins.plugins.aws-java-sdk2:aws-java-sdk2-ecs:2.38.2-66.v466fe61729d1",
         "health": 100,
         "issueTrackers": [
           {
@@ -14006,28 +14006,28 @@
         "labels": [],
         "name": "aws-java-sdk2-ecs",
         "popularity": 56,
-        "previousTimestamp": "2025-06-16T16:17:00.00Z",
-        "previousVersion": "2.31.63-54.vcf1e5a_c56c49",
-        "releaseTimestamp": "2025-09-09T09:24:44.00Z",
+        "previousTimestamp": "2025-09-09T09:24:44.00Z",
+        "previousVersion": "2.33.4-62.vc1a_8df64b_4c9",
+        "releaseTimestamp": "2026-03-24T17:10:13.00Z",
         "requiredCore": "2.479.1",
         "scm": "https://github.com/jenkinsci/aws-java-sdk2-plugin",
-        "sha1": "/eiwoBehl8TqTndO9cp1AQ1t0cs=",
-        "sha256": "DdHLdAdcsZ0E8y8dkbgz8n4A7wV2FcLRyDxE40DGPik=",
-        "size": 2522378,
+        "sha1": "G4FE3RZFQALNcZNn7+UPKkETODs=",
+        "sha256": "Ug9yomPDlyBWn6A05Y48RYFAwGZwcmjgMRFy/B7kE+s=",
+        "size": 2695908,
         "title": "Amazon Web Services SDK 2 :: ECS",
-        "url": "https://updates.jenkins.io/download/plugins/aws-java-sdk2-ecs/2.33.4-62.vc1a_8df64b_4c9/aws-java-sdk2-ecs.hpi",
-        "version": "2.33.4-62.vc1a_8df64b_4c9",
+        "url": "https://updates.jenkins.io/download/plugins/aws-java-sdk2-ecs/2.38.2-66.v466fe61729d1/aws-java-sdk2-ecs.hpi",
+        "version": "2.38.2-66.v466fe61729d1",
         "wiki": "https://plugins.jenkins.io/aws-java-sdk2-ecs",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/aws-java-sdk2-ecs/latest/aws-java-sdk2-ecs.hpi"
       },
       "aws-java-sdk2-efs": {
-        "buildDate": "Sep 09, 2025",
+        "buildDate": "Mar 24, 2026",
         "defaultBranch": "master",
         "dependencies": [
           {
             "name": "aws-java-sdk2-core",
             "optional": false,
-            "version": "2.33.4-62.vc1a_8df64b_4c9"
+            "version": "2.38.2-66.v466fe61729d1"
           }
         ],
         "developers": [
@@ -14101,7 +14101,7 @@
           }
         ],
         "excerpt": "EFS module for the <a href=\"https://aws.amazon.com/sdk-for-java/\" target=\"_blank\" rel=\"noopener noreferrer nofollow\">AWS SDK for Java</a>.",
-        "gav": "io.jenkins.plugins.aws-java-sdk2:aws-java-sdk2-efs:2.33.4-62.vc1a_8df64b_4c9",
+        "gav": "io.jenkins.plugins.aws-java-sdk2:aws-java-sdk2-efs:2.38.2-66.v466fe61729d1",
         "health": 100,
         "issueTrackers": [
           {
@@ -14113,28 +14113,28 @@
         "labels": [],
         "name": "aws-java-sdk2-efs",
         "popularity": 27,
-        "previousTimestamp": "2025-06-16T16:17:00.00Z",
-        "previousVersion": "2.31.63-54.vcf1e5a_c56c49",
-        "releaseTimestamp": "2025-09-09T09:24:44.00Z",
+        "previousTimestamp": "2025-09-09T09:24:44.00Z",
+        "previousVersion": "2.33.4-62.vc1a_8df64b_4c9",
+        "releaseTimestamp": "2026-03-24T17:10:13.00Z",
         "requiredCore": "2.479.1",
         "scm": "https://github.com/jenkinsci/aws-java-sdk2-plugin",
-        "sha1": "WcHFFCV7ufkF4T/+HhBT5n9YNXA=",
-        "sha256": "dNjCrGiqyF0bhgWhymRM64n7yQs+Qv1GKZ4yWem2W0E=",
-        "size": 1069529,
+        "sha1": "TmU76ZgYYIdXLD4Xd+wLFbCRGGg=",
+        "sha256": "tvarK0fUknBikzHVtFIsZgZf5JNm2yWPCM6YG0uZlBI=",
+        "size": 1070516,
         "title": "Amazon Web Services SDK 2 :: EFS",
-        "url": "https://updates.jenkins.io/download/plugins/aws-java-sdk2-efs/2.33.4-62.vc1a_8df64b_4c9/aws-java-sdk2-efs.hpi",
-        "version": "2.33.4-62.vc1a_8df64b_4c9",
+        "url": "https://updates.jenkins.io/download/plugins/aws-java-sdk2-efs/2.38.2-66.v466fe61729d1/aws-java-sdk2-efs.hpi",
+        "version": "2.38.2-66.v466fe61729d1",
         "wiki": "https://plugins.jenkins.io/aws-java-sdk2-efs",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/aws-java-sdk2-efs/latest/aws-java-sdk2-efs.hpi"
       },
       "aws-java-sdk2-elasticbeanstalk": {
-        "buildDate": "Sep 09, 2025",
+        "buildDate": "Mar 24, 2026",
         "defaultBranch": "master",
         "dependencies": [
           {
             "name": "aws-java-sdk2-core",
             "optional": false,
-            "version": "2.33.4-62.vc1a_8df64b_4c9"
+            "version": "2.38.2-66.v466fe61729d1"
           }
         ],
         "developers": [
@@ -14208,7 +14208,7 @@
           }
         ],
         "excerpt": "Elastic Beanstalk module for the <a href=\"https://aws.amazon.com/sdk-for-java/\" target=\"_blank\" rel=\"noopener noreferrer nofollow\">AWS SDK for Java</a>.",
-        "gav": "io.jenkins.plugins.aws-java-sdk2:aws-java-sdk2-elasticbeanstalk:2.33.4-62.vc1a_8df64b_4c9",
+        "gav": "io.jenkins.plugins.aws-java-sdk2:aws-java-sdk2-elasticbeanstalk:2.38.2-66.v466fe61729d1",
         "health": 100,
         "issueTrackers": [
           {
@@ -14220,28 +14220,28 @@
         "labels": [],
         "name": "aws-java-sdk2-elasticbeanstalk",
         "popularity": 30,
-        "previousTimestamp": "2025-06-16T16:17:00.00Z",
-        "previousVersion": "2.31.63-54.vcf1e5a_c56c49",
-        "releaseTimestamp": "2025-09-09T09:24:45.00Z",
+        "previousTimestamp": "2025-09-09T09:24:45.00Z",
+        "previousVersion": "2.33.4-62.vc1a_8df64b_4c9",
+        "releaseTimestamp": "2026-03-24T17:10:14.00Z",
         "requiredCore": "2.479.1",
         "scm": "https://github.com/jenkinsci/aws-java-sdk2-plugin",
-        "sha1": "B1+XlMEDxVXqaMb7RbM3mQxtBoo=",
-        "sha256": "27HeYs2XwP9iXVQs2FP/icJh/wOHYKEfUyl0O7vFMWI=",
-        "size": 1544624,
+        "sha1": "6wqvQIVF4c3u1lyuHojiBI2/kuk=",
+        "sha256": "bnrRMGrcrDInaz7W9Z2qqd3Ywl0rKfg3Aq7TN/tw/do=",
+        "size": 1546455,
         "title": "Amazon Web Services SDK 2 :: Elastic Beanstalk",
-        "url": "https://updates.jenkins.io/download/plugins/aws-java-sdk2-elasticbeanstalk/2.33.4-62.vc1a_8df64b_4c9/aws-java-sdk2-elasticbeanstalk.hpi",
-        "version": "2.33.4-62.vc1a_8df64b_4c9",
+        "url": "https://updates.jenkins.io/download/plugins/aws-java-sdk2-elasticbeanstalk/2.38.2-66.v466fe61729d1/aws-java-sdk2-elasticbeanstalk.hpi",
+        "version": "2.38.2-66.v466fe61729d1",
         "wiki": "https://plugins.jenkins.io/aws-java-sdk2-elasticbeanstalk",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/aws-java-sdk2-elasticbeanstalk/latest/aws-java-sdk2-elasticbeanstalk.hpi"
       },
       "aws-java-sdk2-elasticloadbalancingv2": {
-        "buildDate": "Sep 09, 2025",
+        "buildDate": "Mar 24, 2026",
         "defaultBranch": "master",
         "dependencies": [
           {
             "name": "aws-java-sdk2-core",
             "optional": false,
-            "version": "2.33.4-62.vc1a_8df64b_4c9"
+            "version": "2.38.2-66.v466fe61729d1"
           }
         ],
         "developers": [
@@ -14315,7 +14315,7 @@
           }
         ],
         "excerpt": "Elastic Load Balancing V2 module for the <a href=\"https://aws.amazon.com/sdk-for-java/\" target=\"_blank\" rel=\"noopener noreferrer nofollow\">AWS SDK for Java</a>.",
-        "gav": "io.jenkins.plugins.aws-java-sdk2:aws-java-sdk2-elasticloadbalancingv2:2.33.4-62.vc1a_8df64b_4c9",
+        "gav": "io.jenkins.plugins.aws-java-sdk2:aws-java-sdk2-elasticloadbalancingv2:2.38.2-66.v466fe61729d1",
         "health": 100,
         "issueTrackers": [
           {
@@ -14327,28 +14327,28 @@
         "labels": [],
         "name": "aws-java-sdk2-elasticloadbalancingv2",
         "popularity": 29,
-        "previousTimestamp": "2025-06-16T16:17:01.00Z",
-        "previousVersion": "2.31.63-54.vcf1e5a_c56c49",
-        "releaseTimestamp": "2025-09-09T09:24:45.00Z",
+        "previousTimestamp": "2025-09-09T09:24:45.00Z",
+        "previousVersion": "2.33.4-62.vc1a_8df64b_4c9",
+        "releaseTimestamp": "2026-03-24T17:10:14.00Z",
         "requiredCore": "2.479.1",
         "scm": "https://github.com/jenkinsci/aws-java-sdk2-plugin",
-        "sha1": "e5dW3EijVxHkXdY3O2FOuLGj3JY=",
-        "sha256": "G7X+zEhB+oJ/wZEuWyZu2bvwK/yGweJBBnCb+tVkOdg=",
-        "size": 1766785,
+        "sha1": "0Xh02REipHAhMGn9a0bPmE2AyeY=",
+        "sha256": "4ZL31PidHQ8rNEr8Bz97k6D3004PWzMlY4y/UVtRbBQ=",
+        "size": 1804321,
         "title": "Amazon Web Services SDK 2 :: Elastic Load Balancing V2",
-        "url": "https://updates.jenkins.io/download/plugins/aws-java-sdk2-elasticloadbalancingv2/2.33.4-62.vc1a_8df64b_4c9/aws-java-sdk2-elasticloadbalancingv2.hpi",
-        "version": "2.33.4-62.vc1a_8df64b_4c9",
+        "url": "https://updates.jenkins.io/download/plugins/aws-java-sdk2-elasticloadbalancingv2/2.38.2-66.v466fe61729d1/aws-java-sdk2-elasticloadbalancingv2.hpi",
+        "version": "2.38.2-66.v466fe61729d1",
         "wiki": "https://plugins.jenkins.io/aws-java-sdk2-elasticloadbalancingv2",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/aws-java-sdk2-elasticloadbalancingv2/latest/aws-java-sdk2-elasticloadbalancingv2.hpi"
       },
       "aws-java-sdk2-iam": {
-        "buildDate": "Sep 09, 2025",
+        "buildDate": "Mar 24, 2026",
         "defaultBranch": "master",
         "dependencies": [
           {
             "name": "aws-java-sdk2-core",
             "optional": false,
-            "version": "2.33.4-62.vc1a_8df64b_4c9"
+            "version": "2.38.2-66.v466fe61729d1"
           }
         ],
         "developers": [
@@ -14422,7 +14422,7 @@
           }
         ],
         "excerpt": "IAM module for the <a href=\"https://aws.amazon.com/sdk-for-java/\" target=\"_blank\" rel=\"noopener noreferrer nofollow\">AWS SDK for Java</a>.",
-        "gav": "io.jenkins.plugins.aws-java-sdk2:aws-java-sdk2-iam:2.33.4-62.vc1a_8df64b_4c9",
+        "gav": "io.jenkins.plugins.aws-java-sdk2:aws-java-sdk2-iam:2.38.2-66.v466fe61729d1",
         "health": 100,
         "issueTrackers": [
           {
@@ -14434,28 +14434,28 @@
         "labels": [],
         "name": "aws-java-sdk2-iam",
         "popularity": 40,
-        "previousTimestamp": "2025-06-16T16:17:01.00Z",
-        "previousVersion": "2.31.63-54.vcf1e5a_c56c49",
-        "releaseTimestamp": "2025-09-09T09:24:46.00Z",
+        "previousTimestamp": "2025-09-09T09:24:46.00Z",
+        "previousVersion": "2.33.4-62.vc1a_8df64b_4c9",
+        "releaseTimestamp": "2026-03-24T17:10:14.00Z",
         "requiredCore": "2.479.1",
         "scm": "https://github.com/jenkinsci/aws-java-sdk2-plugin",
-        "sha1": "RcGfaGzNVN89HG1QbPRxnK76KQs=",
-        "sha256": "MY/ucW0QoEdg8zDOpFPBuUunud9EpOlFAZu1w01zTzk=",
-        "size": 3222433,
+        "sha1": "/v435WqYYYmWEu7fH2Utd7VB/Qs=",
+        "sha256": "O8YjBVKJkpnWJUnwQM9IohTFVt4hWVK7i8Y/6uByjbU=",
+        "size": 3224359,
         "title": "Amazon Web Services SDK 2 :: IAM",
-        "url": "https://updates.jenkins.io/download/plugins/aws-java-sdk2-iam/2.33.4-62.vc1a_8df64b_4c9/aws-java-sdk2-iam.hpi",
-        "version": "2.33.4-62.vc1a_8df64b_4c9",
+        "url": "https://updates.jenkins.io/download/plugins/aws-java-sdk2-iam/2.38.2-66.v466fe61729d1/aws-java-sdk2-iam.hpi",
+        "version": "2.38.2-66.v466fe61729d1",
         "wiki": "https://plugins.jenkins.io/aws-java-sdk2-iam",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/aws-java-sdk2-iam/latest/aws-java-sdk2-iam.hpi"
       },
       "aws-java-sdk2-kinesis": {
-        "buildDate": "Sep 09, 2025",
+        "buildDate": "Mar 24, 2026",
         "defaultBranch": "master",
         "dependencies": [
           {
             "name": "aws-java-sdk2-core",
             "optional": false,
-            "version": "2.33.4-62.vc1a_8df64b_4c9"
+            "version": "2.38.2-66.v466fe61729d1"
           }
         ],
         "developers": [
@@ -14529,7 +14529,7 @@
           }
         ],
         "excerpt": "Kinesis module for the <a href=\"https://aws.amazon.com/sdk-for-java/\" target=\"_blank\" rel=\"noopener noreferrer nofollow\">AWS SDK for Java</a>.",
-        "gav": "io.jenkins.plugins.aws-java-sdk2:aws-java-sdk2-kinesis:2.33.4-62.vc1a_8df64b_4c9",
+        "gav": "io.jenkins.plugins.aws-java-sdk2:aws-java-sdk2-kinesis:2.38.2-66.v466fe61729d1",
         "health": 100,
         "issueTrackers": [
           {
@@ -14541,28 +14541,28 @@
         "labels": [],
         "name": "aws-java-sdk2-kinesis",
         "popularity": 22,
-        "previousTimestamp": "2025-06-16T16:17:01.00Z",
-        "previousVersion": "2.31.63-54.vcf1e5a_c56c49",
-        "releaseTimestamp": "2025-09-09T09:24:46.00Z",
+        "previousTimestamp": "2025-09-09T09:24:46.00Z",
+        "previousVersion": "2.33.4-62.vc1a_8df64b_4c9",
+        "releaseTimestamp": "2026-03-24T17:10:15.00Z",
         "requiredCore": "2.479.1",
         "scm": "https://github.com/jenkinsci/aws-java-sdk2-plugin",
-        "sha1": "bixq0p7Pj74ozk8J8xWhZibjU0s=",
-        "sha256": "rc2P2mv/7g8JcrQV3dnjp4tluQQ0j07DgFTapfxh10Y=",
-        "size": 989166,
+        "sha1": "fpbpr6YXToTSrUjObuWDcSW2sHM=",
+        "sha256": "sk6BrwrXanVVXPrwuOcDEI6+iWEreTaVfi/Zif8CaVg=",
+        "size": 1064582,
         "title": "Amazon Web Services SDK 2 :: Kinesis",
-        "url": "https://updates.jenkins.io/download/plugins/aws-java-sdk2-kinesis/2.33.4-62.vc1a_8df64b_4c9/aws-java-sdk2-kinesis.hpi",
-        "version": "2.33.4-62.vc1a_8df64b_4c9",
+        "url": "https://updates.jenkins.io/download/plugins/aws-java-sdk2-kinesis/2.38.2-66.v466fe61729d1/aws-java-sdk2-kinesis.hpi",
+        "version": "2.38.2-66.v466fe61729d1",
         "wiki": "https://plugins.jenkins.io/aws-java-sdk2-kinesis",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/aws-java-sdk2-kinesis/latest/aws-java-sdk2-kinesis.hpi"
       },
       "aws-java-sdk2-lambda": {
-        "buildDate": "Sep 09, 2025",
+        "buildDate": "Mar 24, 2026",
         "defaultBranch": "master",
         "dependencies": [
           {
             "name": "aws-java-sdk2-core",
             "optional": false,
-            "version": "2.33.4-62.vc1a_8df64b_4c9"
+            "version": "2.38.2-66.v466fe61729d1"
           }
         ],
         "developers": [
@@ -14636,7 +14636,7 @@
           }
         ],
         "excerpt": "Lambda module for the <a href=\"https://aws.amazon.com/sdk-for-java/\" target=\"_blank\" rel=\"noopener noreferrer nofollow\">AWS SDK for Java</a>.",
-        "gav": "io.jenkins.plugins.aws-java-sdk2:aws-java-sdk2-lambda:2.33.4-62.vc1a_8df64b_4c9",
+        "gav": "io.jenkins.plugins.aws-java-sdk2:aws-java-sdk2-lambda:2.38.2-66.v466fe61729d1",
         "health": 100,
         "issueTrackers": [
           {
@@ -14648,28 +14648,28 @@
         "labels": [],
         "name": "aws-java-sdk2-lambda",
         "popularity": 37,
-        "previousTimestamp": "2025-06-16T16:17:01.00Z",
-        "previousVersion": "2.31.63-54.vcf1e5a_c56c49",
-        "releaseTimestamp": "2025-09-09T09:24:47.00Z",
+        "previousTimestamp": "2025-09-09T09:24:47.00Z",
+        "previousVersion": "2.33.4-62.vc1a_8df64b_4c9",
+        "releaseTimestamp": "2026-03-24T17:10:15.00Z",
         "requiredCore": "2.479.1",
         "scm": "https://github.com/jenkinsci/aws-java-sdk2-plugin",
-        "sha1": "GUE2DpENnExQSwTYuEWCALt7HHk=",
-        "sha256": "I0n+kpG/t7QqrneXTt08wP/l0foUDXMYUpdHAMYEXjA=",
-        "size": 2254668,
+        "sha1": "SICL+raNdGyIA+XY5ZFdtdhfa2s=",
+        "sha256": "vY78QPaudyUOBWOqMuvKFp7pNTex3AwZJeAusFwnl6Q=",
+        "size": 2262763,
         "title": "Amazon Web Services SDK 2 :: Lambda",
-        "url": "https://updates.jenkins.io/download/plugins/aws-java-sdk2-lambda/2.33.4-62.vc1a_8df64b_4c9/aws-java-sdk2-lambda.hpi",
-        "version": "2.33.4-62.vc1a_8df64b_4c9",
+        "url": "https://updates.jenkins.io/download/plugins/aws-java-sdk2-lambda/2.38.2-66.v466fe61729d1/aws-java-sdk2-lambda.hpi",
+        "version": "2.38.2-66.v466fe61729d1",
         "wiki": "https://plugins.jenkins.io/aws-java-sdk2-lambda",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/aws-java-sdk2-lambda/latest/aws-java-sdk2-lambda.hpi"
       },
       "aws-java-sdk2-netty-nio-client": {
-        "buildDate": "Sep 09, 2025",
+        "buildDate": "Mar 24, 2026",
         "defaultBranch": "master",
         "dependencies": [
           {
             "name": "aws-java-sdk2-core",
             "optional": false,
-            "version": "2.33.4-62.vc1a_8df64b_4c9"
+            "version": "2.38.2-66.v466fe61729d1"
           },
           {
             "name": "netty-api",
@@ -14748,7 +14748,7 @@
           }
         ],
         "excerpt": "HTTP Clients :: Netty Non-Blocking I/O module for the <a href=\"https://aws.amazon.com/sdk-for-java/\" target=\"_blank\" rel=\"noopener noreferrer nofollow\">AWS SDK for Java</a>.",
-        "gav": "io.jenkins.plugins.aws-java-sdk2:aws-java-sdk2-netty-nio-client:2.33.4-62.vc1a_8df64b_4c9",
+        "gav": "io.jenkins.plugins.aws-java-sdk2:aws-java-sdk2-netty-nio-client:2.38.2-66.v466fe61729d1",
         "health": 100,
         "issueTrackers": [
           {
@@ -14760,28 +14760,28 @@
         "labels": [],
         "name": "aws-java-sdk2-netty-nio-client",
         "popularity": 0,
-        "previousTimestamp": "2025-06-16T16:17:02.00Z",
-        "previousVersion": "2.31.63-54.vcf1e5a_c56c49",
-        "releaseTimestamp": "2025-09-09T09:24:47.00Z",
+        "previousTimestamp": "2025-09-09T09:24:47.00Z",
+        "previousVersion": "2.33.4-62.vc1a_8df64b_4c9",
+        "releaseTimestamp": "2026-03-24T17:10:15.00Z",
         "requiredCore": "2.479.1",
         "scm": "https://github.com/jenkinsci/aws-java-sdk2-plugin",
-        "sha1": "SEcOdElfF6KkppBPDVnYNqDQFgk=",
-        "sha256": "iVhFkEzwNqmGTQM/fH0f5arISQf5zK0uI0IIu+wdcps=",
-        "size": 266617,
+        "sha1": "SlR+588wZ6qnNXqacg2SdThtA+g=",
+        "sha256": "LzxOi406i2BFmXFW0NXusVUysagDHXmcy7A5FzGrCmI=",
+        "size": 266659,
         "title": "AWS Java SDK :: HTTP Clients :: Netty Non-Blocking I/O",
-        "url": "https://updates.jenkins.io/download/plugins/aws-java-sdk2-netty-nio-client/2.33.4-62.vc1a_8df64b_4c9/aws-java-sdk2-netty-nio-client.hpi",
-        "version": "2.33.4-62.vc1a_8df64b_4c9",
+        "url": "https://updates.jenkins.io/download/plugins/aws-java-sdk2-netty-nio-client/2.38.2-66.v466fe61729d1/aws-java-sdk2-netty-nio-client.hpi",
+        "version": "2.38.2-66.v466fe61729d1",
         "wiki": "https://plugins.jenkins.io/aws-java-sdk2-netty-nio-client",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/aws-java-sdk2-netty-nio-client/latest/aws-java-sdk2-netty-nio-client.hpi"
       },
       "aws-java-sdk2-organizations": {
-        "buildDate": "Sep 09, 2025",
+        "buildDate": "Mar 24, 2026",
         "defaultBranch": "master",
         "dependencies": [
           {
             "name": "aws-java-sdk2-core",
             "optional": false,
-            "version": "2.33.4-62.vc1a_8df64b_4c9"
+            "version": "2.38.2-66.v466fe61729d1"
           }
         ],
         "developers": [
@@ -14855,7 +14855,7 @@
           }
         ],
         "excerpt": "Organizations module for the <a href=\"https://aws.amazon.com/sdk-for-java/\" target=\"_blank\" rel=\"noopener noreferrer nofollow\">AWS SDK for Java</a>.",
-        "gav": "io.jenkins.plugins.aws-java-sdk2:aws-java-sdk2-organizations:2.33.4-62.vc1a_8df64b_4c9",
+        "gav": "io.jenkins.plugins.aws-java-sdk2:aws-java-sdk2-organizations:2.38.2-66.v466fe61729d1",
         "health": 100,
         "issueTrackers": [
           {
@@ -14867,28 +14867,28 @@
         "labels": [],
         "name": "aws-java-sdk2-organizations",
         "popularity": 23,
-        "previousTimestamp": "2025-06-16T16:17:02.00Z",
-        "previousVersion": "2.31.63-54.vcf1e5a_c56c49",
-        "releaseTimestamp": "2025-09-09T09:24:48.00Z",
+        "previousTimestamp": "2025-09-09T09:24:48.00Z",
+        "previousVersion": "2.33.4-62.vc1a_8df64b_4c9",
+        "releaseTimestamp": "2026-03-24T17:10:15.00Z",
         "requiredCore": "2.479.1",
         "scm": "https://github.com/jenkinsci/aws-java-sdk2-plugin",
-        "sha1": "p/S/Pj6UV6stQDiuxs/xHri6nRU=",
-        "sha256": "pTQQCAe8mvhVg+luayl4kDrx2GBJD2aI5mFzdHZhmis=",
-        "size": 1562539,
+        "sha1": "UfeXV1862lFCIAdGI8a6OD/QEIA=",
+        "sha256": "nh1jb3L1K9l4VRxTffrHlk35magsPsb9dYY31QPuYu8=",
+        "size": 1570254,
         "title": "Amazon Web Services SDK 2 :: Organizations",
-        "url": "https://updates.jenkins.io/download/plugins/aws-java-sdk2-organizations/2.33.4-62.vc1a_8df64b_4c9/aws-java-sdk2-organizations.hpi",
-        "version": "2.33.4-62.vc1a_8df64b_4c9",
+        "url": "https://updates.jenkins.io/download/plugins/aws-java-sdk2-organizations/2.38.2-66.v466fe61729d1/aws-java-sdk2-organizations.hpi",
+        "version": "2.38.2-66.v466fe61729d1",
         "wiki": "https://plugins.jenkins.io/aws-java-sdk2-organizations",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/aws-java-sdk2-organizations/latest/aws-java-sdk2-organizations.hpi"
       },
       "aws-java-sdk2-s3": {
-        "buildDate": "Sep 09, 2025",
+        "buildDate": "Mar 24, 2026",
         "defaultBranch": "master",
         "dependencies": [
           {
             "name": "aws-java-sdk2-core",
             "optional": false,
-            "version": "2.33.4-62.vc1a_8df64b_4c9"
+            "version": "2.38.2-66.v466fe61729d1"
           }
         ],
         "developers": [
@@ -14962,7 +14962,7 @@
           }
         ],
         "excerpt": "S3 module for the <a href=\"https://aws.amazon.com/sdk-for-java/\" target=\"_blank\" rel=\"noopener noreferrer nofollow\">AWS SDK for Java</a>.",
-        "gav": "io.jenkins.plugins.aws-java-sdk2:aws-java-sdk2-s3:2.33.4-62.vc1a_8df64b_4c9",
+        "gav": "io.jenkins.plugins.aws-java-sdk2:aws-java-sdk2-s3:2.38.2-66.v466fe61729d1",
         "health": 100,
         "issueTrackers": [
           {
@@ -14974,28 +14974,28 @@
         "labels": [],
         "name": "aws-java-sdk2-s3",
         "popularity": 67,
-        "previousTimestamp": "2025-06-16T16:17:02.00Z",
-        "previousVersion": "2.31.63-54.vcf1e5a_c56c49",
-        "releaseTimestamp": "2025-09-09T09:24:48.00Z",
+        "previousTimestamp": "2025-09-09T09:24:48.00Z",
+        "previousVersion": "2.33.4-62.vc1a_8df64b_4c9",
+        "releaseTimestamp": "2026-03-24T17:10:16.00Z",
         "requiredCore": "2.479.1",
         "scm": "https://github.com/jenkinsci/aws-java-sdk2-plugin",
-        "sha1": "C5bnwiYh1Ac1HhlCZZbAkBhb37Q=",
-        "sha256": "Ly8AJxct+IGds4ql6tCYJHTICw8h4/X3hERzLhrSKbI=",
-        "size": 3856667,
+        "sha1": "GwXjblWEVHZ7BEJPEgpM7YDmR5o=",
+        "sha256": "RTFS3e+Y6dc8msLOu0g6fycKahwbw1bWQ9b/a1UUADI=",
+        "size": 3854042,
         "title": "Amazon Web Services SDK 2 :: S3",
-        "url": "https://updates.jenkins.io/download/plugins/aws-java-sdk2-s3/2.33.4-62.vc1a_8df64b_4c9/aws-java-sdk2-s3.hpi",
-        "version": "2.33.4-62.vc1a_8df64b_4c9",
+        "url": "https://updates.jenkins.io/download/plugins/aws-java-sdk2-s3/2.38.2-66.v466fe61729d1/aws-java-sdk2-s3.hpi",
+        "version": "2.38.2-66.v466fe61729d1",
         "wiki": "https://plugins.jenkins.io/aws-java-sdk2-s3",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/aws-java-sdk2-s3/latest/aws-java-sdk2-s3.hpi"
       },
       "aws-java-sdk2-secretsmanager": {
-        "buildDate": "Sep 09, 2025",
+        "buildDate": "Mar 24, 2026",
         "defaultBranch": "master",
         "dependencies": [
           {
             "name": "aws-java-sdk2-core",
             "optional": false,
-            "version": "2.33.4-62.vc1a_8df64b_4c9"
+            "version": "2.38.2-66.v466fe61729d1"
           }
         ],
         "developers": [
@@ -15069,7 +15069,7 @@
           }
         ],
         "excerpt": "Secrets Manager module for the <a href=\"https://aws.amazon.com/sdk-for-java/\" target=\"_blank\" rel=\"noopener noreferrer nofollow\">AWS SDK for Java</a>.",
-        "gav": "io.jenkins.plugins.aws-java-sdk2:aws-java-sdk2-secretsmanager:2.33.4-62.vc1a_8df64b_4c9",
+        "gav": "io.jenkins.plugins.aws-java-sdk2:aws-java-sdk2-secretsmanager:2.38.2-66.v466fe61729d1",
         "health": 100,
         "issueTrackers": [
           {
@@ -15081,28 +15081,28 @@
         "labels": [],
         "name": "aws-java-sdk2-secretsmanager",
         "popularity": 44,
-        "previousTimestamp": "2025-06-16T16:17:03.00Z",
-        "previousVersion": "2.31.63-54.vcf1e5a_c56c49",
-        "releaseTimestamp": "2025-09-09T09:24:49.00Z",
+        "previousTimestamp": "2025-09-09T09:24:49.00Z",
+        "previousVersion": "2.33.4-62.vc1a_8df64b_4c9",
+        "releaseTimestamp": "2026-03-24T17:10:16.00Z",
         "requiredCore": "2.479.1",
         "scm": "https://github.com/jenkinsci/aws-java-sdk2-plugin",
-        "sha1": "/rfVzTut88xhMc8N7joJkoNs4k0=",
-        "sha256": "mq++4SiyEAYt3WcVRXKK7E7pwzNLgP6r67YIUfsIwuU=",
-        "size": 746140,
+        "sha1": "vFiBTwRwldaC/fbKE49TC3Uz2xQ=",
+        "sha256": "w2rog3ruMo71x8o2OnVHqjX9zINSgaeEi4NO/HX1hgE=",
+        "size": 746989,
         "title": "Amazon Web Services SDK 2 :: Secrets Manager",
-        "url": "https://updates.jenkins.io/download/plugins/aws-java-sdk2-secretsmanager/2.33.4-62.vc1a_8df64b_4c9/aws-java-sdk2-secretsmanager.hpi",
-        "version": "2.33.4-62.vc1a_8df64b_4c9",
+        "url": "https://updates.jenkins.io/download/plugins/aws-java-sdk2-secretsmanager/2.38.2-66.v466fe61729d1/aws-java-sdk2-secretsmanager.hpi",
+        "version": "2.38.2-66.v466fe61729d1",
         "wiki": "https://plugins.jenkins.io/aws-java-sdk2-secretsmanager",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/aws-java-sdk2-secretsmanager/latest/aws-java-sdk2-secretsmanager.hpi"
       },
       "aws-java-sdk2-sns": {
-        "buildDate": "Sep 09, 2025",
+        "buildDate": "Mar 24, 2026",
         "defaultBranch": "master",
         "dependencies": [
           {
             "name": "aws-java-sdk2-core",
             "optional": false,
-            "version": "2.33.4-62.vc1a_8df64b_4c9"
+            "version": "2.38.2-66.v466fe61729d1"
           }
         ],
         "developers": [
@@ -15176,7 +15176,7 @@
           }
         ],
         "excerpt": "SNS module for the <a href=\"https://aws.amazon.com/sdk-for-java/\" target=\"_blank\" rel=\"noopener noreferrer nofollow\">AWS SDK for Java</a>.",
-        "gav": "io.jenkins.plugins.aws-java-sdk2:aws-java-sdk2-sns:2.33.4-62.vc1a_8df64b_4c9",
+        "gav": "io.jenkins.plugins.aws-java-sdk2:aws-java-sdk2-sns:2.38.2-66.v466fe61729d1",
         "health": 100,
         "issueTrackers": [
           {
@@ -15188,28 +15188,28 @@
         "labels": [],
         "name": "aws-java-sdk2-sns",
         "popularity": 30,
-        "previousTimestamp": "2025-06-16T16:17:03.00Z",
-        "previousVersion": "2.31.63-54.vcf1e5a_c56c49",
-        "releaseTimestamp": "2025-09-09T09:24:49.00Z",
+        "previousTimestamp": "2025-09-09T09:24:49.00Z",
+        "previousVersion": "2.33.4-62.vc1a_8df64b_4c9",
+        "releaseTimestamp": "2026-03-24T17:10:16.00Z",
         "requiredCore": "2.479.1",
         "scm": "https://github.com/jenkinsci/aws-java-sdk2-plugin",
-        "sha1": "q0wQjkfOKdMfaa8gwDidztyRz3Q=",
-        "sha256": "7QX/6PrwIMVXvQIpd2VeZulhk9SABfw+79gDMr2kya8=",
-        "size": 1052166,
+        "sha1": "MXfL4SdKPBZsUNvUFGf6SkMDCkI=",
+        "sha256": "6o/BHntVqkMWulOcqfm6YXiYEJZey37qvEgfkttcvkw=",
+        "size": 1055485,
         "title": "Amazon Web Services SDK 2 :: SNS",
-        "url": "https://updates.jenkins.io/download/plugins/aws-java-sdk2-sns/2.33.4-62.vc1a_8df64b_4c9/aws-java-sdk2-sns.hpi",
-        "version": "2.33.4-62.vc1a_8df64b_4c9",
+        "url": "https://updates.jenkins.io/download/plugins/aws-java-sdk2-sns/2.38.2-66.v466fe61729d1/aws-java-sdk2-sns.hpi",
+        "version": "2.38.2-66.v466fe61729d1",
         "wiki": "https://plugins.jenkins.io/aws-java-sdk2-sns",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/aws-java-sdk2-sns/latest/aws-java-sdk2-sns.hpi"
       },
       "aws-java-sdk2-sqs": {
-        "buildDate": "Sep 09, 2025",
+        "buildDate": "Mar 24, 2026",
         "defaultBranch": "master",
         "dependencies": [
           {
             "name": "aws-java-sdk2-core",
             "optional": false,
-            "version": "2.33.4-62.vc1a_8df64b_4c9"
+            "version": "2.38.2-66.v466fe61729d1"
           }
         ],
         "developers": [
@@ -15283,7 +15283,7 @@
           }
         ],
         "excerpt": "SQS module for the <a href=\"https://aws.amazon.com/sdk-for-java/\" target=\"_blank\" rel=\"noopener noreferrer nofollow\">AWS SDK for Java</a>.",
-        "gav": "io.jenkins.plugins.aws-java-sdk2:aws-java-sdk2-sqs:2.33.4-62.vc1a_8df64b_4c9",
+        "gav": "io.jenkins.plugins.aws-java-sdk2:aws-java-sdk2-sqs:2.38.2-66.v466fe61729d1",
         "health": 100,
         "issueTrackers": [
           {
@@ -15295,28 +15295,28 @@
         "labels": [],
         "name": "aws-java-sdk2-sqs",
         "popularity": 23,
-        "previousTimestamp": "2025-06-16T16:17:03.00Z",
-        "previousVersion": "2.31.63-54.vcf1e5a_c56c49",
-        "releaseTimestamp": "2025-09-09T09:24:50.00Z",
+        "previousTimestamp": "2025-09-09T09:24:50.00Z",
+        "previousVersion": "2.33.4-62.vc1a_8df64b_4c9",
+        "releaseTimestamp": "2026-03-24T17:10:16.00Z",
         "requiredCore": "2.479.1",
         "scm": "https://github.com/jenkinsci/aws-java-sdk2-plugin",
-        "sha1": "hQISSzEedjNFGU7FwRQEIWVJRsw=",
-        "sha256": "0ZMfkazxzzALlCKQTRzV2rksnJ/BRMIVskV7XlkOTH4=",
-        "size": 859509,
+        "sha1": "Fs9X3Mx9rffj5pVVnqUaMZ6uIKg=",
+        "sha256": "6ebo9MTs7qdHPud66JCuspXipLvnlvXMxyRT8OQ0eho=",
+        "size": 859000,
         "title": "Amazon Web Services SDK 2 :: SQS",
-        "url": "https://updates.jenkins.io/download/plugins/aws-java-sdk2-sqs/2.33.4-62.vc1a_8df64b_4c9/aws-java-sdk2-sqs.hpi",
-        "version": "2.33.4-62.vc1a_8df64b_4c9",
+        "url": "https://updates.jenkins.io/download/plugins/aws-java-sdk2-sqs/2.38.2-66.v466fe61729d1/aws-java-sdk2-sqs.hpi",
+        "version": "2.38.2-66.v466fe61729d1",
         "wiki": "https://plugins.jenkins.io/aws-java-sdk2-sqs",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/aws-java-sdk2-sqs/latest/aws-java-sdk2-sqs.hpi"
       },
       "aws-java-sdk2-ssm": {
-        "buildDate": "Sep 09, 2025",
+        "buildDate": "Mar 24, 2026",
         "defaultBranch": "master",
         "dependencies": [
           {
             "name": "aws-java-sdk2-core",
             "optional": false,
-            "version": "2.33.4-62.vc1a_8df64b_4c9"
+            "version": "2.38.2-66.v466fe61729d1"
           }
         ],
         "developers": [
@@ -15390,7 +15390,7 @@
           }
         ],
         "excerpt": "SSM module for the <a href=\"https://aws.amazon.com/sdk-for-java/\" target=\"_blank\" rel=\"noopener noreferrer nofollow\">AWS SDK for Java</a>.",
-        "gav": "io.jenkins.plugins.aws-java-sdk2:aws-java-sdk2-ssm:2.33.4-62.vc1a_8df64b_4c9",
+        "gav": "io.jenkins.plugins.aws-java-sdk2:aws-java-sdk2-ssm:2.38.2-66.v466fe61729d1",
         "health": 100,
         "issueTrackers": [
           {
@@ -15402,28 +15402,28 @@
         "labels": [],
         "name": "aws-java-sdk2-ssm",
         "popularity": 36,
-        "previousTimestamp": "2025-06-16T16:17:03.00Z",
-        "previousVersion": "2.31.63-54.vcf1e5a_c56c49",
-        "releaseTimestamp": "2025-09-09T09:24:50.00Z",
+        "previousTimestamp": "2025-09-09T09:24:50.00Z",
+        "previousVersion": "2.33.4-62.vc1a_8df64b_4c9",
+        "releaseTimestamp": "2026-03-24T17:10:17.00Z",
         "requiredCore": "2.479.1",
         "scm": "https://github.com/jenkinsci/aws-java-sdk2-plugin",
-        "sha1": "FjSlpee8y287Q+S0/f1ItZt8MGw=",
-        "sha256": "cthgt8k6sOvHjStJFxiA3zIynMI5UpP7w3uX6DegY6Q=",
-        "size": 5511365,
+        "sha1": "xGQXqRnAzsl8pBnqBiZ0dRWwYA4=",
+        "sha256": "pQOxVB4yEj06LIxkOpgSe4emmKdzBhOJBT8C3f+/GAo=",
+        "size": 5517661,
         "title": "Amazon Web Services SDK 2 :: SSM",
-        "url": "https://updates.jenkins.io/download/plugins/aws-java-sdk2-ssm/2.33.4-62.vc1a_8df64b_4c9/aws-java-sdk2-ssm.hpi",
-        "version": "2.33.4-62.vc1a_8df64b_4c9",
+        "url": "https://updates.jenkins.io/download/plugins/aws-java-sdk2-ssm/2.38.2-66.v466fe61729d1/aws-java-sdk2-ssm.hpi",
+        "version": "2.38.2-66.v466fe61729d1",
         "wiki": "https://plugins.jenkins.io/aws-java-sdk2-ssm",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/aws-java-sdk2-ssm/latest/aws-java-sdk2-ssm.hpi"
       },
       "aws-java-sdk2-sso": {
-        "buildDate": "Sep 09, 2025",
+        "buildDate": "Mar 24, 2026",
         "defaultBranch": "master",
         "dependencies": [
           {
             "name": "aws-java-sdk2-core",
             "optional": false,
-            "version": "2.33.4-62.vc1a_8df64b_4c9"
+            "version": "2.38.2-66.v466fe61729d1"
           }
         ],
         "developers": [
@@ -15497,7 +15497,7 @@
           }
         ],
         "excerpt": "SSO module for the <a href=\"https://aws.amazon.com/sdk-for-java/\" target=\"_blank\" rel=\"noopener noreferrer nofollow\">AWS SDK for Java</a>.",
-        "gav": "io.jenkins.plugins.aws-java-sdk2:aws-java-sdk2-sso:2.33.4-62.vc1a_8df64b_4c9",
+        "gav": "io.jenkins.plugins.aws-java-sdk2:aws-java-sdk2-sso:2.38.2-66.v466fe61729d1",
         "health": 100,
         "issueTrackers": [
           {
@@ -15509,17 +15509,17 @@
         "labels": [],
         "name": "aws-java-sdk2-sso",
         "popularity": 0,
-        "previousTimestamp": "2025-06-16T16:17:04.00Z",
-        "previousVersion": "2.31.63-54.vcf1e5a_c56c49",
-        "releaseTimestamp": "2025-09-09T09:24:50.00Z",
+        "previousTimestamp": "2025-09-09T09:24:50.00Z",
+        "previousVersion": "2.33.4-62.vc1a_8df64b_4c9",
+        "releaseTimestamp": "2026-03-24T17:10:17.00Z",
         "requiredCore": "2.479.1",
         "scm": "https://github.com/jenkinsci/aws-java-sdk2-plugin",
-        "sha1": "zJCldS5jd6zyzEg5kAxohriIo08=",
-        "sha256": "7/gTmDKDcHghozXWgSeu323SOp+avky7vmItxye/HyA=",
-        "size": 749365,
+        "sha1": "ILRuKMBxPcJTwiiZY9bXCqVrofs=",
+        "sha256": "oRNTZ8e0HUgXN96G2oFKozxMtoc1hJXxSlyJySjnmpg=",
+        "size": 755470,
         "title": "Amazon Web Services SDK 2 :: SSO",
-        "url": "https://updates.jenkins.io/download/plugins/aws-java-sdk2-sso/2.33.4-62.vc1a_8df64b_4c9/aws-java-sdk2-sso.hpi",
-        "version": "2.33.4-62.vc1a_8df64b_4c9",
+        "url": "https://updates.jenkins.io/download/plugins/aws-java-sdk2-sso/2.38.2-66.v466fe61729d1/aws-java-sdk2-sso.hpi",
+        "version": "2.38.2-66.v466fe61729d1",
         "wiki": "https://plugins.jenkins.io/aws-java-sdk2-sso",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/aws-java-sdk2-sso/latest/aws-java-sdk2-sso.hpi"
       },
@@ -32455,7 +32455,7 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/config-file-provider/latest/config-file-provider.hpi"
       },
       "configuration-as-code": {
-        "buildDate": "Mar 10, 2026",
+        "buildDate": "Mar 24, 2026",
         "compatibleSinceVersion": "1.28",
         "defaultBranch": "master",
         "dependencies": [
@@ -32509,7 +32509,7 @@
           }
         ],
         "excerpt": "This plugin allows configuration of Jenkins based on human-readable declarative configuration files.",
-        "gav": "io.jenkins:configuration-as-code:2053.vb_0da_47381a_25",
+        "gav": "io.jenkins:configuration-as-code:2056.v6a_e126e16620",
         "health": 100,
         "issueTrackers": [
           {
@@ -32523,17 +32523,17 @@
         ],
         "name": "configuration-as-code",
         "popularity": 40295,
-        "previousTimestamp": "2026-01-28T17:37:47.00Z",
-        "previousVersion": "2037.v8e5349845172",
-        "releaseTimestamp": "2026-03-10T15:01:40.00Z",
+        "previousTimestamp": "2026-03-10T15:01:40.00Z",
+        "previousVersion": "2053.vb_0da_47381a_25",
+        "releaseTimestamp": "2026-03-24T09:45:50.00Z",
         "requiredCore": "2.541.1",
         "scm": "https://github.com/jenkinsci/configuration-as-code-plugin",
-        "sha1": "gSPhRvDY4dIKUzWvXMuL/clVjqY=",
-        "sha256": "A6YX7HpHkW3/8ZnIz2hrKBSuZ0Z3F5JlK+jNBjWHdAA=",
-        "size": 1220604,
+        "sha1": "xmRjjued5YQTowF5/iaZdsxgzFM=",
+        "sha256": "Z93fqbTj2UTrmiLiVPKh0p1vMjg3dRzqnjZCNri5ePc=",
+        "size": 1220707,
         "title": "Configuration as Code",
-        "url": "https://updates.jenkins.io/download/plugins/configuration-as-code/2053.vb_0da_47381a_25/configuration-as-code.hpi",
-        "version": "2053.vb_0da_47381a_25",
+        "url": "https://updates.jenkins.io/download/plugins/configuration-as-code/2056.v6a_e126e16620/configuration-as-code.hpi",
+        "version": "2056.v6a_e126e16620",
         "wiki": "https://plugins.jenkins.io/configuration-as-code",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/configuration-as-code/latest/configuration-as-code.hpi"
       },
@@ -34736,7 +34736,7 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/createjobadvanced/latest/createjobadvanced.hpi"
       },
       "credentials": {
-        "buildDate": "Mar 23, 2026",
+        "buildDate": "Mar 24, 2026",
         "compatibleSinceVersion": "1354",
         "defaultBranch": "master",
         "dependencies": [
@@ -34748,7 +34748,7 @@
           {
             "name": "commons-text-api",
             "optional": false,
-            "version": "1.15.0-210.v7480a_da_70b_9e"
+            "version": "1.15.0-218.va_61573470393"
           },
           {
             "name": "ionicons-api",
@@ -34758,12 +34758,12 @@
           {
             "name": "configuration-as-code",
             "optional": true,
-            "version": "2006.v001a_2ca_6b_574"
+            "version": "2053.vb_0da_47381a_25"
           },
           {
             "name": "bouncycastle-api",
             "optional": false,
-            "version": "2.30.1.82-277.v70ca_0b_877184"
+            "version": "2.30.1.83-289.v8426fcd19371"
           },
           {
             "name": "structs",
@@ -34870,7 +34870,7 @@
           }
         ],
         "excerpt": "This plugin allows you to store credentials in Jenkins.",
-        "gav": "org.jenkins-ci.plugins:credentials:1496.vf6821f162d4e",
+        "gav": "org.jenkins-ci.plugins:credentials:1497.v6ea_e85a_ce970",
         "health": 100,
         "issueTrackers": [
           {
@@ -34885,17 +34885,17 @@
         ],
         "name": "credentials",
         "popularity": 275172,
-        "previousTimestamp": "2026-03-20T18:23:16.00Z",
-        "previousVersion": "1495.v2cc3d2266b_75",
-        "releaseTimestamp": "2026-03-23T08:07:17.00Z",
-        "requiredCore": "2.528.3",
+        "previousTimestamp": "2026-03-23T08:07:17.00Z",
+        "previousVersion": "1496.vf6821f162d4e",
+        "releaseTimestamp": "2026-03-24T10:07:43.00Z",
+        "requiredCore": "2.541.1",
         "scm": "https://github.com/jenkinsci/credentials-plugin",
-        "sha1": "8MkuT5vstYN8vviCd+cA9dlt4lw=",
-        "sha256": "7hWDVet1A6Z+285tILI0nWyaN6FSY/a+c7DYyloJr64=",
-        "size": 503548,
+        "sha1": "6aL5kX0euL39GCLQW1j9CaUz8HI=",
+        "sha256": "VcgMcNWuIYXsJmCSBJ+cuiHPgHC7XGUwmb1QMyy9CKY=",
+        "size": 504430,
         "title": "Credentials",
-        "url": "https://updates.jenkins.io/download/plugins/credentials/1496.vf6821f162d4e/credentials.hpi",
-        "version": "1496.vf6821f162d4e",
+        "url": "https://updates.jenkins.io/download/plugins/credentials/1497.v6ea_e85a_ce970/credentials.hpi",
+        "version": "1497.v6ea_e85a_ce970",
         "wiki": "https://plugins.jenkins.io/credentials",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/credentials/latest/credentials.hpi"
       },
@@ -52905,7 +52905,7 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/github-branch-source/latest/github-branch-source.hpi"
       },
       "github-checks": {
-        "buildDate": "Feb 20, 2026",
+        "buildDate": "Mar 24, 2026",
         "defaultBranch": "master",
         "dependencies": [
           {
@@ -52949,7 +52949,7 @@
           }
         ],
         "excerpt": "Allows users to publish GitHub checks.",
-        "gav": "io.jenkins.plugins:github-checks:676.v48c732b_52951",
+        "gav": "io.jenkins.plugins:github-checks:679.v74133da_b_435a_",
         "health": 100,
         "issueTrackers": [
           {
@@ -52966,17 +52966,17 @@
         ],
         "name": "github-checks",
         "popularity": 3531,
-        "previousTimestamp": "2025-09-02T06:47:28.00Z",
-        "previousVersion": "634.v371dc6d978a_3",
-        "releaseTimestamp": "2026-02-20T08:02:28.00Z",
+        "previousTimestamp": "2026-02-20T08:02:28.00Z",
+        "previousVersion": "676.v48c732b_52951",
+        "releaseTimestamp": "2026-03-24T17:03:37.00Z",
         "requiredCore": "2.504.3",
         "scm": "https://github.com/jenkinsci/github-checks-plugin",
-        "sha1": "g1/SIRqqR0VPCnkzuUkLJlLcYPE=",
-        "sha256": "sQZt+2rhgAplnGUdPnmehAZUEaIUEE5n1MLrQCpHQcM=",
-        "size": 48866,
+        "sha1": "5kZWKiH+7AQ1X3TuYCSvHYi71fU=",
+        "sha256": "X2xXX9bwy3l21c595ha05k+cYtiRRiVz2Crl+c2Xs6g=",
+        "size": 48873,
         "title": "GitHub Checks",
-        "url": "https://updates.jenkins.io/download/plugins/github-checks/676.v48c732b_52951/github-checks.hpi",
-        "version": "676.v48c732b_52951",
+        "url": "https://updates.jenkins.io/download/plugins/github-checks/679.v74133da_b_435a_/github-checks.hpi",
+        "version": "679.v74133da_b_435a_",
         "wiki": "https://plugins.jenkins.io/github-checks",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/github-checks/latest/github-checks.hpi"
       },
@@ -64647,43 +64647,43 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/jmh-report/latest/jmh-report.hpi"
       },
       "jms-messaging": {
-        "buildDate": "Feb 12, 2026",
+        "buildDate": "Mar 24, 2026",
         "defaultBranch": "master",
         "dependencies": [
           {
             "name": "commons-lang3-api",
             "optional": false,
-            "version": "3.18.0-98.v3a_674c06072d"
+            "version": "3.20.0-109.ve43756e2d2b_4"
           },
           {
             "name": "commons-text-api",
             "optional": false,
-            "version": "1.13.1-176.v74d88f22034b_"
+            "version": "1.15.0-218.va_61573470393"
           },
           {
             "name": "json-path-api",
             "optional": false,
-            "version": "2.9.0-148.v22a_7ffe323ce"
+            "version": "3.0.0-218.vcd4dd1355de2"
           },
           {
             "name": "workflow-api",
             "optional": false,
-            "version": "1373.v7b_813f10efa_b_"
+            "version": "1398.v67030756d3fb_"
           },
           {
             "name": "workflow-cps",
             "optional": false,
-            "version": "4165.vf547819734da_"
+            "version": "4259.vf653c2b_8a_b_69"
           },
           {
             "name": "workflow-job",
             "optional": false,
-            "version": "1540.v295eccc9778f"
+            "version": "1571.vb_423c255d6d9"
           },
           {
             "name": "workflow-step-api",
             "optional": true,
-            "version": "704.ve4f0967e98fa_"
+            "version": "710.v3e456cc85233"
           },
           {
             "name": "apache-httpcomponents-client-4-api",
@@ -64693,12 +64693,12 @@
           {
             "name": "cloudbees-folder",
             "optional": false,
-            "version": "6.1026.ve06dfa_cf31c3"
+            "version": "6.1079.vc0975c2de294"
           },
           {
             "name": "credentials",
             "optional": false,
-            "version": "1415.v831096eb_5534"
+            "version": "1491.v6d6145e96e1c"
           },
           {
             "name": "docker-commons",
@@ -64708,27 +64708,37 @@
           {
             "name": "jackson2-api",
             "optional": false,
-            "version": "2.18.3-402.v74c4eb_f122b_2"
+            "version": "2.21.1-428.vf8dd988fa_d8d"
           },
           {
             "name": "jsoup",
             "optional": false,
-            "version": "1.21.1-52.v96e4041b_60fd"
+            "version": "1.22.1-76.v9cdb_2456c0e3"
+          },
+          {
+            "name": "junit",
+            "optional": false,
+            "version": "1403.vd9d1413fd205"
           },
           {
             "name": "mailer",
             "optional": false,
-            "version": "489.vd4b_25144138f"
+            "version": "525.v2458b_d8a_1a_71"
           },
           {
             "name": "matrix-project",
             "optional": false,
-            "version": "849.v0cd64ed7e531"
+            "version": "870.v9db_fcfc2f45b_"
+          },
+          {
+            "name": "scm-api",
+            "optional": false,
+            "version": "724.v7d839074eb_5c"
           },
           {
             "name": "script-security",
             "optional": false,
-            "version": "1373.vb_b_4a_a_c26fa_00"
+            "version": "1399.ve6a_66547f6e1"
           }
         ],
         "developers": [
@@ -64746,7 +64756,7 @@
           }
         ],
         "excerpt": "Plugin to listen and emit messages during the build process using a JMS Messaging Provider",
-        "gav": "org.jenkins-ci.plugins:jms-messaging:2.0.0",
+        "gav": "org.jenkins-ci.plugins:jms-messaging:2.0.1",
         "health": 100,
         "issueTrackers": [
           {
@@ -64767,17 +64777,17 @@
         ],
         "name": "jms-messaging",
         "popularity": 111,
-        "previousTimestamp": "2024-09-10T13:12:03.00Z",
-        "previousVersion": "1.1.28",
-        "releaseTimestamp": "2026-02-12T17:46:05.00Z",
-        "requiredCore": "2.479.3",
+        "previousTimestamp": "2026-02-12T17:46:05.00Z",
+        "previousVersion": "2.0.0",
+        "releaseTimestamp": "2026-03-24T22:35:15.00Z",
+        "requiredCore": "2.541.3",
         "scm": "https://github.com/jenkinsci/jms-messaging-plugin",
-        "sha1": "cC9Aw9sJoA5vwPe1nfQXlkXH1uk=",
-        "sha256": "suNAVIuL95zOaaqWjS+cpV/vpoKqPBr3uRzN6e267Yc=",
-        "size": 25529478,
+        "sha1": "mfqsz2317zqQDIVaiNFA5hIBBss=",
+        "sha256": "VLSBn96uWjcTNVr83WoF8YhYB+QPtROiQZ6mgdNKThE=",
+        "size": 27217411,
         "title": "JMS Messaging",
-        "url": "https://updates.jenkins.io/download/plugins/jms-messaging/2.0.0/jms-messaging.hpi",
-        "version": "2.0.0",
+        "url": "https://updates.jenkins.io/download/plugins/jms-messaging/2.0.1/jms-messaging.hpi",
+        "version": "2.0.1",
         "wiki": "https://plugins.jenkins.io/jms-messaging",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/jms-messaging/latest/jms-messaging.hpi"
       },
@@ -65245,7 +65255,7 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/job-poll-action-plugin/latest/job-poll-action-plugin.hpi"
       },
       "job-restrictions": {
-        "buildDate": "Feb 27, 2025",
+        "buildDate": "Mar 25, 2026",
         "defaultBranch": "master",
         "dependencies": [],
         "developers": [
@@ -65259,7 +65269,7 @@
           }
         ],
         "excerpt": "Allows restricting execution of jobs on nodes depending on criterias like name pattern, ownership, etc. Also can restrict job triggering by other jobs and users.",
-        "gav": "com.synopsys.arc.jenkinsci.plugins:job-restrictions:216.v0732cc7fb_076",
+        "gav": "com.synopsys.arc.jenkinsci.plugins:job-restrictions:242.v6edda_c9e4ca_f",
         "health": 92,
         "issueTrackers": [
           {
@@ -65274,17 +65284,17 @@
         ],
         "name": "job-restrictions",
         "popularity": 5522,
-        "previousTimestamp": "2024-12-02T19:35:44.00Z",
-        "previousVersion": "212.vc34d63a_6704b_",
-        "releaseTimestamp": "2025-02-27T00:19:03.00Z",
+        "previousTimestamp": "2025-02-27T00:19:03.00Z",
+        "previousVersion": "216.v0732cc7fb_076",
+        "releaseTimestamp": "2026-03-25T03:28:06.00Z",
         "requiredCore": "2.479.3",
         "scm": "https://github.com/jenkinsci/job-restrictions-plugin",
-        "sha1": "Q0NKTrD2gtaj6SwLYFrMhu7IRMM=",
-        "sha256": "0ZBHgAodkNSylLQzu6mtGNMUR39bn+KDj+t23EEszko=",
-        "size": 65252,
+        "sha1": "/MwAR4DYhGtn7Jyp1uE+fi0b3ss=",
+        "sha256": "MOvge3r6sXjdCaHhE2s5nIreGBrFJDW/tcZKnc32dQ4=",
+        "size": 69043,
         "title": "Job Restrictions",
-        "url": "https://updates.jenkins.io/download/plugins/job-restrictions/216.v0732cc7fb_076/job-restrictions.hpi",
-        "version": "216.v0732cc7fb_076",
+        "url": "https://updates.jenkins.io/download/plugins/job-restrictions/242.v6edda_c9e4ca_f/job-restrictions.hpi",
+        "version": "242.v6edda_c9e4ca_f",
         "wiki": "https://plugins.jenkins.io/job-restrictions",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/job-restrictions/latest/job-restrictions.hpi"
       },
@@ -77370,7 +77380,7 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/multibranch-build-strategy-extension/latest/multibranch-build-strategy-extension.hpi"
       },
       "multibranch-filter": {
-        "buildDate": "Mar 13, 2026",
+        "buildDate": "Mar 24, 2026",
         "defaultBranch": "main",
         "dependencies": [
           {
@@ -77386,7 +77396,7 @@
           }
         ],
         "excerpt": "Multibranch Filter Plugin adds a trait that can exclude inactive branches.",
-        "gav": "io.jenkins.plugins:multibranch-filter:22.v5176a_c8395dd",
+        "gav": "io.jenkins.plugins:multibranch-filter:24.v03004004e8ff",
         "health": 100,
         "issueTrackers": [
           {
@@ -77398,17 +77408,17 @@
         "labels": [],
         "name": "multibranch-filter",
         "popularity": 0,
-        "previousTimestamp": "2026-03-02T15:05:45.00Z",
-        "previousVersion": "16.vcd891d3fc4a_7",
-        "releaseTimestamp": "2026-03-13T13:48:28.00Z",
+        "previousTimestamp": "2026-03-13T13:48:28.00Z",
+        "previousVersion": "22.v5176a_c8395dd",
+        "releaseTimestamp": "2026-03-24T08:28:08.00Z",
         "requiredCore": "2.528.3",
         "scm": "https://github.com/jenkinsci/multibranch-filter-plugin",
-        "sha1": "6guBQ2JY8kppcmtv+0j09weuJWI=",
-        "sha256": "2oH1sXxXaN8vGZXMrPtXlCz2/ECh0QQqn4ovAyEwPrY=",
-        "size": 12632,
+        "sha1": "GmycVMP/zYnLAhnXstHkGLg+yI4=",
+        "sha256": "wo8p00fj2oXUL4ftPNM/JgwmqzMjOW8LlcKQyGCySp4=",
+        "size": 12615,
         "title": "Multibranch Filter",
-        "url": "https://updates.jenkins.io/download/plugins/multibranch-filter/22.v5176a_c8395dd/multibranch-filter.hpi",
-        "version": "22.v5176a_c8395dd",
+        "url": "https://updates.jenkins.io/download/plugins/multibranch-filter/24.v03004004e8ff/multibranch-filter.hpi",
+        "version": "24.v03004004e8ff",
         "wiki": "https://plugins.jenkins.io/multibranch-filter",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/multibranch-filter/latest/multibranch-filter.hpi"
       },
@@ -81984,7 +81994,7 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/openshift-pipeline/latest/openshift-pipeline.hpi"
       },
       "openshift-sync": {
-        "buildDate": "Jul 10, 2025",
+        "buildDate": "Mar 24, 2026",
         "defaultBranch": "master",
         "dependencies": [
           {
@@ -82053,8 +82063,8 @@
           }
         ],
         "excerpt": "Sync your OpenShift BuildConfigs with Jenkins jobs.",
-        "gav": "io.fabric8.jenkins.plugins:openshift-sync:1.1.0.825.v30618768da_42",
-        "health": 94,
+        "gav": "io.fabric8.jenkins.plugins:openshift-sync:1.1.0.832.v96d61a_7e3647",
+        "health": 90,
         "issueTrackers": [
           {
             "reportUrl": "https://www.jenkins.io/participate/report-issue/redirect/#21623/openshift-sync",
@@ -82071,17 +82081,17 @@
         ],
         "name": "openshift-sync",
         "popularity": 1019,
-        "previousTimestamp": "2025-05-12T06:03:39.00Z",
-        "previousVersion": "1.1.0.818.v3883b_3b_df89a_",
-        "releaseTimestamp": "2025-07-10T14:01:48.00Z",
+        "previousTimestamp": "2025-07-10T14:01:48.00Z",
+        "previousVersion": "1.1.0.825.v30618768da_42",
+        "releaseTimestamp": "2026-03-24T08:05:00.00Z",
         "requiredCore": "2.504.2",
         "scm": "https://github.com/jenkinsci/openshift-sync-plugin",
-        "sha1": "0tPvOIEvs0YllgR/bIm10sWHIpw=",
-        "sha256": "HozGpHUlcHrDXI11os2P7+ftkC0IC6LI6na9ZAb8wNc=",
-        "size": 707260,
+        "sha1": "2eCwKVRPaVHA/90PMRatmp08yps=",
+        "sha256": "NI3KGKtdttn/E5RzBEIVnknc/gPoKcGfa4aFOaZpiRE=",
+        "size": 707453,
         "title": "OpenShift Sync",
-        "url": "https://updates.jenkins.io/download/plugins/openshift-sync/1.1.0.825.v30618768da_42/openshift-sync.hpi",
-        "version": "1.1.0.825.v30618768da_42",
+        "url": "https://updates.jenkins.io/download/plugins/openshift-sync/1.1.0.832.v96d61a_7e3647/openshift-sync.hpi",
+        "version": "1.1.0.832.v96d61a_7e3647",
         "wiki": "https://plugins.jenkins.io/openshift-sync",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/openshift-sync/latest/openshift-sync.hpi"
       },
@@ -121526,10 +121536,10 @@
       "certificates": [
         "MIIFqjCCA5KgAwIBAgIFAN6tvwUwDQYJKoZIhvcNAQENBQAwgYoxCzAJBgNVBAYTAlVTMRMwEQYDVQQIDApDYWxpZm9ybmlhMREwDwYDVQQHDAhTYW4gSm9zZTEYMBYGA1UECgwPSmVua2lucyBQcm9qZWN0MRowGAYDVQQDDBFLb2hzdWtlIEthd2FndWNoaTEdMBsGCSqGSIb3DQEJARYOa2tAa29oc3VrZS5vcmcwHhcNMjYwMTE0MTU0MjQyWhcNMjcwMTE0MTU0MjQyWjBeMQswCQYDVQQGEwJVUzETMBEGA1UECAwKQ2FsaWZvcm5pYTEYMBYGA1UECgwPSmVua2lucyBQcm9qZWN0MSAwHgYDVQQDDBdDb21tdW5pdHkgVXBkYXRlIENlbnRlcjCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBALQMWCFq7SaGA+hp98UAzgLkCO6NFlcK9n2mMQ0c6/4b6qI3n53Ak/ljF+4ekEb3p5tnI0iwj0GZjFc5hW1gtz3mfbkxTb7fk5LJFj90NZHr0isb5D21w2fkjGp9h81kGliUZcm3dpdrXMW2Gh1HYcF4uijuz1mzrFt2Ew2vgDse5EFYb32bk6Xmi/dhf0l9r+oKT6bChijgHr3WynRSdDL9y1XDqUq06ZAVp4RqVwwpezrYgJ/OPRZeg9CctnUoFR8BgHKWeNgwuyWrtBKST5pnQmhTEM53qVHzQTgrBP4Vqj38I1R39qPZa4cu3QUXMr8CsfrJ1wF8y3OmXp3pNfbXivb7RoanXYO+uZzoYOaaHAXTICFLUqR0sxJfiOTejm87P9F+EzEvuPGFDAkbo7qrW/hReHYycOiiqPggfLsglZTNJEdd4oLdvDZLnBJWBQscl98f/pVu3Pzld0RnU9phhCMXfVLkeQBQtAxfmqaVnMurELBNeK8ybriTQlAdnkBRzv3NAilUaAfI0gSh/beN2qNlII3kEOSpasAbEVbfBB+r9hNzFj4+Sqi8E+YZbMQjFtdHdO/iQCrcUiqDnTBsxL7u7xzfvLJTxoISUrCigVgUGryaouyUhARHpQwcVG4hewFspJZUaQv7aj0hlpQUC42+2zWr/NK5rVQAZD9RAgMBAAGjQjBAMB0GA1UdDgQWBBR2GjaTNzVHFuMTbEl9hRAbjCtQ2DAfBgNVHSMEGDAWgBQRxuXUMC3pVcYBtWtQctI2frQBhzANBgkqhkiG9w0BAQ0FAAOCAgEAOgskYoOGDmEZIjYUy2tYTKI6eKnpAiQA0yETLdam9wOGGL6J6e7BT5JoyxBrDXy4xrZsDyFOBPB8Di8ETF1mr9k6GsyBO8S/SYd/1qYg9kkHXq2x62WmDs0K7h9N2M9LAEFDvdZYvOnDzgFhcaFfsxUPS9qDFws33NDBTKo/Ya2UIjzyl1H68bw5VG1temOtAzvW+6EA4j2bzgv5NbaUGrZq5Y8yiWRDjdAbMBu0lDnJP7pTLs16jEE1FWfkJhkaU6TbMP6rzehjMkiplu+S0qnVQBUgME2U4EMxCM31oixUl/+WvZ5GQHR8GVdsFkQYs2K3L0i7a9bxc8jD6kzU/sSJwJxnqocB1JnZF1CFbT78bdTaBtZty7MVSUdXYCAf6XZPCMYOGN7Cb7YpLqn0hUCy2tIdHw6TUluyOkP0AoOLFijThtafcgQI19QyCa85DUZxwG1QsVFbGyqv6+47DbX2CUKzNLyfKJhivzwfagKZDo5KaZouv7lO5RMj8onHK+MrkzvJG1kFcFw5lO1ms5QKPNi3RfrQqWQ4rjVBbPdNx4xRpHVpcXp9MXCg64prwGHXrPN2yl2VRYrxwlLRhee27H07ZA9ujLB4PU8ppb6uQH2GQiKpXoRlzQBQej4zhquVM8rQaPfXV8DGNu4lx77tNtgK8uetQxyh4vBOpGA="
       ],
-      "correct_digest": "y8K84lPz1hZZgR4w7GRowaTJVAU=",
-      "correct_digest512": "b160dd8d97e810f2d5f9e091cd50ad8c4f7a232bea63c030b4b480d36c3652b7c28b8c508998312c1cd7067fdf0d7972576a786e975fea4fb270f70b0785a54a",
-      "correct_signature": "hRgLANGpV4hct4e27QSTQfYtXT//PpVo74nFTONaI2/rXBKYBVQKhjR9l7MDraJ30OB9sUhDlhGrFTmpdsTTFZO1ynkdgkt30pbdzbNLSALYAjc2i4+ThlZISFjxdE5i4IuosDA50krqZj89C7ra+DlqBnIfeP8liUEhvE6bkBhewKAl37CghR2Bu96JXS5yBEplbVI+HeyLMwvBnNLUfsAkBcci5nks/M0PqMVVOUNdgJYrNYWq70IRo1fm7ju51IOxBijvQK9Ywq2sNeCWZ+FsS1KvLMn6zSQDPnfPDtwpTQhl4GuctX0OOVJGnTDWPDrKLtlsYcGjJQKh6k7Zco6IqlBSruxpQECo1qMg+4gudhC6P+mVi8V/+hUciV+LT83/iQdskn6Upf+mPtLn4KRE4xSfVdLs5Z6pCuDn+fNj6S87peFzHr9S5oCRXF6Q5VqWeNlOpHTzZ+aa+7BIajGuY5h6BwgtQA+w1kFDscTYadDwBL6yCBF6UYbekCrgnZoaXwi04IDBYsT09dxZT/iNOgnwBNxXjo4lm2HjUpDV4GHG7xtyQ7nM49PaAL4O8vj48Wl3/ATIyj5B29PZgDG/JC0HyR2vPZDVEWhVfWqsJcj4TVti1flLjjYaJvsEVVjfA/SJuKowAwPqHOcuiUCp0hU8hduSyxR97fADxj8=",
-      "correct_signature512": "34d1d5211d25ec624b7339b110fd6ce20ba171aa2a63d2cbfe20128107bead424fc0148cbc64ede91aa6b0bfec9f25b44f13f746e75dc8a8f6ccfaac857031f7ea389e859ef5ad2d5566a3f4dba4cf5469b02897cd7c54cbf24c2e21033e3348423a811fb141372e0ba487b0b23eb66e55cf33254d554c1967b9e2af630900ba7738675bb0f6b14bb0797743f94962f4272292f19ef579660b84b57ed2d3af583d2d2efa1bc5a56b9e8143487604702f907cad04e7bf98d3630cad4d10289e236af8e036a0516f17778b45e6567c09e82664c0a00805d773c9e3614d8a39e4eadd2f7c259d8c0c0abceeb7befd53d5fc2aa299c664e0b173ec6bc614355106ae6caba2b8d5465b21caf45ca97911d013b49f8d985567277d56e9e74bcd8be7d35ac75cbb01b7f7b76d22ed384995bf0a7c1c4d6447c6a965019dc2d656c2176e69baf7f92e083cf40ba4befbb55e1fa8310094fa3c99e1882c56a7923a923fb2479fd08f4b37bf53b370cd49807033285731ce9e935220ba06d857a16769778df6e6ab9169cffa5271dfe95c298c79682d122fc27640a91c593075bc1f3148fd257571509df96539c2bc1a5d72b30994509b46697662770479d0f9bbc9b514161dd818ecfbfc825a8cd453c53556d5a7f7a2ff8c6e90ddaab0dd27ed03b53dd5dc56aca5837988816856500a8b0a3effb2096248312564dd0394de8ebf0a08e5"
+      "correct_digest": "ko02A6mKRjtJ+QSccHWvMNa6z2M=",
+      "correct_digest512": "4e693b7b5be72573eb50044fe325ae44466a34a0cb37e19b0d81eb3ca5c1bf5e44be6deca568a87990600d995cd7a602bf6d8b2b802198469d15122ae54d17a2",
+      "correct_signature": "iQ85RVXuaNWMVkZADAbt1HlmsZmjnz58LqLYvGstw2Ojw4VYDqiqumrDMur9bDBcYRdb/T2nuGr6IqtzNJtaBqZPdwAm6+xbHfHLUVbW7LgiPSJTNcbFpuvU+5Sjvc3goxGngpm/VckUVDY7LCVnXbXJcgijr+iXebElA6kSTTqXfdk5FiJiLRVd+AceXqVk4Eg3zG76XFJ6ysxw8UQ+UV58gulXFb16rhCNCxwYVuYUahy5GzfbyTbXvftbjEieXw7pIRDuEtJ9RS2IIecUZtBIcIwVwPpSi+UapYmzmEmiJWCur3UIyPP6pjJbtUguTYCq0l1W111ZEaG8lg/nZ6DDbbgPPyqir/AocOCQeSnmGQ7w9jFNjN56CE5Y1wbZFsicNZrujKF7S6gFpIWJx8tTu6HdCD3r5n6vPREvnyeP7NqnguGyjJuznvcsuFrt4A0v+Kviy2CyBElSDvRvcfkWe6y9qaXG2E78KcsLbIA0++xHl/YKsAfxII/flEca5b4FGBIkko194fGbxAEVHM8BtaZCyUN8F2JQmqRqzMQD8u8V7tkJIuAAtOBuapG581EEdYFW0Cpq/FKKsTTYGVK74GvYi163jaf6NJJYyx8SfyoqyNAZfJUAOCcuXEkPb+gAheazpSPKzbWeMZpDQQ4mbKsutwfGoA97juirFiQ=",
+      "correct_signature512": "663afbd3884c21401317f9a44dcfcf2d0a02edd8044cdd8610fcc9d9ec92afc54a1f4622f67bc526b0c8385f2a5af5647701823eff3b0c9e26c1ea286c584016e93596e97ee0a378023094d1f08b7d83aa615d5b58d3a3d51f6905286d6576335048987c69dc8ad0d4b9151a8be3ec251cdf09b37d26ee35177678f704dcbe12b9ab1e81b5f41ccbef381c22a8ee6d4fb863ec2877f047163b2b67ff5234180378a106d65379e6185a748f4f522a84f8f07d61cd3ef71084161483c4f6f9f3464712dadf4126d942d0a1e3ef4880d93e107b3ea8af65b7c05e85416048879ef365249e8a3a3c3b462c379f44a21f328d745d68f321e38a15cc3975b9450abd82eaa40a87957eefc357608b76121989901947179dc93a41ce715f144ad7aa381fc0d00cfab3ae67ad889f70e6b529f9fe0ddac77bd6f74ae5d3b140151dc17fa3070027cf371fbc879fa63802432494c24e8e93ed9dc433b4beed0ea889348a3725b3c4e03222688bc1bce554bef5158f537cfb9e1ee9c0682c099724fdd3debb079cbac0c045822095918251484f589ad533725d379f8cba1e222f3d76a21152eef1162af612b71de51d83c6dc49a1c17ce06a11bf4e5114d3b351536c9dfe867137d9806bb15014eef0bbf628143f4bfe0f81da7acd9ef7e6f10816572a5ab1feb3f493c1a424bccef6d410e868c0635ca00ca7c4e1a71e55a345a628e7c605"
     },
     "updateCenterVersion": "1",
     "warnings": [
@@ -140802,7 +140812,7 @@
     ]
   },
   "_metadata": {
-    "generatedAt": "2026-03-24T03:34:23.081Z",
+    "generatedAt": "2026-03-25T03:37:03.901Z",
     "bestMirror": "https://mirror.nju.edu.cn/jenkins/",
     "mirrorsChecked": 10,
     "pluginsModified": 2061,
