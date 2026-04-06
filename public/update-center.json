@@ -810,7 +810,7 @@
         "url": "https://wiki.jenkins-ci.org/display/JENKINS/ZAProxy+Plugin"
       }
     },
-    "generationTimestamp": "2026-04-05T03:48:31Z",
+    "generationTimestamp": "2026-04-06T03:46:17Z",
     "id": "default",
     "plugins": {
       "42crunch-security-audit": {
@@ -5840,7 +5840,7 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/appcircle-testing-distribution/latest/appcircle-testing-distribution.hpi"
       },
       "appdome-build-2secure": {
-        "buildDate": "Jun 11, 2025",
+        "buildDate": "Apr 05, 2026",
         "defaultBranch": "main",
         "dependencies": [],
         "developers": [
@@ -5854,8 +5854,8 @@
           }
         ],
         "excerpt": "Appdome Build-2secure integrates Jenkins with <a href=\"https://www.appdome.com/devsecops-release-management/\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Appdome</a>",
-        "gav": "io.jenkins.plugins:appdome-build-2secure:1.3.0",
-        "health": 96,
+        "gav": "io.jenkins.plugins:appdome-build-2secure:1.3.1",
+        "health": 100,
         "issueTrackers": [
           {
             "reportUrl": "https://github.com/jenkinsci/appdome-build-2secure-plugin/issues/new/choose",
@@ -5872,17 +5872,17 @@
         ],
         "name": "appdome-build-2secure",
         "popularity": 9,
-        "previousTimestamp": "2025-03-12T12:41:35.00Z",
-        "previousVersion": "1.2.9",
-        "releaseTimestamp": "2025-06-11T12:47:13.00Z",
+        "previousTimestamp": "2025-06-11T12:47:13.00Z",
+        "previousVersion": "1.3.0",
+        "releaseTimestamp": "2026-04-05T09:45:49.00Z",
         "requiredCore": "2.361.4",
         "scm": "https://github.com/jenkinsci/appdome-build-2secure-plugin",
-        "sha1": "aDb5kax5s4kpudk1gbrDkOLGZvc=",
-        "sha256": "GvggT8HDy0xA9R+qaQ3pEXoRjnaPiKSQOHqv+3uhcX0=",
-        "size": 59320,
+        "sha1": "3Np4U/dXGi0s9JS4veUyw8dr1zY=",
+        "sha256": "HK+5lVLc5+Ckodsw874ez8zZ4XT71wkNdT8R37UVdvQ=",
+        "size": 66480,
         "title": "Appdome Build-2secure",
-        "url": "https://updates.jenkins.io/download/plugins/appdome-build-2secure/1.3.0/appdome-build-2secure.hpi",
-        "version": "1.3.0",
+        "url": "https://updates.jenkins.io/download/plugins/appdome-build-2secure/1.3.1/appdome-build-2secure.hpi",
+        "version": "1.3.1",
         "wiki": "https://plugins.jenkins.io/appdome-build-2secure",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/appdome-build-2secure/latest/appdome-build-2secure.hpi"
       },
@@ -37686,18 +37686,18 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/deadmanssnitch/latest/deadmanssnitch.hpi"
       },
       "debian-pbuilder": {
-        "buildDate": "Oct 01, 2023",
+        "buildDate": "Apr 05, 2026",
         "defaultBranch": "master",
         "dependencies": [
           {
             "name": "workflow-step-api",
             "optional": true,
-            "version": "2.24"
+            "version": "686.v603d058a_e148"
           },
           {
             "name": "structs",
             "optional": false,
-            "version": "1.24"
+            "version": "338.v848422169819"
           }
         ],
         "developers": [
@@ -37707,8 +37707,8 @@
           }
         ],
         "excerpt": "The DebianPbuilder plugin allows you to build Debian packages in a pbuilder environment.",
-        "gav": "com.rm5248:debian-pbuilder:1.11",
-        "health": 88,
+        "gav": "com.rm5248:debian-pbuilder:1.12",
+        "health": 100,
         "issueTrackers": [
           {
             "reportUrl": "https://www.jenkins.io/participate/report-issue/redirect/#23320/debian-pbuilder",
@@ -37719,17 +37719,17 @@
         "labels": [],
         "name": "debian-pbuilder",
         "popularity": 41,
-        "previousTimestamp": "2022-11-20T15:47:10.00Z",
-        "previousVersion": "1.10",
-        "releaseTimestamp": "2023-10-01T14:56:10.00Z",
-        "requiredCore": "2.346.3",
+        "previousTimestamp": "2023-10-01T14:56:10.00Z",
+        "previousVersion": "1.11",
+        "releaseTimestamp": "2026-04-05T15:20:20.00Z",
+        "requiredCore": "2.479.1",
         "scm": "https://github.com/jenkinsci/debian-pbuilder-plugin",
-        "sha1": "WKCLKrJ/+tJGmQsZzvjyI0AC6tc=",
-        "sha256": "Hb9nGzfNk/A9brnJwZyAuMF7tf6l5lftfSpyGKJtXQM=",
-        "size": 44159,
+        "sha1": "51Yw5a9mYe0SE606JY+REgMq9Rk=",
+        "sha256": "S7lDZ+cbfILBnyr4Dldqm+wl+jn+LN+31WInmkMllIA=",
+        "size": 46212,
         "title": "Debian Pbuilder",
-        "url": "https://updates.jenkins.io/download/plugins/debian-pbuilder/1.11/debian-pbuilder.hpi",
-        "version": "1.11",
+        "url": "https://updates.jenkins.io/download/plugins/debian-pbuilder/1.12/debian-pbuilder.hpi",
+        "version": "1.12",
         "wiki": "https://plugins.jenkins.io/debian-pbuilder",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/debian-pbuilder/latest/debian-pbuilder.hpi"
       },
@@ -56976,7 +56976,7 @@
         ],
         "excerpt": "This plugin executes Groovy code when an event occurs.",
         "gav": "org.jenkins-ci.plugins:groovy-events-listener-plugin:2.291.vcc69e39f0761",
-        "health": 100,
+        "health": 97,
         "issueTrackers": [
           {
             "reportUrl": "https://github.com/jenkinsci/groovy-events-listener-plugin/issues/new/choose",
@@ -79610,7 +79610,7 @@
         ],
         "excerpt": "The Nord theme for Jenkins.",
         "gav": "io.jenkins.plugins:nord-theme:1.1",
-        "health": 100,
+        "health": 97,
         "issueTrackers": [
           {
             "reportUrl": "https://www.jenkins.io/participate/report-issue/redirect/#29730/nord-theme",
@@ -107693,7 +107693,7 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/swarm/latest/swarm.hpi"
       },
       "swarm-agents-cloud": {
-        "buildDate": "Jan 27, 2026",
+        "buildDate": "Apr 05, 2026",
         "defaultBranch": "master",
         "dependencies": [
           {
@@ -107754,7 +107754,7 @@
           }
         ],
         "excerpt": "Swarm Agents Cloud plugin provisions Jenkins agents on a Docker Swarm cluster. Features: WebSocket-based agent connectionsReal-time cluster monitoringConfiguration as Code (JCasC) supportResource constraints (CPU, memory limits)Volume and bind mountsPlacement constraintsPer-template instance limits",
-        "gav": "io.jenkins.plugins:swarm-agents-cloud:1.0.51",
+        "gav": "io.jenkins.plugins:swarm-agents-cloud:1.0.54",
         "health": 100,
         "issueTrackers": [
           {
@@ -107766,17 +107766,17 @@
         "labels": [],
         "name": "swarm-agents-cloud",
         "popularity": 0,
-        "previousTimestamp": "2026-01-22T20:50:21.00Z",
-        "previousVersion": "1.0.48",
-        "releaseTimestamp": "2026-01-27T09:00:02.00Z",
+        "previousTimestamp": "2026-01-27T09:00:02.00Z",
+        "previousVersion": "1.0.51",
+        "releaseTimestamp": "2026-04-05T05:38:11.00Z",
         "requiredCore": "2.528.3",
         "scm": "https://github.com/jenkinsci/swarm-agents-cloud-plugin",
-        "sha1": "cFLfmW543GVBGmX+5g7JcpkzS4E=",
-        "sha256": "3/tl5fGphU7deS6nFZhmxNmQk7xHTCuSXkFrs43M/nc=",
-        "size": 150316,
+        "sha1": "mAqusgsvyenfA9zcH/vce49c6I4=",
+        "sha256": "+fMXsKi679N2IFcGgLkl/WQZ8eCoRhMV50Li0icYkQQ=",
+        "size": 150494,
         "title": "Swarm Agents Cloud",
-        "url": "https://updates.jenkins.io/download/plugins/swarm-agents-cloud/1.0.51/swarm-agents-cloud.hpi",
-        "version": "1.0.51",
+        "url": "https://updates.jenkins.io/download/plugins/swarm-agents-cloud/1.0.54/swarm-agents-cloud.hpi",
+        "version": "1.0.54",
         "wiki": "https://plugins.jenkins.io/swarm-agents-cloud",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/swarm-agents-cloud/latest/swarm-agents-cloud.hpi"
       },
@@ -121792,10 +121792,10 @@
       "certificates": [
         "MIIFqjCCA5KgAwIBAgIFAN6tvwUwDQYJKoZIhvcNAQENBQAwgYoxCzAJBgNVBAYTAlVTMRMwEQYDVQQIDApDYWxpZm9ybmlhMREwDwYDVQQHDAhTYW4gSm9zZTEYMBYGA1UECgwPSmVua2lucyBQcm9qZWN0MRowGAYDVQQDDBFLb2hzdWtlIEthd2FndWNoaTEdMBsGCSqGSIb3DQEJARYOa2tAa29oc3VrZS5vcmcwHhcNMjYwMTE0MTU0MjQyWhcNMjcwMTE0MTU0MjQyWjBeMQswCQYDVQQGEwJVUzETMBEGA1UECAwKQ2FsaWZvcm5pYTEYMBYGA1UECgwPSmVua2lucyBQcm9qZWN0MSAwHgYDVQQDDBdDb21tdW5pdHkgVXBkYXRlIENlbnRlcjCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBALQMWCFq7SaGA+hp98UAzgLkCO6NFlcK9n2mMQ0c6/4b6qI3n53Ak/ljF+4ekEb3p5tnI0iwj0GZjFc5hW1gtz3mfbkxTb7fk5LJFj90NZHr0isb5D21w2fkjGp9h81kGliUZcm3dpdrXMW2Gh1HYcF4uijuz1mzrFt2Ew2vgDse5EFYb32bk6Xmi/dhf0l9r+oKT6bChijgHr3WynRSdDL9y1XDqUq06ZAVp4RqVwwpezrYgJ/OPRZeg9CctnUoFR8BgHKWeNgwuyWrtBKST5pnQmhTEM53qVHzQTgrBP4Vqj38I1R39qPZa4cu3QUXMr8CsfrJ1wF8y3OmXp3pNfbXivb7RoanXYO+uZzoYOaaHAXTICFLUqR0sxJfiOTejm87P9F+EzEvuPGFDAkbo7qrW/hReHYycOiiqPggfLsglZTNJEdd4oLdvDZLnBJWBQscl98f/pVu3Pzld0RnU9phhCMXfVLkeQBQtAxfmqaVnMurELBNeK8ybriTQlAdnkBRzv3NAilUaAfI0gSh/beN2qNlII3kEOSpasAbEVbfBB+r9hNzFj4+Sqi8E+YZbMQjFtdHdO/iQCrcUiqDnTBsxL7u7xzfvLJTxoISUrCigVgUGryaouyUhARHpQwcVG4hewFspJZUaQv7aj0hlpQUC42+2zWr/NK5rVQAZD9RAgMBAAGjQjBAMB0GA1UdDgQWBBR2GjaTNzVHFuMTbEl9hRAbjCtQ2DAfBgNVHSMEGDAWgBQRxuXUMC3pVcYBtWtQctI2frQBhzANBgkqhkiG9w0BAQ0FAAOCAgEAOgskYoOGDmEZIjYUy2tYTKI6eKnpAiQA0yETLdam9wOGGL6J6e7BT5JoyxBrDXy4xrZsDyFOBPB8Di8ETF1mr9k6GsyBO8S/SYd/1qYg9kkHXq2x62WmDs0K7h9N2M9LAEFDvdZYvOnDzgFhcaFfsxUPS9qDFws33NDBTKo/Ya2UIjzyl1H68bw5VG1temOtAzvW+6EA4j2bzgv5NbaUGrZq5Y8yiWRDjdAbMBu0lDnJP7pTLs16jEE1FWfkJhkaU6TbMP6rzehjMkiplu+S0qnVQBUgME2U4EMxCM31oixUl/+WvZ5GQHR8GVdsFkQYs2K3L0i7a9bxc8jD6kzU/sSJwJxnqocB1JnZF1CFbT78bdTaBtZty7MVSUdXYCAf6XZPCMYOGN7Cb7YpLqn0hUCy2tIdHw6TUluyOkP0AoOLFijThtafcgQI19QyCa85DUZxwG1QsVFbGyqv6+47DbX2CUKzNLyfKJhivzwfagKZDo5KaZouv7lO5RMj8onHK+MrkzvJG1kFcFw5lO1ms5QKPNi3RfrQqWQ4rjVBbPdNx4xRpHVpcXp9MXCg64prwGHXrPN2yl2VRYrxwlLRhee27H07ZA9ujLB4PU8ppb6uQH2GQiKpXoRlzQBQej4zhquVM8rQaPfXV8DGNu4lx77tNtgK8uetQxyh4vBOpGA="
       ],
-      "correct_digest": "/xnMuQZbQdQvx+lLT8zOA2Iy5XY=",
-      "correct_digest512": "bce658e189f5f9730e6783f6812fe8735ac4a90d35b1183fa0f759a138269c32846a1fe39469aade39d36f8c8e49a07d459b10711c99afc842a676620a537970",
-      "correct_signature": "O0rftApOvvurl73MF/YLmNIPmlO9U8CbaW58TdT34BAI8YOU2AKcNrJIDzx66+vVCmFr4t7CTJF+yECQjxhft+pJDfjb05cc9TcjS4JT6nrnKfcK6u3dF8YMEWirkybKEzsU3edCBdDhXQQuaigJChOTSqtSFb5ch/103ziMziDj5NV4lohp9OU4wrooy80d6vclBWb+2q+Ie/Oue7lbH5US3GjzavujRboucKjxNha05lO3WQ652x3um21nqim1JO5n1vaaVnZZhPK8HG1GVsUwPWqRwILeuFQaBqNl2MF/7oYOR6GYtiyXWMVwE/uHKIljcMgiPcOSvpnyj820J8b4e6YcCzVuYd7JO6mIy9/mWq2onMlE7IUCAuTBscgAEqcm16QN1cRiaGOwJmN1zSgTJXY358h7UXW+sGRcOsv02S2xWTBLDX7H4HZALWAhfiwXJvneOiuQtysMSL2q7oqeQSt7JXSpO4ubi+HlNDf7+XC/gnMk16I7P3v0IS81WI+/QJFDtkpgyOQ4j1vtq4eQ4JOb/70ytyo7QS6aFq4uLIzu7aDLvbqMzl5n7/nX78q27cEOeLWNutIyJ29KVIkeqPzhUCDO5eH7qwF0dFuSNOIYu6dTZ75+X3DvQ43SZsAGUuRLnKYqKLwwgnA7yokDunCi2seznmwTw+q6sdc=",
-      "correct_signature512": "7605c085c7ad6c4fab99fdaafd94422478cb9e4bd37253ccd1407dd2c0f39a280112d08e9f0bce2e6da929e75ed4e314ece4e18bc587d82969700a039dc4a44faddd47cdffd5c391d6e0632bd9fd187cb6d0f7cba91b87fff400050b73a88a334d80a27f0abffc0c5158a7ad15ba9ca82f8ce4db5cd66ee915ed2ec270618ebca98b6411f9e1d6846afa8a26d6c6c5b3158abcb0b49ba774b6dddad0ae6b02026c73110e80eed94c9eb2d5cba8870fcc5a39a5702245b56772ff353c18f824405d75bb7e0061748f7bbbfcb28fe81987c90804d16d3f12f01ed5732299cf980b37ee78328bfbe8f6212cc5f4d64292d9f11a7b28f106aeaa4f5a61eef74686299d1fbe2bf3243348e1148556c9815ef2f053867c43a721279b19fa0b8784797bbe6889dae07cb76a9c1ac4788906993f43fb3c2fe1cfc3bcd0dc8a645ed91e1163524a206b77e1a851e34b41d966e2651916abce01caa1d26e97f8063695ac94e3242ac0a61472d92e7cb81b3c64a7be6b0a9cbd2a4580a63a59e535a15081a1a91297a9282bc1654d4a9b32e4397f40ce81d1c5adc89fdc4692c91936ec4a5256857141ac9216cdcd5fc2c8ab63fb23080ff46207b3cc688d70dad3388b0f5c4586fcd8ab484c7d2fa62fc468ef3f0a787d76358eae4b918d0504438606b92761c6e146cef84ed8b203e4bfed2466e4083b82c644f151de0ca30aba2d1d37b5"
+      "correct_digest": "HCoFTxfX0fCIsyxYEZEt+6ut5L8=",
+      "correct_digest512": "cd309140f22d7bcbd8111e3c163bf5534626d53122adb9e3d23c8452a2d03c24fa6f15df92082cf8fd54db4b144e2b504dcb53be70ce9e4365ebf8a57f0c29d6",
+      "correct_signature": "qM3mIxEQdZFVIxD2VkzJTzDKCaXYRjXKp8oMMANw5+sDWxF1fYFnzlaw/cDTi8RSY3fm1HIvuxpF3pYnEmNur8EqBeWTJmx4+qxfxEuAOtx0NyhRbGnqbFsbSuGsUbAFn3ianPQ4lW8uyJKjA+f9K40Snm240Bjsc1AlpkO1AMTY2FgqsO4QawBd74hKsnygHP1L+zihkHp3Oz8wyJPLhB4KJg/pDmWG5v6pH5/3unv5qUxMVGcw9o4GxHUd+g6x6ticZGOsLaVWSwHHUxDD9A9PDFpurax+TkCBuRpm+9oPFUb7YWItcVrekdRI3bZrSGxXxgaXzi2v70l1hbGBohNsubUV+Q6leLgy+Dlpzcs4+qSslZVUxkWBUhVmeiq27kIcD0Uv+pZ4JCG7tSTREI+mumFjrWMsZPtVmZDixoAAPB09lb0CfSh7YZnQ0MyarnBSGUSBkFRANdGrJg/YarRp2LHuWmU0u5iL24vxJjlzTRwlDA6xW71ItDE4RTaqyx3GRTGlOfoA0+Oo3eW9aZoMjP76oAVyTVI+tZAwuyfAxawAZHRmIQ1ypBLgFj0q6SHtHXpLHZ1mpZkAqrq27j9J+L+3VZbpA8EhCc2WRQGeUDW0QRWnWoxKXnwA7//hWdmw32JI2d/r+M/iNHtQ3A4CB9PHbJUkAx0zvmKsCoI=",
+      "correct_signature512": "ab2adab2b53576f3ffda178eb3a863bc980ecff10522a2668d61ae84df6227c66fd4de7c7d971f2d7eb222057b6f830436bc5ef8a447000dc7ac4912bb7746fbf339bad0fd82decb6c48e9cc88d854d9fa80cea52f881810ea84e448d76d6f8261f6efeedc0fa2b2fcca8102e2dafb142af803ba8d432fa0fa85e2d1be9b557eedf1a540e6cf5f578a72221eec509f6f0eceac18ab642a7d27bec86d8674a5b76489d5eac0c6cf151e8d01c82d65a30f75d6dfd9af0ddd9a53a99b22a137de570057a20858a8bd2a39e5e0f2917f7f05bdec27e2bdbab59e53d5f98633546c9dc9356354566c7ed496f7383614c6d080c04b4534c23107c46777101c35f336d25048284646d998e62ad993c425b308b5087ef4bf24308007cb03fa14165db1c6530b9e93e0e2da3bf640dd49a55ee42687fe3486599bbb84f4d79d93ed90b919bc6800fb37394f501b780b7a83332c490a7c96f5a1c33dace599d0e9b7c3649bf4ab22a1a56af8611e23d3db9555bf3e48ec6361ccd7e7316cd347720fe1556518d615fad6252645926f9e37856b59484fd11fb9c4cb7b398fdaf6600b5e0c4f69251f43e8c9747fc26d9f57cda03bc208316aab994f5c0b28961443b833161a3c062cebdb75b1f59667c2fb72592b20c498c4209459a1d9e29eb22e5357ceab471700f678d34d3e3b8f48a7ddfe1ec4f6279ecc992d88a90580ec48a7c8003b"
     },
     "updateCenterVersion": "1",
     "warnings": [
@@ -141068,7 +141068,7 @@
     ]
   },
   "_metadata": {
-    "generatedAt": "2026-04-05T03:53:38.491Z",
+    "generatedAt": "2026-04-06T03:57:25.511Z",
     "bestMirror": "https://mirror.nju.edu.cn/jenkins/",
     "mirrorsChecked": 10,
     "pluginsModified": 2064,
