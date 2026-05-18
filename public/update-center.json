@@ -810,7 +810,7 @@
         "url": "https://wiki.jenkins-ci.org/display/JENKINS/ZAProxy+Plugin"
       }
     },
-    "generationTimestamp": "2026-05-17T04:48:19Z",
+    "generationTimestamp": "2026-05-18T05:00:19Z",
     "id": "default",
     "plugins": {
       "42crunch-security-audit": {
@@ -7633,7 +7633,7 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/ascentialtest-cmd-line/latest/ascentialtest-cmd-line.hpi"
       },
       "asm-api": {
-        "buildDate": "Dec 16, 2025",
+        "buildDate": "May 18, 2026",
         "defaultBranch": "main",
         "dependencies": [],
         "developers": [
@@ -7642,8 +7642,8 @@
             "name": "Valentin Delaye"
           }
         ],
-        "excerpt": "This plugin provides the <a href=\"https://asm.ow2.io/\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">ASM</a> APIs (v9.9.1) for other plugins.",
-        "gav": "io.jenkins.plugins:asm-api:9.9.1-189.vb_5ef2964da_91",
+        "excerpt": "This plugin provides the <a href=\"https://asm.ow2.io/\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">ASM</a> APIs (v9.10) for other plugins.",
+        "gav": "io.jenkins.plugins:asm-api:9.10-211.v7d13903b_a_d89",
         "health": 100,
         "issueTrackers": [
           {
@@ -7657,17 +7657,17 @@
         ],
         "name": "asm-api",
         "popularity": 178164,
-        "previousTimestamp": "2025-10-06T04:38:29.00Z",
-        "previousVersion": "9.9-185.va_6c6b_3348b_c3",
-        "releaseTimestamp": "2025-12-16T11:56:08.00Z",
+        "previousTimestamp": "2025-12-16T11:56:08.00Z",
+        "previousVersion": "9.9.1-189.vb_5ef2964da_91",
+        "releaseTimestamp": "2026-05-18T04:47:53.00Z",
         "requiredCore": "2.492.3",
         "scm": "https://github.com/jenkinsci/asm-api-plugin",
-        "sha1": "rc90NmzKLRGKRFtDeRiFSLauie4=",
-        "sha256": "FR3QTQ6KCRFITMy7MIfhieq0uxzrWo7DLblswclyLzo=",
-        "size": 370591,
+        "sha1": "l8UM3OL7t51tUYf8MmAvjYAzV+A=",
+        "sha256": "icbECSknmiKS1sQ5GNrj616ITTyd2fB+ImWIFqCZJcA=",
+        "size": 371245,
         "title": "ASM API",
-        "url": "https://updates.jenkins.io/download/plugins/asm-api/9.9.1-189.vb_5ef2964da_91/asm-api.hpi",
-        "version": "9.9.1-189.vb_5ef2964da_91",
+        "url": "https://updates.jenkins.io/download/plugins/asm-api/9.10-211.v7d13903b_a_d89/asm-api.hpi",
+        "version": "9.10-211.v7d13903b_a_d89",
         "wiki": "https://plugins.jenkins.io/asm-api",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/asm-api/latest/asm-api.hpi"
       },
@@ -16088,7 +16088,7 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/azure-acs/latest/azure-acs.hpi"
       },
       "azure-ad": {
-        "buildDate": "May 09, 2026",
+        "buildDate": "May 17, 2026",
         "compatibleSinceVersion": "391.v252da_e1dd39c",
         "defaultBranch": "master",
         "dependencies": [
@@ -16149,7 +16149,7 @@
           }
         ],
         "excerpt": "A Jenkins authentication &amp; authorization plugin for Microsoft Entra ID (a.k.a. Azure Active Directory, Azure AD)",
-        "gav": "org.jenkins-ci.plugins:azure-ad:668.v8ef15d92a_fcb_",
+        "gav": "org.jenkins-ci.plugins:azure-ad:669.ved5a_60b_25b_f1",
         "health": 94,
         "issueTrackers": [
           {
@@ -16165,17 +16165,17 @@
         ],
         "name": "azure-ad",
         "popularity": 5721,
-        "previousTimestamp": "2026-04-28T08:31:55.00Z",
-        "previousVersion": "667.v4c5827a_e74a_0",
-        "releaseTimestamp": "2026-05-09T13:52:25.00Z",
+        "previousTimestamp": "2026-05-09T13:52:25.00Z",
+        "previousVersion": "668.v8ef15d92a_fcb_",
+        "releaseTimestamp": "2026-05-17T15:49:00.00Z",
         "requiredCore": "2.479.3",
         "scm": "https://github.com/jenkinsci/azure-ad-plugin",
-        "sha1": "Ai5ZTfnO/mOBNh9YX1J+omjOMOA=",
-        "sha256": "wRICq6L5hkPBdiCJmsKhrp0y9VkzOfQQxWErCsoooNo=",
-        "size": 11983967,
+        "sha1": "t7K2i5DuhLrmHfU4nDpXUIQsr6g=",
+        "sha256": "0JtQ4CaKImWBuTXrzgcEJw0oP33W6l7cDylQpo9pAY8=",
+        "size": 11983976,
         "title": "Microsoft Entra ID (previously Azure AD)",
-        "url": "https://updates.jenkins.io/download/plugins/azure-ad/668.v8ef15d92a_fcb_/azure-ad.hpi",
-        "version": "668.v8ef15d92a_fcb_",
+        "url": "https://updates.jenkins.io/download/plugins/azure-ad/669.ved5a_60b_25b_f1/azure-ad.hpi",
+        "version": "669.ved5a_60b_25b_f1",
         "wiki": "https://plugins.jenkins.io/azure-ad",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/azure-ad/latest/azure-ad.hpi"
       },
@@ -54890,7 +54890,7 @@
         ],
         "excerpt": "This plugin allow any Pipeline Jobs store and read values common for all jobs. It add 2 steps in pipeline: - gpRead(name, value) - gpWrite(name)",
         "gav": "io.jenkins.plugins:global-pipeline-parameters:72.vd21105d8900f",
-        "health": 100,
+        "health": 97,
         "issueTrackers": [
           {
             "reportUrl": "https://www.jenkins.io/participate/report-issue/redirect/#29723/global-pipeline-parameters",
@@ -76155,7 +76155,7 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/micrometer-core-api/latest/micrometer-core-api.hpi"
       },
       "mina-sshd-api-common": {
-        "buildDate": "May 12, 2026",
+        "buildDate": "May 17, 2026",
         "defaultBranch": "main",
         "dependencies": [
           {
@@ -76244,7 +76244,7 @@
           }
         ],
         "excerpt": "Provides the Common module of <a href=\"https://mina.apache.org/sshd-project/\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Apache Mina SSHD</a> to plugins.",
-        "gav": "io.jenkins.plugins.mina-sshd-api:mina-sshd-api-common:2.16.0-184.v1e0e8b_e8e813",
+        "gav": "io.jenkins.plugins.mina-sshd-api:mina-sshd-api-common:2.17.1-187.v0341274c2905",
         "health": 100,
         "issueTrackers": [
           {
@@ -76256,28 +76256,28 @@
         "labels": [],
         "name": "mina-sshd-api-common",
         "popularity": 230545,
-        "previousTimestamp": "2025-08-28T17:02:28.00Z",
-        "previousVersion": "2.16.0-167.va_269f38cc024",
-        "releaseTimestamp": "2026-05-12T07:18:52.00Z",
+        "previousTimestamp": "2026-05-12T07:18:52.00Z",
+        "previousVersion": "2.16.0-184.v1e0e8b_e8e813",
+        "releaseTimestamp": "2026-05-17T23:25:30.00Z",
         "requiredCore": "2.479.3",
         "scm": "https://github.com/jenkinsci/mina-sshd-api-plugin",
-        "sha1": "nNsD2u3k42u9elOO7b6os2J+kDs=",
-        "sha256": "EtT4U6ZbgSfYHWYmIBl10PhAy09SojZ5iOwohqUGASI=",
-        "size": 878977,
+        "sha1": "cS1dLAjZIvKsFUacOPupOfBVhic=",
+        "sha256": "S/jSZ62UNb8knr67axte/JDdWh/9k5iTGh6jwCbsE+g=",
+        "size": 881083,
         "title": "Mina SSHD API :: Common",
-        "url": "https://updates.jenkins.io/download/plugins/mina-sshd-api-common/2.16.0-184.v1e0e8b_e8e813/mina-sshd-api-common.hpi",
-        "version": "2.16.0-184.v1e0e8b_e8e813",
+        "url": "https://updates.jenkins.io/download/plugins/mina-sshd-api-common/2.17.1-187.v0341274c2905/mina-sshd-api-common.hpi",
+        "version": "2.17.1-187.v0341274c2905",
         "wiki": "https://plugins.jenkins.io/mina-sshd-api-common",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/mina-sshd-api-common/latest/mina-sshd-api-common.hpi"
       },
       "mina-sshd-api-core": {
-        "buildDate": "May 12, 2026",
+        "buildDate": "May 17, 2026",
         "defaultBranch": "main",
         "dependencies": [
           {
             "name": "mina-sshd-api-common",
             "optional": false,
-            "version": "2.16.0-184.v1e0e8b_e8e813"
+            "version": "2.17.1-187.v0341274c2905"
           },
           {
             "name": "ssh-credentials",
@@ -76360,7 +76360,7 @@
           }
         ],
         "excerpt": "Provides the Core module of <a href=\"https://mina.apache.org/sshd-project/\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Apache Mina SSHD</a> to plugins.",
-        "gav": "io.jenkins.plugins.mina-sshd-api:mina-sshd-api-core:2.16.0-184.v1e0e8b_e8e813",
+        "gav": "io.jenkins.plugins.mina-sshd-api:mina-sshd-api-core:2.17.1-187.v0341274c2905",
         "health": 100,
         "issueTrackers": [
           {
@@ -76372,28 +76372,28 @@
         "labels": [],
         "name": "mina-sshd-api-core",
         "popularity": 228814,
-        "previousTimestamp": "2025-08-28T17:02:29.00Z",
-        "previousVersion": "2.16.0-167.va_269f38cc024",
-        "releaseTimestamp": "2026-05-12T07:18:52.00Z",
+        "previousTimestamp": "2026-05-12T07:18:52.00Z",
+        "previousVersion": "2.16.0-184.v1e0e8b_e8e813",
+        "releaseTimestamp": "2026-05-17T23:25:31.00Z",
         "requiredCore": "2.479.3",
         "scm": "https://github.com/jenkinsci/mina-sshd-api-plugin",
-        "sha1": "2ZjR+AC94+1ZZvYjer8quo6rNs0=",
-        "sha256": "IGmfo1YTSaSv16+IrcxEbscvaJzBrgEk+CW2G7KJ03E=",
-        "size": 1551789,
+        "sha1": "Yr7VRO7bgyOJW6wpLdmL5WTbQWc=",
+        "sha256": "lHnXCmkgGg11+BbPzk1VVTQC1W4NSA2+sV9PczPsAbQ=",
+        "size": 1553399,
         "title": "Mina SSHD API :: Core",
-        "url": "https://updates.jenkins.io/download/plugins/mina-sshd-api-core/2.16.0-184.v1e0e8b_e8e813/mina-sshd-api-core.hpi",
-        "version": "2.16.0-184.v1e0e8b_e8e813",
+        "url": "https://updates.jenkins.io/download/plugins/mina-sshd-api-core/2.17.1-187.v0341274c2905/mina-sshd-api-core.hpi",
+        "version": "2.17.1-187.v0341274c2905",
         "wiki": "https://plugins.jenkins.io/mina-sshd-api-core",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/mina-sshd-api-core/latest/mina-sshd-api-core.hpi"
       },
       "mina-sshd-api-scp": {
-        "buildDate": "May 12, 2026",
+        "buildDate": "May 17, 2026",
         "defaultBranch": "main",
         "dependencies": [
           {
             "name": "mina-sshd-api-core",
             "optional": false,
-            "version": "2.16.0-184.v1e0e8b_e8e813"
+            "version": "2.17.1-187.v0341274c2905"
           }
         ],
         "developers": [
@@ -76471,7 +76471,7 @@
           }
         ],
         "excerpt": "Provides the SCP module of <a href=\"https://mina.apache.org/sshd-project/\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Apache Mina SSHD</a> to plugins.",
-        "gav": "io.jenkins.plugins.mina-sshd-api:mina-sshd-api-scp:2.16.0-184.v1e0e8b_e8e813",
+        "gav": "io.jenkins.plugins.mina-sshd-api:mina-sshd-api-scp:2.17.1-187.v0341274c2905",
         "health": 100,
         "issueTrackers": [
           {
@@ -76483,28 +76483,28 @@
         "labels": [],
         "name": "mina-sshd-api-scp",
         "popularity": 4562,
-        "previousTimestamp": "2025-08-28T17:02:29.00Z",
-        "previousVersion": "2.16.0-167.va_269f38cc024",
-        "releaseTimestamp": "2026-05-12T07:18:52.00Z",
+        "previousTimestamp": "2026-05-12T07:18:52.00Z",
+        "previousVersion": "2.16.0-184.v1e0e8b_e8e813",
+        "releaseTimestamp": "2026-05-17T23:25:31.00Z",
         "requiredCore": "2.479.3",
         "scm": "https://github.com/jenkinsci/mina-sshd-api-plugin",
-        "sha1": "GjuVbyRRE2st/mq7Ript6unTyR8=",
-        "sha256": "haWCeiA//6Bhf8XyKAxmuFWju7BHk+8eybKwtDKglww=",
-        "size": 119706,
+        "sha1": "hZkLT4uUwC0AhXCyFZzhwAsU8dg=",
+        "sha256": "OKTc8PwDbB/Ch17Nmm/UFEe0epHX+ryuj844izqVTSU=",
+        "size": 119528,
         "title": "Mina SSHD API :: SCP",
-        "url": "https://updates.jenkins.io/download/plugins/mina-sshd-api-scp/2.16.0-184.v1e0e8b_e8e813/mina-sshd-api-scp.hpi",
-        "version": "2.16.0-184.v1e0e8b_e8e813",
+        "url": "https://updates.jenkins.io/download/plugins/mina-sshd-api-scp/2.17.1-187.v0341274c2905/mina-sshd-api-scp.hpi",
+        "version": "2.17.1-187.v0341274c2905",
         "wiki": "https://plugins.jenkins.io/mina-sshd-api-scp",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/mina-sshd-api-scp/latest/mina-sshd-api-scp.hpi"
       },
       "mina-sshd-api-sftp": {
-        "buildDate": "May 12, 2026",
+        "buildDate": "May 17, 2026",
         "defaultBranch": "main",
         "dependencies": [
           {
             "name": "mina-sshd-api-core",
             "optional": false,
-            "version": "2.16.0-184.v1e0e8b_e8e813"
+            "version": "2.17.1-187.v0341274c2905"
           }
         ],
         "developers": [
@@ -76582,7 +76582,7 @@
           }
         ],
         "excerpt": "Provides the SFTP module of <a href=\"https://mina.apache.org/sshd-project/\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Apache Mina SSHD</a> to plugins.",
-        "gav": "io.jenkins.plugins.mina-sshd-api:mina-sshd-api-sftp:2.16.0-184.v1e0e8b_e8e813",
+        "gav": "io.jenkins.plugins.mina-sshd-api:mina-sshd-api-sftp:2.17.1-187.v0341274c2905",
         "health": 100,
         "issueTrackers": [
           {
@@ -76594,17 +76594,17 @@
         "labels": [],
         "name": "mina-sshd-api-sftp",
         "popularity": 764,
-        "previousTimestamp": "2025-08-28T17:02:29.00Z",
-        "previousVersion": "2.16.0-167.va_269f38cc024",
-        "releaseTimestamp": "2026-05-12T07:18:53.00Z",
+        "previousTimestamp": "2026-05-12T07:18:53.00Z",
+        "previousVersion": "2.16.0-184.v1e0e8b_e8e813",
+        "releaseTimestamp": "2026-05-17T23:25:32.00Z",
         "requiredCore": "2.479.3",
         "scm": "https://github.com/jenkinsci/mina-sshd-api-plugin",
-        "sha1": "KggFQBuIDDPkNpgBPBj6SeWSTW8=",
-        "sha256": "hzGEqJACriGNDurEP6M0xDmHLdzKfzXAKmVjmpRF51A=",
-        "size": 366875,
+        "sha1": "LTMsJy7PxiHNXkBilmySriFF32I=",
+        "sha256": "4e9slaXnXsAm2K0ThEy37Uyr6mPFRjwpjaS1W+KKxJw=",
+        "size": 364947,
         "title": "Mina SSHD API :: SFTP",
-        "url": "https://updates.jenkins.io/download/plugins/mina-sshd-api-sftp/2.16.0-184.v1e0e8b_e8e813/mina-sshd-api-sftp.hpi",
-        "version": "2.16.0-184.v1e0e8b_e8e813",
+        "url": "https://updates.jenkins.io/download/plugins/mina-sshd-api-sftp/2.17.1-187.v0341274c2905/mina-sshd-api-sftp.hpi",
+        "version": "2.17.1-187.v0341274c2905",
         "wiki": "https://plugins.jenkins.io/mina-sshd-api-sftp",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/mina-sshd-api-sftp/latest/mina-sshd-api-sftp.hpi"
       },
@@ -83759,7 +83759,7 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/oracle-cloud-infrastructure-devops/latest/oracle-cloud-infrastructure-devops.hpi"
       },
       "oras-java-api": {
-        "buildDate": "May 13, 2026",
+        "buildDate": "May 17, 2026",
         "defaultBranch": "main",
         "dependencies": [
           {
@@ -83799,8 +83799,8 @@
             "name": "Valentin Delaye"
           }
         ],
-        "excerpt": "This plugin provides the <a href=\"https://github.com/oras-project/oras-java\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">ORAS Java</a> SDK (v0.6.2) for other plugins.",
-        "gav": "io.jenkins.plugins:oras-java-api:0.6.2-193.v7c63347b_24d3",
+        "excerpt": "This plugin provides the <a href=\"https://github.com/oras-project/oras-java\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">ORAS Java</a> SDK (v0.6.3) for other plugins.",
+        "gav": "io.jenkins.plugins:oras-java-api:0.6.3-195.vcf0c6b_f05149",
         "health": 100,
         "issueTrackers": [
           {
@@ -83814,17 +83814,17 @@
         ],
         "name": "oras-java-api",
         "popularity": 1,
-        "previousTimestamp": "2026-05-11T13:16:15.00Z",
-        "previousVersion": "0.6.1-191.vd1366fb_cf73c",
-        "releaseTimestamp": "2026-05-13T05:39:26.00Z",
+        "previousTimestamp": "2026-05-13T05:39:26.00Z",
+        "previousVersion": "0.6.2-193.v7c63347b_24d3",
+        "releaseTimestamp": "2026-05-17T16:46:52.00Z",
         "requiredCore": "2.528.3",
         "scm": "https://github.com/jenkinsci/oras-java-api-plugin",
-        "sha1": "lyIiHa6TBrW3YgzwGZJj1fZgXek=",
-        "sha256": "8tbV33B4XhnjUOhaCqZiMechn4+vGNQI+EoSe63wgY4=",
-        "size": 168359,
+        "sha1": "8bWf9YZVaPZWZJ1fz4PlihDTRpA=",
+        "sha256": "47RNmx8Gk9WwESNS6tJk3jjeV/btiKb3NLwR6mhTb5g=",
+        "size": 170115,
         "title": "ORAS Java API",
-        "url": "https://updates.jenkins.io/download/plugins/oras-java-api/0.6.2-193.v7c63347b_24d3/oras-java-api.hpi",
-        "version": "0.6.2-193.v7c63347b_24d3",
+        "url": "https://updates.jenkins.io/download/plugins/oras-java-api/0.6.3-195.vcf0c6b_f05149/oras-java-api.hpi",
+        "version": "0.6.3-195.vcf0c6b_f05149",
         "wiki": "https://plugins.jenkins.io/oras-java-api",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/oras-java-api/latest/oras-java-api.hpi"
       },
@@ -88422,7 +88422,7 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/pipeline-graph-analysis/latest/pipeline-graph-analysis.hpi"
       },
       "pipeline-graph-view": {
-        "buildDate": "May 16, 2026",
+        "buildDate": "May 17, 2026",
         "defaultBranch": "main",
         "dependencies": [
           {
@@ -88507,8 +88507,8 @@
           }
         ],
         "excerpt": "Provides &#34;Pipeline Graph&#34; visualization of a pipeline job run.",
-        "gav": "io.jenkins.plugins:pipeline-graph-view:899.vc24457b_18a_b_1",
-        "health": 100,
+        "gav": "io.jenkins.plugins:pipeline-graph-view:902.v160b_da_c934b_c",
+        "health": 97,
         "issueTrackers": [
           {
             "reportUrl": "https://github.com/jenkinsci/pipeline-graph-view-plugin/issues/new/choose",
@@ -88522,17 +88522,17 @@
         ],
         "name": "pipeline-graph-view",
         "popularity": 92088,
-        "previousTimestamp": "2026-05-16T07:51:23.00Z",
-        "previousVersion": "898.va_6093398b_32b_",
-        "releaseTimestamp": "2026-05-16T14:31:29.00Z",
+        "previousTimestamp": "2026-05-17T18:49:04.00Z",
+        "previousVersion": "901.v88c4d3163e1a_",
+        "releaseTimestamp": "2026-05-17T21:02:10.00Z",
         "requiredCore": "2.534",
         "scm": "https://github.com/jenkinsci/pipeline-graph-view-plugin",
-        "sha1": "PjOrrnWPARy1zu6PwveR1vV0UHA=",
-        "sha256": "Vsnf5gyEYkMvpU1+ZduwbC73QCkAHljIrzf5VpIlQuk=",
-        "size": 749783,
+        "sha1": "P+0D1TD+gZb2cAz5iF9mK2ioU7A=",
+        "sha256": "EgTI3t6x2az6hYiDsyoWmQVNo6aa2cIT4AYPNWl4IDc=",
+        "size": 750155,
         "title": "Pipeline Graph View",
-        "url": "https://updates.jenkins.io/download/plugins/pipeline-graph-view/899.vc24457b_18a_b_1/pipeline-graph-view.hpi",
-        "version": "899.vc24457b_18a_b_1",
+        "url": "https://updates.jenkins.io/download/plugins/pipeline-graph-view/902.v160b_da_c934b_c/pipeline-graph-view.hpi",
+        "version": "902.v160b_da_c934b_c",
         "wiki": "https://plugins.jenkins.io/pipeline-graph-view",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/pipeline-graph-view/latest/pipeline-graph-view.hpi"
       },
@@ -122795,10 +122795,10 @@
       "certificates": [
         "MIIFqjCCA5KgAwIBAgIFAN6tvwUwDQYJKoZIhvcNAQENBQAwgYoxCzAJBgNVBAYTAlVTMRMwEQYDVQQIDApDYWxpZm9ybmlhMREwDwYDVQQHDAhTYW4gSm9zZTEYMBYGA1UECgwPSmVua2lucyBQcm9qZWN0MRowGAYDVQQDDBFLb2hzdWtlIEthd2FndWNoaTEdMBsGCSqGSIb3DQEJARYOa2tAa29oc3VrZS5vcmcwHhcNMjYwMTE0MTU0MjQyWhcNMjcwMTE0MTU0MjQyWjBeMQswCQYDVQQGEwJVUzETMBEGA1UECAwKQ2FsaWZvcm5pYTEYMBYGA1UECgwPSmVua2lucyBQcm9qZWN0MSAwHgYDVQQDDBdDb21tdW5pdHkgVXBkYXRlIENlbnRlcjCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBALQMWCFq7SaGA+hp98UAzgLkCO6NFlcK9n2mMQ0c6/4b6qI3n53Ak/ljF+4ekEb3p5tnI0iwj0GZjFc5hW1gtz3mfbkxTb7fk5LJFj90NZHr0isb5D21w2fkjGp9h81kGliUZcm3dpdrXMW2Gh1HYcF4uijuz1mzrFt2Ew2vgDse5EFYb32bk6Xmi/dhf0l9r+oKT6bChijgHr3WynRSdDL9y1XDqUq06ZAVp4RqVwwpezrYgJ/OPRZeg9CctnUoFR8BgHKWeNgwuyWrtBKST5pnQmhTEM53qVHzQTgrBP4Vqj38I1R39qPZa4cu3QUXMr8CsfrJ1wF8y3OmXp3pNfbXivb7RoanXYO+uZzoYOaaHAXTICFLUqR0sxJfiOTejm87P9F+EzEvuPGFDAkbo7qrW/hReHYycOiiqPggfLsglZTNJEdd4oLdvDZLnBJWBQscl98f/pVu3Pzld0RnU9phhCMXfVLkeQBQtAxfmqaVnMurELBNeK8ybriTQlAdnkBRzv3NAilUaAfI0gSh/beN2qNlII3kEOSpasAbEVbfBB+r9hNzFj4+Sqi8E+YZbMQjFtdHdO/iQCrcUiqDnTBsxL7u7xzfvLJTxoISUrCigVgUGryaouyUhARHpQwcVG4hewFspJZUaQv7aj0hlpQUC42+2zWr/NK5rVQAZD9RAgMBAAGjQjBAMB0GA1UdDgQWBBR2GjaTNzVHFuMTbEl9hRAbjCtQ2DAfBgNVHSMEGDAWgBQRxuXUMC3pVcYBtWtQctI2frQBhzANBgkqhkiG9w0BAQ0FAAOCAgEAOgskYoOGDmEZIjYUy2tYTKI6eKnpAiQA0yETLdam9wOGGL6J6e7BT5JoyxBrDXy4xrZsDyFOBPB8Di8ETF1mr9k6GsyBO8S/SYd/1qYg9kkHXq2x62WmDs0K7h9N2M9LAEFDvdZYvOnDzgFhcaFfsxUPS9qDFws33NDBTKo/Ya2UIjzyl1H68bw5VG1temOtAzvW+6EA4j2bzgv5NbaUGrZq5Y8yiWRDjdAbMBu0lDnJP7pTLs16jEE1FWfkJhkaU6TbMP6rzehjMkiplu+S0qnVQBUgME2U4EMxCM31oixUl/+WvZ5GQHR8GVdsFkQYs2K3L0i7a9bxc8jD6kzU/sSJwJxnqocB1JnZF1CFbT78bdTaBtZty7MVSUdXYCAf6XZPCMYOGN7Cb7YpLqn0hUCy2tIdHw6TUluyOkP0AoOLFijThtafcgQI19QyCa85DUZxwG1QsVFbGyqv6+47DbX2CUKzNLyfKJhivzwfagKZDo5KaZouv7lO5RMj8onHK+MrkzvJG1kFcFw5lO1ms5QKPNi3RfrQqWQ4rjVBbPdNx4xRpHVpcXp9MXCg64prwGHXrPN2yl2VRYrxwlLRhee27H07ZA9ujLB4PU8ppb6uQH2GQiKpXoRlzQBQej4zhquVM8rQaPfXV8DGNu4lx77tNtgK8uetQxyh4vBOpGA="
       ],
-      "correct_digest": "F4ZXwek8D2cBUz64+R+7vlK1XV4=",
-      "correct_digest512": "334dd023f4db47eecf8db4441b29870b63351f19a1348fdff32ffd21a115eb205e0be8985d720c8e54a1980e1be84d238783cf36ae191defd12d783402ba602d",
-      "correct_signature": "L/8EL22EjfG3es06bQ2fx1TAlsRN+JSyR+FPEOpyLRo9pqPhB1tL/LYs0/hzwiHgGBJkgOmT6ZweO9W0OYbjrHJLYBNV7OwP2/h67dIZo9x7H/FRP12kxm1PPFnuXF219IEuyrDymmhmLXeqo0boAp8W5cPcRJ8EUhVHG2w4uPIEAKIhhppc3LiMUQVe+UzS6XKz/y5m4B7hUEIy0Rv4EX7mtUk0+GtjHFaFxj7ZvPIK41X9Cs4wdQzymX35l2G0TSjtuKBXYLuRAzfR1NXh1CCqCt86AyclGhNEyGDs0XpNRDued+aOjRBP8fq3ZUYljGkxeJGHJM+qhkK8YXirgGKxk4BgBZpK1Vbj5kAlnFr2BHiIlBROGEakVcmzbS9lejOOwsREAiiZR1XtlsdZoSk42DpK8OPWz9dPY3lj6MkrlxrNZq1qcrut3lC5LCuAaTeRkpkGHYN4S8W01p0tVnAJRxsZHflITseZrW1zUiEPHFgeRiaG+yPcBKbk5/+pOVOC/3GUytZQfJ1Lyv02AFeDSW7sDMnqhcWOhq4jm58HmyQjWT1WX4JIhgrIvB4/rTNlNml1RHjHsbV7wR8X+sDEyY74JVi2uwgL2sfXL0c0MZ1mUJxN5EH4Lp1VsX52PBaKIpAs22e1MBVUCGpzmbkT9A1CmLVu8V/PmG4b6LM=",
-      "correct_signature512": "2da0f24ea89cdc39ef0a01e943909ff60439ece2d98b0ea33a6023ed1ec307eed7d81c7811090592046061b871841af213135e232b10f51d2f7e3a22679224df6a6690311afa2b241703d667251614b08d071c2a088cb6e4c525109784114100d220b8010768298bd0b2d5519cc33f7255e16cf50b2b0908d10135a25c4643ccfe304f1e7cf75eccb5e957e64c9e4a74232f7bd25abd22481f6270a487120041bda20418f2eeb6a86f8ef439ee325a9b5c9d898fac23b89b8a02a5c7cf4b51619a2861085eb39fe3246b6478e247717322a613053262acbf2ee6f9b063a4fd2ebbb8bc6ad7f0dd22c4d84582688fd5424fdbf816559facf7ee45ddc32c9f6ebbe39c74f8b8576551cb0b3193602827442f512497be604540869bad243d51f40c752391de0e56155643e467bdf96fa2ad74d49d94bffd500d5a4d6be28a16f3eb6cd4e778391b8086630f83d2299c409c812c0ac89a5f5799633460ffe24325d4fcef3a2a6ee48b0f1ab2b64d2163ae65875edf4af3a9a633986a660c76dc35383c1e63fa3e7381bcdd16b626d7170b5f0c2888751fdc5030ada7375e9d422a8b4678e2716a9330e868adee4cc5040fa88c046b3ee7c1312c7d94eb9954de95f51467ac48cb916b92be942a8aebe8f95cae8a8d87ccae6522e1c46f2e15fb21a0a759d3fa2e339628ae0cb6228634d6248a2b17eee0cca116ccc97030a4e48133"
+      "correct_digest": "iSG0yerRca1Z2yHsCAzEsWImJvs=",
+      "correct_digest512": "b675b340efa48adc93c612d3f93d24009407ed6b14b0cae2c7b5f9b9e8c9508aa1f272024a49c89dd09fe537fc867faa0596793d4b10dd1820fba770d903d4b7",
+      "correct_signature": "FgOgAsrLg8lEcpaKE1CsORYAJe6KdicBgbBNstRDhxsEx30Azj6X1Q+VZLrpNaKeALoYlH41DW++YsdVLr32FpKRWQR8Zb71974ElwEzAzzg8q/UGUQ/EcFQNE7MOAWxwCXTZucmkU5WTY0FbHUai6eHF7qAk8B3U+ZVbeUN3N9cVijTKc5Io/gcBJ3wcZ0V/ngcSYFEJxi+LNLFqdvqzM5/2Mn/dLrM+pRp7GwVZKacZfwIDzOdgrosS8TkgwO2HsbFUibPK4MiiK2YH13LiFhtUZucSFUmEJFY5kQZhzV6Og0x0g09op69Blm/eCxPF59sp7UKN2ycM9PjWzLXR1k7RZll8dQcnm7YH/pneQ0z/kKnDB0UCvbGkv6sQaa15fs876TLsHL5M5KOoZCzRV5u/8WQlzANRLKsqX7X1AlCjwNzt7gwGNg8F8JwRGEUPJUxjOodC7pcAtOEkBq1SLrg2qDHtjbAHx86HhFhKyO5AesEm+Jk+9T7KnevHevLfwHZ85u65KZ7UDKSXOv0pCcPYwb6fek1I1YyLUt/fT/Bj3CHu+8/3RUg6r95rOdZJZKILPtEJ7rs2SZWJiZLmOij9IrvSYOl0FTArENOJeta3HbHP5bERvOCg1RHP8vOfOcyMPr8muuE21UT6LmqJG+bTu0fDKsq/snYgGv3nZo=",
+      "correct_signature512": "05b9fd56db80e8d9a8d35810b0d954dcfee92927333d36c03deb9ea274a172855677f9c75c20efebbbdc0f4c83d0eca89ab7e1d3ba8f3bd87c319dd040fa184e1fd988cf26b0fe666c496c800c5301833c243de6c0894e6553b92564ac4881a7622c5d9bbca41c11c9577838ea84fa499dfff9b3af580d829e7a27fe650202d0a65f7beca61e59301975a8ef41948d306d0ab21aeaf2d3d20ead7658785b57761eec9d0eeb68a9b588c169d7378a79154483de66a1532ca1b9a539366b4e9aeeea15c2f02c3bd20ff3fa2d056062f07b760837afb3ca0f00be02bec1d6685b2aa9507fc347a527580fbf66b21159d6f66e86fe953f08684e2761409231108099dba4bebfd398e345cfc917ed015951e4219146539fc030dd62b36cd59855ed288d7d8588bb5f696d98e2fdb81538676c43a437749a033708bafb08b60d77099fd3361561c9244442c0ba5821bba3feecde549dd02b652561e06e65d9645fe3cb620ec279c5a146488a72d10485490bd02495550a619861c2f771ad679b618adc324e15e897a62ca1916426285ac90a03087f38237dd765896b89bfad10292e166f55afc6defacacfcb0882fdbb565d62bd29d774dc49907a62d3e88c8b1ce5915b903011de02c742d92e34c986d6a57504f09dc4e974c2e798b5bcbcc9fead8067574570c01f39e013ceb4f60208aa93a8a931a81bdb02b357f6aac0e0403047"
     },
     "updateCenterVersion": "1",
     "warnings": [
@@ -142175,7 +142175,7 @@
     ]
   },
   "_metadata": {
-    "generatedAt": "2026-05-17T04:54:40.602Z",
+    "generatedAt": "2026-05-18T05:07:48.926Z",
     "bestMirror": "https://mirror.nju.edu.cn/jenkins/",
     "mirrorsChecked": 10,
     "pluginsModified": 2074,
