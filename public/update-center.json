@@ -810,7 +810,7 @@
         "url": "https://wiki.jenkins-ci.org/display/JENKINS/ZAProxy+Plugin"
       }
     },
-    "generationTimestamp": "2026-05-23T04:36:17Z",
+    "generationTimestamp": "2026-05-24T04:54:16Z",
     "id": "default",
     "plugins": {
       "42crunch-security-audit": {
@@ -23055,7 +23055,7 @@
         ],
         "excerpt": "Adds a global build discarder that&#39;s possible to override with a project specific discarder.",
         "gav": "io.jenkins.plugins:build-discarder:158.vce570d01ce4c",
-        "health": 100,
+        "health": 99,
         "issueTrackers": [
           {
             "reportUrl": "https://github.com/jenkinsci/build-discarder-plugin/issues/new/choose",
@@ -25598,7 +25598,7 @@
         ],
         "excerpt": "This plugin enables use of <a href=\"https://apereo.github.io/cas/\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">CAS</a> as an authentication source, for Single Sign-On (SSO) and Single Logout (SLO) support.",
         "gav": "org.jenkins-ci.plugins:cas-plugin:1.7.0",
-        "health": 97,
+        "health": 96,
         "issueTrackers": [
           {
             "reportUrl": "https://www.jenkins.io/participate/report-issue/redirect/#17476/cas-plugin",
@@ -37054,7 +37054,7 @@
         ],
         "excerpt": "Adds MariaDB connectivity to the database plugin",
         "gav": "io.jenkins.plugins:database-mariadb:182.v8f1d21b_7c825",
-        "health": 100,
+        "health": 97,
         "issueTrackers": [
           {
             "reportUrl": "https://github.com/jenkinsci/database-mariadb-plugin/issues/new/choose",
@@ -37109,7 +37109,7 @@
         ],
         "excerpt": "Adds MySQL connectivity to the database plugin",
         "gav": "org.jenkins-ci.plugins:database-mysql:142.vc259713f0032",
-        "health": 95,
+        "health": 94,
         "issueTrackers": [
           {
             "reportUrl": "https://github.com/jenkinsci/database-mysql-plugin/issues/new/choose",
@@ -46108,7 +46108,7 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/experitest-cloud/latest/experitest-cloud.hpi"
       },
       "explain-error": {
-        "buildDate": "May 19, 2026",
+        "buildDate": "May 23, 2026",
         "defaultBranch": "main",
         "dependencies": [
           {
@@ -46184,7 +46184,7 @@
           }
         ],
         "excerpt": "AI-powered Jenkins plugin that explains pipeline and job failures with human-readable insights.",
-        "gav": "io.jenkins.plugins:explain-error:168.v814e72600623",
+        "gav": "io.jenkins.plugins:explain-error:170.v46fd1f40df7c",
         "health": 100,
         "issueTrackers": [
           {
@@ -46198,17 +46198,17 @@
         ],
         "name": "explain-error",
         "popularity": 0,
-        "previousTimestamp": "2026-05-13T11:37:25.00Z",
-        "previousVersion": "165.ve77e8ea_ca_74c",
-        "releaseTimestamp": "2026-05-19T12:49:49.00Z",
+        "previousTimestamp": "2026-05-19T12:49:49.00Z",
+        "previousVersion": "168.v814e72600623",
+        "releaseTimestamp": "2026-05-23T07:05:50.00Z",
         "requiredCore": "2.528.3",
         "scm": "https://github.com/jenkinsci/explain-error-plugin",
-        "sha1": "4rmJOIArtwJiXjMAQnMV4g5+LLg=",
-        "sha256": "8PN4CcGHJoy1ngT2tdr+pHl+gfn30w2e5jgWzLC9yRU=",
-        "size": 7589995,
+        "sha1": "w47ymh0WDTjzYi8KyEU+2pdlAZo=",
+        "sha256": "wsDQp6jq61Tl3Hj62oeog6eKlWl5BQ06eY/TFyYw1Gg=",
+        "size": 7593686,
         "title": "Explain Error",
-        "url": "https://updates.jenkins.io/download/plugins/explain-error/168.v814e72600623/explain-error.hpi",
-        "version": "168.v814e72600623",
+        "url": "https://updates.jenkins.io/download/plugins/explain-error/170.v46fd1f40df7c/explain-error.hpi",
+        "version": "170.v46fd1f40df7c",
         "wiki": "https://plugins.jenkins.io/explain-error",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/explain-error/latest/explain-error.hpi"
       },
@@ -46375,7 +46375,7 @@
         ],
         "excerpt": "This plugin enables various Extended Read permissions in Jenkins for jobs, system configuration, etc.",
         "gav": "org.jvnet.hudson.plugins:extended-read-permission:68.vd270568a_7520",
-        "health": 100,
+        "health": 97,
         "issueTrackers": [
           {
             "reportUrl": "https://github.com/jenkinsci/extended-read-permission-plugin/issues/new/choose",
@@ -54047,7 +54047,7 @@
         ],
         "excerpt": "Adds a filtering trait according to a ref date to an existing GitHub Branch Source Plugin configuration.",
         "gav": "org.jenkins-ci.plugins:github-scm-filter-aged-refs:59.vc6b_39c26988c",
-        "health": 99,
+        "health": 94,
         "issueTrackers": [
           {
             "reportUrl": "https://github.com/jenkinsci/scm-filter-aged-refs-plugin/issues/new/choose",
@@ -54587,7 +54587,7 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/gitlab-merge-request-jenkins/latest/gitlab-merge-request-jenkins.hpi"
       },
       "gitlab-oauth": {
-        "buildDate": "May 20, 2026",
+        "buildDate": "May 23, 2026",
         "defaultBranch": "master",
         "dependencies": [
           {
@@ -54642,7 +54642,7 @@
           }
         ],
         "excerpt": "This is the an authentication plugin using gitlab OAuth.",
-        "gav": "org.jenkins-ci.plugins:gitlab-oauth:1.29",
+        "gav": "org.jenkins-ci.plugins:gitlab-oauth:1.30",
         "health": 100,
         "issueTrackers": [
           {
@@ -54656,17 +54656,17 @@
         ],
         "name": "gitlab-oauth",
         "popularity": 14079,
-        "previousTimestamp": "2026-03-04T22:27:36.00Z",
-        "previousVersion": "1.28",
-        "releaseTimestamp": "2026-05-20T04:29:17.00Z",
+        "previousTimestamp": "2026-05-20T04:29:17.00Z",
+        "previousVersion": "1.29",
+        "releaseTimestamp": "2026-05-23T19:27:42.00Z",
         "requiredCore": "2.528.3",
         "scm": "https://github.com/jenkinsci/gitlab-oauth-plugin",
-        "sha1": "KL2T+yaSK6+PprtRA+x/vEFNzdA=",
-        "sha256": "9chxUytksHJjr5gl33sKLwsfxmdSqluWcDjIZGmfsGE=",
-        "size": 55130,
+        "sha1": "ekExUzNyz1DmhqwUuFjJVB+XeT0=",
+        "sha256": "91/L9svfYWwzwmmjLRa8+P0vdpi+4qBUK3ZUhOy6UMQ=",
+        "size": 55125,
         "title": "GitLab Authentication",
-        "url": "https://updates.jenkins.io/download/plugins/gitlab-oauth/1.29/gitlab-oauth.hpi",
-        "version": "1.29",
+        "url": "https://updates.jenkins.io/download/plugins/gitlab-oauth/1.30/gitlab-oauth.hpi",
+        "version": "1.30",
         "wiki": "https://plugins.jenkins.io/gitlab-oauth",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/gitlab-oauth/latest/gitlab-oauth.hpi"
       },
@@ -66011,7 +66011,7 @@
         ],
         "excerpt": "Extension of jobcacher plugin that add Azure Storage for item storage.",
         "gav": "io.jenkins.plugins:jobcacher-azure-storage:33.vd1d60ffa_d4ee",
-        "health": 95,
+        "health": 94,
         "issueTrackers": [
           {
             "reportUrl": "https://github.com/jenkinsci/jobcacher-azure-storage-plugin/issues/new/choose",
@@ -71950,7 +71950,7 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/log-flow-visualizer/latest/log-flow-visualizer.hpi"
       },
       "log-parser": {
-        "buildDate": "Jan 10, 2026",
+        "buildDate": "May 23, 2026",
         "defaultBranch": "develop",
         "dependencies": [
           {
@@ -71970,7 +71970,7 @@
           }
         ],
         "excerpt": "Parses the console log generated by a build",
-        "gav": "org.jenkins-ci.plugins:log-parser:3.0.2",
+        "gav": "org.jenkins-ci.plugins:log-parser:3.0.3",
         "health": 97,
         "issueTrackers": [
           {
@@ -71984,17 +71984,17 @@
         ],
         "name": "log-parser",
         "popularity": 10478,
-        "previousTimestamp": "2026-01-10T11:07:39.00Z",
-        "previousVersion": "3.0.1",
-        "releaseTimestamp": "2026-01-10T16:39:21.00Z",
+        "previousTimestamp": "2026-01-10T16:39:21.00Z",
+        "previousVersion": "3.0.2",
+        "releaseTimestamp": "2026-05-23T05:55:59.00Z",
         "requiredCore": "2.492.3",
         "scm": "https://github.com/jenkinsci/log-parser-plugin",
-        "sha1": "kHOnHnGIr3vOp4XPbiQpZfmvKbo=",
-        "sha256": "Hrgvmx0a9RLkGiINRD2kkqTbwwvi5t4mcBt5haeQcvI=",
-        "size": 71721,
+        "sha1": "ktiZWmEgZm2j0GdEjm2/ziQL0Rc=",
+        "sha256": "SUD+Ygar/NLtmB19HdcVRae0memV3UJb14GXAev5rNM=",
+        "size": 71481,
         "title": "Log Parser",
-        "url": "https://updates.jenkins.io/download/plugins/log-parser/3.0.2/log-parser.hpi",
-        "version": "3.0.2",
+        "url": "https://updates.jenkins.io/download/plugins/log-parser/3.0.3/log-parser.hpi",
+        "version": "3.0.3",
         "wiki": "https://plugins.jenkins.io/log-parser",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/log-parser/latest/log-parser.hpi"
       },
@@ -73476,7 +73476,7 @@
         ],
         "excerpt": "This plugins adds Jenkins pipeline steps to interact markdown list and checkboxes",
         "gav": "io.jenkins.plugins:markdown-params:71.v576911a_6e3b_c",
-        "health": 98,
+        "health": 97,
         "issueTrackers": [
           {
             "reportUrl": "https://github.com/jenkinsci/markdown-params-plugin/issues/new/choose",
@@ -88884,7 +88884,7 @@
         ],
         "excerpt": "This plugin provides keepRunning step to keep the process running even if the build has finished.",
         "gav": "io.jenkins.plugins:pipeline-keep-running-step:1.3",
-        "health": 100,
+        "health": 99,
         "issueTrackers": [
           {
             "reportUrl": "https://www.jenkins.io/participate/report-issue/redirect/#27231/pipeline-keep-running-step",
@@ -89443,7 +89443,7 @@
         ],
         "excerpt": "Model API for Declarative Pipeline.",
         "gav": "org.jenkinsci.plugins:pipeline-model-api:2.2277.v00573e73ddf1",
-        "health": 96,
+        "health": 94,
         "issueTrackers": [
           {
             "reportUrl": "https://www.jenkins.io/participate/report-issue/redirect/#21706/pipeline-model-api",
@@ -90432,7 +90432,7 @@
         ],
         "excerpt": "Library plugin for Pipeline stage tag metadata.",
         "gav": "org.jenkinsci.plugins:pipeline-stage-tags-metadata:2.2277.v00573e73ddf1",
-        "health": 96,
+        "health": 94,
         "issueTrackers": [
           {
             "reportUrl": "https://www.jenkins.io/participate/report-issue/redirect/#21706/pipeline-stage-tags-metadata",
@@ -97874,7 +97874,7 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/resource-disposer/latest/resource-disposer.hpi"
       },
       "resources-ai-chatbot": {
-        "buildDate": "May 03, 2026",
+        "buildDate": "May 23, 2026",
         "defaultBranch": "main",
         "dependencies": [],
         "developers": [
@@ -97888,7 +97888,7 @@
           }
         ],
         "excerpt": "Resources AI Chatbot plugin for Jenkins. See <a href=\"https://github.com/jenkinsci/resources-ai-chatbot-plugin#readme\" target=\"_blank\" rel=\"nofollow noopener noreferrer\"> documentation </a>.",
-        "gav": "io.jenkins.plugins:resources-ai-chatbot:598.v587b_4041e5e0",
+        "gav": "io.jenkins.plugins:resources-ai-chatbot:601.v079a_b_f26a_d4b_",
         "health": 100,
         "issueTrackers": [
           {
@@ -97900,17 +97900,17 @@
         "labels": [],
         "name": "resources-ai-chatbot",
         "popularity": 0,
-        "previousTimestamp": "2026-04-24T01:22:09.00Z",
-        "previousVersion": "589.v35fc5d4686f7",
-        "releaseTimestamp": "2026-05-03T10:52:05.00Z",
+        "previousTimestamp": "2026-05-03T10:52:05.00Z",
+        "previousVersion": "598.v587b_4041e5e0",
+        "releaseTimestamp": "2026-05-23T23:04:06.00Z",
         "requiredCore": "2.504.3",
         "scm": "https://github.com/jenkinsci/resources-ai-chatbot-plugin",
-        "sha1": "6jV/Xl5ANgDyfpEHKm6A/J6Cjcg=",
-        "sha256": "8zZdInkB5cGiu250spwpd7Yj0rTi5yMzAXReuH+7O+g=",
-        "size": 7152,
+        "sha1": "VBx01p1xqYk+FcA2WP6yNWeljII=",
+        "sha256": "uxjOzAXGhmDsdHINSAK1cNXe1FDqGRUyqqgLPkV7+So=",
+        "size": 7177,
         "title": "Resources AI Chatbot",
-        "url": "https://updates.jenkins.io/download/plugins/resources-ai-chatbot/598.v587b_4041e5e0/resources-ai-chatbot.hpi",
-        "version": "598.v587b_4041e5e0",
+        "url": "https://updates.jenkins.io/download/plugins/resources-ai-chatbot/601.v079a_b_f26a_d4b_/resources-ai-chatbot.hpi",
+        "version": "601.v079a_b_f26a_d4b_",
         "wiki": "https://plugins.jenkins.io/resources-ai-chatbot",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/resources-ai-chatbot/latest/resources-ai-chatbot.hpi"
       },
@@ -98420,14 +98420,14 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/robot/latest/robot.hpi"
       },
       "rocketchatnotifier": {
-        "buildDate": "Jan 10, 2026",
+        "buildDate": "May 23, 2026",
         "compatibleSinceVersion": "1.3.0",
         "defaultBranch": "develop",
         "dependencies": [
           {
             "name": "commons-text-api",
             "optional": false,
-            "version": "1.14.0-194.v804a_dc3a_1b_d8"
+            "version": "1.15.0-210.v7480a_da_70b_9e"
           },
           {
             "name": "workflow-api",
@@ -98437,7 +98437,7 @@
           {
             "name": "workflow-support",
             "optional": false,
-            "version": "1004.veee3a_d67cdb_9"
+            "version": "1010.vb_b_39488a_9841"
           },
           {
             "name": "apache-httpcomponents-client-4-api",
@@ -98447,7 +98447,7 @@
           {
             "name": "credentials",
             "optional": false,
-            "version": "1447.v4cb_b_539b_5321"
+            "version": "1480.v2246fd131e83"
           },
           {
             "name": "jackson2-api",
@@ -98472,8 +98472,8 @@
           }
         ],
         "excerpt": "Rocket.Chat Notifier is notifier that can publish build status to Rocket.Chat channels. Channels need to be public",
-        "gav": "org.jenkins-ci.plugins:rocketchatnotifier:2.1.2",
-        "health": 72,
+        "gav": "org.jenkins-ci.plugins:rocketchatnotifier:2.1.3",
+        "health": 75,
         "issueTrackers": [
           {
             "reportUrl": "https://www.jenkins.io/participate/report-issue/redirect/#21737/rocketchatnotifier",
@@ -98484,17 +98484,17 @@
         "labels": [],
         "name": "rocketchatnotifier",
         "popularity": 1018,
-        "previousTimestamp": "2026-01-10T10:48:31.00Z",
-        "previousVersion": "2.1.1",
-        "releaseTimestamp": "2026-01-10T10:50:28.00Z",
+        "previousTimestamp": "2026-01-10T10:50:28.00Z",
+        "previousVersion": "2.1.2",
+        "releaseTimestamp": "2026-05-23T05:56:09.00Z",
         "requiredCore": "2.504.3",
         "scm": "https://github.com/jenkinsci/rocketchatnotifier-plugin",
-        "sha1": "iXRXrXv5DTgQRHsv6K0c2duFudI=",
-        "sha256": "3mtFvqxLeIlgnenapPhYlnVRKT7S1vbNEVrhbYsB5PM=",
-        "size": 831026,
+        "sha1": "LwgYQpZoVqyZv5q3enuxmJr2LXI=",
+        "sha256": "lzjImxAXp04cC+3oymWKUdYyaMVQwftbk9JSTD2n9JA=",
+        "size": 831162,
         "title": "RocketChat Notifier",
-        "url": "https://updates.jenkins.io/download/plugins/rocketchatnotifier/2.1.2/rocketchatnotifier.hpi",
-        "version": "2.1.2",
+        "url": "https://updates.jenkins.io/download/plugins/rocketchatnotifier/2.1.3/rocketchatnotifier.hpi",
+        "version": "2.1.3",
         "wiki": "https://plugins.jenkins.io/rocketchatnotifier",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/rocketchatnotifier/latest/rocketchatnotifier.hpi"
       },
@@ -122797,10 +122797,10 @@
       "certificates": [
         "MIIFqjCCA5KgAwIBAgIFAN6tvwUwDQYJKoZIhvcNAQENBQAwgYoxCzAJBgNVBAYTAlVTMRMwEQYDVQQIDApDYWxpZm9ybmlhMREwDwYDVQQHDAhTYW4gSm9zZTEYMBYGA1UECgwPSmVua2lucyBQcm9qZWN0MRowGAYDVQQDDBFLb2hzdWtlIEthd2FndWNoaTEdMBsGCSqGSIb3DQEJARYOa2tAa29oc3VrZS5vcmcwHhcNMjYwMTE0MTU0MjQyWhcNMjcwMTE0MTU0MjQyWjBeMQswCQYDVQQGEwJVUzETMBEGA1UECAwKQ2FsaWZvcm5pYTEYMBYGA1UECgwPSmVua2lucyBQcm9qZWN0MSAwHgYDVQQDDBdDb21tdW5pdHkgVXBkYXRlIENlbnRlcjCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBALQMWCFq7SaGA+hp98UAzgLkCO6NFlcK9n2mMQ0c6/4b6qI3n53Ak/ljF+4ekEb3p5tnI0iwj0GZjFc5hW1gtz3mfbkxTb7fk5LJFj90NZHr0isb5D21w2fkjGp9h81kGliUZcm3dpdrXMW2Gh1HYcF4uijuz1mzrFt2Ew2vgDse5EFYb32bk6Xmi/dhf0l9r+oKT6bChijgHr3WynRSdDL9y1XDqUq06ZAVp4RqVwwpezrYgJ/OPRZeg9CctnUoFR8BgHKWeNgwuyWrtBKST5pnQmhTEM53qVHzQTgrBP4Vqj38I1R39qPZa4cu3QUXMr8CsfrJ1wF8y3OmXp3pNfbXivb7RoanXYO+uZzoYOaaHAXTICFLUqR0sxJfiOTejm87P9F+EzEvuPGFDAkbo7qrW/hReHYycOiiqPggfLsglZTNJEdd4oLdvDZLnBJWBQscl98f/pVu3Pzld0RnU9phhCMXfVLkeQBQtAxfmqaVnMurELBNeK8ybriTQlAdnkBRzv3NAilUaAfI0gSh/beN2qNlII3kEOSpasAbEVbfBB+r9hNzFj4+Sqi8E+YZbMQjFtdHdO/iQCrcUiqDnTBsxL7u7xzfvLJTxoISUrCigVgUGryaouyUhARHpQwcVG4hewFspJZUaQv7aj0hlpQUC42+2zWr/NK5rVQAZD9RAgMBAAGjQjBAMB0GA1UdDgQWBBR2GjaTNzVHFuMTbEl9hRAbjCtQ2DAfBgNVHSMEGDAWgBQRxuXUMC3pVcYBtWtQctI2frQBhzANBgkqhkiG9w0BAQ0FAAOCAgEAOgskYoOGDmEZIjYUy2tYTKI6eKnpAiQA0yETLdam9wOGGL6J6e7BT5JoyxBrDXy4xrZsDyFOBPB8Di8ETF1mr9k6GsyBO8S/SYd/1qYg9kkHXq2x62WmDs0K7h9N2M9LAEFDvdZYvOnDzgFhcaFfsxUPS9qDFws33NDBTKo/Ya2UIjzyl1H68bw5VG1temOtAzvW+6EA4j2bzgv5NbaUGrZq5Y8yiWRDjdAbMBu0lDnJP7pTLs16jEE1FWfkJhkaU6TbMP6rzehjMkiplu+S0qnVQBUgME2U4EMxCM31oixUl/+WvZ5GQHR8GVdsFkQYs2K3L0i7a9bxc8jD6kzU/sSJwJxnqocB1JnZF1CFbT78bdTaBtZty7MVSUdXYCAf6XZPCMYOGN7Cb7YpLqn0hUCy2tIdHw6TUluyOkP0AoOLFijThtafcgQI19QyCa85DUZxwG1QsVFbGyqv6+47DbX2CUKzNLyfKJhivzwfagKZDo5KaZouv7lO5RMj8onHK+MrkzvJG1kFcFw5lO1ms5QKPNi3RfrQqWQ4rjVBbPdNx4xRpHVpcXp9MXCg64prwGHXrPN2yl2VRYrxwlLRhee27H07ZA9ujLB4PU8ppb6uQH2GQiKpXoRlzQBQej4zhquVM8rQaPfXV8DGNu4lx77tNtgK8uetQxyh4vBOpGA="
       ],
-      "correct_digest": "FAiZCAie7a3h8PhDoG6shZeYqKM=",
-      "correct_digest512": "a7b59a8f57f140b6bafef3032bb250c7d5fb9bbdff9c0557c5af679f996bd744f5d7d2372df4e038556e61a10ed3d7abae77dfe1c721339b55f8874a2a2dd35e",
-      "correct_signature": "efVM5c+O2NqL8Hfwpm8mgm+jrMfNxHvC9ii5fPocvTyrYCPBYbTRRYxZONJ6Xc6tmTopfmK9xGT8ukVMOvAJce0hYauHJ3on6Brtf1CxN22cbVzsYqUyQZB+F92A9plarIsLel/ifP3kV1JcEwoIwkXpRl/+PL4DhARkDBN+skVF999QMu7yWsjLL1GnIoayPvFomZy3sJiVjuKOyFgmAMc5UYjQ+q4D+8vzyn2f/2VQvV8+du4QyYW89uZ7wHdrJXSB8suV4DcachLz/1dX3fjDBuLaBXv7+wtqLkhAb2tOLcSglojYIw5KrXG8RcIXPR/L/C62xuy77mB0TNiivDHcd3xIaJ4yin+IRXByq4glQuis6FlmxlMyYt9caCteQCfWXoRj+fRr4lKqzjQ7+5tO8dGwTUXuFieDUe8BQERr5f24VNa6jBe6QF7QLwOtO6H6RLVfCR/X1CmNezztFz8FqvmacnX4F9li0uWwO5L1nJhbCxSzoIylEpQc88uvBwleua4B7iPLEBaRjooJMIPSfHAweBa/MLVxqyICwFxTNU+izNSsz88dFhpszGQI+GaV6szgUB/7YmbHzlHeDfBlasz+A4JST/1dF54sYFUjVux9fG2VQLk+oDa7zcRnuBhgHl9T4DX+ULjG7bAFDEiOwb6p9cPNCXqDvdWi3D4=",
-      "correct_signature512": "6cd673cfce9cb9b5f5b4bbd2db8d6595f717e45b2a26e51fefc4abdda8791e9b988807ee7be137ab1941905c421d9523915b28328c0561d484db11552b1b6c024b9e7ba3d278e86a7a84d295c3a846a1eeeade3a9dd8e020aec0d8f7dadadd0ad5415ed45585ea53ff9593e871ba7bbb9271941d103a25e6e27823a115249e397d1df212c220d5de86bbfa215b549827c826990e435c9ace1e7c363f0cb6535c588caaa851b633396a9ad497467c7dc55b3ac188f083b5b13968ecf431652d3ce449bacc57b7bb2143d2bf8ae79a6b8ae863e53bdce4c83b01d5e053b64e3125bcc8d6752f6e3363b6738a759612554fa897be996ade31c5a5719e9335a0c9a61d6dcac601cbbd31e0b091fa0660bb7d7cb5ccc5d7cb72edd32cdd59633f5c0e55ef1811cb91afba8abf88b5576418e0cf7da501eee002d341d8182c85b34bdcd847b39e2c7f8089cfbd85cf46ca7be76aaf744cc398bd5fb17665cc5674fb6fab930efdd5be55fdef8c48a232fd2ca6391eb40903ba3b85bfcf4e5fb4795054e8e131eb3eca79b27e740751ca0177730d5cdcb0d6fb6a64b505ddf40d7fff8eb14217d12dd95081e813cd8789fd9317146c72331d907e2b1ea40b813e38670c69ec75ceb8cd95268ed4513eb156c8e1f7d3efe476d28a8763da02e2901d172da03bf9f17d2bd0f82153103546d0f097196ccb1abe1f0a2470c71657f598125e"
+      "correct_digest": "eog3TperncpQ9BptmthvGQWkaxo=",
+      "correct_digest512": "d253e82d669d8775a85a1a93e71fc1e3f5fb3e59203a07c5fac1289eac2a935a8babe3523d9d5c18c3811d0626273e3277a8174b154e0cac6627bf9befc2f0a1",
+      "correct_signature": "pNYGcLreXrheZs0WtKOCG98rCu6Bm6j0ymiRrU2M4MFNHmRvb+B2BM/GkgTPOwdh7kJ5TopPw53sM/OC16OGLPOaehkV42HpwwjUr6VxT8lsDnS3NhfOSW5KEG28nAp6rAv61xoIfMlQ45t60Fxw2J+jpcP0FB1oLsq15C+0pwk74zZs3H3VjEXdddgBV/c1bnN+R98mcU8/y3ImmTv2H57+nDO5nzTJODfyvT74gswBCo9VAT7Xmk1BDtN6PYnz8ceBI48e/0QGxjMVpYWTCUeHRcdFHEcPwXLZrGsbGtIFwQho5EPyr/BgBOWKKG8G2PBcZlV4bBBxHg6wjV6PbwHIRjYUFi+ns8AcO92bLAogOy+fIYKhYeprvSqtnuUgvtR2aIC1YpUuyrGb6dYs+C5Aj7ZfEADGxLi+uxgdVW9Tpr0lDcNo5meQr9lHq4soBHxQmOt8ZEmPXO5Cie1Vn6fDvR6OxVEc2HAbk0jArJ/amrpBGxSSx2Aoz1KNq2QwV3dmLZ7285v+TI9+6Ytbz1HaLjdxCfkRbCSNtAsYTTc958ym5DYYrGNMbgDFSMHmCfxZARyqemQUlzC45iDPwCXGlDCz5iYpMwwixDfJLe4ZXQwi0L18SHBh0UO6UXvYuxMVxFPiMGX+yND2zrPnkrw44AmaqcFqUeK0x21qo28=",
+      "correct_signature512": "70c8af72f0e1744b4cace3966de4469f4fd1fb6d82ea7cc3c53d12427af8a8bb4e06f5f3fe196a02635340ab78bc842166ff6324d12a53935e38f8925c955ec4b42854685ee26b2e6d66738a47ffc9fd09e617367a9a6f7de5684eef2cec46e4344cb935ae144eee1ed1ae058b53a6c1d9276135f1b6201903100ef22b105be802a6fa75cfeb9860209dde80232ded84f42f5adc74c3692ecb87415130828c179a37b9c50aa459db7b3f9cbb9c26c013112a993f0c3cd3565913a23554bc4f32dbc46fa4255d1dfc18840630bc13056e7563ad3331fcf640edc31fa405d4a410260273614e093918be8bc6397f6bc5cfeb744269863a43cd26364f48c7abb283a06c15be06eced779b46cce2022d17bb828ff41488f5cf672b7fa403e3192ba0e4a6a014a34dd4af7e7a49642ca39c57120d11aaf83306d44f09bd94c92bb65ba1e7bb04859f4823164d4921a979cdd6b5aaf8c09e63d92f4653bbe61aaa9cda0c9c34cc9f9d3db7ece5cbca15e42c9c95d80b68274c6a37a05c4b63adcc25de9c3b19691178d566cd1dad3aa12c3f6523813917ff48bb1d015ce996610be3b2b5c8ae542e34cac5d8b60bdc2147952d316a71eb8f8c585256ff12ead45b658072a422c9931fea4a54a061b71a1a8fba9e5b98875ad7d942f48fbf926e620e74bf46cabb1c46d77a7605c0e647a4ae21268bb30b3390a2c9c5591a1ca6284417"
     },
     "updateCenterVersion": "1",
     "warnings": [
@@ -142177,7 +142177,7 @@
     ]
   },
   "_metadata": {
-    "generatedAt": "2026-05-23T04:42:57.196Z",
+    "generatedAt": "2026-05-24T05:02:54.163Z",
     "bestMirror": "https://mirror.nju.edu.cn/jenkins/",
     "mirrorsChecked": 10,
     "pluginsModified": 2074,
