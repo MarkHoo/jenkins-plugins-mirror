@@ -810,7 +810,7 @@
         "url": "https://wiki.jenkins-ci.org/display/JENKINS/ZAProxy+Plugin"
       }
     },
-    "generationTimestamp": "2026-05-25T05:12:26Z",
+    "generationTimestamp": "2026-05-26T05:00:17Z",
     "id": "default",
     "plugins": {
       "42crunch-security-audit": {
@@ -4770,7 +4770,7 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/android-signing/latest/android-signing.hpi"
       },
       "anka-build": {
-        "buildDate": "Apr 27, 2026",
+        "buildDate": "May 25, 2026",
         "compatibleSinceVersion": "2.0.0",
         "defaultBranch": "master",
         "dependencies": [
@@ -4816,7 +4816,7 @@
           }
         ],
         "excerpt": "This plugin provides integration with Veertu Anka infrastructure",
-        "gav": "org.jenkins-ci.plugins:anka-build:2.15.0",
+        "gav": "org.jenkins-ci.plugins:anka-build:2.16.0",
         "health": 91,
         "issueTrackers": [
           {
@@ -4832,17 +4832,17 @@
         ],
         "name": "anka-build",
         "popularity": 35,
-        "previousTimestamp": "2026-04-23T21:42:03.00Z",
-        "previousVersion": "2.14.0",
-        "releaseTimestamp": "2026-04-27T20:49:53.00Z",
+        "previousTimestamp": "2026-04-27T20:49:53.00Z",
+        "previousVersion": "2.15.0",
+        "releaseTimestamp": "2026-05-25T12:53:53.00Z",
         "requiredCore": "2.479.3",
         "scm": "https://github.com/jenkinsci/anka-build-plugin",
-        "sha1": "7v+eMaxo9g6tt+zr/mZtg5Vw8NU=",
-        "sha256": "4JSyfE9UlBSS1t5yOppxLWLBxVQ/X2beGX7OMGbTNBE=",
-        "size": 257570,
+        "sha1": "ANuoTYrv0KWHf348vB9Hvo9fIH0=",
+        "sha256": "qrfb55XrcsYZ377a7AyKLJV0aRF6QAgnEsae0OoyDIc=",
+        "size": 284456,
         "title": "Anka",
-        "url": "https://updates.jenkins.io/download/plugins/anka-build/2.15.0/anka-build.hpi",
-        "version": "2.15.0",
+        "url": "https://updates.jenkins.io/download/plugins/anka-build/2.16.0/anka-build.hpi",
+        "version": "2.16.0",
         "wiki": "https://plugins.jenkins.io/anka-build",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/anka-build/latest/anka-build.hpi"
       },
@@ -7633,7 +7633,7 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/ascentialtest-cmd-line/latest/ascentialtest-cmd-line.hpi"
       },
       "asm-api": {
-        "buildDate": "May 18, 2026",
+        "buildDate": "May 25, 2026",
         "defaultBranch": "main",
         "dependencies": [],
         "developers": [
@@ -7642,8 +7642,8 @@
             "name": "Valentin Delaye"
           }
         ],
-        "excerpt": "This plugin provides the <a href=\"https://asm.ow2.io/\" target=\"_blank\" rel=\"noopener nofollow noreferrer\">ASM</a> APIs (v9.10) for other plugins.",
-        "gav": "io.jenkins.plugins:asm-api:9.10-211.v7d13903b_a_d89",
+        "excerpt": "This plugin provides the <a href=\"https://asm.ow2.io/\" target=\"_blank\" rel=\"noopener nofollow noreferrer\">ASM</a> APIs (v9.10.1) for other plugins.",
+        "gav": "io.jenkins.plugins:asm-api:9.10.1-216.va_9256d3b_844b_",
         "health": 100,
         "issueTrackers": [
           {
@@ -7657,17 +7657,17 @@
         ],
         "name": "asm-api",
         "popularity": 178164,
-        "previousTimestamp": "2025-12-16T11:56:08.00Z",
-        "previousVersion": "9.9.1-189.vb_5ef2964da_91",
-        "releaseTimestamp": "2026-05-18T04:47:53.00Z",
+        "previousTimestamp": "2026-05-18T04:47:53.00Z",
+        "previousVersion": "9.10-211.v7d13903b_a_d89",
+        "releaseTimestamp": "2026-05-25T06:58:38.00Z",
         "requiredCore": "2.492.3",
         "scm": "https://github.com/jenkinsci/asm-api-plugin",
-        "sha1": "l8UM3OL7t51tUYf8MmAvjYAzV+A=",
-        "sha256": "icbECSknmiKS1sQ5GNrj616ITTyd2fB+ImWIFqCZJcA=",
-        "size": 371245,
+        "sha1": "O0Z/PXmuAXRXp8wdicZGhpG2CKw=",
+        "sha256": "KSyQ09//LpJC+AlnB6P6PZeMtXpramzmicadwho4G+Y=",
+        "size": 371125,
         "title": "ASM API",
-        "url": "https://updates.jenkins.io/download/plugins/asm-api/9.10-211.v7d13903b_a_d89/asm-api.hpi",
-        "version": "9.10-211.v7d13903b_a_d89",
+        "url": "https://updates.jenkins.io/download/plugins/asm-api/9.10.1-216.va_9256d3b_844b_/asm-api.hpi",
+        "version": "9.10.1-216.va_9256d3b_844b_",
         "wiki": "https://plugins.jenkins.io/asm-api",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/asm-api/latest/asm-api.hpi"
       },
@@ -24185,7 +24185,7 @@
         ],
         "excerpt": "Lets <code>build</code> and related REST build triggers be accessed even when anonymous users cannot see Jenkins.",
         "gav": "org.jenkins-ci.plugins:build-token-root:151.va_e52fe3215fc",
-        "health": 88,
+        "health": 87,
         "issueTrackers": [
           {
             "reportUrl": "https://github.com/jenkinsci/build-token-root-plugin/issues/new/choose",
@@ -39349,7 +39349,7 @@
         ],
         "excerpt": "Package and deploy your applications from Jenkins with <a href=\"http://www.xebialabs.com\" target=\"_blank\" rel=\"noopener nofollow noreferrer\">XebiaLabs XL Deploy</a>.",
         "gav": "com.xebialabs.deployit.ci:deployit-plugin:24.3.0",
-        "health": 96,
+        "health": 91,
         "issueTrackers": [
           {
             "reportUrl": "https://www.jenkins.io/participate/report-issue/redirect/#18053/deployit-plugin",
@@ -60725,7 +60725,7 @@
         ],
         "excerpt": "Infer redundant labels automatically based on user declaration.",
         "gav": "org.jenkins-ci.plugins:implied-labels:439.v4900744249a_3",
-        "health": 100,
+        "health": 97,
         "issueTrackers": [
           {
             "reportUrl": "https://github.com/jenkinsci/implied-labels-plugin/issues/new/choose",
@@ -66951,7 +66951,7 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/jsm-alert/latest/jsm-alert.hpi"
       },
       "json-api": {
-        "buildDate": "Dec 26, 2025",
+        "buildDate": "May 25, 2026",
         "defaultBranch": "main",
         "dependencies": [],
         "developers": [
@@ -66960,8 +66960,8 @@
             "name": "Valentin Delaye"
           }
         ],
-        "excerpt": "This plugin provides the <a href=\"https://github.com/stleary/JSON-java\" target=\"_blank\" rel=\"noopener nofollow noreferrer\">JSON</a> APIs (v20251224) for other plugins.",
-        "gav": "io.jenkins.plugins:json-api:20251224-185.v0cc18490c62c",
+        "excerpt": "This plugin provides the <a href=\"https://github.com/stleary/JSON-java\" target=\"_blank\" rel=\"noopener nofollow noreferrer\">JSON</a> APIs (v20260522) for other plugins.",
+        "gav": "io.jenkins.plugins:json-api:20260522-217.v0b_18b_8cd4672",
         "health": 100,
         "issueTrackers": [
           {
@@ -66975,17 +66975,17 @@
         ],
         "name": "json-api",
         "popularity": 184534,
-        "previousTimestamp": "2025-09-02T04:08:56.00Z",
-        "previousVersion": "20250517-173.v596efb_962a_31",
-        "releaseTimestamp": "2025-12-26T11:32:02.00Z",
+        "previousTimestamp": "2025-12-26T11:32:02.00Z",
+        "previousVersion": "20251224-185.v0cc18490c62c",
+        "releaseTimestamp": "2026-05-25T07:11:25.00Z",
         "requiredCore": "2.492.1",
         "scm": "https://github.com/jenkinsci/json-api-plugin",
-        "sha1": "aCAHuWPwAK8Tp2ilx/49Ay4cX4Q=",
-        "sha256": "kXCkxVzZSeV7+JcFcEGIaqqzoaWbqKOhhC8JTGg9Tis=",
-        "size": 88515,
-        "title": "JSON Api",
-        "url": "https://updates.jenkins.io/download/plugins/json-api/20251224-185.v0cc18490c62c/json-api.hpi",
-        "version": "20251224-185.v0cc18490c62c",
+        "sha1": "mLxAbh09e8mQ93P6rVZbU9sGJ9w=",
+        "sha256": "ZbcKcRsh94wFIM87Bef+dzA+nOxPpmi7srMoD0DxelM=",
+        "size": 89605,
+        "title": "JSON API",
+        "url": "https://updates.jenkins.io/download/plugins/json-api/20260522-217.v0b_18b_8cd4672/json-api.hpi",
+        "version": "20260522-217.v0b_18b_8cd4672",
         "wiki": "https://plugins.jenkins.io/json-api",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/json-api/latest/json-api.hpi"
       },
@@ -88424,7 +88424,7 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/pipeline-graph-analysis/latest/pipeline-graph-analysis.hpi"
       },
       "pipeline-graph-view": {
-        "buildDate": "May 18, 2026",
+        "buildDate": "May 25, 2026",
         "defaultBranch": "main",
         "dependencies": [
           {
@@ -88445,12 +88445,12 @@
           {
             "name": "workflow-cps",
             "optional": false,
-            "version": "4315.va_e456c4e7f4f"
+            "version": "4331.v9d06ed4658ff"
           },
           {
             "name": "workflow-durable-task-step",
             "optional": false,
-            "version": "1475.ved562f6ec8b_3"
+            "version": "1479.v56e587f413a_7"
           },
           {
             "name": "workflow-job",
@@ -88509,7 +88509,7 @@
           }
         ],
         "excerpt": "Provides &#34;Pipeline Graph&#34; visualization of a pipeline job run.",
-        "gav": "io.jenkins.plugins:pipeline-graph-view:903.v86ded4d9c36b_",
+        "gav": "io.jenkins.plugins:pipeline-graph-view:915.v50d41d76dff8",
         "health": 97,
         "issueTrackers": [
           {
@@ -88524,17 +88524,17 @@
         ],
         "name": "pipeline-graph-view",
         "popularity": 92088,
-        "previousTimestamp": "2026-05-17T21:02:10.00Z",
-        "previousVersion": "902.v160b_da_c934b_c",
-        "releaseTimestamp": "2026-05-18T20:55:54.00Z",
+        "previousTimestamp": "2026-05-18T20:55:54.00Z",
+        "previousVersion": "903.v86ded4d9c36b_",
+        "releaseTimestamp": "2026-05-25T21:11:37.00Z",
         "requiredCore": "2.534",
         "scm": "https://github.com/jenkinsci/pipeline-graph-view-plugin",
-        "sha1": "UK9xM6eAKWg2N1KpGNjPCXUkmac=",
-        "sha256": "yUJo2tCMF05AeFN+fJ0GDiCFV7x6Yn69h8OlUzrSKHQ=",
-        "size": 750216,
+        "sha1": "KrECkHvUavEuv7dPeB6+hBpzPGI=",
+        "sha256": "N0nF6V18Nr7Y5CdOCljRBrsGXPS7LbcUUntXeACCI28=",
+        "size": 757183,
         "title": "Pipeline Graph View",
-        "url": "https://updates.jenkins.io/download/plugins/pipeline-graph-view/903.v86ded4d9c36b_/pipeline-graph-view.hpi",
-        "version": "903.v86ded4d9c36b_",
+        "url": "https://updates.jenkins.io/download/plugins/pipeline-graph-view/915.v50d41d76dff8/pipeline-graph-view.hpi",
+        "version": "915.v50d41d76dff8",
         "wiki": "https://plugins.jenkins.io/pipeline-graph-view",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/pipeline-graph-view/latest/pipeline-graph-view.hpi"
       },
@@ -91023,7 +91023,7 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/plasticscm-plugin/latest/plasticscm-plugin.hpi"
       },
       "platformlabeler": {
-        "buildDate": "Jan 28, 2026",
+        "buildDate": "May 25, 2026",
         "compatibleSinceVersion": "5.0",
         "defaultBranch": "master",
         "dependencies": [],
@@ -91038,7 +91038,7 @@
           }
         ],
         "excerpt": "Assigns labels on nodes automatically based on the computer operating system.",
-        "gav": "org.jvnet.hudson.plugins:platformlabeler:3198.v06b_04fa_fea_6e",
+        "gav": "org.jvnet.hudson.plugins:platformlabeler:3328.vb_e88232045e0",
         "health": 100,
         "issueTrackers": [
           {
@@ -91053,17 +91053,17 @@
         ],
         "name": "platformlabeler",
         "popularity": 226,
-        "previousTimestamp": "2024-11-01T15:07:19.00Z",
-        "previousVersion": "2734.v604521b_646b_b_",
-        "releaseTimestamp": "2026-01-28T03:25:49.00Z",
-        "requiredCore": "2.504.3",
+        "previousTimestamp": "2026-01-28T03:25:49.00Z",
+        "previousVersion": "3198.v06b_04fa_fea_6e",
+        "releaseTimestamp": "2026-05-25T14:43:18.00Z",
+        "requiredCore": "2.528.3",
         "scm": "https://github.com/jenkinsci/platformlabeler-plugin",
-        "sha1": "xg1EVJbtQzGtlU3AeMHRytOagwk=",
-        "sha256": "OD+szpZw9YVI3Y6EJoRERxrF/8b+nl+3PlbGQ1aA5DE=",
+        "sha1": "sKKmhLMvUF41Wn0SkQ9Lxs1HMmI=",
+        "sha256": "trNObvUkWR1bf347m87LyaPK5eu49xYa5Kh/f1guC40=",
         "size": 36620,
         "title": "Platform Labeler",
-        "url": "https://updates.jenkins.io/download/plugins/platformlabeler/3198.v06b_04fa_fea_6e/platformlabeler.hpi",
-        "version": "3198.v06b_04fa_fea_6e",
+        "url": "https://updates.jenkins.io/download/plugins/platformlabeler/3328.vb_e88232045e0/platformlabeler.hpi",
+        "version": "3328.vb_e88232045e0",
         "wiki": "https://plugins.jenkins.io/platformlabeler",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/platformlabeler/latest/platformlabeler.hpi"
       },
@@ -96869,13 +96869,13 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/release-helper/latest/release-helper.hpi"
       },
       "reliza-integration": {
-        "buildDate": "Mar 15, 2026",
+        "buildDate": "May 25, 2026",
         "defaultBranch": "main",
         "dependencies": [
           {
             "name": "structs",
             "optional": false,
-            "version": "338.v848422169819"
+            "version": "353.v261ea_40a_80fb_"
           }
         ],
         "developers": [
@@ -96885,7 +96885,7 @@
           }
         ],
         "excerpt": "This plugin integrates Jenkins with Reliza Hub",
-        "gav": "io.reliza:reliza-integration:0.3.6",
+        "gav": "io.reliza:reliza-integration:0.4.0",
         "health": 100,
         "issueTrackers": [
           {
@@ -96899,17 +96899,17 @@
         ],
         "name": "reliza-integration",
         "popularity": 1,
-        "previousTimestamp": "2025-02-15T17:42:49.00Z",
-        "previousVersion": "0.3.5",
-        "releaseTimestamp": "2026-03-15T16:58:33.00Z",
-        "requiredCore": "2.492.1",
+        "previousTimestamp": "2026-03-15T16:58:33.00Z",
+        "previousVersion": "0.3.6",
+        "releaseTimestamp": "2026-05-25T17:14:33.00Z",
+        "requiredCore": "2.492.3",
         "scm": "https://github.com/jenkinsci/reliza-integration-plugin",
-        "sha1": "fHrU6NFWylWlc5+YQi6fExOaE0Y=",
-        "sha256": "qgJBJiKaIxj+cKmsl578tRZ/Iyq9x36AHAL0NFNixms=",
-        "size": 12267443,
+        "sha1": "qwYhRgcaPZ4gfJQxlp48gCBIayM=",
+        "sha256": "9UC/aGS1dHqdnWfpdvDWhT638E6FYePPbSRVME2SB+I=",
+        "size": 12373852,
         "title": "Reliza Integration",
-        "url": "https://updates.jenkins.io/download/plugins/reliza-integration/0.3.6/reliza-integration.hpi",
-        "version": "0.3.6",
+        "url": "https://updates.jenkins.io/download/plugins/reliza-integration/0.4.0/reliza-integration.hpi",
+        "version": "0.4.0",
         "wiki": "https://plugins.jenkins.io/reliza-integration",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/reliza-integration/latest/reliza-integration.hpi"
       },
@@ -119743,7 +119743,7 @@
         ],
         "excerpt": "Adds a Pipeline step to check out or update working sources from various SCMs (version control).",
         "gav": "org.jenkins-ci.plugins.workflow:workflow-scm-step:466.va_d69e602552b_",
-        "health": 100,
+        "health": 97,
         "issueTrackers": [
           {
             "reportUrl": "https://www.jenkins.io/participate/report-issue/redirect/#21717/workflow-scm-step",
@@ -122797,10 +122797,10 @@
       "certificates": [
         "MIIFqjCCA5KgAwIBAgIFAN6tvwUwDQYJKoZIhvcNAQENBQAwgYoxCzAJBgNVBAYTAlVTMRMwEQYDVQQIDApDYWxpZm9ybmlhMREwDwYDVQQHDAhTYW4gSm9zZTEYMBYGA1UECgwPSmVua2lucyBQcm9qZWN0MRowGAYDVQQDDBFLb2hzdWtlIEthd2FndWNoaTEdMBsGCSqGSIb3DQEJARYOa2tAa29oc3VrZS5vcmcwHhcNMjYwMTE0MTU0MjQyWhcNMjcwMTE0MTU0MjQyWjBeMQswCQYDVQQGEwJVUzETMBEGA1UECAwKQ2FsaWZvcm5pYTEYMBYGA1UECgwPSmVua2lucyBQcm9qZWN0MSAwHgYDVQQDDBdDb21tdW5pdHkgVXBkYXRlIENlbnRlcjCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBALQMWCFq7SaGA+hp98UAzgLkCO6NFlcK9n2mMQ0c6/4b6qI3n53Ak/ljF+4ekEb3p5tnI0iwj0GZjFc5hW1gtz3mfbkxTb7fk5LJFj90NZHr0isb5D21w2fkjGp9h81kGliUZcm3dpdrXMW2Gh1HYcF4uijuz1mzrFt2Ew2vgDse5EFYb32bk6Xmi/dhf0l9r+oKT6bChijgHr3WynRSdDL9y1XDqUq06ZAVp4RqVwwpezrYgJ/OPRZeg9CctnUoFR8BgHKWeNgwuyWrtBKST5pnQmhTEM53qVHzQTgrBP4Vqj38I1R39qPZa4cu3QUXMr8CsfrJ1wF8y3OmXp3pNfbXivb7RoanXYO+uZzoYOaaHAXTICFLUqR0sxJfiOTejm87P9F+EzEvuPGFDAkbo7qrW/hReHYycOiiqPggfLsglZTNJEdd4oLdvDZLnBJWBQscl98f/pVu3Pzld0RnU9phhCMXfVLkeQBQtAxfmqaVnMurELBNeK8ybriTQlAdnkBRzv3NAilUaAfI0gSh/beN2qNlII3kEOSpasAbEVbfBB+r9hNzFj4+Sqi8E+YZbMQjFtdHdO/iQCrcUiqDnTBsxL7u7xzfvLJTxoISUrCigVgUGryaouyUhARHpQwcVG4hewFspJZUaQv7aj0hlpQUC42+2zWr/NK5rVQAZD9RAgMBAAGjQjBAMB0GA1UdDgQWBBR2GjaTNzVHFuMTbEl9hRAbjCtQ2DAfBgNVHSMEGDAWgBQRxuXUMC3pVcYBtWtQctI2frQBhzANBgkqhkiG9w0BAQ0FAAOCAgEAOgskYoOGDmEZIjYUy2tYTKI6eKnpAiQA0yETLdam9wOGGL6J6e7BT5JoyxBrDXy4xrZsDyFOBPB8Di8ETF1mr9k6GsyBO8S/SYd/1qYg9kkHXq2x62WmDs0K7h9N2M9LAEFDvdZYvOnDzgFhcaFfsxUPS9qDFws33NDBTKo/Ya2UIjzyl1H68bw5VG1temOtAzvW+6EA4j2bzgv5NbaUGrZq5Y8yiWRDjdAbMBu0lDnJP7pTLs16jEE1FWfkJhkaU6TbMP6rzehjMkiplu+S0qnVQBUgME2U4EMxCM31oixUl/+WvZ5GQHR8GVdsFkQYs2K3L0i7a9bxc8jD6kzU/sSJwJxnqocB1JnZF1CFbT78bdTaBtZty7MVSUdXYCAf6XZPCMYOGN7Cb7YpLqn0hUCy2tIdHw6TUluyOkP0AoOLFijThtafcgQI19QyCa85DUZxwG1QsVFbGyqv6+47DbX2CUKzNLyfKJhivzwfagKZDo5KaZouv7lO5RMj8onHK+MrkzvJG1kFcFw5lO1ms5QKPNi3RfrQqWQ4rjVBbPdNx4xRpHVpcXp9MXCg64prwGHXrPN2yl2VRYrxwlLRhee27H07ZA9ujLB4PU8ppb6uQH2GQiKpXoRlzQBQej4zhquVM8rQaPfXV8DGNu4lx77tNtgK8uetQxyh4vBOpGA="
       ],
-      "correct_digest": "/JM/oKRMR2c7dQhOk6zuI6FUoPk=",
-      "correct_digest512": "c93370bbae4768623b679c2dfe8262b1dba1177dafedad5cf2d13e52e6c22d6da8e945fce5d3ac6d9ad27647d00628c84750c42a84c4889b5c3f8e21216c2b8a",
-      "correct_signature": "kPjxi/D7RgxAq5Qyuv9MnefGsYdIhbO6hdb7vdtpbyF+119+yx8yLwAgLy163rStt3MXhV2W0nF30fnqYeW7rEHrySlMGw94klDKGb3JTmFEldK1SOEe2/d6uR8SmfXwJIxDDjtAJbo9sS7n0MjkOKgKNh2WncJ+L/NARmKhcEHvfPZnlYnDQDy/TADaTApCwcmfypnrx6zD7LnRXuELwcAIbkTTOUno4XP/FADc14dIfpeXpPZyUohtymHctrcbrApgKYwqnN9QfUESSeu4DM/4gx3QqAj1LGrQGHZ9Vkx/Yu03NxPYEGDpCp0th1HoQu5hmQdmxrEP1Rj+gHlqPBi6+SjNhyyaj5cv7TpDhc3oF8WM5EsmIvTrla38hxaakTi3JzdZeYvJsfBcn+yb3umm2osl8hTjjxGjurekHcUD21R9U4qqrBG1UYXU2SODCR/KiuA8YI+fZZ8zaLv26umaPfrRaaYW+BSO+CCrrqhseeES4YjBD/NUOzxO9hsnWyO7PBDR27u3zey8cZbW1/z8BiSV8rfeO+aS/dPW7psXblhSho+TYXyzyPc7n7+O8M9bAbC0M3QoQ12Zp/x9SOD4E+I7fNa28RyPSgwDzLMP9dqD2Lm5J8VWnEAcTKSYGEXcQUuaYodhCE48EnTlfgDftnp6YIalHOayvgunD2A=",
-      "correct_signature512": "5c39cd778225966e598869be47465902849a44afb68560b314b673f18d85f8ad0a9a17a9570fa31c96c7c1142f3a68cabef137ad5a366c217d288cf39eed4ce9870202c027599b7d5cf848bb004b7bcbb1bd8f7735ccfd2b080bfa894ba84e4790b0323e9062055569208802a985cdeb49f13ed5ce3cc997446b12a2f3c5cd70a9b8806873d5dafd6b5a106cc3979b665001a9518cc81a4e19d2aa8aa40e731f9e02e1ca61f2c4959ef4f455e69770624c2f360962cc8d3e6bdc38a0ed49df30074f79536b80192231bac5d1d9f11c597cbf211215fc8c4b9e91396aba9104289ec0692d3cbbec327e32a21c3910c7cfe1a9d032e00d1d51728bb75c3786b706569dff639544040a8bc879836e604f965ea9a25a8133cb3ae7f27b735c307a33dc1943bdb40b989088ac9a643d664ba7937af2208cfe53d2eee93e081d65763d507663dfec9e3032e1095d45eea2a43d68f1f9c552d7a4a6c6a9b28787129aaad19dd5adc30bf5a3eb34489bfa55a0ea22475fe1db843462210847789c35d386af4fd99e174917838d7a7d74dc7d0741bfcc9c282754ffe5860a81567fa4aa6c87f889b7743984cdfbc36853b0fe21ea4b5dc72101d10e87de3bc1bd957f98b8c589a40d0a70b8c2b74622f7b6b7bfa03b36606bffb521813bfa1d25b182c615ce8f0a8d431e1dda79734eadda114d7d8dbd4cacd18ba1e42f857ccfea297fa7"
+      "correct_digest": "ankR38Ue5x1OAtGaDV+JBTB1wGc=",
+      "correct_digest512": "faf6ac5870f23d045d846e7f87466ab9fd040e42ebfccca1fbe24acc9564cef8c8ed0fd8a276e5f8c34fee3bcb3e177655fe208826ab8d9abd12e76b878f08e4",
+      "correct_signature": "MHiSyLGaQ+9e2MEHvWCx1/q5WK9Z1aP1DU3ochUhGZnkqIMDZ2gzbGvj/x95l5hnTVi/F79DvzMU6P41sxBgfoDWq0oMs29f2X9ShVd7mRWBqQk02QFpkLYqVVUVLt/FmU/UD3gWhByfhw4moivSlWbkOcY5EvjzKtG5rFfqr79Ze399KT6vBCJhMvMrAx2UqWFey7RjfvPrBtcYJq0vE+BBzJTVhotCom28JHfa2l42FbbzqCEw7HlZwkNj6epGRucpnjNYVF7rXliawTYgkQid285fJcYWj3C9ZWSEpaUBM6cDVfZHTBkwR9m0/DQ6uFHhXXgEOANshjjya2EA+yfgCfVoEwFWAaXEtTPslHUT7bBdDhsiwIA636+Dabrya4u5jcbhp829cKzLBWFhBHOtIVBSsOso5C7CmfaSYrZPBQOWCb3ywGgvmQo1JbrN1DoP7oObMBRerscIDlmGtUBgT3zqrXX15jrVcwMGdsZuG7Blct09cd9tJrcZPCZ/O6uCHepDDd0HTqXeu+OODkx3hpL2JrXMoyLCV+eQobMeFrmyHHBclZyUaG2R4bQUOpCcfpZysoeTekHeu7cuu9OmNxMyVSoZkmd5z9veWe5eI9fKwS9WfbVZV2x65M4tNisH3jSEWV9XP/DMuKpxMK2ZeppbeK6hIadVH483kZE=",
+      "correct_signature512": "6ccb9def8be2441f8323be5720fa9283a13e6e11d5cfc0f0dd704a380e2ea3daca06c1eac48bde4fa1c49c6c0c56c1bb5781a66fe2b8d20032a2a8515dc9aca9a4775829c9bf7bfb04621cf8f7e473c28e2d41179ef7ac09b0378d8e481e6ffcb19316efb237e50ae794b634c2c310f7ceb0becd7e3f0e3e6b29757e4e2f939cb274678c04f50337959b0d79aeb628b1ee21d6d1180d7d85f2d3395b9ac592bd3b1387783059021faf52387028780383e025b3e613cd6342825bcf5e220806277d8e64d8c04ad2e9751f99d1684319b1cb545281d5c412093bf0a1d8c617df35d6c5248e0429cb57888f8ebb439c0710e1741770a2b3a8443e86067747044a5f889ac24381981e594006a89931b13b515a01bce93f5e13b587277f7b3c7fdf8d6bc72a66197a51bea0fa1eedd6ea285ccb05f17348a257e89c4b063e040e69c764d793f4f5bf4555cef8ac71c4bb64618375fb109258f796020b403a445deb5d842e9f57d117498e996231a9b1bdb4b22d7e17b8d84e128d4f797d5346bf37d1fd1b4690303ba00bc5a94df6687f7fae2ef7b5cd1ef4ae64d3ec05dd8a5f04038125a9766d30e97e54b3087e416d6b34a01c346e0400ef51751a3702ab97f6b08c5d4e91d9b8c76ad0f1b6712976c20cb90ed46a334df017e80205aab25ed39a98d8ec93b81ef2c0dce3b080d1e5fcd2745009a474da3b1b8310420e2173d3dd"
     },
     "updateCenterVersion": "1",
     "warnings": [
@@ -142177,7 +142177,7 @@
     ]
   },
   "_metadata": {
-    "generatedAt": "2026-05-25T05:21:57.544Z",
+    "generatedAt": "2026-05-26T05:05:31.031Z",
     "bestMirror": "https://mirror.nju.edu.cn/jenkins/",
     "mirrorsChecked": 10,
     "pluginsModified": 2074,
