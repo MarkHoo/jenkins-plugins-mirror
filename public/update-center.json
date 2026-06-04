@@ -810,7 +810,7 @@
         "url": "https://wiki.jenkins-ci.org/display/JENKINS/ZAProxy+Plugin"
       }
     },
-    "generationTimestamp": "2026-06-03T05:55:19Z",
+    "generationTimestamp": "2026-06-04T05:50:23Z",
     "id": "default",
     "plugins": {
       "42crunch-security-audit": {
@@ -4471,7 +4471,7 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/amqp-build-trigger/latest/amqp-build-trigger.hpi"
       },
       "analysis-model-api": {
-        "buildDate": "Jun 01, 2026",
+        "buildDate": "Jun 03, 2026",
         "defaultBranch": "main",
         "dependencies": [
           {
@@ -4482,7 +4482,7 @@
           {
             "name": "asm-api",
             "optional": false,
-            "version": "9.9.1-189.vb_5ef2964da_91"
+            "version": "9.10.1-216.va_9256d3b_844b_"
           },
           {
             "name": "commons-lang3-api",
@@ -4512,7 +4512,7 @@
           {
             "name": "plugin-util-api",
             "optional": false,
-            "version": "7.1330.v47b_46ee2047a_"
+            "version": "7.1341.v039f146993d9"
           },
           {
             "name": "jsoup",
@@ -4527,7 +4527,7 @@
           }
         ],
         "excerpt": "A library wrapped into a Jenkins plugin to read static analysis reports into a Java object model. It is used by Jenkins&#39; warnings plugin to visualize the warnings of individual builds.",
-        "gav": "io.jenkins.plugins:analysis-model-api:14.10.0-980.v408a_383cb_94d",
+        "gav": "io.jenkins.plugins:analysis-model-api:14.11.0-988.vd59f73b_68dd9",
         "health": 96,
         "issueTrackers": [
           {
@@ -4541,17 +4541,17 @@
         ],
         "name": "analysis-model-api",
         "popularity": 22081,
-        "previousTimestamp": "2026-05-11T19:53:15.00Z",
-        "previousVersion": "14.8.0-976.v5097f60f61a_4",
-        "releaseTimestamp": "2026-06-01T13:15:36.00Z",
+        "previousTimestamp": "2026-06-01T13:15:36.00Z",
+        "previousVersion": "14.10.0-980.v408a_383cb_94d",
+        "releaseTimestamp": "2026-06-03T10:35:44.00Z",
         "requiredCore": "2.555.1",
         "scm": "https://github.com/jenkinsci/analysis-model-api-plugin",
-        "sha1": "/e2NKdlwvBor5tPT7U4vCrG7cX0=",
-        "sha256": "0xgmHWhB2a2Am24+uKbwKdIxITnHQXUDRhJ/jOWSc/0=",
-        "size": 17846426,
+        "sha1": "D05L4rlqfKkxmRJgGrDerdYDZWY=",
+        "sha256": "chz/PfQczriJIacblWvpRzR75zWWZ1Fy9/O+QdVt794=",
+        "size": 18289684,
         "title": "Analysis Model API",
-        "url": "https://updates.jenkins.io/download/plugins/analysis-model-api/14.10.0-980.v408a_383cb_94d/analysis-model-api.hpi",
-        "version": "14.10.0-980.v408a_383cb_94d",
+        "url": "https://updates.jenkins.io/download/plugins/analysis-model-api/14.11.0-988.vd59f73b_68dd9/analysis-model-api.hpi",
+        "version": "14.11.0-988.vd59f73b_68dd9",
         "wiki": "https://plugins.jenkins.io/analysis-model-api",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/analysis-model-api/latest/analysis-model-api.hpi"
       },
@@ -22221,7 +22221,7 @@
         ],
         "excerpt": "BMC AMI DevOps for Change Manager for IMS TM provides the capability of manipulating IMS resources online.",
         "gav": "com.bmc.ims:bmc-change-manager-imstm:83.v761069998a_34",
-        "health": 100,
+        "health": 97,
         "issueTrackers": [
           {
             "reportUrl": "https://github.com/jenkinsci/bmc-change-manager-imstm-plugin/issues/new/choose",
@@ -34342,7 +34342,7 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/covcomplplot/latest/covcomplplot.hpi"
       },
       "coverage": {
-        "buildDate": "Jun 02, 2026",
+        "buildDate": "Jun 03, 2026",
         "defaultBranch": "main",
         "dependencies": [
           {
@@ -34448,7 +34448,7 @@
           }
         ],
         "excerpt": "Collects code coverage results of different tools (JaCoCo, Cobertura, etc.) and visualizes the results.",
-        "gav": "io.jenkins.plugins:coverage:3.3253.v64b_d6024f92a_",
+        "gav": "io.jenkins.plugins:coverage:3.3254.v2b_3c82443169",
         "health": 96,
         "issueTrackers": [
           {
@@ -34460,17 +34460,17 @@
         "labels": [],
         "name": "coverage",
         "popularity": 16315,
-        "previousTimestamp": "2026-06-02T16:25:25.00Z",
-        "previousVersion": "3.3252.v1b_e666641e36",
-        "releaseTimestamp": "2026-06-02T18:51:12.00Z",
+        "previousTimestamp": "2026-06-02T18:51:12.00Z",
+        "previousVersion": "3.3253.v64b_d6024f92a_",
+        "releaseTimestamp": "2026-06-03T15:49:33.00Z",
         "requiredCore": "2.555.1",
         "scm": "https://github.com/jenkinsci/coverage-plugin",
-        "sha1": "S73eeSIvLtkXS7WRutM8Bxt8+a0=",
-        "sha256": "jbJzqW1EN9LXRJpDYSCK/3cXnv9THZ4QDS4Q98erH1Q=",
-        "size": 401469,
+        "sha1": "FIAo+/QAZjZEvLeOcOAClQbqV5g=",
+        "sha256": "U2Vk2/EeQhfvkYEwMPIaA1tp7rJ9K/dDnPNpdngehOw=",
+        "size": 402011,
         "title": "Coverage",
-        "url": "https://updates.jenkins.io/download/plugins/coverage/3.3253.v64b_d6024f92a_/coverage.hpi",
-        "version": "3.3253.v64b_d6024f92a_",
+        "url": "https://updates.jenkins.io/download/plugins/coverage/3.3254.v2b_3c82443169/coverage.hpi",
+        "version": "3.3254.v2b_3c82443169",
         "wiki": "https://plugins.jenkins.io/coverage",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/coverage/latest/coverage.hpi"
       },
@@ -44786,89 +44786,89 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/electricflow/latest/electricflow.hpi"
       },
       "email-ext": {
-        "buildDate": "May 20, 2026",
+        "buildDate": "Jun 03, 2026",
         "compatibleSinceVersion": "2.57.2",
         "defaultBranch": "main",
         "dependencies": [
           {
             "name": "commons-lang3-api",
             "optional": false,
-            "version": "3.18.0-98.v3a_674c06072d"
+            "version": "3.20.0-109.ve43756e2d2b_4"
           },
           {
             "name": "commons-text-api",
             "optional": false,
-            "version": "1.13.1-176.v74d88f22034b_"
+            "version": "1.15.0-218.va_61573470393"
           },
           {
             "name": "jakarta-mail-api",
             "optional": false,
-            "version": "2.1.3-2"
+            "version": "2.1.5-1"
           },
           {
             "name": "workflow-job",
             "optional": true,
-            "version": "1540.v295eccc9778f"
+            "version": "1571.vb_423c255d6d9"
           },
           {
             "name": "workflow-step-api",
             "optional": true,
-            "version": "704.ve4f0967e98fa_"
+            "version": "710.v3e456cc85233"
           },
           {
             "name": "config-file-provider",
             "optional": true,
-            "version": "988.v0461fcc2b_9d1"
+            "version": "1006.vc7366c201f57"
           },
           {
             "name": "credentials",
             "optional": false,
-            "version": "1447.v4cb_b_539b_5321"
+            "version": "1487.va_d001ede2c31"
           },
           {
             "name": "jackson2-api",
             "optional": false,
-            "version": "2.18.3-402.v74c4eb_f122b_2"
+            "version": "2.21.1-428.vf8dd988fa_d8d"
           },
           {
             "name": "jsoup",
             "optional": false,
-            "version": "1.21.1-52.v96e4041b_60fd"
+            "version": "1.22.1-76.v9cdb_2456c0e3"
           },
           {
             "name": "junit",
             "optional": false,
-            "version": "1335.v6b_a_a_e18534e1"
+            "version": "1369.v15da_00283f06"
           },
           {
             "name": "mailer",
             "optional": false,
-            "version": "489.vd4b_25144138f"
+            "version": "534.v1b_36f5864073"
           },
           {
             "name": "matrix-project",
             "optional": true,
-            "version": "849.v0cd64ed7e531"
+            "version": "870.v9db_fcfc2f45b_"
           },
           {
             "name": "scm-api",
             "optional": false,
-            "version": "704.v3ce5c542825a_"
+            "version": "728.vc30dcf7a_0df5"
           },
           {
             "name": "script-security",
             "optional": false,
-            "version": "1373.vb_b_4a_a_c26fa_00"
+            "version": "1399.ve6a_66547f6e1"
           },
           {
             "name": "structs",
             "optional": false,
-            "version": "350.v3b_30f09f2363"
+            "version": "362.va_b_695ef4fdf9"
           },
           {
             "name": "token-macro",
             "optional": false,
-            "version": "444.v52de7e9c573d"
+            "version": "477.vd4f0dc3cb_cf1"
           }
         ],
         "developers": [
@@ -44878,7 +44878,7 @@
           }
         ],
         "excerpt": "This plugin is a replacement for Jenkins&#39;s email publisher. It allows to configure every aspect of email notifications: when an email is sent, who should receive it and what the email says",
-        "gav": "org.jenkins-ci.plugins:email-ext:1933.1935.v276319e3cc47",
+        "gav": "org.jenkins-ci.plugins:email-ext:2038.v7b_8817a_499d9",
         "health": 100,
         "issueTrackers": [
           {
@@ -44894,17 +44894,17 @@
         ],
         "name": "email-ext",
         "popularity": 231744,
-        "previousTimestamp": "2025-10-12T02:07:18.00Z",
-        "previousVersion": "1933.v45cec755423f",
-        "releaseTimestamp": "2026-05-20T12:01:12.00Z",
-        "requiredCore": "2.479.3",
+        "previousTimestamp": "2026-05-20T12:01:12.00Z",
+        "previousVersion": "1933.1935.v276319e3cc47",
+        "releaseTimestamp": "2026-06-03T15:49:58.00Z",
+        "requiredCore": "2.516.3",
         "scm": "https://github.com/jenkinsci/email-ext-plugin",
-        "sha1": "+EqGGcDfqWNUrg9329/CZalaYXo=",
-        "sha256": "9B+T1bw21H6vSd1fSPKJ+XWLVkfq0dahTZoPjwl9UXI=",
-        "size": 563070,
+        "sha1": "9YgNFpl086ni3rDV7TVJjjO3aqQ=",
+        "sha256": "BY1JokU3vBNmtYVWYoYdfxHzpIJDDseleSqpu74r1H0=",
+        "size": 570889,
         "title": "Email Extension",
-        "url": "https://updates.jenkins.io/download/plugins/email-ext/1933.1935.v276319e3cc47/email-ext.hpi",
-        "version": "1933.1935.v276319e3cc47",
+        "url": "https://updates.jenkins.io/download/plugins/email-ext/2038.v7b_8817a_499d9/email-ext.hpi",
+        "version": "2038.v7b_8817a_499d9",
         "wiki": "https://plugins.jenkins.io/email-ext",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/email-ext/latest/email-ext.hpi"
       },
@@ -58059,7 +58059,7 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/hashicorp-vault-pipeline/latest/hashicorp-vault-pipeline.hpi"
       },
       "hashicorp-vault-plugin": {
-        "buildDate": "Jun 01, 2026",
+        "buildDate": "Jun 04, 2026",
         "compatibleSinceVersion": "2.0.0",
         "defaultBranch": "master",
         "dependencies": [
@@ -58129,7 +58129,7 @@
           }
         ],
         "excerpt": "Jenkins plugin to populate environment variables from secrets stored in HashiCorp&#39;s <a href=\"http://vaultproject.io/\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Vault</a>",
-        "gav": "com.datapipe.jenkins.plugins:hashicorp-vault-plugin:382.v6a_1a_a_1647a_19",
+        "gav": "com.datapipe.jenkins.plugins:hashicorp-vault-plugin:383.v7529eea_ef531",
         "health": 94,
         "issueTrackers": [
           {
@@ -58148,17 +58148,17 @@
         ],
         "name": "hashicorp-vault-plugin",
         "popularity": 9523,
-        "previousTimestamp": "2026-05-28T09:04:36.00Z",
-        "previousVersion": "381.v4277b_9fa_a_380",
-        "releaseTimestamp": "2026-06-01T12:14:49.00Z",
+        "previousTimestamp": "2026-06-01T12:14:49.00Z",
+        "previousVersion": "382.v6a_1a_a_1647a_19",
+        "releaseTimestamp": "2026-06-04T05:02:23.00Z",
         "requiredCore": "2.479.3",
         "scm": "https://github.com/jenkinsci/hashicorp-vault-plugin",
-        "sha1": "1XPhA6K2R2Zzr/osJRviFLzh9Bk=",
-        "sha256": "geUkiYXyc5uIwbISjHBg2oU0sSTjkTAkQ/7Kuqyl65s=",
-        "size": 294574,
+        "sha1": "3NvRIemwSrGnMCHOwAxzhEI7J5I=",
+        "sha256": "gmWqkQK28s6vW+PisnloG4c5nVqZAEKCKy5TZ3JF0qg=",
+        "size": 294880,
         "title": "HashiCorp Vault",
-        "url": "https://updates.jenkins.io/download/plugins/hashicorp-vault-plugin/382.v6a_1a_a_1647a_19/hashicorp-vault-plugin.hpi",
-        "version": "382.v6a_1a_a_1647a_19",
+        "url": "https://updates.jenkins.io/download/plugins/hashicorp-vault-plugin/383.v7529eea_ef531/hashicorp-vault-plugin.hpi",
+        "version": "383.v7529eea_ef531",
         "wiki": "https://plugins.jenkins.io/hashicorp-vault-plugin",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/hashicorp-vault-plugin/latest/hashicorp-vault-plugin.hpi"
       },
@@ -80866,7 +80866,7 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/nowsecure-auto-security-test/latest/nowsecure-auto-security-test.hpi"
       },
       "nowsecure-ci-assessments": {
-        "buildDate": "Apr 15, 2026",
+        "buildDate": "Jun 03, 2026",
         "defaultBranch": "main",
         "dependencies": [
           {
@@ -80891,7 +80891,7 @@
           }
         ],
         "excerpt": "NowSecure provides purpose-built, fully automated mobile application security testing (static and dynamic) for your development pipeline. By testing your mobile application binary post-build from Jenkins, NowSecure ensures comprehensive coverage of newly developed code, third party components, and system dependencies. NowSecure quickly identifies and details real issues, provides remediation recommendations, and integrates with ticketing systems such as Azure DevOps and Jira. This integration requires a NowSecure platform license. See <a href=\"https://www.nowsecure.com\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">https://www.nowsecure.com</a> for more information.",
-        "gav": "io.jenkins.plugins:nowsecure-ci-assessments:0.1.1.56.v4ff5b_a_599d50",
+        "gav": "io.jenkins.plugins:nowsecure-ci-assessments:0.1.1.57.vf949987f2d00",
         "health": 100,
         "issueTrackers": [
           {
@@ -80903,17 +80903,17 @@
         "labels": [],
         "name": "nowsecure-ci-assessments",
         "popularity": 0,
-        "previousTimestamp": "2025-10-16T17:13:51.00Z",
-        "previousVersion": "0.1.0.53.ved530f50c6d9",
-        "releaseTimestamp": "2026-04-15T19:00:12.00Z",
+        "previousTimestamp": "2026-04-15T19:00:12.00Z",
+        "previousVersion": "0.1.1.56.v4ff5b_a_599d50",
+        "releaseTimestamp": "2026-06-03T17:29:47.00Z",
         "requiredCore": "2.541.3",
         "scm": "https://github.com/jenkinsci/nowsecure-ci-assessments-plugin",
-        "sha1": "iLXqhYfTbTT265KqYh98F/3jzKQ=",
-        "sha256": "N94vLvINVe45lUmocXDjNRDdC3XrxV58LvjrfMDgMsE=",
-        "size": 9452825,
+        "sha1": "7pIZ10777PNDq0463CuWUkdmAi0=",
+        "sha256": "4rnCUmMQK3UpEJn+kBvvfuHFrzmv0WTMxEjKYdw9yJw=",
+        "size": 9453359,
         "title": "NowSecure CI Assessments",
-        "url": "https://updates.jenkins.io/download/plugins/nowsecure-ci-assessments/0.1.1.56.v4ff5b_a_599d50/nowsecure-ci-assessments.hpi",
-        "version": "0.1.1.56.v4ff5b_a_599d50",
+        "url": "https://updates.jenkins.io/download/plugins/nowsecure-ci-assessments/0.1.1.57.vf949987f2d00/nowsecure-ci-assessments.hpi",
+        "version": "0.1.1.57.vf949987f2d00",
         "wiki": "https://plugins.jenkins.io/nowsecure-ci-assessments",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/nowsecure-ci-assessments/latest/nowsecure-ci-assessments.hpi"
       },
@@ -89229,7 +89229,7 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/pipeline-lib-oras/latest/pipeline-lib-oras.hpi"
       },
       "pipeline-maven": {
-        "buildDate": "May 20, 2026",
+        "buildDate": "Jun 03, 2026",
         "compatibleSinceVersion": "1333",
         "defaultBranch": "master",
         "dependencies": [
@@ -89276,7 +89276,7 @@
           {
             "name": "credentials-binding",
             "optional": false,
-            "version": "720.v3f6decef43ea_"
+            "version": "725.ve52b_2328a_fde"
           },
           {
             "name": "credentials",
@@ -89326,7 +89326,7 @@
           {
             "name": "pipeline-maven-api",
             "optional": false,
-            "version": "1724.vfcd808f49a_0c"
+            "version": "1734.v0c52cefceb_df"
           },
           {
             "name": "script-security",
@@ -89367,7 +89367,7 @@
           }
         ],
         "excerpt": "This plugin provides integration with Pipeline, configures maven environment to use within a pipeline job by calling sh mvn or bat mvn. The selected maven installation will be configured and prepended to the path.",
-        "gav": "org.jenkins-ci.plugins:pipeline-maven:1724.vfcd808f49a_0c",
+        "gav": "org.jenkins-ci.plugins:pipeline-maven:1734.v0c52cefceb_df",
         "health": 100,
         "issueTrackers": [
           {
@@ -89382,22 +89382,22 @@
         ],
         "name": "pipeline-maven",
         "popularity": 26768,
-        "previousTimestamp": "2026-05-09T14:47:00.00Z",
-        "previousVersion": "1719.v0a_884457729c",
-        "releaseTimestamp": "2026-05-20T09:56:12.00Z",
+        "previousTimestamp": "2026-05-20T09:56:12.00Z",
+        "previousVersion": "1724.vfcd808f49a_0c",
+        "releaseTimestamp": "2026-06-03T11:33:05.00Z",
         "requiredCore": "2.528.3",
         "scm": "https://github.com/jenkinsci/pipeline-maven-plugin",
-        "sha1": "44JIbC2ZWO1kp6/e7EAjVYONtXw=",
-        "sha256": "zg3/2wKWSdMQqSWCIo16L1UGHAvuOuElaszx7s0s+68=",
-        "size": 322406,
+        "sha1": "nxbXzuDzrHBEUdWG3AqrMKtpwG0=",
+        "sha256": "oKW8P+VfSxhGdF83Dodi6ABKNitPsaIoxp5UP+zufho=",
+        "size": 322504,
         "title": "Pipeline Maven Integration",
-        "url": "https://updates.jenkins.io/download/plugins/pipeline-maven/1724.vfcd808f49a_0c/pipeline-maven.hpi",
-        "version": "1724.vfcd808f49a_0c",
+        "url": "https://updates.jenkins.io/download/plugins/pipeline-maven/1734.v0c52cefceb_df/pipeline-maven.hpi",
+        "version": "1734.v0c52cefceb_df",
         "wiki": "https://plugins.jenkins.io/pipeline-maven",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/pipeline-maven/latest/pipeline-maven.hpi"
       },
       "pipeline-maven-api": {
-        "buildDate": "May 20, 2026",
+        "buildDate": "Jun 03, 2026",
         "defaultBranch": "master",
         "dependencies": [
           {
@@ -89430,7 +89430,7 @@
           }
         ],
         "excerpt": "Pipeline Maven Plugin API",
-        "gav": "org.jenkins-ci.plugins:pipeline-maven-api:1724.vfcd808f49a_0c",
+        "gav": "org.jenkins-ci.plugins:pipeline-maven-api:1734.v0c52cefceb_df",
         "health": 100,
         "labels": [
           "maven",
@@ -89438,22 +89438,22 @@
         ],
         "name": "pipeline-maven-api",
         "popularity": 19074,
-        "previousTimestamp": "2026-05-09T14:46:59.00Z",
-        "previousVersion": "1719.v0a_884457729c",
-        "releaseTimestamp": "2026-05-20T09:56:11.00Z",
+        "previousTimestamp": "2026-05-20T09:56:11.00Z",
+        "previousVersion": "1724.vfcd808f49a_0c",
+        "releaseTimestamp": "2026-06-03T11:33:04.00Z",
         "requiredCore": "2.528.3",
         "scm": "https://github.com/jenkinsci/pipeline-maven-plugin",
-        "sha1": "TAbDpssD+x2G31UoU9647D0GWvE=",
-        "sha256": "ghpGMAWMn7O2f61jxRoQTnAJ4sGh7tNGIFI/X/qfH1Q=",
+        "sha1": "/OCMXsx0H7WdphsMOV9HagxXHx4=",
+        "sha256": "ZhmG9eZm05DBxNn8rlMlLFmG0cwwfG2AFYCyW02LiSM=",
         "size": 30321,
         "title": "Pipeline Maven Plugin API",
-        "url": "https://updates.jenkins.io/download/plugins/pipeline-maven-api/1724.vfcd808f49a_0c/pipeline-maven-api.hpi",
-        "version": "1724.vfcd808f49a_0c",
+        "url": "https://updates.jenkins.io/download/plugins/pipeline-maven-api/1734.v0c52cefceb_df/pipeline-maven-api.hpi",
+        "version": "1734.v0c52cefceb_df",
         "wiki": "https://plugins.jenkins.io/pipeline-maven-api",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/pipeline-maven-api/latest/pipeline-maven-api.hpi"
       },
       "pipeline-maven-database": {
-        "buildDate": "May 20, 2026",
+        "buildDate": "Jun 03, 2026",
         "defaultBranch": "master",
         "dependencies": [
           {
@@ -89479,7 +89479,7 @@
           {
             "name": "pipeline-maven-api",
             "optional": false,
-            "version": "1724.vfcd808f49a_0c"
+            "version": "1734.v0c52cefceb_df"
           }
         ],
         "developers": [
@@ -89501,7 +89501,7 @@
           }
         ],
         "excerpt": "Pipeline Maven Plugin API",
-        "gav": "org.jenkins-ci.plugins:pipeline-maven-database:1724.vfcd808f49a_0c",
+        "gav": "org.jenkins-ci.plugins:pipeline-maven-database:1734.v0c52cefceb_df",
         "health": 100,
         "labels": [
           "maven",
@@ -89509,17 +89509,17 @@
         ],
         "name": "pipeline-maven-database",
         "popularity": 885,
-        "previousTimestamp": "2026-05-09T14:47:01.00Z",
-        "previousVersion": "1719.v0a_884457729c",
-        "releaseTimestamp": "2026-05-20T09:56:12.00Z",
+        "previousTimestamp": "2026-05-20T09:56:12.00Z",
+        "previousVersion": "1724.vfcd808f49a_0c",
+        "releaseTimestamp": "2026-06-03T11:33:05.00Z",
         "requiredCore": "2.528.3",
         "scm": "https://github.com/jenkinsci/pipeline-maven-plugin",
-        "sha1": "K6Ax+qYrqQsL3D327bzWJEWJ9mc=",
-        "sha256": "3Y/wmguDjmor4FLPwnBg/cJWDUBczbxJ0PFka9UerLE=",
-        "size": 225966,
+        "sha1": "fwA4a1b4LcPDDMx9jkGZI2ZL5BQ=",
+        "sha256": "a7Nru4N5yPKeZz6VLXR4nBftaObf9on26kHPoEn6a9E=",
+        "size": 225958,
         "title": "Pipeline Maven Plugin Database",
-        "url": "https://updates.jenkins.io/download/plugins/pipeline-maven-database/1724.vfcd808f49a_0c/pipeline-maven-database.hpi",
-        "version": "1724.vfcd808f49a_0c",
+        "url": "https://updates.jenkins.io/download/plugins/pipeline-maven-database/1734.v0c52cefceb_df/pipeline-maven-database.hpi",
+        "version": "1734.v0c52cefceb_df",
         "wiki": "https://plugins.jenkins.io/pipeline-maven-database",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/pipeline-maven-database/latest/pipeline-maven-database.hpi"
       },
@@ -96219,7 +96219,7 @@
         ],
         "excerpt": "This plugin enables integration with Review Board, allowing review requests to automatically start builds, as well as have status updates provided by Jenkins.",
         "gav": "org.jenkins-ci.plugins:rb:1.74.vdf921c7a_8f21",
-        "health": 85,
+        "health": 96,
         "issueTrackers": [
           {
             "reportUrl": "https://www.jenkins.io/participate/report-issue/redirect/#24655/rb",
@@ -97746,7 +97746,7 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/report-info/latest/report-info.hpi"
       },
       "report-jtreg": {
-        "buildDate": "May 27, 2026",
+        "buildDate": "Jun 03, 2026",
         "defaultBranch": "master",
         "dependencies": [
           {
@@ -97762,7 +97762,7 @@
           }
         ],
         "excerpt": "JUnit/XUnit/jtreg/JCK compatible results publisher plugin targeting huge result bases",
-        "gav": "io.jenkins.plugins:report-jtreg:5.1.0",
+        "gav": "io.jenkins.plugins:report-jtreg:5.1.1",
         "health": 100,
         "issueTrackers": [
           {
@@ -97774,17 +97774,17 @@
         "labels": [],
         "name": "report-jtreg",
         "popularity": 72,
-        "previousTimestamp": "2026-05-04T10:46:44.00Z",
-        "previousVersion": "5.0.1",
-        "releaseTimestamp": "2026-05-27T13:43:24.00Z",
-        "requiredCore": "2.400",
+        "previousTimestamp": "2026-05-27T13:43:24.00Z",
+        "previousVersion": "5.1.0",
+        "releaseTimestamp": "2026-06-03T15:53:34.00Z",
+        "requiredCore": "2.479.3",
         "scm": "https://github.com/jenkinsci/report-jtreg-plugin",
-        "sha1": "1/twMKwTyWXYHci03QPCXAW9Lvw=",
-        "sha256": "vYSoWmUguj5LblZtBrmpKkIljZhmRG+moi3v3H+HWTI=",
-        "size": 1755370,
+        "sha1": "nCqa59GyahZSSOHeFFcXc66vdog=",
+        "sha256": "A72saI2/ozPus/TdsAr48TDuyFMQsBDYg0XLDSZgh7E=",
+        "size": 1755589,
         "title": "report-jtreg",
-        "url": "https://updates.jenkins.io/download/plugins/report-jtreg/5.1.0/report-jtreg.hpi",
-        "version": "5.1.0",
+        "url": "https://updates.jenkins.io/download/plugins/report-jtreg/5.1.1/report-jtreg.hpi",
+        "version": "5.1.1",
         "wiki": "https://plugins.jenkins.io/report-jtreg",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/report-jtreg/latest/report-jtreg.hpi"
       },
@@ -101514,7 +101514,7 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/secondary-timestamper-plugin/latest/secondary-timestamper-plugin.hpi"
       },
       "secone-sca-sast-security-scanner": {
-        "buildDate": "May 18, 2026",
+        "buildDate": "Jun 03, 2026",
         "defaultBranch": "main",
         "dependencies": [
           {
@@ -101544,8 +101544,8 @@
           }
         ],
         "excerpt": "Integrates Sec1 Security scanning into your CI/CD pipeline, enabling teams to identify vulnerabilities and security issues early in the development lifecycle.",
-        "gav": "io.jenkins.plugins:secone-sca-sast-security-scanner:26.v038b_b_a_530011",
-        "health": 100,
+        "gav": "io.jenkins.plugins:secone-sca-sast-security-scanner:29.v001b_a_b_905b_80",
+        "health": 98,
         "issueTrackers": [
           {
             "reportUrl": "https://www.jenkins.io/participate/report-issue/redirect/#29523/secone-sca-sast-security-scanner",
@@ -101559,17 +101559,17 @@
         ],
         "name": "secone-sca-sast-security-scanner",
         "popularity": 3,
-        "previousTimestamp": "2026-03-17T09:03:04.00Z",
-        "previousVersion": "24.vf7f4e7888003",
-        "releaseTimestamp": "2026-05-18T13:22:33.00Z",
+        "previousTimestamp": "2026-05-18T13:22:33.00Z",
+        "previousVersion": "26.v038b_b_a_530011",
+        "releaseTimestamp": "2026-06-03T15:12:04.00Z",
         "requiredCore": "2.462.1",
         "scm": "https://github.com/jenkinsci/secone-security-scanner-plugin",
-        "sha1": "ZdlrvOIwHmx+bucai3aFJEMl5TE=",
-        "sha256": "bYNoG83txAxn0w7vbyJ/tOVIVIwYIPkO+efpOWoxS8A=",
-        "size": 28605,
+        "sha1": "99axLvCbWmrGTFe3ERK7sG2oC3w=",
+        "sha256": "na7Z43NZLDbQXebtn00Esp8KEzGNCUi7O5g+hASguno=",
+        "size": 44942,
         "title": "Sec1 Security Scanner",
-        "url": "https://updates.jenkins.io/download/plugins/secone-sca-sast-security-scanner/26.v038b_b_a_530011/secone-sca-sast-security-scanner.hpi",
-        "version": "26.v038b_b_a_530011",
+        "url": "https://updates.jenkins.io/download/plugins/secone-sca-sast-security-scanner/29.v001b_a_b_905b_80/secone-sca-sast-security-scanner.hpi",
+        "version": "29.v001b_a_b_905b_80",
         "wiki": "https://plugins.jenkins.io/secone-sca-sast-security-scanner",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/secone-sca-sast-security-scanner/latest/secone-sca-sast-security-scanner.hpi"
       },
@@ -123012,10 +123012,10 @@
       "certificates": [
         "MIIFqjCCA5KgAwIBAgIFAN6tvwUwDQYJKoZIhvcNAQENBQAwgYoxCzAJBgNVBAYTAlVTMRMwEQYDVQQIDApDYWxpZm9ybmlhMREwDwYDVQQHDAhTYW4gSm9zZTEYMBYGA1UECgwPSmVua2lucyBQcm9qZWN0MRowGAYDVQQDDBFLb2hzdWtlIEthd2FndWNoaTEdMBsGCSqGSIb3DQEJARYOa2tAa29oc3VrZS5vcmcwHhcNMjYwMTE0MTU0MjQyWhcNMjcwMTE0MTU0MjQyWjBeMQswCQYDVQQGEwJVUzETMBEGA1UECAwKQ2FsaWZvcm5pYTEYMBYGA1UECgwPSmVua2lucyBQcm9qZWN0MSAwHgYDVQQDDBdDb21tdW5pdHkgVXBkYXRlIENlbnRlcjCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBALQMWCFq7SaGA+hp98UAzgLkCO6NFlcK9n2mMQ0c6/4b6qI3n53Ak/ljF+4ekEb3p5tnI0iwj0GZjFc5hW1gtz3mfbkxTb7fk5LJFj90NZHr0isb5D21w2fkjGp9h81kGliUZcm3dpdrXMW2Gh1HYcF4uijuz1mzrFt2Ew2vgDse5EFYb32bk6Xmi/dhf0l9r+oKT6bChijgHr3WynRSdDL9y1XDqUq06ZAVp4RqVwwpezrYgJ/OPRZeg9CctnUoFR8BgHKWeNgwuyWrtBKST5pnQmhTEM53qVHzQTgrBP4Vqj38I1R39qPZa4cu3QUXMr8CsfrJ1wF8y3OmXp3pNfbXivb7RoanXYO+uZzoYOaaHAXTICFLUqR0sxJfiOTejm87P9F+EzEvuPGFDAkbo7qrW/hReHYycOiiqPggfLsglZTNJEdd4oLdvDZLnBJWBQscl98f/pVu3Pzld0RnU9phhCMXfVLkeQBQtAxfmqaVnMurELBNeK8ybriTQlAdnkBRzv3NAilUaAfI0gSh/beN2qNlII3kEOSpasAbEVbfBB+r9hNzFj4+Sqi8E+YZbMQjFtdHdO/iQCrcUiqDnTBsxL7u7xzfvLJTxoISUrCigVgUGryaouyUhARHpQwcVG4hewFspJZUaQv7aj0hlpQUC42+2zWr/NK5rVQAZD9RAgMBAAGjQjBAMB0GA1UdDgQWBBR2GjaTNzVHFuMTbEl9hRAbjCtQ2DAfBgNVHSMEGDAWgBQRxuXUMC3pVcYBtWtQctI2frQBhzANBgkqhkiG9w0BAQ0FAAOCAgEAOgskYoOGDmEZIjYUy2tYTKI6eKnpAiQA0yETLdam9wOGGL6J6e7BT5JoyxBrDXy4xrZsDyFOBPB8Di8ETF1mr9k6GsyBO8S/SYd/1qYg9kkHXq2x62WmDs0K7h9N2M9LAEFDvdZYvOnDzgFhcaFfsxUPS9qDFws33NDBTKo/Ya2UIjzyl1H68bw5VG1temOtAzvW+6EA4j2bzgv5NbaUGrZq5Y8yiWRDjdAbMBu0lDnJP7pTLs16jEE1FWfkJhkaU6TbMP6rzehjMkiplu+S0qnVQBUgME2U4EMxCM31oixUl/+WvZ5GQHR8GVdsFkQYs2K3L0i7a9bxc8jD6kzU/sSJwJxnqocB1JnZF1CFbT78bdTaBtZty7MVSUdXYCAf6XZPCMYOGN7Cb7YpLqn0hUCy2tIdHw6TUluyOkP0AoOLFijThtafcgQI19QyCa85DUZxwG1QsVFbGyqv6+47DbX2CUKzNLyfKJhivzwfagKZDo5KaZouv7lO5RMj8onHK+MrkzvJG1kFcFw5lO1ms5QKPNi3RfrQqWQ4rjVBbPdNx4xRpHVpcXp9MXCg64prwGHXrPN2yl2VRYrxwlLRhee27H07ZA9ujLB4PU8ppb6uQH2GQiKpXoRlzQBQej4zhquVM8rQaPfXV8DGNu4lx77tNtgK8uetQxyh4vBOpGA="
       ],
-      "correct_digest": "dPjcWdZlnr+GgSpXtbxzQ1+Q3io=",
-      "correct_digest512": "aa82c9345a1c5da8334368dd825048e16341c5fac38cad7812bea786498f113fb1b6927c634c23e30c188699ffc6a150a9337126bd36a25985daf6b3a9f831ee",
-      "correct_signature": "K2wW8i2YxaCJ5qaDEvhmlmyEeRgCDzcwZ4YR0cLKY1IQal3NFfhp9bgvIJgDHdWt0aKa3HDtCtBIiuwSGAf7csbOLgRrZXzMxRJthx6o+u9UpzDXI1Cga4dFPhe8m9t6eOlghy8J4XpjFO7Qi/DsSV3S9yhcxsNDIlniArxy/ftRrPYycfOPZVxFMWmgsMTbvPWYcwK3tk2SOiV5yK2h21y4QKSeoGjmyqR+BM3T2s4oIm0Z5WSOlh5TS+0RB1292Ivh9kw9k4Aq6qOjP+fioC9Owg0NL+5EzcJTIIZefCbmUi7rInJE0zJEpiM4o0p3ZTKrCHloo/k7zqgLd+NeuD6F/LutGmG7czqcemJqH3fEE4uqPnMeW6NemzuX9oO1Y2Tmgr4nHoCtX9Udlvl3ox2WrMS8qZ25HC0W/RHgZCpWYvXVVJEE+vEISRarsa3Q7TCDE3jrqsYci7J+rzR7HkNHYuCkn0OZX0yhKxX3FXCnGjOAxIOgM7dVeGr8bU2aWnUKIACVePV083qrbbJV5uxoxekVlsuJlslQLtnWWe8lTp39ySgUtYE6wALntkhAF37szbVvTn8ULHNkP+ZO/n6p2wAicUAuynFz9gWYG8V/7bhp2Dc9gty5UIe3LxiKADg29niL4rQxPOsiZmTPu0p/Pw6sbD0Oz6z4dxQglNQ=",
-      "correct_signature512": "3f50f58cf27221ad9ed4a6aeb1657b06c93647784509e8917bb95e834c1bd61de3dc4348845fc57ed634865bdf014618f043f1ffb48e29a7d19a24b27aa01ed857a68f923eb7f4ea9619b974f4b73c967b125a19ca8741005c50cbf37029bc58c5f26b6235a8bf5adfa466c918835340b08104133838a02c4b3f2b452d1113fb1ea692add304b595b256c22900aff5dcd1bc1bc528787afa5e056c16466c41387eb57d2ac0b3f957556cf62a4162056ef23396ab64690270f70a88ef15b80144c7331a54e8c0e5a50970e5a693539e19170bbcefdd26f6a910c07e9b38546fba1681272e5349dc79b213898e4b7205ced6b766b40e616ba413d1e19ad9e42adf313f2e3c8ed80babede088d7d78f8448f21ba73e9b29b194dd5a20f210bd00a4c24f34873f686be00e7e89a818e54ff39516a17f25a539deb92fda9bb1928f6cc4eac7eb97aebc70b0c563bf06dae0f3121abe577baad7414c52c58a4959f027a577a9358f3930662a1a9dc92141866c8c72d44ce440c2784e6789fd95e226227a013df05ffb196a990562726088e0e993aee9c72b5e3d45e27459077625b3f018c31d20acbcbab85a199b8b123c86fafc02b68b944ecb4dcde7e17833d60c27cc2fb1330d8922b101581b48cacbf4b96bab3c0510aab4685dc56659695f22aa7a263b681f9cebe340220f0b89e3c2dc1275387c161ad0c7abe794920540f91d"
+      "correct_digest": "T0QsqHC/5BvKVmEorSsmrLjFp54=",
+      "correct_digest512": "4e73aea66ac18cade977f163bbdd5ea57f0fa1372c5b17bea1d72dfff0d42f4029236b9751933f121d4679965d446bd375ca6c78b36507af730c4e86a6563fc6",
+      "correct_signature": "cWL/D6eh0v99DQJidHpryx70fLUdMLzIqtpVIOFzkDCc+FkQq6lopwDPOnL3AW4FmLmKs2zJ69F1vN4+6Vm2ecO8iJsWC6LCE0bnspnjPR9wKPk8H9NVcppmR9A87WDqxr/+bzVNKd3JCKZxyBXV0JVu1ZO3Q2ahUUNJ/9VIpsHOD6ebmDX4QahINV9f9S3jXOzxvTQUR4phY59owOBSSp1BqHqrhs9yWQJjzAq9oShkqeyAkpXJ0Rj93EoIO8dOEknanCXzi8jd+JrU8WPdGOWLQJRbQdDwl7XhDxpTvr5j8AjuEyQpNDXF8Y4qj7/YCneZu5XFRWDy09LS8y4SYNfBc37lq9BjBiBvw1MIbY9Mbmgdr6xMiIJ192OTiIX5QThrq6ATmuMj9QKq6yR+DZPKm9rkh3x+ikPTvAmvjBiJegHSJxhl2xPkq0Kz8GhBAirvzk7OUEy9CHK9haOI85SA9dIl3Ijt+yolDhu9aB64cMZ+mcRekmsqomAZMg/GmuDI4ykkFzQ9MjUE8YQsrqmr+zdEvj3/HGSA5g4RsPX7wuLL4WeEfzZxgJ4JjmbC5A366U+oIYCnfO/4j2AzAC4wHBO8X44DQU9AiWc1xp9YQXwJyNdDjegadh6tezKSr2R3sfa4JTtlGy+Q2YccgygTmv8dRW+1X+QiQXU9JIM=",
+      "correct_signature512": "5f0793be01191f72433d9ea057e58bf2d070b747ab73ea499eb736c132e7d37fa9fccb7d9f7e54c9d801beef5e910f4cb1f0024666e350bea2f75dd6be29ed25d71b98419e860d227d30324d5856825b6681ec347b0aba05050eea193aa928656fa008fa5566856f0f7bb5bf01b94e7f160da6d63c23e595808ae85d45be23f6d79bc17bf01f2d31d0f63b7776b1767778a9847f9b744003d0bbaa2c3045a754b36558ca5d8341aeb60fecfbd530814e7669b628c749467d055b9cc7f0d00c9756f74244fec786e5c953c1a4b39f50b695e5333fa45f1aa7398d058d69775414b74978795835779382a907ac6639cff7659c38e753f7cae5b8909ddce2ed1c1e0010a3fc5ee08f4eb8580c3e20fb2200039f4508847c70e2f37b3345ab4b5e611cb23c2594a864965011d2b271757e5e11bdc398135904a01306483123bbd13baea3438cc3a040d5a98a0c25f3788087520d2559d1b61ce57abad42629232ee73641c535097942c22be80084e0322c0204eb971ccae8bd1e56e229efc1defe26f9f44b9c97c5b3264fa5a5c6aef2951f8025fb9c8b12a162f8c28eb74e1e8cfb6d2af03b68204ec30c9f65e95df8654311f9f007f801ff6721044571f991fcec86b4791157082a3ad22ce34220e69adeb13bd38a61c8bef8be4852e53ae3d82f414bf302de3b9c7767dbae15688699bc6312b68ab02455e1e4c8dcac344ef284"
     },
     "updateCenterVersion": "1",
     "warnings": [
@@ -142535,7 +142535,7 @@
     ]
   },
   "_metadata": {
-    "generatedAt": "2026-06-03T06:03:25.805Z",
+    "generatedAt": "2026-06-04T05:56:07.102Z",
     "bestMirror": "https://mirror.nju.edu.cn/jenkins/",
     "mirrorsChecked": 10,
     "pluginsModified": 2078,
