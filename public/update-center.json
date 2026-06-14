@@ -810,7 +810,7 @@
         "url": "https://wiki.jenkins-ci.org/display/JENKINS/ZAProxy+Plugin"
       }
     },
-    "generationTimestamp": "2026-06-13T05:15:45Z",
+    "generationTimestamp": "2026-06-14T05:45:16Z",
     "id": "default",
     "plugins": {
       "42crunch-security-audit": {
@@ -22376,7 +22376,7 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/bootstrap4-api/latest/bootstrap4-api.hpi"
       },
       "bootstrap5-api": {
-        "buildDate": "May 05, 2026",
+        "buildDate": "Jun 13, 2026",
         "defaultBranch": "main",
         "dependencies": [
           {
@@ -22402,7 +22402,7 @@
           }
         ],
         "excerpt": "Provides <a href=\"https://getbootstrap.com/\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Bootstrap 5</a> for Jenkins Plugins. Bootstrap is (according to their self-perception) the world’s most popular front-end component library to build responsive, mobile-first projects on the web.",
-        "gav": "io.jenkins.plugins:bootstrap5-api:5.3.8-1038.vee76a_fe825ff",
+        "gav": "io.jenkins.plugins:bootstrap5-api:5.3.8-1048.va_c299057e35c",
         "health": 96,
         "issueTrackers": [
           {
@@ -22416,17 +22416,17 @@
         ],
         "name": "bootstrap5-api",
         "popularity": 244333,
-        "previousTimestamp": "2026-04-11T21:30:15.00Z",
-        "previousVersion": "5.3.8-1024.v127320880c60",
-        "releaseTimestamp": "2026-05-05T10:30:23.00Z",
+        "previousTimestamp": "2026-05-05T10:30:23.00Z",
+        "previousVersion": "5.3.8-1038.vee76a_fe825ff",
+        "releaseTimestamp": "2026-06-13T20:51:00.00Z",
         "requiredCore": "2.555.1",
         "scm": "https://github.com/jenkinsci/bootstrap5-api-plugin",
-        "sha1": "MMvzBnzts0p18j86wHa1fER5SwM=",
-        "sha256": "vrJYFQ4Nd3wylcOqw0haA5eEBP0ueaP3tmbI3EY+o0I=",
-        "size": 515089,
+        "sha1": "i/nwEMk8wKUA4vH1Muf7LlLCnxM=",
+        "sha256": "QCe0zsvbQAxM32vu01HLJ6Lg70w50nYY40L612pEkN8=",
+        "size": 515073,
         "title": "Bootstrap 5 API",
-        "url": "https://updates.jenkins.io/download/plugins/bootstrap5-api/5.3.8-1038.vee76a_fe825ff/bootstrap5-api.hpi",
-        "version": "5.3.8-1038.vee76a_fe825ff",
+        "url": "https://updates.jenkins.io/download/plugins/bootstrap5-api/5.3.8-1048.va_c299057e35c/bootstrap5-api.hpi",
+        "version": "5.3.8-1048.va_c299057e35c",
         "wiki": "https://plugins.jenkins.io/bootstrap5-api",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/bootstrap5-api/latest/bootstrap5-api.hpi"
       },
@@ -23712,7 +23712,7 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/build-metrics/latest/build-metrics.hpi"
       },
       "build-monitor-plugin": {
-        "buildDate": "Mar 23, 2026",
+        "buildDate": "Jun 13, 2026",
         "defaultBranch": "master",
         "dependencies": [
           {
@@ -23723,7 +23723,7 @@
           {
             "name": "workflow-cps",
             "optional": true,
-            "version": "4259.vf653c2b_8a_b_69"
+            "version": "4263.vd2edf31c1db_0"
           },
           {
             "name": "workflow-job",
@@ -23796,7 +23796,7 @@
           }
         ],
         "excerpt": "Provides a highly visible view of the status of selected Jenkins jobs. It easily accommodates different computer screen sizes and is ideal as an Extreme Feedback Device to be displayed on a screen on your office wall.",
-        "gav": "org.jenkins-ci.plugins:build-monitor-plugin:1034.vd5c4f4d17b_ff",
+        "gav": "org.jenkins-ci.plugins:build-monitor-plugin:1076.v651a_12e63830",
         "health": 100,
         "issueTrackers": [
           {
@@ -23817,17 +23817,17 @@
         ],
         "name": "build-monitor-plugin",
         "popularity": 13107,
-        "previousTimestamp": "2026-03-20T08:31:58.00Z",
-        "previousVersion": "1029.v10334a_b_b_a_00d",
-        "releaseTimestamp": "2026-03-23T15:27:02.00Z",
+        "previousTimestamp": "2026-03-23T15:27:02.00Z",
+        "previousVersion": "1034.vd5c4f4d17b_ff",
+        "releaseTimestamp": "2026-06-13T07:49:21.00Z",
         "requiredCore": "2.516.3",
         "scm": "https://github.com/jenkinsci/build-monitor-plugin",
-        "sha1": "UaJqITnPa32+nkLUViljpryZDLU=",
-        "sha256": "r8B3F9pjimAMA9dRGCYU0YJ8y6bnbVV8GHQoP0hDQu0=",
-        "size": 402960,
+        "sha1": "bp+V+e7koPopocKCEryjWHqoj34=",
+        "sha256": "0+z4hIs0eHooHZRS8hRlVvqYKLdD8NpPLSiTMRA5s6Y=",
+        "size": 407685,
         "title": "Build Monitor View",
-        "url": "https://updates.jenkins.io/download/plugins/build-monitor-plugin/1034.vd5c4f4d17b_ff/build-monitor-plugin.hpi",
-        "version": "1034.vd5c4f4d17b_ff",
+        "url": "https://updates.jenkins.io/download/plugins/build-monitor-plugin/1076.v651a_12e63830/build-monitor-plugin.hpi",
+        "version": "1076.v651a_12e63830",
         "wiki": "https://plugins.jenkins.io/build-monitor-plugin",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/build-monitor-plugin/latest/build-monitor-plugin.hpi"
       },
@@ -79920,7 +79920,7 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/nexus-task-runner/latest/nexus-task-runner.hpi"
       },
       "nimbus-jose-jwt-api": {
-        "buildDate": "Apr 30, 2026",
+        "buildDate": "Jun 13, 2026",
         "defaultBranch": "main",
         "dependencies": [],
         "developers": [
@@ -79929,8 +79929,8 @@
             "name": "Valentin Delaye"
           }
         ],
-        "excerpt": "This plugin provides the <a href=\"https://bitbucket.org/connect2id/nimbus-jose-jwt/src/master/\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Nimbus JOSE JWT </a> APIs (v10.9) for other plugins.",
-        "gav": "io.jenkins.plugins:nimbus-jose-jwt-api:10.9-1.v5c056b_1a_00a_6",
+        "excerpt": "This plugin provides the <a href=\"https://bitbucket.org/connect2id/nimbus-jose-jwt/src/master/\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Nimbus JOSE JWT </a> APIs (v10.9.1) for other plugins.",
+        "gav": "io.jenkins.plugins:nimbus-jose-jwt-api:10.9.1-4.v58e0353801ec",
         "health": 100,
         "issueTrackers": [
           {
@@ -79944,15 +79944,17 @@
         ],
         "name": "nimbus-jose-jwt-api",
         "popularity": 0,
-        "releaseTimestamp": "2026-04-30T09:22:32.00Z",
+        "previousTimestamp": "2026-04-30T09:22:32.00Z",
+        "previousVersion": "10.9-1.v5c056b_1a_00a_6",
+        "releaseTimestamp": "2026-06-13T12:22:46.00Z",
         "requiredCore": "2.479.3",
         "scm": "https://github.com/jenkinsci/nimbus-jose-jwt-api-plugin",
-        "sha1": "0Kgu+T2VjE+Gmzkso2LAbGQdTwo=",
-        "sha256": "fouZPtsA6PTBD1FXUG9LzBHj4RsHBj/FWRtNB8tZ3gk=",
-        "size": 727329,
+        "sha1": "8wxL1qX9yvKnmt8APp78OEtx/IU=",
+        "sha256": "Wkz/jZbm1AzYZMSHkXVqXxaKxkzO+Z/CpOt4Q6bwSJs=",
+        "size": 727403,
         "title": "Nimbus JOSE JWT API",
-        "url": "https://updates.jenkins.io/download/plugins/nimbus-jose-jwt-api/10.9-1.v5c056b_1a_00a_6/nimbus-jose-jwt-api.hpi",
-        "version": "10.9-1.v5c056b_1a_00a_6",
+        "url": "https://updates.jenkins.io/download/plugins/nimbus-jose-jwt-api/10.9.1-4.v58e0353801ec/nimbus-jose-jwt-api.hpi",
+        "version": "10.9.1-4.v58e0353801ec",
         "wiki": "https://plugins.jenkins.io/nimbus-jose-jwt-api",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/nimbus-jose-jwt-api/latest/nimbus-jose-jwt-api.hpi"
       },
@@ -99691,7 +99693,7 @@
         ],
         "excerpt": "Extension of jobcacher plugin that add S3 for item storage.",
         "gav": "io.jenkins.plugins:s3-jobcacher-storage:62.v260cb_8db_5b_fa_",
-        "health": 97,
+        "health": 95,
         "issueTrackers": [
           {
             "reportUrl": "https://github.com/jenkinsci/s3-jobcacher-storage-plugin/issues/new/choose",
@@ -123288,10 +123290,10 @@
       "certificates": [
         "MIIFqjCCA5KgAwIBAgIFAN6tvwUwDQYJKoZIhvcNAQENBQAwgYoxCzAJBgNVBAYTAlVTMRMwEQYDVQQIDApDYWxpZm9ybmlhMREwDwYDVQQHDAhTYW4gSm9zZTEYMBYGA1UECgwPSmVua2lucyBQcm9qZWN0MRowGAYDVQQDDBFLb2hzdWtlIEthd2FndWNoaTEdMBsGCSqGSIb3DQEJARYOa2tAa29oc3VrZS5vcmcwHhcNMjYwMTE0MTU0MjQyWhcNMjcwMTE0MTU0MjQyWjBeMQswCQYDVQQGEwJVUzETMBEGA1UECAwKQ2FsaWZvcm5pYTEYMBYGA1UECgwPSmVua2lucyBQcm9qZWN0MSAwHgYDVQQDDBdDb21tdW5pdHkgVXBkYXRlIENlbnRlcjCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBALQMWCFq7SaGA+hp98UAzgLkCO6NFlcK9n2mMQ0c6/4b6qI3n53Ak/ljF+4ekEb3p5tnI0iwj0GZjFc5hW1gtz3mfbkxTb7fk5LJFj90NZHr0isb5D21w2fkjGp9h81kGliUZcm3dpdrXMW2Gh1HYcF4uijuz1mzrFt2Ew2vgDse5EFYb32bk6Xmi/dhf0l9r+oKT6bChijgHr3WynRSdDL9y1XDqUq06ZAVp4RqVwwpezrYgJ/OPRZeg9CctnUoFR8BgHKWeNgwuyWrtBKST5pnQmhTEM53qVHzQTgrBP4Vqj38I1R39qPZa4cu3QUXMr8CsfrJ1wF8y3OmXp3pNfbXivb7RoanXYO+uZzoYOaaHAXTICFLUqR0sxJfiOTejm87P9F+EzEvuPGFDAkbo7qrW/hReHYycOiiqPggfLsglZTNJEdd4oLdvDZLnBJWBQscl98f/pVu3Pzld0RnU9phhCMXfVLkeQBQtAxfmqaVnMurELBNeK8ybriTQlAdnkBRzv3NAilUaAfI0gSh/beN2qNlII3kEOSpasAbEVbfBB+r9hNzFj4+Sqi8E+YZbMQjFtdHdO/iQCrcUiqDnTBsxL7u7xzfvLJTxoISUrCigVgUGryaouyUhARHpQwcVG4hewFspJZUaQv7aj0hlpQUC42+2zWr/NK5rVQAZD9RAgMBAAGjQjBAMB0GA1UdDgQWBBR2GjaTNzVHFuMTbEl9hRAbjCtQ2DAfBgNVHSMEGDAWgBQRxuXUMC3pVcYBtWtQctI2frQBhzANBgkqhkiG9w0BAQ0FAAOCAgEAOgskYoOGDmEZIjYUy2tYTKI6eKnpAiQA0yETLdam9wOGGL6J6e7BT5JoyxBrDXy4xrZsDyFOBPB8Di8ETF1mr9k6GsyBO8S/SYd/1qYg9kkHXq2x62WmDs0K7h9N2M9LAEFDvdZYvOnDzgFhcaFfsxUPS9qDFws33NDBTKo/Ya2UIjzyl1H68bw5VG1temOtAzvW+6EA4j2bzgv5NbaUGrZq5Y8yiWRDjdAbMBu0lDnJP7pTLs16jEE1FWfkJhkaU6TbMP6rzehjMkiplu+S0qnVQBUgME2U4EMxCM31oixUl/+WvZ5GQHR8GVdsFkQYs2K3L0i7a9bxc8jD6kzU/sSJwJxnqocB1JnZF1CFbT78bdTaBtZty7MVSUdXYCAf6XZPCMYOGN7Cb7YpLqn0hUCy2tIdHw6TUluyOkP0AoOLFijThtafcgQI19QyCa85DUZxwG1QsVFbGyqv6+47DbX2CUKzNLyfKJhivzwfagKZDo5KaZouv7lO5RMj8onHK+MrkzvJG1kFcFw5lO1ms5QKPNi3RfrQqWQ4rjVBbPdNx4xRpHVpcXp9MXCg64prwGHXrPN2yl2VRYrxwlLRhee27H07ZA9ujLB4PU8ppb6uQH2GQiKpXoRlzQBQej4zhquVM8rQaPfXV8DGNu4lx77tNtgK8uetQxyh4vBOpGA="
       ],
-      "correct_digest": "sxa8BTfUgNoUe8Ss8iofuHGzKlU=",
-      "correct_digest512": "74518d2156a71a671d766ab573c9c99f44f7018d54ac1854ba43dc890137d7ff2c6ef1470ed8e54a4acd234a8aae1d582591472a646a6a7b69fb6b619e00c55d",
-      "correct_signature": "UU84I2fZQQ38BpaGR5wSm3KwZ6jdoZ6eaK3sKSQeFmdxXfDOM1TlZRx/aBXiNtYsXAonrDoZTD2cIhrJ2yLcNZjw4/51O4KThcz+fxZfJVT4MzAbm/deZem2Ud6h05i+VIwDoFq/Am2M/W9UMMQw/K30ygZkZZBWBtkEMLhRP8/Qy6+dbOkKQ1bDiR1tAk2RDnFszSpibwA+ttE7eQyFCU/P6ssTSJcJ4GnyMpH5F18i1SDcNNvHgLh1cVj+2DNt6AlVkrcUHWyCdGWlw1eacKth7o69rq8ZjDBCKFwJZr4EGIFS05G0ykPTD2uIufYv0Eh4WK7HlR3rf6wevR1VZj3rYwGNjWpIIPst79xFT+Pu5UEYrreB6BnR3WjLTta1bt8s1it9OOL5OdpG8Iyw3UXTpLzXhJCLAXE30OgpvtdLG6Y9G81KbV8ReKRNafKjiEUPaVV6DmQxRf8GDkkVIrrYi3kaNuMP88nd5ocjhlaK6DilMrInG5W60dKLVgXkGbhRFaqlpZVQPMxnbTdRd7aqF4YcEfWpBZRYE4rFqJS5x+KOa2yTLcppuyV1XCtEid7JjperCds/2rSHMePVfCO+TQTIAOc6CImibG/eZagzca0TetcjihwqB6rxYSN+lH/j+GWRgAxXY4zZoiaaVxl2VhGT05kRNkYzlwfWJEs=",
-      "correct_signature512": "02025ef67b6c3903b5b236db17be8784f80e0404d3fd044cf9c4154e5da26c959cecd3bb2ae54d7b47de15a219f2f5ea585530ebd48747b5acc28c6c6c6459d808de961396d67f32ed4962c9b24f20cfdae9864ed9acbffdec7f317d6f4fe9f3bc4330143da8fb3c560b680411ef9fcc02c1975596851a3a2d103adbed9b7a4c7514b82f345579e0636c419e23dff54d1c7bc68f941475a1a6bc76c0c8ed06f7b9cbf3153e1869632d370c908d009419ace71199c935a34d22506690023de84c5e82cc2ca244ec8843d611181b89f167e13b676f79de8d2c0d6537ea206793333b6f0a69e92209d6c5413ea3c629063bbda60d33bd2494b352676b574c0a1f9d9b13417dceb3060ed4917e7786ef7825f683fc1f531fe20ba539beefb897e6d16f29bd4fb1b2ab42413f4498461dbd73d747e7d2a568efee40ef6bab430b35c69e4dff7e8c18290cc946429d6f2870f8222d11e3e74a713c23ff4272a08c99ca264516d5c6f2b8eaa5db116cabafd1af3bb41b82b651b1529fb5fe13045fa3829b06f204264c8b4389d9cc1fb460cd74cb0ff13ab2bca6908e768a22d3853466151974d466ea6f421af804ff44469b3d92b1acedbbf752394ed0fa971904628bfe19b4389bdefe7342d84b7aaef9c919eb9517dde952bd9b36276a86dd68b0bdd90dcf43e5c777c6b10dfad51a63b6d18ae44a02bfce3eeb2942853916eaa7ec"
+      "correct_digest": "/3mElef80sOMooh+2ZlBbj6JRZU=",
+      "correct_digest512": "2cfbf30eccf5cdd554962ac9c909e67cc198df8a2485321bf6bcbf5d73d3d1b1e71ccd26e53aa98c3c4251da5a24425604e3a79d67240da7cf0aa04ce94ab8b6",
+      "correct_signature": "lJeT8BdkspL9lLOCTVll1ypxrxuh3zkhUXIHYxrApQuzNH/OLaCufu0qR8r0q8/PbA0Jm1TRcHmaWK381K6GzUwnNk/OJ6bwQ1X9t//bpJOTpfR9IhgRCGrwmPjHyw+3Os6ZOTtS97/J5HTYEI6l+fywpNP2AXYIzVoadJanzph+upb/FsKVDX93GarUgdRn5gckc9k9dj05jSsKA9Y3/sWY3cJsBb6h/Bi1MilG9rTq85K6CbC4BN25fCqOWSEa84KrUhCnr4a4ai2OTn6F1pBHqA75mVIPBK+Rme2pi+cA4xqATHzDM8AYuZ+Y0mHKVD3vzE4Tg9RCVSse8f6dX8yIUPBR7on8xbFhla+n/NvdFACZ9uhdDSrPhHqr8czucwcJIjYyhmXFs71P+A+Ds+nbQk9k9sF3RlvTFnPZVs/7lyWxWpRxPi5BbliyOqKIuJfCUJLdqYKsajOowMcMJPEkkNSpDahBfcBkDtfIozkjtCjQDNg7Jp2YavW8353r2Gm8W4GjfDcer8A+KvJky/oOULZiOgfQj8lD8psIaie/oPZiQvhu+l/4RbEYlAASgiA7Z4NjPHwjjBDkf495q5SfUu4bbhxl9AB7JMZOpnr+7sjTo+G4+djDH9yodAqndkcg13p4po7uC7QyGCKPFKl2YhFZAX4BfCh0Ig+Zh84=",
+      "correct_signature512": "41c3dce455f1aad4f2717b80cb979dab621a66a257349aa07bd9c48f604bbadf9ade961f4c046763ed174a25c3c347e59d121824597b43e5692245a294e2d73eb92bb993bad1082333b7ac64a39cd45d3c2fa13fa3c6bf96983ef8dd49b2a265f04dcfef551f127f6a64db9f920ba6dc2440489db9f30ad8305c820ae75d67740bd45a3b72967ffcdf7c92045d3d7245d6b77621f796b4cd8b0c45c042d1c6e8626316ff32f25bd8009927823d8cdeb41940d36c2e2c3f0fbab49f6feaed35277002215c605ff1b74adfa8f1356f8d6a2f1bff12d64d7a8b8ab8802d9acb0fef745ba4b376e1d199b8adbe824b0251458f858da871ae0e0c0bbaeb19d96b3edb824747dd8b50cc62ce159ad058d614ce3ebff5871c0188ae4c91b702f79381410a15dfd938c35444415cdd1fecda85d31a394a200471ebc86bb0447dd72440b9802183ceb0d3013223cd5d5efa1c2c031536428958e10b7bf471857e15cdcfc2b8f257b2c67abc09139b1afc54efcb241d72f29c11b01979058809c80d87066c28d2ff2543007c57dff9bf84a43d27d7ae44aa522311a6a2ce4ec95068b0eede335c37bc21ad39f0c1c93becaf74c03d6d748b231de5e568536ac58338fd2b82d8f0559f2fd17caa94077f977fc1721a8e4c2bec804a444fc586c893d3444262df76c613c381919430c34946070d597b7c04921f12893dd82f4e7301c23960b6"
     },
     "updateCenterVersion": "1",
     "warnings": [
@@ -142828,7 +142830,7 @@
     ]
   },
   "_metadata": {
-    "generatedAt": "2026-06-13T05:20:31.353Z",
+    "generatedAt": "2026-06-14T05:48:54.223Z",
     "bestMirror": "https://mirror.nju.edu.cn/jenkins/",
     "mirrorsChecked": 10,
     "pluginsModified": 2082,
