@@ -810,7 +810,7 @@
         "url": "https://wiki.jenkins-ci.org/display/JENKINS/ZAProxy+Plugin"
       }
     },
-    "generationTimestamp": "2026-06-24T04:55:16Z",
+    "generationTimestamp": "2026-06-25T05:00:18Z",
     "id": "default",
     "plugins": {
       "42crunch-security-audit": {
@@ -1577,7 +1577,7 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/Parameterized-Remote-Trigger/latest/Parameterized-Remote-Trigger.hpi"
       },
       "PrioritySorter": {
-        "buildDate": "Jan 29, 2026",
+        "buildDate": "Jun 10, 2026",
         "defaultBranch": "master",
         "dependencies": [
           {
@@ -1635,7 +1635,7 @@
           }
         ],
         "excerpt": "This plugin allows for the build queue to be sorted based on pre-assigned priorities for each job.",
-        "gav": "org.jenkins-ci.plugins:PrioritySorter:936.v2c01c6b_84449",
+        "gav": "org.jenkins-ci.plugins:PrioritySorter:936.937.v5581d0b_2ccb_a_",
         "health": 100,
         "issueTrackers": [
           {
@@ -1653,17 +1653,17 @@
         ],
         "name": "PrioritySorter",
         "popularity": 4462,
-        "previousTimestamp": "2025-09-27T15:56:39.00Z",
-        "previousVersion": "905.v35c21f62f980",
-        "releaseTimestamp": "2026-01-29T17:53:15.00Z",
+        "previousTimestamp": "2026-01-29T17:53:15.00Z",
+        "previousVersion": "936.v2c01c6b_84449",
+        "releaseTimestamp": "2026-06-10T02:00:35.00Z",
         "requiredCore": "2.504.3",
         "scm": "https://github.com/jenkinsci/priority-sorter-plugin",
-        "sha1": "fsWZicS1pZZg7TfKlcUNJaRCwYM=",
-        "sha256": "NHgEYOCI1I6BUxkGGkD3H4Jn6fFTvCtEbeieNQgrc6I=",
-        "size": 117377,
+        "sha1": "Ye1WBCeLNps7qurN65BtQDU3RVU=",
+        "sha256": "jP/X3Ug+rCPibP6KlIVDa3LBayoaU+tTiGhs89NJb4c=",
+        "size": 117800,
         "title": "Priority Sorter",
-        "url": "https://updates.jenkins.io/download/plugins/PrioritySorter/936.v2c01c6b_84449/PrioritySorter.hpi",
-        "version": "936.v2c01c6b_84449",
+        "url": "https://updates.jenkins.io/download/plugins/PrioritySorter/936.937.v5581d0b_2ccb_a_/PrioritySorter.hpi",
+        "version": "936.937.v5581d0b_2ccb_a_",
         "wiki": "https://plugins.jenkins.io/PrioritySorter",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/PrioritySorter/latest/PrioritySorter.hpi"
       },
@@ -2329,7 +2329,7 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/accurev/latest/accurev.hpi"
       },
       "active-directory": {
-        "buildDate": "May 20, 2026",
+        "buildDate": "Jun 12, 2026",
         "compatibleSinceVersion": "2.0",
         "defaultBranch": "master",
         "dependencies": [
@@ -2397,7 +2397,7 @@
           }
         ],
         "excerpt": "This plugin enables authentication through Active Directory.",
-        "gav": "org.jenkins-ci.plugins:active-directory:2.41.1",
+        "gav": "org.jenkins-ci.plugins:active-directory:2.41.2",
         "health": 94,
         "issueTrackers": [
           {
@@ -2411,19 +2411,70 @@
         ],
         "name": "active-directory",
         "popularity": 30773,
-        "previousTimestamp": "2025-10-23T08:41:23.00Z",
-        "previousVersion": "2.41",
-        "releaseTimestamp": "2026-05-20T13:10:28.00Z",
+        "previousTimestamp": "2026-05-20T13:10:28.00Z",
+        "previousVersion": "2.41.1",
+        "releaseTimestamp": "2026-06-12T12:47:31.00Z",
         "requiredCore": "2.504.3",
         "scm": "https://github.com/jenkinsci/active-directory-plugin",
-        "sha1": "pbmoOFHR+GpQ8fwEm+rG3/eLN0k=",
-        "sha256": "MYTn/kU+ymWU0ksaXBlYhAZEW6sg0Z5pRy68RM1KMfc=",
-        "size": 588277,
+        "sha1": "ajB5myBx1cDE6uPDN43LP5COu80=",
+        "sha256": "+AphYdM8jMJ4cRkpgU/tf5Amu3BxRMuT9BiZQguRWUs=",
+        "size": 588259,
         "title": "Active Directory",
-        "url": "https://updates.jenkins.io/download/plugins/active-directory/2.41.1/active-directory.hpi",
-        "version": "2.41.1",
+        "url": "https://updates.jenkins.io/download/plugins/active-directory/2.41.2/active-directory.hpi",
+        "version": "2.41.2",
         "wiki": "https://plugins.jenkins.io/active-directory",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/active-directory/latest/active-directory.hpi"
+      },
+      "active-jobs-filter": {
+        "buildDate": "Jun 24, 2026",
+        "defaultBranch": "main",
+        "dependencies": [
+          {
+            "name": "workflow-job",
+            "optional": false,
+            "version": "1571.1580.v18e46842c125"
+          },
+          {
+            "name": "workflow-multibranch",
+            "optional": false,
+            "version": "821.vc3b_4ea_780798"
+          },
+          {
+            "name": "branch-api",
+            "optional": false,
+            "version": "2.1280.v0d4e5b_b_460ef"
+          }
+        ],
+        "developers": [
+          {
+            "developerId": "ollehu",
+            "name": "Olle"
+          }
+        ],
+        "excerpt": "Active Jobs Filter Plugin",
+        "gav": "io.jenkins.plugins:active-jobs-filter:11.v15e9a_dce2ea_9",
+        "health": 100,
+        "issueTrackers": [
+          {
+            "reportUrl": "https://github.com/jenkinsci/active-jobs-filter-plugin/issues/new/choose",
+            "type": "github",
+            "viewUrl": "https://github.com/jenkinsci/active-jobs-filter-plugin/issues"
+          }
+        ],
+        "labels": [],
+        "name": "active-jobs-filter",
+        "popularity": 0,
+        "releaseTimestamp": "2026-06-24T10:45:07.00Z",
+        "requiredCore": "2.528.3",
+        "scm": "https://github.com/jenkinsci/active-jobs-filter-plugin",
+        "sha1": "tOaL/W7Jsf8fTDp05NweHSSGR9o=",
+        "sha256": "dMLZ+WMTCIveNARIwLJx8nkPKcyhi6uEKTQIlq8grtY=",
+        "size": 14294,
+        "title": "Active Jobs Filter",
+        "url": "https://updates.jenkins.io/download/plugins/active-jobs-filter/11.v15e9a_dce2ea_9/active-jobs-filter.hpi",
+        "version": "11.v15e9a_dce2ea_9",
+        "wiki": "https://plugins.jenkins.io/active-jobs-filter",
+        "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/active-jobs-filter/latest/active-jobs-filter.hpi"
       },
       "acunetix": {
         "buildDate": "Jun 18, 2021",
@@ -5763,7 +5814,7 @@
         ],
         "excerpt": "The Enterprise Mobile App Store is your customizable internal mobile app store, enabling seamless enterprise distribution of Android APK/AAB and iOS IPA files",
         "gav": "io.jenkins.plugins:appcircle-enterprise-store:1.8",
-        "health": 97,
+        "health": 92,
         "issueTrackers": [
           {
             "reportUrl": "https://github.com/jenkinsci/appcircle-enterprise-store-plugin/issues/new/choose",
@@ -5818,7 +5869,7 @@
         ],
         "excerpt": "Testing Distribution is the seamless binary distribution of Android APK/AAB and iOS IPA files, allowing developers to create test groups and share builds using enterprise-grade authentication methods.",
         "gav": "io.jenkins.plugins:appcircle-testing-distribution:1.10",
-        "health": 99,
+        "health": 93,
         "issueTrackers": [
           {
             "reportUrl": "https://github.com/jenkinsci/appcircle-testing-distribution-plugin/issues/new/choose",
@@ -8710,28 +8761,8 @@
         ],
         "developers": [
           {
-            "developerId": "henchiyb",
-            "name": "Nhan"
-          },
-          {
-            "developerId": "hgsgtk",
-            "name": "Kazuki"
-          },
-          {
-            "developerId": "kensei_autify",
-            "name": "Kensei"
-          },
-          {
-            "developerId": "mtsmfm",
-            "name": "Fumiaki"
-          },
-          {
-            "developerId": "nate_autify",
-            "name": "nate"
-          },
-          {
-            "developerId": "riywo",
-            "name": "Ryosuke Iwanaga"
+            "developerId": "austinried_autify",
+            "name": "Austin"
           }
         ],
         "excerpt": "Plugin to run a test on <a href=\"https://autify.com\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Autify</a>.",
@@ -29202,7 +29233,7 @@
         ],
         "excerpt": "This plugin integrates <a href=\"http://openclover.org/\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">OpenClover</a> code coverage reports to Jenkins. OpenClover is free and open source tool based on sources of Atlassian Clover (R).",
         "gav": "org.jenkins-ci.plugins:clover:4.15.0.677.v22c71ca_e6450",
-        "health": 100,
+        "health": 97,
         "issueTrackers": [
           {
             "reportUrl": "https://www.jenkins.io/participate/report-issue/redirect/#15532/clover",
@@ -36888,7 +36919,7 @@
         ],
         "excerpt": "Adds a dark theme to Jenkins, respecting browser and OS themes if configured.",
         "gav": "io.jenkins.plugins:dark-theme:652.vea_da_dfea_e769",
-        "health": 98,
+        "health": 96,
         "issueTrackers": [
           {
             "reportUrl": "https://github.com/jenkinsci/dark-theme-plugin/issues/new/choose",
@@ -48170,7 +48201,7 @@
         ],
         "excerpt": "This plugin can launch <a href=\"http://fitnesse.org\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">fitnesse</a> tests as a build step and display reports as a post-build step.",
         "gav": "org.jenkins-ci.plugins:fitnesse:1.36",
-        "health": 78,
+        "health": 53,
         "issueTrackers": [
           {
             "reportUrl": "https://www.jenkins.io/participate/report-issue/redirect/#15734/fitnesse",
@@ -50912,68 +50943,68 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/gerrit-code-review/latest/gerrit-code-review.hpi"
       },
       "gerrit-trigger": {
-        "buildDate": "Mar 28, 2026",
+        "buildDate": "Jun 24, 2026",
         "defaultBranch": "master",
         "dependencies": [
           {
             "name": "rebuild",
             "optional": true,
-            "version": "330.v645b_7df10e2a_"
+            "version": "338.va_0a_b_50e29397"
           },
           {
             "name": "caffeine-api",
             "optional": false,
-            "version": "3.1.8-133.v17b_1ff2e0599"
+            "version": "3.2.0-166.v72a_6d74b_870f"
           },
           {
             "name": "gson-api",
             "optional": false,
-            "version": "2.10.1-15.v0d99f670e0a_7"
+            "version": "2.13.1-139.v4569c2ef303f"
           },
           {
             "name": "ionicons-api",
             "optional": false,
-            "version": "56.v1b_1c8c49374e"
+            "version": "88.va_4187cb_eddf1"
           },
           {
             "name": "configuration-as-code",
             "optional": true,
-            "version": "1775.v810dc950b_514"
+            "version": "1963.v24e046127a_3f"
           },
           {
             "name": "workflow-api",
             "optional": true,
-            "version": "1291.v51fd2a_625da_7"
+            "version": "1373.v7b_813f10efa_b_"
           },
           {
             "name": "workflow-step-api",
             "optional": true,
-            "version": "657.v03b_e8115821b_"
+            "version": "704.ve4f0967e98fa_"
           },
           {
             "name": "apache-httpcomponents-client-4-api",
             "optional": false,
-            "version": "4.5.14-208.v438351942757"
+            "version": "4.5.14-269.vfa_2321039a_83"
           },
           {
             "name": "git-client",
             "optional": true,
-            "version": "4.6.0"
+            "version": "6.1.3"
           },
           {
             "name": "git",
             "optional": true,
-            "version": "5.2.1"
+            "version": "5.7.0"
           },
           {
             "name": "jackson2-api",
             "optional": false,
-            "version": "2.16.1-373.ve709c6871598"
+            "version": "2.18.3-402.v74c4eb_f122b_2"
           },
           {
             "name": "jsch",
             "optional": false,
-            "version": "0.2.16-86.v42e010d9484b_"
+            "version": "0.2.16-95.v3eecb_55fa_b_78"
           },
           {
             "name": "rabbitmq-consumer",
@@ -50983,12 +51014,12 @@
           {
             "name": "scm-api",
             "optional": false,
-            "version": "683.vb_16722fb_b_80b_"
+            "version": "704.v3ce5c542825a_"
           },
           {
             "name": "support-core",
             "optional": true,
-            "version": "1375.va_256158e8881"
+            "version": "1739.v0d10c0a_57cb_e"
           }
         ],
         "developers": [
@@ -51002,8 +51033,8 @@
           }
         ],
         "excerpt": "This plugin integrates with <a href=\"http://code.google.com/p/gerrit/\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Gerrit</a> code review.",
-        "gav": "com.sonyericsson.hudson.plugins.gerrit:gerrit-trigger:3.1971.v217d381e3a_5a_",
-        "health": 94,
+        "gav": "com.sonyericsson.hudson.plugins.gerrit:gerrit-trigger:3.1983.v57096fe9923c",
+        "health": 96,
         "issueTrackers": [
           {
             "reportUrl": "https://github.com/jenkinsci/gerrit-trigger-plugin/issues/new/choose",
@@ -51016,17 +51047,17 @@
         ],
         "name": "gerrit-trigger",
         "popularity": 6565,
-        "previousTimestamp": "2025-10-18T10:30:26.00Z",
-        "previousVersion": "3.1969.v65d614ec771a_",
-        "releaseTimestamp": "2026-03-28T12:18:11.00Z",
-        "requiredCore": "2.426.3",
+        "previousTimestamp": "2026-03-28T12:18:11.00Z",
+        "previousVersion": "3.1971.v217d381e3a_5a_",
+        "releaseTimestamp": "2026-06-24T19:14:34.00Z",
+        "requiredCore": "2.479.3",
         "scm": "https://github.com/jenkinsci/gerrit-trigger-plugin",
-        "sha1": "YW1V9nvU7rag5voxBS6DotqNyfg=",
-        "sha256": "H+HqBuoi9ZvePHq1SD/y4gN2Le62pdk7ay6og662z1E=",
-        "size": 638789,
+        "sha1": "+xkwyDnUskiF+hz4oVkZcunZYzU=",
+        "sha256": "PVyNXZWtLL5ju7LWdC5nBe2M+lQJnt6Lwo4pr6meOHM=",
+        "size": 1144493,
         "title": "Gerrit Trigger",
-        "url": "https://updates.jenkins.io/download/plugins/gerrit-trigger/3.1971.v217d381e3a_5a_/gerrit-trigger.hpi",
-        "version": "3.1971.v217d381e3a_5a_",
+        "url": "https://updates.jenkins.io/download/plugins/gerrit-trigger/3.1983.v57096fe9923c/gerrit-trigger.hpi",
+        "version": "3.1983.v57096fe9923c",
         "wiki": "https://plugins.jenkins.io/gerrit-trigger",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/gerrit-trigger/latest/gerrit-trigger.hpi"
       },
@@ -51611,7 +51642,7 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/git-chooser-alternative/latest/git-chooser-alternative.hpi"
       },
       "git-client": {
-        "buildDate": "Mar 26, 2026",
+        "buildDate": "Jun 10, 2026",
         "defaultBranch": "master",
         "dependencies": [
           {
@@ -51680,7 +51711,7 @@
           }
         ],
         "excerpt": "Utility plugin for Git support in Jenkins",
-        "gav": "org.jenkins-ci.plugins:git-client:6.6.0",
+        "gav": "org.jenkins-ci.plugins:git-client:6.6.1",
         "health": 100,
         "issueTrackers": [
           {
@@ -51695,17 +51726,17 @@
         ],
         "name": "git-client",
         "popularity": 269698,
-        "previousTimestamp": "2025-12-25T01:51:01.00Z",
-        "previousVersion": "6.5.0",
-        "releaseTimestamp": "2026-03-26T15:41:22.00Z",
+        "previousTimestamp": "2026-03-26T15:41:22.00Z",
+        "previousVersion": "6.6.0",
+        "releaseTimestamp": "2026-06-10T01:09:22.00Z",
         "requiredCore": "2.516.3",
         "scm": "https://github.com/jenkinsci/git-client-plugin",
-        "sha1": "IDZ+GbIhugWY25iYqP69Ea/0+5o=",
-        "sha256": "irmwkRx4hAGcYp/KWWI6uuDPdE2qwyiR14y/619JBrw=",
-        "size": 3993757,
+        "sha1": "AYtbh5C3qs+nCEcwA4T3kDieuzM=",
+        "sha256": "aauA471R4uTmdqGHIsAsexY+sRp1i1Ls8XnVjhyhc48=",
+        "size": 3993880,
         "title": "Git client",
-        "url": "https://updates.jenkins.io/download/plugins/git-client/6.6.0/git-client.hpi",
-        "version": "6.6.0",
+        "url": "https://updates.jenkins.io/download/plugins/git-client/6.6.1/git-client.hpi",
+        "version": "6.6.1",
         "wiki": "https://plugins.jenkins.io/git-client",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/git-client/latest/git-client.hpi"
       },
@@ -51841,7 +51872,7 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/git-forensics/latest/git-forensics.hpi"
       },
       "git-parameter": {
-        "buildDate": "Jan 15, 2026",
+        "buildDate": "Jun 19, 2026",
         "defaultBranch": "master",
         "dependencies": [
           {
@@ -51885,7 +51916,7 @@
           }
         ],
         "excerpt": "Adds ability to choose branches, tags or revisions from git repositories configured in project.",
-        "gav": "org.jenkins-ci.tools:git-parameter:462.vdcf3df2ed2ca_",
+        "gav": "org.jenkins-ci.tools:git-parameter:462.463.v496a_59f698e5",
         "health": 100,
         "issueTrackers": [
           {
@@ -51901,17 +51932,17 @@
         ],
         "name": "git-parameter",
         "popularity": 58419,
-        "previousTimestamp": "2025-11-30T14:51:44.00Z",
-        "previousVersion": "460.v71e7583a_c099",
-        "releaseTimestamp": "2026-01-15T15:45:42.00Z",
+        "previousTimestamp": "2026-01-15T15:45:42.00Z",
+        "previousVersion": "462.vdcf3df2ed2ca_",
+        "releaseTimestamp": "2026-06-19T13:05:09.00Z",
         "requiredCore": "2.479.3",
         "scm": "https://github.com/jenkinsci/git-parameter-plugin",
-        "sha1": "2K4l9TXC1zgmPZYCoBjfa15jNcU=",
-        "sha256": "cRcinLATH8UiTZQfu73Qv5ZX3LfKx4EsnC3TodTF5oM=",
-        "size": 76159,
+        "sha1": "I/rYHuL2CgXcsEwwDtSbNWo7poE=",
+        "sha256": "UaF5OSVHxdSzAi+SY0LwVW51RooR6Lrqw3cQZSqoGhc=",
+        "size": 76317,
         "title": "Git Parameter",
-        "url": "https://updates.jenkins.io/download/plugins/git-parameter/462.vdcf3df2ed2ca_/git-parameter.hpi",
-        "version": "462.vdcf3df2ed2ca_",
+        "url": "https://updates.jenkins.io/download/plugins/git-parameter/462.463.v496a_59f698e5/git-parameter.hpi",
+        "version": "462.463.v496a_59f698e5",
         "wiki": "https://plugins.jenkins.io/git-parameter",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/git-parameter/latest/git-parameter.hpi"
       },
@@ -53335,7 +53366,7 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/github-branch-pr-change-filter/latest/github-branch-pr-change-filter.hpi"
       },
       "github-branch-source": {
-        "buildDate": "Apr 22, 2026",
+        "buildDate": "Jun 15, 2026",
         "compatibleSinceVersion": "2.2.0",
         "defaultBranch": "master",
         "dependencies": [
@@ -53432,7 +53463,7 @@
           }
         ],
         "excerpt": "Multibranch projects and organization folders from GitHub. Maintained by CloudBees, Inc.",
-        "gav": "org.jenkins-ci.plugins:github-branch-source:1967.1969.v205fd594c821",
+        "gav": "org.jenkins-ci.plugins:github-branch-source:1967.1970.vd86979736546",
         "health": 97,
         "issueTrackers": [
           {
@@ -53448,17 +53479,17 @@
         ],
         "name": "github-branch-source",
         "popularity": 232348,
-        "previousTimestamp": "2026-02-03T23:59:22.00Z",
-        "previousVersion": "1967.vdea_d580c1a_b_a_",
-        "releaseTimestamp": "2026-04-22T16:20:13.00Z",
+        "previousTimestamp": "2026-04-22T16:20:13.00Z",
+        "previousVersion": "1967.1969.v205fd594c821",
+        "releaseTimestamp": "2026-06-15T15:13:05.00Z",
         "requiredCore": "2.539",
         "scm": "https://github.com/jenkinsci/github-branch-source-plugin",
-        "sha1": "d4uJTVl3ZCFPheL+Mgdq1RRfRng=",
-        "sha256": "73Td0RkqnxE8wBmR3H0s4O6BG8VHLOZ53tE7+yODqxM=",
-        "size": 350391,
+        "sha1": "orarOqByHwI94hDVSi6vuQjFWto=",
+        "sha256": "q8/NuqfQRlU7mnHX8NgVbiOS8aDc3OEQH4XG712jDpU=",
+        "size": 350431,
         "title": "GitHub Branch Source",
-        "url": "https://updates.jenkins.io/download/plugins/github-branch-source/1967.1969.v205fd594c821/github-branch-source.hpi",
-        "version": "1967.1969.v205fd594c821",
+        "url": "https://updates.jenkins.io/download/plugins/github-branch-source/1967.1970.vd86979736546/github-branch-source.hpi",
+        "version": "1967.1970.vd86979736546",
         "wiki": "https://plugins.jenkins.io/github-branch-source",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/github-branch-source/latest/github-branch-source.hpi"
       },
@@ -61912,7 +61943,7 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/instant-messaging/latest/instant-messaging.hpi"
       },
       "integrity-plugin": {
-        "buildDate": "May 18, 2026",
+        "buildDate": "Jun 24, 2026",
         "compatibleSinceVersion": "1.29",
         "defaultBranch": "master",
         "dependencies": [
@@ -61953,7 +61984,7 @@
           }
         ],
         "excerpt": "PTC RV&amp;S for Configuration Management plug-in for Jenkins",
-        "gav": "org.jenkins-ci.plugins:integrity-plugin:2.7",
+        "gav": "org.jenkins-ci.plugins:integrity-plugin:2.7.1",
         "health": 82,
         "issueTrackers": [
           {
@@ -61967,17 +61998,17 @@
         ],
         "name": "integrity-plugin",
         "popularity": 172,
-        "previousTimestamp": "2024-08-03T20:31:19.00Z",
-        "previousVersion": "2.6",
-        "releaseTimestamp": "2026-05-18T09:19:45.00Z",
-        "requiredCore": "2.516.3",
+        "previousTimestamp": "2026-05-18T09:19:45.00Z",
+        "previousVersion": "2.7",
+        "releaseTimestamp": "2026-06-24T12:57:54.00Z",
+        "requiredCore": "2.555.3",
         "scm": "https://github.com/jenkinsci/integrity-plugin",
-        "sha1": "MaUeDCRvl/RvOEHI1q7n5RttkbA=",
-        "sha256": "sw0b6ZIaecoiFXqVBjtkxftaJhRBj6roZXZMA20UhXs=",
-        "size": 5921210,
+        "sha1": "zqmdR2afy/C1ZmZD9+2l1n0GJPo=",
+        "sha256": "HkP+FX0xMzfn/BZBxECyzL4MclWuYlChYOUPphnmYsA=",
+        "size": 5926117,
         "title": "PTC RV&S CM",
-        "url": "https://updates.jenkins.io/download/plugins/integrity-plugin/2.7/integrity-plugin.hpi",
-        "version": "2.7",
+        "url": "https://updates.jenkins.io/download/plugins/integrity-plugin/2.7.1/integrity-plugin.hpi",
+        "version": "2.7.1",
         "wiki": "https://plugins.jenkins.io/integrity-plugin",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/integrity-plugin/latest/integrity-plugin.hpi"
       },
@@ -66115,23 +66146,28 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/job-strongauth-simple/latest/job-strongauth-simple.hpi"
       },
       "jobConfigHistory": {
-        "buildDate": "Sep 04, 2025",
+        "buildDate": "Jun 19, 2026",
         "defaultBranch": "master",
         "dependencies": [
           {
             "name": "ionicons-api",
             "optional": false,
-            "version": "88.va_4187cb_eddf1"
+            "version": "94.vcc3065403257"
           },
           {
             "name": "jakarta-activation-api",
             "optional": false,
-            "version": "2.1.3-2"
+            "version": "2.1.4-1"
+          },
+          {
+            "name": "jakarta-xml-bind-api",
+            "optional": false,
+            "version": "4.0.6-12.vb_1833c1231d3"
           },
           {
             "name": "maven-plugin",
             "optional": true,
-            "version": "3.26"
+            "version": "3.27"
           }
         ],
         "developers": [
@@ -66141,8 +66177,8 @@
           }
         ],
         "excerpt": "Job history plugin for Jenkins.",
-        "gav": "org.jenkins-ci.plugins:jobConfigHistory:1356.ve360da_6c523a_",
-        "health": 93,
+        "gav": "org.jenkins-ci.plugins:jobConfigHistory:1367.vc8fa_b_15101dc",
+        "health": 96,
         "issueTrackers": [
           {
             "reportUrl": "https://github.com/jenkinsci/job-config-history-plugin/issues/new/choose",
@@ -66156,17 +66192,17 @@
         ],
         "name": "jobConfigHistory",
         "popularity": 34860,
-        "previousTimestamp": "2025-08-12T11:35:49.00Z",
-        "previousVersion": "1352.va_201a_8389340",
-        "releaseTimestamp": "2025-09-04T06:16:37.00Z",
-        "requiredCore": "2.479.3",
+        "previousTimestamp": "2025-09-04T06:16:37.00Z",
+        "previousVersion": "1356.ve360da_6c523a_",
+        "releaseTimestamp": "2026-06-19T09:45:32.00Z",
+        "requiredCore": "2.504.3",
         "scm": "https://github.com/jenkinsci/job-config-history-plugin",
-        "sha1": "4ufh9HekGECdC3G39DJaeSZybSo=",
-        "sha256": "8REGVk5PmtVa/Zdi6kgQ8fYmBbdSE3vCZUHTOhZycdk=",
-        "size": 552168,
+        "sha1": "KKTkPVDiyj93pO2qqfEr6YxQOyU=",
+        "sha256": "Sm73Bf38rikTLS59rRnkB676XYlUoajW0TLDyTtJ3UY=",
+        "size": 455029,
         "title": "Job Configuration History",
-        "url": "https://updates.jenkins.io/download/plugins/jobConfigHistory/1356.ve360da_6c523a_/jobConfigHistory.hpi",
-        "version": "1356.ve360da_6c523a_",
+        "url": "https://updates.jenkins.io/download/plugins/jobConfigHistory/1367.vc8fa_b_15101dc/jobConfigHistory.hpi",
+        "version": "1367.vc8fa_b_15101dc",
         "wiki": "https://plugins.jenkins.io/jobConfigHistory",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/jobConfigHistory/latest/jobConfigHistory.hpi"
       },
@@ -67986,7 +68022,7 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/jwt-auth/latest/jwt-auth.hpi"
       },
       "jwt-auth-filter": {
-        "buildDate": "Jun 14, 2026",
+        "buildDate": "Jun 24, 2026",
         "defaultBranch": "main",
         "dependencies": [
           {
@@ -68012,7 +68048,7 @@
           }
         ],
         "excerpt": "JWT Auth Filter Plugin provides an auth/authz filter that validate incoming JWT tokens (as Bearer token) and authenticate/authorize users based on access token content.",
-        "gav": "io.jenkins.plugins:jwt-auth-filter:48.v927977fa_60f6",
+        "gav": "io.jenkins.plugins:jwt-auth-filter:52.v493a_c62a_0373",
         "health": 100,
         "issueTrackers": [
           {
@@ -68024,17 +68060,17 @@
         "labels": [],
         "name": "jwt-auth-filter",
         "popularity": 0,
-        "previousTimestamp": "2026-06-08T08:13:21.00Z",
-        "previousVersion": "46.v42967f03c7b_d",
-        "releaseTimestamp": "2026-06-14T08:08:01.00Z",
+        "previousTimestamp": "2026-06-14T08:08:01.00Z",
+        "previousVersion": "48.v927977fa_60f6",
+        "releaseTimestamp": "2026-06-24T11:11:10.00Z",
         "requiredCore": "2.528.3",
         "scm": "https://github.com/jenkinsci/jwt-auth-filter-plugin",
-        "sha1": "RwSKmqW0O1PiXvGWuu8HZl85X+A=",
-        "sha256": "o/2hPoxlFW5I3O7JkQcP8kOJ7am0RRJJ+468pECMwL4=",
-        "size": 36635,
+        "sha1": "+TEB9z0rGjYMZlYFvB7Zt5pp8FA=",
+        "sha256": "ixZ8IvI5Yh5t+Wvqc9lGYgNhUcOdXvLLnka4x2qnn8A=",
+        "size": 36697,
         "title": "JWT Auth Filter",
-        "url": "https://updates.jenkins.io/download/plugins/jwt-auth-filter/48.v927977fa_60f6/jwt-auth-filter.hpi",
-        "version": "48.v927977fa_60f6",
+        "url": "https://updates.jenkins.io/download/plugins/jwt-auth-filter/52.v493a_c62a_0373/jwt-auth-filter.hpi",
+        "version": "52.v493a_c62a_0373",
         "wiki": "https://plugins.jenkins.io/jwt-auth-filter",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/jwt-auth-filter/latest/jwt-auth-filter.hpi"
       },
@@ -71930,7 +71966,7 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/localization-zh-cn/latest/localization-zh-cn.hpi"
       },
       "lockable-resources": {
-        "buildDate": "May 29, 2026",
+        "buildDate": "Jun 24, 2026",
         "compatibleSinceVersion": "2.0",
         "defaultBranch": "master",
         "dependencies": [
@@ -72005,7 +72041,7 @@
           }
         ],
         "excerpt": "This plugin allows to define external resources (such as printers, phones, computers) that can be locked by builds. If a build requires an external resource which is already locked, it will wait for the resource to be free.",
-        "gav": "org.6wind.jenkins:lockable-resources:1524.v2c727b_b_e56ef",
+        "gav": "org.6wind.jenkins:lockable-resources:1537.v68d014129e68",
         "health": 100,
         "issueTrackers": [
           {
@@ -72021,17 +72057,17 @@
         ],
         "name": "lockable-resources",
         "popularity": 92201,
-        "previousTimestamp": "2026-04-27T05:46:31.00Z",
-        "previousVersion": "1515.v380548282a_59",
-        "releaseTimestamp": "2026-05-29T05:04:57.00Z",
+        "previousTimestamp": "2026-05-29T05:04:57.00Z",
+        "previousVersion": "1524.v2c727b_b_e56ef",
+        "releaseTimestamp": "2026-06-24T20:09:00.00Z",
         "requiredCore": "2.541.3",
         "scm": "https://github.com/jenkinsci/lockable-resources-plugin",
-        "sha1": "7nwp1Pm/9NRjXY9kx45go65hRK8=",
-        "sha256": "WlRqTsFE/T1Jq8xfAMC8SraXtKfkpWTQtGbDAJ0m7DQ=",
-        "size": 227103,
+        "sha1": "BgqMOV368zOifL10LuuZ7Ob5iWY=",
+        "sha256": "giYqubPn2YTa4EYmrhDsGcZV50XsOJPg8ihyyp9vg2c=",
+        "size": 231451,
         "title": "Lockable Resources",
-        "url": "https://updates.jenkins.io/download/plugins/lockable-resources/1524.v2c727b_b_e56ef/lockable-resources.hpi",
-        "version": "1524.v2c727b_b_e56ef",
+        "url": "https://updates.jenkins.io/download/plugins/lockable-resources/1537.v68d014129e68/lockable-resources.hpi",
+        "version": "1537.v68d014129e68",
         "wiki": "https://plugins.jenkins.io/lockable-resources",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/lockable-resources/latest/lockable-resources.hpi"
       },
@@ -75128,7 +75164,7 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/maven-snapshot-check/latest/maven-snapshot-check.hpi"
       },
       "mcp-server": {
-        "buildDate": "Jun 10, 2026",
+        "buildDate": "Jun 16, 2026",
         "defaultBranch": "main",
         "dependencies": [
           {
@@ -75168,7 +75204,7 @@
           }
         ],
         "excerpt": "The <a href=\"https://modelcontextprotocol.io/\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">MCP (Model Context Protocol)</a> Server Plugin for Jenkins implements the server-side component of the Model Context Protocol. This plugin enables Jenkins to act as an MCP server, providing context, tools, and capabilities to MCP clients, such as LLM-powered applications or IDEs.",
-        "gav": "io.jenkins.plugins:mcp-server:0.177.v629fdb_2557fe",
+        "gav": "io.jenkins.plugins:mcp-server:0.178.vffe5a_e770f3b_",
         "health": 100,
         "issueTrackers": [
           {
@@ -75183,17 +75219,17 @@
         ],
         "name": "mcp-server",
         "popularity": 0,
-        "previousTimestamp": "2026-06-05T11:34:19.00Z",
-        "previousVersion": "0.174.v2747878a_eedb_",
-        "releaseTimestamp": "2026-06-10T23:09:44.00Z",
+        "previousTimestamp": "2026-06-10T23:09:44.00Z",
+        "previousVersion": "0.177.v629fdb_2557fe",
+        "releaseTimestamp": "2026-06-16T11:37:05.00Z",
         "requiredCore": "2.533",
         "scm": "https://github.com/jenkinsci/mcp-server-plugin",
-        "sha1": "rLWs0DcOzE6lfrLciEPCTeTgTaI=",
-        "sha256": "p6F4tcx9kgkI9S6274rWi5DqIEOgaHz279ldopsLtxM=",
-        "size": 3180433,
+        "sha1": "0cmm0bYBCNBgYKWSUaaI+Q405Qw=",
+        "sha256": "2k0do2lSTyywdzRa4+KRr/ki81HbjJHMKGLVvHs8ico=",
+        "size": 3180503,
         "title": "MCP Server",
-        "url": "https://updates.jenkins.io/download/plugins/mcp-server/0.177.v629fdb_2557fe/mcp-server.hpi",
-        "version": "0.177.v629fdb_2557fe",
+        "url": "https://updates.jenkins.io/download/plugins/mcp-server/0.178.vffe5a_e770f3b_/mcp-server.hpi",
+        "version": "0.178.vffe5a_e770f3b_",
         "wiki": "https://plugins.jenkins.io/mcp-server",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/mcp-server/latest/mcp-server.hpi"
       },
@@ -101444,7 +101480,7 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/script-realm/latest/script-realm.hpi"
       },
       "script-security": {
-        "buildDate": "Apr 22, 2026",
+        "buildDate": "Jun 16, 2026",
         "defaultBranch": "master",
         "dependencies": [
           {
@@ -101488,7 +101524,7 @@
           }
         ],
         "excerpt": "Allows Jenkins administrators to control what in-process scripts can be run by less-privileged users.",
-        "gav": "org.jenkins-ci.plugins:script-security:1402.v94c9ce464861",
+        "gav": "org.jenkins-ci.plugins:script-security:1402.1405.vc96e74964250",
         "health": 100,
         "issueTrackers": [
           {
@@ -101503,17 +101539,17 @@
         ],
         "name": "script-security",
         "popularity": 276424,
-        "previousTimestamp": "2026-02-04T21:42:36.00Z",
-        "previousVersion": "1399.ve6a_66547f6e1",
-        "releaseTimestamp": "2026-04-22T12:00:23.00Z",
+        "previousTimestamp": "2026-04-22T12:00:23.00Z",
+        "previousVersion": "1402.v94c9ce464861",
+        "releaseTimestamp": "2026-06-16T10:25:56.00Z",
         "requiredCore": "2.479.3",
         "scm": "https://github.com/jenkinsci/script-security-plugin",
-        "sha1": "7LRcfUP4eK/vultqf74IjQ3vqxM=",
-        "sha256": "cZbyWalB6DGu99nw2Hrh6jfdq6l/0icbcivDbTlZs7Q=",
-        "size": 214914,
+        "sha1": "KIkqXT7kKvuoqeUuC9E55nbKVIg=",
+        "sha256": "wa5ns1DtDXmpUIgAFY53G0UYpK0t2MsHYjLy0r2oMo0=",
+        "size": 216569,
         "title": "Script Security",
-        "url": "https://updates.jenkins.io/download/plugins/script-security/1402.v94c9ce464861/script-security.hpi",
-        "version": "1402.v94c9ce464861",
+        "url": "https://updates.jenkins.io/download/plugins/script-security/1402.1405.vc96e74964250/script-security.hpi",
+        "version": "1402.1405.vc96e74964250",
         "wiki": "https://plugins.jenkins.io/script-security",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/script-security/latest/script-security.hpi"
       },
@@ -105187,7 +105223,7 @@
           }
         ],
         "excerpt": "Smart Retry provides a conservative, explainable Pipeline-first retry step for transient Jenkins infrastructure failures.",
-        "gav": "io.jenkins.plugins:smart-retry:32.v732776e3a_e24",
+        "gav": "io.jenkins.plugins:smart-retry:34.v304558b_7f896",
         "health": 100,
         "issueTrackers": [
           {
@@ -105201,17 +105237,17 @@
         ],
         "name": "smart-retry",
         "popularity": 0,
-        "previousTimestamp": "2026-06-23T09:28:47.00Z",
-        "previousVersion": "31.v07e4ff763028",
-        "releaseTimestamp": "2026-06-24T02:52:11.00Z",
+        "previousTimestamp": "2026-06-24T02:52:11.00Z",
+        "previousVersion": "32.v732776e3a_e24",
+        "releaseTimestamp": "2026-06-24T15:48:16.00Z",
         "requiredCore": "2.528.3",
         "scm": "https://github.com/jenkinsci/smart-retry-plugin",
-        "sha1": "7gNFqT8uxpVP6NlLjDdLlY1D1mI=",
-        "sha256": "FNanE/7A6JVY06VdBk0A0hWMabk1rj1ZSM4fSWvYUNU=",
-        "size": 99657,
+        "sha1": "0PZJdcMwAqnV+xV5AxdDwoyoe9w=",
+        "sha256": "q2+8rIZ/jtvWlE59EdffdK1wHDJhuzBpnVfLvYzj9LI=",
+        "size": 99864,
         "title": "Smart Retry",
-        "url": "https://updates.jenkins.io/download/plugins/smart-retry/32.v732776e3a_e24/smart-retry.hpi",
-        "version": "32.v732776e3a_e24",
+        "url": "https://updates.jenkins.io/download/plugins/smart-retry/34.v304558b_7f896/smart-retry.hpi",
+        "version": "34.v304558b_7f896",
         "wiki": "https://plugins.jenkins.io/smart-retry",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/smart-retry/latest/smart-retry.hpi"
       },
@@ -109188,7 +109224,7 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/swarm/latest/swarm.hpi"
       },
       "swarm-agents-cloud": {
-        "buildDate": "Jun 02, 2026",
+        "buildDate": "Jun 25, 2026",
         "defaultBranch": "master",
         "dependencies": [
           {
@@ -109259,7 +109295,7 @@
           }
         ],
         "excerpt": "Swarm Agents Cloud plugin provisions Jenkins agents on a Docker Swarm cluster. Features: WebSocket-based agent connectionsReal-time cluster monitoringConfiguration as Code (JCasC) supportResource constraints (CPU, memory limits)Volume and bind mountsPlacement constraintsPer-template instance limits",
-        "gav": "io.jenkins.plugins:swarm-agents-cloud:1.0.73",
+        "gav": "io.jenkins.plugins:swarm-agents-cloud:1.0.76",
         "health": 100,
         "issueTrackers": [
           {
@@ -109271,17 +109307,17 @@
         "labels": [],
         "name": "swarm-agents-cloud",
         "popularity": 0,
-        "previousTimestamp": "2026-05-26T15:17:11.00Z",
-        "previousVersion": "1.0.72",
-        "releaseTimestamp": "2026-06-02T11:04:18.00Z",
+        "previousTimestamp": "2026-06-24T13:05:34.00Z",
+        "previousVersion": "1.0.74",
+        "releaseTimestamp": "2026-06-25T02:55:54.00Z",
         "requiredCore": "2.528.3",
         "scm": "https://github.com/jenkinsci/swarm-agents-cloud-plugin",
-        "sha1": "GvJm76nehsBX33iVZ+M1dJuqvFY=",
-        "sha256": "QZ+nWH9ECnTwToM9eAWCLpCRhhYYuIz+x5Tw+BmwBSw=",
-        "size": 168874,
+        "sha1": "cAqPj1looX49if6oIAaS1t5/GJs=",
+        "sha256": "cWsSCsL95Tt/g1PhB75tI41HAksIwpU60svWNluhMIQ=",
+        "size": 171941,
         "title": "Swarm Agents Cloud",
-        "url": "https://updates.jenkins.io/download/plugins/swarm-agents-cloud/1.0.73/swarm-agents-cloud.hpi",
-        "version": "1.0.73",
+        "url": "https://updates.jenkins.io/download/plugins/swarm-agents-cloud/1.0.76/swarm-agents-cloud.hpi",
+        "version": "1.0.76",
         "wiki": "https://plugins.jenkins.io/swarm-agents-cloud",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/swarm-agents-cloud/latest/swarm-agents-cloud.hpi"
       },
@@ -119637,7 +119673,7 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/workflow-basic-steps/latest/workflow-basic-steps.hpi"
       },
       "workflow-cps": {
-        "buildDate": "May 12, 2026",
+        "buildDate": "Jun 15, 2026",
         "compatibleSinceVersion": "2.18",
         "defaultBranch": "master",
         "dependencies": [
@@ -119734,7 +119770,7 @@
           }
         ],
         "excerpt": "Pipeline execution engine based on continuation passing style transformation of Groovy scripts.",
-        "gav": "org.jenkins-ci.plugins.workflow:workflow-cps:4331.v9d06ed4658ff",
+        "gav": "org.jenkins-ci.plugins.workflow:workflow-cps:4331.4333.v50a_b_076c5199",
         "health": 100,
         "issueTrackers": [
           {
@@ -119749,17 +119785,17 @@
         ],
         "name": "workflow-cps",
         "popularity": 265079,
-        "previousTimestamp": "2026-04-29T14:57:53.00Z",
-        "previousVersion": "4315.va_e456c4e7f4f",
-        "releaseTimestamp": "2026-05-12T13:38:57.00Z",
+        "previousTimestamp": "2026-05-12T13:38:57.00Z",
+        "previousVersion": "4331.v9d06ed4658ff",
+        "releaseTimestamp": "2026-06-15T15:48:08.00Z",
         "requiredCore": "2.516.3",
         "scm": "https://github.com/jenkinsci/workflow-cps-plugin",
-        "sha1": "CcJ3sbUMosY1W5O1nByHDUoX1fc=",
-        "sha256": "9TmilymCIAqgJY6EPonHnW5oca4mygJfiyHvcHq8lCk=",
-        "size": 841493,
+        "sha1": "KKgDhdropG55KquUtHqoRQbDP2I=",
+        "sha256": "8mcIcc/Cr0sTp0S/tLmvesiiLiUIjI5Y90U97YkBxjQ=",
+        "size": 1074887,
         "title": "Pipeline: Groovy",
-        "url": "https://updates.jenkins.io/download/plugins/workflow-cps/4331.v9d06ed4658ff/workflow-cps.hpi",
-        "version": "4331.v9d06ed4658ff",
+        "url": "https://updates.jenkins.io/download/plugins/workflow-cps/4331.4333.v50a_b_076c5199/workflow-cps.hpi",
+        "version": "4331.4333.v50a_b_076c5199",
         "wiki": "https://plugins.jenkins.io/workflow-cps",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/workflow-cps/latest/workflow-cps.hpi"
       },
@@ -122711,7 +122747,7 @@
         ],
         "excerpt": "Runs, after optionally building, OWASP ZAP for your automated security assessment",
         "gav": "org.jenkins-ci.plugins:zapper:1.0.7",
-        "health": 50,
+        "health": 25,
         "labels": [
           "post-build"
         ],
@@ -122784,7 +122820,7 @@
         ],
         "excerpt": "Zowe mainframe z/OS automation plugin, working through z/OSMF REST API and using Zowe Kotlin SDK",
         "gav": "io.jenkins.plugins:zdevops:1.1.3.50.ve350c9b_450b_1",
-        "health": 94,
+        "health": 69,
         "issueTrackers": [
           {
             "reportUrl": "https://github.com/jenkinsci/zdevops-plugin/issues/new/choose",
@@ -123439,10 +123475,10 @@
       "certificates": [
         "MIIFqjCCA5KgAwIBAgIFAN6tvwUwDQYJKoZIhvcNAQENBQAwgYoxCzAJBgNVBAYTAlVTMRMwEQYDVQQIDApDYWxpZm9ybmlhMREwDwYDVQQHDAhTYW4gSm9zZTEYMBYGA1UECgwPSmVua2lucyBQcm9qZWN0MRowGAYDVQQDDBFLb2hzdWtlIEthd2FndWNoaTEdMBsGCSqGSIb3DQEJARYOa2tAa29oc3VrZS5vcmcwHhcNMjYwMTE0MTU0MjQyWhcNMjcwMTE0MTU0MjQyWjBeMQswCQYDVQQGEwJVUzETMBEGA1UECAwKQ2FsaWZvcm5pYTEYMBYGA1UECgwPSmVua2lucyBQcm9qZWN0MSAwHgYDVQQDDBdDb21tdW5pdHkgVXBkYXRlIENlbnRlcjCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBALQMWCFq7SaGA+hp98UAzgLkCO6NFlcK9n2mMQ0c6/4b6qI3n53Ak/ljF+4ekEb3p5tnI0iwj0GZjFc5hW1gtz3mfbkxTb7fk5LJFj90NZHr0isb5D21w2fkjGp9h81kGliUZcm3dpdrXMW2Gh1HYcF4uijuz1mzrFt2Ew2vgDse5EFYb32bk6Xmi/dhf0l9r+oKT6bChijgHr3WynRSdDL9y1XDqUq06ZAVp4RqVwwpezrYgJ/OPRZeg9CctnUoFR8BgHKWeNgwuyWrtBKST5pnQmhTEM53qVHzQTgrBP4Vqj38I1R39qPZa4cu3QUXMr8CsfrJ1wF8y3OmXp3pNfbXivb7RoanXYO+uZzoYOaaHAXTICFLUqR0sxJfiOTejm87P9F+EzEvuPGFDAkbo7qrW/hReHYycOiiqPggfLsglZTNJEdd4oLdvDZLnBJWBQscl98f/pVu3Pzld0RnU9phhCMXfVLkeQBQtAxfmqaVnMurELBNeK8ybriTQlAdnkBRzv3NAilUaAfI0gSh/beN2qNlII3kEOSpasAbEVbfBB+r9hNzFj4+Sqi8E+YZbMQjFtdHdO/iQCrcUiqDnTBsxL7u7xzfvLJTxoISUrCigVgUGryaouyUhARHpQwcVG4hewFspJZUaQv7aj0hlpQUC42+2zWr/NK5rVQAZD9RAgMBAAGjQjBAMB0GA1UdDgQWBBR2GjaTNzVHFuMTbEl9hRAbjCtQ2DAfBgNVHSMEGDAWgBQRxuXUMC3pVcYBtWtQctI2frQBhzANBgkqhkiG9w0BAQ0FAAOCAgEAOgskYoOGDmEZIjYUy2tYTKI6eKnpAiQA0yETLdam9wOGGL6J6e7BT5JoyxBrDXy4xrZsDyFOBPB8Di8ETF1mr9k6GsyBO8S/SYd/1qYg9kkHXq2x62WmDs0K7h9N2M9LAEFDvdZYvOnDzgFhcaFfsxUPS9qDFws33NDBTKo/Ya2UIjzyl1H68bw5VG1temOtAzvW+6EA4j2bzgv5NbaUGrZq5Y8yiWRDjdAbMBu0lDnJP7pTLs16jEE1FWfkJhkaU6TbMP6rzehjMkiplu+S0qnVQBUgME2U4EMxCM31oixUl/+WvZ5GQHR8GVdsFkQYs2K3L0i7a9bxc8jD6kzU/sSJwJxnqocB1JnZF1CFbT78bdTaBtZty7MVSUdXYCAf6XZPCMYOGN7Cb7YpLqn0hUCy2tIdHw6TUluyOkP0AoOLFijThtafcgQI19QyCa85DUZxwG1QsVFbGyqv6+47DbX2CUKzNLyfKJhivzwfagKZDo5KaZouv7lO5RMj8onHK+MrkzvJG1kFcFw5lO1ms5QKPNi3RfrQqWQ4rjVBbPdNx4xRpHVpcXp9MXCg64prwGHXrPN2yl2VRYrxwlLRhee27H07ZA9ujLB4PU8ppb6uQH2GQiKpXoRlzQBQej4zhquVM8rQaPfXV8DGNu4lx77tNtgK8uetQxyh4vBOpGA="
       ],
-      "correct_digest": "txu6YdiJq78wS7cTX9OKb4vJCJ0=",
-      "correct_digest512": "3ab1d6ad6bfa2ef9a642ff66d1a49a673370c82095c44a8b3658cc215943a016db111a9e5ab95f2e0c23549de7c546586c3d592e99430485db59bb00f46e2baa",
-      "correct_signature": "khUA+ybftcQRFy22n9HRgqi294NB+6CyVudn1ujYm5tnzYLR/yF6zSoHQweM+SIC3yBrgOuGInX1p1FS1z9UAs5CsSRglzh2YBnUlxZQvue8GOFWxfdLfkESV/5Z//XOvDEmzHWu1PrhHItuALlSERFf6o8vR1mTmGlCHg/psbOBKLShlQ+UNxxluviK8Yo2ezCIFUi9yzCXq0YpT1MucNBWO6cGo9/vJtVxIh3dVqhFKlLcQURsTNo7DKDVXWBxQ5EIqPnhFdEHLQ9qogbQUaxouiVDDCQ1J5Wg5b6DozZKZ5mqcthS76eRC+nhMKeKkY4r6UFtzGYoSJOZ8WHgOK0di78G3bGPensQqtysybNT+lQU+cYanWn4LfoYMgt9shq/2RVTQOvxgB0E0G3LFtLGxHjMRNwgy+tncrJuSdxx0tCf/iyafxh0isVdQB9eSNkXdbv7D8qL8N82d88d7HOkbp5tuQzHzfg+dUtWNnsbyM5JbYTE8ZCORTMLoGBPQyo60ENGB28Ah/dh9ht38YJpo4LirKy/DtdwpF4ipJRsEbNGZPX1Gl61crBjzZC135hx+0eG+QMZW59xLdNM8cQLQ3pdK4hX8ulS5BsKMvS14YpuxeT2KNi2jsjL4avVdTgSIOxnwumD9OLpqT33gkWMn7q6cZHeMjlDGvfPbSM=",
-      "correct_signature512": "3380b6670e6fd475fd420956bd4416e9f2123eb78ff156c3709d00f14d7f60592b5718c917d6956e751112fe119adee90b30be3a8789aea5b760d1df4abb89238d852d0ae63419c03f918df4e8e72300b72cae1e2d7b6727b1cf3485417ee1f8d4ddfda1ac8b7d929b0ed30cbc9565be88fae46dac999e5cb81d09deae9a38724e60474168ad116f24d0c846aecbf51014937efebed887dc32de62fb12be27b552ea24293d9b822fba8f6df2f2c9e1c80c0f84e3e622ba7ce803967229957799a1fb5aff13a3480a9b6fcb05867aeac5c2914ed43a5328e5da4659f790b7f4eb889fa54cf25eeaa408db39228cbd40951bea37c658bbc9e1038f843c40ea30a8b12534f4734653fb3b6f0b9ba48a84ad037729cb7cdc25ff2426a17e37cddabafbbd3f5623717d0d49248b8e8de7e0103882e4f4b14e34b0412e86dc0ab0bf150bd6b030a60cbd05f5a6b82d761c0db5970bfe0e7839de55b042a37b2e604b5ad23543385d40234e055191058fe27f952179da91b9e40c432ca76a19dbc05910f4168e6dce8e3347f806317a0f556f7fc49ead8ce217062e2821afe127b030e66041e81ab0d0d49f15daf82517cac1e6ffef0d661722ebb0b0bb8260f98d7ff027412bddde28c3b467681023704d7e14c225d2c5d222e96f595e652f373a38bd969ef564059c9ea861863303316e91a3b61ca96a6bc82c7b40191b89be324a6e"
+      "correct_digest": "zOJfquy0//0i36O4xUsKXa3QQLk=",
+      "correct_digest512": "51cec558ade66d771f4119d1433bd39ec87ba047ca8caf1b54c9eecc9ee6766296d654c6fc3ce6039fa7c17e8ea2777aec4d195dce8e6ef13c462c259ffb7bf5",
+      "correct_signature": "ULBIRrf+sfPpN/gr/bKTMATi2lmG6V/rr5yUQQCR0tbZG9RSMb7PATBcrSqRr88XyxHDnVVbsIeH1S8JjeJIkB5Gq3eEogb32aF27dPGOhvTx0pEfZXWEjcKXcLR1/dhVNkwoaBTI5obySsg3waVFynSnvx3j3A1OJs2Pguoig55uROS9UKJmqd6S20xRtflHRwrHCmrT1qLBlBzJYP+cTU0D0a2ArPg4YnDIUKdki+SLvqVpUOWanRFdzhCekp/dJ08J9y4hSIIMs4HHihj3fi7AlBxnvHZ1iKPfP3uvx407A4WUI7Z4hg9U9mznvDJUjOyhEOSaKwM+B/cawo6NFHI7W1vdCvfC584a98Zw4AB2UUMWoMvFaxbK5iqMfFrVGAKn6PVSBHa5K3Sv1ti/Rq4zysXC+q/BqigJU0JKW1IfSXA5KDTC0XyVNywlvxDVAtcXuZMTu489Ok1BmPGg23eXPTnnFqWuBDqhX4GmJRr0XWbtSNmqii4z0VN2b0lCO1JSzYQcOjpD2kJ698o6swmTXZqLP5NvVSG7MHM30g+DCn56Wr8uYVKRo/BMQYepK9TSVzLUOoa9TB4z68uYNz1kf5F/dUFRPxzNRUQGdh9zXYFQPkvgt7nSAnzZu3DAN5fcM+2qjYJWzdX8X7OVuKPTPDZdkVWE0NL7gS/75w=",
+      "correct_signature512": "4d976f89265664928feac99f5b6049cff719928c5ea061601490c661e2da17e5d06a64dc2a9724675d1c646bce22b43190f06e22c6312c9a21a3c97bbaebb444592283d1d7ce7643b248da80612dff64f90fd5fff3cf37892b7d9c18f1341c1f733d2884dd8f5faea57fb516b576a549918ee7f66004dece5e1dd10de138d2eee75e65f94c9d46e71832e9005c91ecc7a7b9bf23a332b0a6c997ea130e07dca6eb0c7dbcc99a55ccfc507089789f35b0c81946042fef36e2fca293d53a43e5ae299fe7297d0787cf0fc590f0e2c6358858351fd72747eb02d9ca2778914c723dc8a4159c9f7d3d41177d6af3019727e6f82e8b57162481f2c60719847937b4bec92c89658434a7966bf160c997acb682c1d29d0c68c37edaba421e736fa9df6d5f2850518a305b8fd34f56940750b64a16a73bb34be7a2c0b646bcd500dc640278d8c1750b0d5e51fd4e921288ed865d7e54508b69d5c83d907a23740ce88ae38273a3e43a3ec73650c2f6038ca214b59c40ff310dc6a19a76f8903845c5522901a22bcef064c6aa0d340871f27475f161681c569480e3779d4448a1f2ba04036ecd716f97f468fe317d6984f2b4ceafb204de5ea7f11bd42685a05304a0b50aeb58deab65f4d619ff3d286c9a8153ebf1720253c8cb5f59000fde5732c5e2decbbc78ea2a427c5816439c43073951fe4f30ac8d68f93c2f78bfa22c5163e49a"
     },
     "updateCenterVersion": "1",
     "warnings": [
@@ -142975,14 +143011,300 @@
             "pattern": "(1|2[.]107|2[.]121|2[.]138|2[.]150|2[.]164|2[.]176|2[.]19|2[.]190|2[.]204|2[.]222|2[.]235|2[.]249|2[.]263|2[.]277|2[.]289|2[.]303|2[.]319|2[.]32|2[.]332|2[.]346|2[.]361|2[.]375|2[.]387|2[.]401|2[.]414|2[.]426|2[.]440|2[.]452|2[.]46|2[.]462|2[.]479|2[.]492|2[.]504|2[.]516|2[.]528|2[.]541|2[.]555[.][12]|2[.]60|2[.]7|2[.]73|2[.]89)(|[.-].+)"
           }
         ]
+      },
+      {
+        "id": "SECURITY-3555",
+        "message": "Passwords stored in plain text",
+        "name": "fitnesse",
+        "type": "plugin",
+        "url": "https://www.jenkins.io/security/advisory/2026-06-24/#SECURITY-3555",
+        "versions": [
+          {
+            "lastVersion": "1.36",
+            "pattern": ".*"
+          }
+        ]
+      },
+      {
+        "id": "SECURITY-3649",
+        "message": "Builds executed on the Jenkins controller can lead to RCE",
+        "name": "zapper",
+        "type": "plugin",
+        "url": "https://www.jenkins.io/security/advisory/2026-06-24/#SECURITY-3649",
+        "versions": [
+          {
+            "lastVersion": "1.0.7",
+            "pattern": ".*"
+          }
+        ]
+      },
+      {
+        "id": "SECURITY-3651",
+        "message": "LDAP injection vulnerability",
+        "name": "active-directory",
+        "type": "plugin",
+        "url": "https://www.jenkins.io/security/advisory/2026-06-24/#SECURITY-3651",
+        "versions": [
+          {
+            "lastVersion": "2.41.1",
+            "pattern": "(1|2[.][023456789]|2[.]1[0-9]|2[.]2[023456789]|2[.]3[013456789]|2[.]40|2[.]41[.]1)(|[.-].+)|(2[.]41)"
+          }
+        ]
+      },
+      {
+        "id": "SECURITY-3677",
+        "message": "CSRF vulnerability and unrestricted instantiation of types",
+        "name": "workflow-cps",
+        "type": "plugin",
+        "url": "https://www.jenkins.io/security/advisory/2026-06-24/#SECURITY-3677",
+        "versions": [
+          {
+            "lastVersion": "4331.v9d06ed4658ff",
+            "pattern": "([12]|2633|264[0468]|265[69]|2660|268[0236789]|2692|270[56]|2710|272[59]|2746|2759|2784|280[1-3]|3520|3536|3565|358[13]|360[16]|361[168]|362[469]|363[57]|3641|365[139]|3668|3673|369[137]|3705|371[37]|372[268]|373[12]|374[04]|376[79]|377[34]|378[57]|379[13]|380[256]|381[27]|382[16]|383[257]|385[39]|3867|388[039]|3894|390[38]|3922|394[36]|3953|396[149]|3975|399[036]|400[02379]|401[148]|403[029]|404[356]|4050|4080|4106|4117|4146|415[01]|416[589]|417[357]|4183|420[49]|4218|4238|425[023456789]|426[1-3]|4275|4285|4303|4315|4331[.]v9d06ed4658ff)(|[.-].+)"
+          }
+        ]
+      },
+      {
+        "id": "SECURITY-3692-1",
+        "message": "XXE vulnerability",
+        "name": "assembla",
+        "type": "plugin",
+        "url": "https://www.jenkins.io/security/advisory/2026-06-24/#SECURITY-3692%20(1)",
+        "versions": [
+          {
+            "lastVersion": "1.4",
+            "pattern": ".*"
+          }
+        ]
+      },
+      {
+        "id": "SECURITY-3692-2",
+        "message": "CSRF vulnerability and missing permission check",
+        "name": "assembla",
+        "type": "plugin",
+        "url": "https://www.jenkins.io/security/advisory/2026-06-24/#SECURITY-3692%20(2)",
+        "versions": [
+          {
+            "lastVersion": "1.4",
+            "pattern": ".*"
+          }
+        ]
+      },
+      {
+        "id": "SECURITY-3697-1",
+        "message": "CSRF vulnerability and missing permission check",
+        "name": "contrast-continuous-application-security",
+        "type": "plugin",
+        "url": "https://www.jenkins.io/security/advisory/2026-06-24/#SECURITY-3697%20(1)",
+        "versions": [
+          {
+            "lastVersion": "3.11",
+            "pattern": "([12]|3[.][0-9]|3[.]1[01])(|[.-].+)"
+          }
+        ]
+      },
+      {
+        "id": "SECURITY-3697-2",
+        "message": "Missing permission checks allow enumerating Contrast metadata",
+        "name": "contrast-continuous-application-security",
+        "type": "plugin",
+        "url": "https://www.jenkins.io/security/advisory/2026-06-24/#SECURITY-3697%20(2)",
+        "versions": [
+          {
+            "lastVersion": "3.11",
+            "pattern": "([12]|3[.][0-9]|3[.]1[01])(|[.-].+)"
+          }
+        ]
+      },
+      {
+        "id": "SECURITY-3723",
+        "message": "OS command injection vulnerability on agents",
+        "name": "git-client",
+        "type": "plugin",
+        "url": "https://www.jenkins.io/security/advisory/2026-06-24/#SECURITY-3723",
+        "versions": [
+          {
+            "lastVersion": "6.6.0",
+            "pattern": "([1-5]|6[.][0-5]|6[.]6[.]0)(|[.-].+)"
+          }
+        ]
+      },
+      {
+        "id": "SECURITY-3742",
+        "message": "Encrypted values of secrets in job and agent configurations not redacted",
+        "name": "jobConfigHistory",
+        "type": "plugin",
+        "url": "https://www.jenkins.io/security/advisory/2026-06-24/#SECURITY-3742",
+        "versions": [
+          {
+            "lastVersion": "1356.ve360da_6c523a_",
+            "pattern": "([12]|1119|113[39]|114[68]|115[56]|116[356]|117[016]|118[37]|119[18]|120[67]|1212|122[79]|1241|1259|126[48]|1277|1283|129[46]|130[259]|132[08]|1330|1343|135[26])(|[.-].+)"
+          }
+        ]
+      },
+      {
+        "id": "SECURITY-3745",
+        "message": "Missing permission check allows listing SCM branch and tag names",
+        "name": "git-parameter",
+        "type": "plugin",
+        "url": "https://www.jenkins.io/security/advisory/2026-06-24/#SECURITY-3745",
+        "versions": [
+          {
+            "lastVersion": "462.vdcf3df2ed2ca_",
+            "pattern": "(0|43[59]|444|460|462[.]vdcf3df2ed2ca_)(|[.-].+)"
+          }
+        ]
+      },
+      {
+        "id": "SECURITY-3747",
+        "message": "CSRF vulnerability and missing permission check",
+        "name": "zdevops",
+        "type": "plugin",
+        "url": "https://www.jenkins.io/security/advisory/2026-06-24/#SECURITY-3747",
+        "versions": [
+          {
+            "lastVersion": "1.1.3.50.ve350c9b_450b_1",
+            "pattern": ".*"
+          }
+        ]
+      },
+      {
+        "id": "SECURITY-3759",
+        "message": "Missing permission check allows reading Pipeline replay scripts",
+        "name": "mcp-server",
+        "type": "plugin",
+        "url": "https://www.jenkins.io/security/advisory/2026-06-24/#SECURITY-3759",
+        "versions": [
+          {
+            "lastVersion": "0.177.v629fdb_2557fe",
+            "pattern": "(0[.]10[249]|0[.]11[69]|0[.]13[08]|0[.]14[89]|0[.]158|0[.]1[67]|0[.]16[6-8]|0[.]172[.]v9db_cb_43cdb_cc|0[.]17[47]|0[.]2[5-7]|0[.]3[3457]|0[.]4[16]|0[.]57|0[.]77|0[.]8[4689]|0[.]9[025])(|[.-].+)"
+          }
+        ]
+      },
+      {
+        "id": "SECURITY-3762-1",
+        "message": "Missing permission checks and CSRF vulnerability",
+        "name": "gitee",
+        "type": "plugin",
+        "url": "https://www.jenkins.io/security/advisory/2026-06-24/#SECURITY-3762%20(1)",
+        "versions": [
+          {
+            "lastVersion": "1288.v18b_deb_c9069b_",
+            "pattern": "(1|116[45]|1170|1189|119[0578]|120[14]|1224|1232|124[5-7]|125[012356789]|126[0156]|127[1278]|128[28])(|[.-].+)"
+          }
+        ]
+      },
+      {
+        "id": "SECURITY-3762-2",
+        "message": "Incorrect permission check allows enumerating credentials IDs",
+        "name": "gitee",
+        "type": "plugin",
+        "url": "https://www.jenkins.io/security/advisory/2026-06-24/#SECURITY-3762%20(2)",
+        "versions": [
+          {
+            "lastVersion": "1288.v18b_deb_c9069b_",
+            "pattern": "(1|116[45]|1170|1189|119[0578]|120[14]|1224|1232|124[5-7]|125[012356789]|126[0156]|127[1278]|128[28])(|[.-].+)"
+          }
+        ]
+      },
+      {
+        "id": "SECURITY-3769",
+        "message": "CSRF vulnerability",
+        "name": "PrioritySorter",
+        "type": "plugin",
+        "url": "https://www.jenkins.io/security/advisory/2026-06-24/#SECURITY-3769",
+        "versions": [
+          {
+            "lastVersion": "936.v2c01c6b_84449",
+            "pattern": "([1-5]|849|86[13]|905|936[.]v2c01c6b_84449)(|[.-].+)"
+          }
+        ]
+      },
+      {
+        "id": "SECURITY-3774",
+        "message": "CSRF vulnerability and missing permission checks",
+        "name": "ec2-fleet",
+        "type": "plugin",
+        "url": "https://www.jenkins.io/security/advisory/2026-06-24/#SECURITY-3774",
+        "versions": [
+          {
+            "lastVersion": "4.2.3.539.v8fedff2a_81c3",
+            "pattern": "([1-3]|4[.][01]|4[.]2[.][0-2]|4[.]2[.]3[.]539)(|[.-].+)"
+          }
+        ]
+      },
+      {
+        "id": "SECURITY-3777",
+        "message": "Path traversal vulnerability",
+        "name": "external-workspace-manager",
+        "type": "plugin",
+        "url": "https://www.jenkins.io/security/advisory/2026-06-24/#SECURITY-3777",
+        "versions": [
+          {
+            "lastVersion": "1.3.2",
+            "pattern": "(1[.][0-3])(|[.-].+)"
+          }
+        ]
+      },
+      {
+        "id": "SECURITY-3792",
+        "message": "Sandbox bypass vulnerability",
+        "name": "script-security",
+        "type": "plugin",
+        "url": "https://www.jenkins.io/security/advisory/2026-06-24/#SECURITY-3792",
+        "versions": [
+          {
+            "lastVersion": "1402.v94c9ce464861",
+            "pattern": "(1|1118|1125|113[18]|114[056]|1158|117[25]|118[349]|1190|1209|1218|122[89]|1244|1251|126[459]|127[1345]|1281|1294|130[15]|131[03]|132[16]|133[56]|1341|135[48]|136[1256789]|137[38]|1385|1399|1402[.]v94c9ce464861)(|[.-].+)"
+          }
+        ]
+      },
+      {
+        "id": "SECURITY-3793",
+        "message": "Script security bypass vulnerability",
+        "name": "script-security",
+        "type": "plugin",
+        "url": "https://www.jenkins.io/security/advisory/2026-06-24/#SECURITY-3793",
+        "versions": [
+          {
+            "lastVersion": "1402.v94c9ce464861",
+            "pattern": "(1|1118|1125|113[18]|114[056]|1158|117[25]|118[349]|1190|1209|1218|122[89]|1244|1251|126[459]|127[1345]|1281|1294|130[15]|131[03]|132[16]|133[56]|1341|135[48]|136[1256789]|137[38]|1385|1399|1402[.]v94c9ce464861)(|[.-].+)"
+          }
+        ]
+      },
+      {
+        "id": "SECURITY-3808",
+        "message": "Missing permission check allows enumerating GitHub Enterprise server URLs",
+        "name": "github-branch-source",
+        "type": "plugin",
+        "url": "https://www.jenkins.io/security/advisory/2026-06-24/#SECURITY-3808",
+        "versions": [
+          {
+            "lastVersion": "1967.1969.v205fd594c821",
+            "pattern": "([12]|1577|1583|159[89]|1602|1619|1628|1637|1656|1677|1687|169[4-6]|170[13]|172[58]|173[024]|174[018]|175[01258]|1767|177[12]|178[1579]|179[037]|180[379]|181[05]|182[24]|183[34]|184[48]|186[249]|1871|1906|191[017]|1925|193[46]|1967[.]1969|1967[.]vdea_d580c1a_b_a_)(|[.-].+)"
+          }
+        ]
+      },
+      {
+        "id": "SECURITY-3856",
+        "message": "SSL/TLS certificate validation unconditionally disabled",
+        "name": "bitbucket-push-and-pull-request",
+        "type": "plugin",
+        "url": "https://www.jenkins.io/security/advisory/2026-06-24/#SECURITY-3856",
+        "versions": [
+          {
+            "lastVersion": "3.3.8",
+            "pattern": "([12]|3[.][0-2]|3[.]3[.][0-8])(|[.-].+)"
+          }
+        ]
       }
     ]
   },
   "_metadata": {
-    "generatedAt": "2026-06-24T05:01:25.226Z",
+    "generatedAt": "2026-06-25T05:05:00.329Z",
     "bestMirror": "https://mirror.nju.edu.cn/jenkins/",
     "mirrorsChecked": 10,
-    "pluginsModified": 2085,
+    "pluginsModified": 2086,
     "officialSource": "https://updates.jenkins.io/update-center.json?version=latest",
     "generator": "jenkins-plugins-mirror (https://github.com/your-username/jenkins-plugins-mirror)"
   }
