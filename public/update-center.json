@@ -2,13 +2,13 @@
   "updateCenter": {
     "connectionCheckUrl": "https://www.google.com/",
     "core": {
-      "buildDate": "Jul 14, 2026",
+      "buildDate": "Jul 21, 2026",
       "name": "core",
-      "sha1": "veG9OQ501V0gLzQEfCLzA8YxyLU=",
-      "sha256": "jnI1gz6N4doAiVaavIdUz1YbzRvDHpjKCbeu8ZSfMQk=",
-      "size": 101165874,
-      "url": "https://updates.jenkins.io/download/war/2.573/jenkins.war",
-      "version": "2.573"
+      "sha1": "FD1038g/XxJMW2pawmKxeIwbpIM=",
+      "sha256": "6SSlXf9+lu/tSETfVcZDO43APH5jm0X4KJ5t+LiT/KI=",
+      "size": 74230346,
+      "url": "https://updates.jenkins.io/download/war/2.574/jenkins.war",
+      "version": "2.574"
     },
     "deprecations": {
       "BlameSubversion": {
@@ -810,7 +810,7 @@
         "url": "https://wiki.jenkins-ci.org/display/JENKINS/ZAProxy+Plugin"
       }
     },
-    "generationTimestamp": "2026-07-21T04:10:16Z",
+    "generationTimestamp": "2026-07-22T04:10:15Z",
     "id": "default",
     "plugins": {
       "42crunch-security-audit": {
@@ -2329,14 +2329,14 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/accurev/latest/accurev.hpi"
       },
       "active-directory": {
-        "buildDate": "Jun 12, 2026",
+        "buildDate": "Jul 21, 2026",
         "compatibleSinceVersion": "2.0",
         "defaultBranch": "master",
         "dependencies": [
           {
             "name": "caffeine-api",
             "optional": false,
-            "version": "3.2.2-178.v353b_8428ed56"
+            "version": "3.2.3-194.v31a_b_f7a_b_5a_81"
           },
           {
             "name": "ionicons-api",
@@ -2346,12 +2346,12 @@
           {
             "name": "configuration-as-code",
             "optional": true,
-            "version": "1998.v3e50e6e9d9d3"
+            "version": "2080.vd4d4535f0ec8"
           },
           {
             "name": "mailer",
             "optional": false,
-            "version": "522.va_995fa_cfb_8b_d"
+            "version": "534.v1b_36f5864073"
           }
         ],
         "developers": [
@@ -2397,7 +2397,7 @@
           }
         ],
         "excerpt": "This plugin enables authentication through Active Directory.",
-        "gav": "org.jenkins-ci.plugins:active-directory:2.41.2",
+        "gav": "org.jenkins-ci.plugins:active-directory:2.958.vc03fe0b_a_8e65",
         "health": 94,
         "issueTrackers": [
           {
@@ -2411,17 +2411,17 @@
         ],
         "name": "active-directory",
         "popularity": 30773,
-        "previousTimestamp": "2026-05-20T13:10:28.00Z",
-        "previousVersion": "2.41.1",
-        "releaseTimestamp": "2026-06-12T12:47:31.00Z",
-        "requiredCore": "2.504.3",
+        "previousTimestamp": "2026-06-12T12:47:31.00Z",
+        "previousVersion": "2.41.2",
+        "releaseTimestamp": "2026-07-21T15:11:45.00Z",
+        "requiredCore": "2.541.3",
         "scm": "https://github.com/jenkinsci/active-directory-plugin",
-        "sha1": "ajB5myBx1cDE6uPDN43LP5COu80=",
-        "sha256": "+AphYdM8jMJ4cRkpgU/tf5Amu3BxRMuT9BiZQguRWUs=",
-        "size": 588259,
+        "sha1": "n+bHy9P51knPiBTJke3Y+KCb6Qw=",
+        "sha256": "ROcTs1lfPxvOpYssI0q9j9+kBXp7J1Gued44TaM0yDs=",
+        "size": 588574,
         "title": "Active Directory",
-        "url": "https://updates.jenkins.io/download/plugins/active-directory/2.41.2/active-directory.hpi",
-        "version": "2.41.2",
+        "url": "https://updates.jenkins.io/download/plugins/active-directory/2.958.vc03fe0b_a_8e65/active-directory.hpi",
+        "version": "2.958.vc03fe0b_a_8e65",
         "wiki": "https://plugins.jenkins.io/active-directory",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/active-directory/latest/active-directory.hpi"
       },
@@ -3265,7 +3265,7 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/aio-tests/latest/aio-tests.hpi"
       },
       "akeyless": {
-        "buildDate": "Jul 19, 2026",
+        "buildDate": "Jul 21, 2026",
         "defaultBranch": "main",
         "dependencies": [
           {
@@ -3326,7 +3326,7 @@
           }
         ],
         "excerpt": "Fetch secrets and certificates from <a href=\"https://www.akeyless.io/\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Akeyless</a>. Supports classic job binding (<code>withAkeyless</code> / Build Wrapper) and optional Credentials Provider sync for native <code>credentials(&#39;id&#39;)</code> usage.",
-        "gav": "io.jenkins.plugins:akeyless:68.v3ee650178351",
+        "gav": "io.jenkins.plugins:akeyless:72.veeb_4f0da_3794",
         "health": 100,
         "issueTrackers": [
           {
@@ -3338,17 +3338,17 @@
         "labels": [],
         "name": "akeyless",
         "popularity": 0,
-        "previousTimestamp": "2025-09-29T18:28:20.00Z",
-        "previousVersion": "62.vb_05cea_69ed08",
-        "releaseTimestamp": "2026-07-19T10:19:01.00Z",
+        "previousTimestamp": "2026-07-19T10:19:01.00Z",
+        "previousVersion": "68.v3ee650178351",
+        "releaseTimestamp": "2026-07-21T08:14:45.00Z",
         "requiredCore": "2.479.3",
         "scm": "https://github.com/jenkinsci/akeyless-plugin",
-        "sha1": "WKHfc9WV2xZiFF+brEa4jFQ7XpM=",
-        "sha256": "hw2q5e1IpWpFU8uzgTECVWCrNiJHmmVD9kPwVHquXKQ=",
-        "size": 7962144,
+        "sha1": "fFYAiN5lrir3DqLnZLNBEB9hnlQ=",
+        "sha256": "HQ8a5xNS9s+yOI2znah1wmA2OBuR6DULWTmZGQtFdJM=",
+        "size": 7966890,
         "title": "Akeyless",
-        "url": "https://updates.jenkins.io/download/plugins/akeyless/68.v3ee650178351/akeyless.hpi",
-        "version": "68.v3ee650178351",
+        "url": "https://updates.jenkins.io/download/plugins/akeyless/72.veeb_4f0da_3794/akeyless.hpi",
+        "version": "72.veeb_4f0da_3794",
         "wiki": "https://plugins.jenkins.io/akeyless",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/akeyless/latest/akeyless.hpi"
       },
@@ -7541,33 +7541,33 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/artifactory/latest/artifactory.hpi"
       },
       "artifactory-artifact-manager": {
-        "buildDate": "Jun 17, 2026",
+        "buildDate": "Jul 21, 2026",
         "defaultBranch": "main",
         "dependencies": [
           {
             "name": "artifactory-client-api",
             "optional": false,
-            "version": "2.19.0-158.ve20b_86b_a_d36a_"
+            "version": "2.21.2-166.v56e395cd41e0"
           },
           {
             "name": "workflow-api",
             "optional": false,
-            "version": "1384.vdc05a_48f535f"
+            "version": "1413.v2ff1a_5e720fa_"
           },
           {
             "name": "workflow-step-api",
             "optional": true,
-            "version": "710.v3e456cc85233"
+            "version": "724.v538c2362b_dfb_"
           },
           {
             "name": "credentials-binding",
             "optional": false,
-            "version": "719.v80e905ef14eb_"
+            "version": "725.ve52b_2328a_fde"
           },
           {
             "name": "credentials",
             "optional": false,
-            "version": "1496.vf6821f162d4e"
+            "version": "1502.v5c95e620ddfe"
           },
           {
             "name": "plain-credentials",
@@ -7582,7 +7582,7 @@
           }
         ],
         "excerpt": "A Jenkins plugin to keep artifacts and Pipeline stashes in JFrog Artifactory",
-        "gav": "io.jenkins.plugins:artifactory-artifact-manager:320.v6d1b_a_84b_16db_",
+        "gav": "io.jenkins.plugins:artifactory-artifact-manager:326.v9e025895153f",
         "health": 100,
         "issueTrackers": [
           {
@@ -7594,17 +7594,17 @@
         "labels": [],
         "name": "artifactory-artifact-manager",
         "popularity": 314,
-        "previousTimestamp": "2026-06-08T12:39:27.00Z",
-        "previousVersion": "318.v89d9642e6690",
-        "releaseTimestamp": "2026-06-17T07:01:24.00Z",
-        "requiredCore": "2.528.3",
+        "previousTimestamp": "2026-06-17T07:01:24.00Z",
+        "previousVersion": "320.v6d1b_a_84b_16db_",
+        "releaseTimestamp": "2026-07-21T09:56:28.00Z",
+        "requiredCore": "2.541.3",
         "scm": "https://github.com/jenkinsci/artifactory-artifact-manager-plugin",
-        "sha1": "5tZCFEBhe3VMIPDwvXI2gnSP7Lg=",
-        "sha256": "9ZWjKVExymkxyB69CzSghGd5yyMW6PER3WQwqmdoQwA=",
-        "size": 48269,
+        "sha1": "CPx6uGgLcnfqZD82n16T5CpE7jQ=",
+        "sha256": "79+18mdlH4ipvUw+rQGQEGxaGsnCYXIM1DjISyeWSx0=",
+        "size": 48823,
         "title": "Artifact Manager Artifactory",
-        "url": "https://updates.jenkins.io/download/plugins/artifactory-artifact-manager/320.v6d1b_a_84b_16db_/artifactory-artifact-manager.hpi",
-        "version": "320.v6d1b_a_84b_16db_",
+        "url": "https://updates.jenkins.io/download/plugins/artifactory-artifact-manager/326.v9e025895153f/artifactory-artifact-manager.hpi",
+        "version": "326.v9e025895153f",
         "wiki": "https://plugins.jenkins.io/artifactory-artifact-manager",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/artifactory-artifact-manager/latest/artifactory-artifact-manager.hpi"
       },
@@ -17727,7 +17727,7 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/backup-interrupt-plugin/latest/backup-interrupt-plugin.hpi"
       },
       "badge": {
-        "buildDate": "Apr 14, 2026",
+        "buildDate": "Jul 21, 2026",
         "compatibleSinceVersion": "3.0",
         "defaultBranch": "master",
         "dependencies": [
@@ -17744,12 +17744,12 @@
           {
             "name": "workflow-step-api",
             "optional": false,
-            "version": "710.v3e456cc85233"
+            "version": "724.v538c2362b_dfb_"
           },
           {
             "name": "script-security",
             "optional": false,
-            "version": "1399.ve6a_66547f6e1"
+            "version": "1402.1405.vc96e74964250"
           }
         ],
         "developers": [
@@ -17770,7 +17770,7 @@
           }
         ],
         "excerpt": "Add Badges for a build and extend the build summary",
-        "gav": "org.jenkins-ci.plugins:badge:3.591.v9074c6c6f0b_9",
+        "gav": "org.jenkins-ci.plugins:badge:3.605.v7a_3387b_97a_b_6",
         "health": 100,
         "issueTrackers": [
           {
@@ -17785,17 +17785,17 @@
         ],
         "name": "badge",
         "popularity": 19820,
-        "previousTimestamp": "2026-04-13T14:52:45.00Z",
-        "previousVersion": "3.590.v1c3de0b_d2fb_2",
-        "releaseTimestamp": "2026-04-14T07:20:57.00Z",
+        "previousTimestamp": "2026-04-14T07:20:57.00Z",
+        "previousVersion": "3.591.v9074c6c6f0b_9",
+        "releaseTimestamp": "2026-07-21T13:49:00.00Z",
         "requiredCore": "2.541.3",
         "scm": "https://github.com/jenkinsci/badge-plugin",
-        "sha1": "uM1XsQpkhoSYlFgFWocak2bTnwQ=",
-        "sha256": "mjcZg0CnnJlF9FvIsiYfLqOOrLZNQ4/4eC3mziIKvOo=",
-        "size": 57222,
+        "sha1": "IBHvggx7j4ceapDJAHYOAhKm+9Q=",
+        "sha256": "Z8AI+Uy05zRqM+r5jNUfqtzhthmOtQAfxLDhiVERhhc=",
+        "size": 57427,
         "title": "Badge",
-        "url": "https://updates.jenkins.io/download/plugins/badge/3.591.v9074c6c6f0b_9/badge.hpi",
-        "version": "3.591.v9074c6c6f0b_9",
+        "url": "https://updates.jenkins.io/download/plugins/badge/3.605.v7a_3387b_97a_b_6/badge.hpi",
+        "version": "3.605.v7a_3387b_97a_b_6",
         "wiki": "https://plugins.jenkins.io/badge",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/badge/latest/badge.hpi"
       },
@@ -48165,7 +48165,7 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/filesystem_scm/latest/filesystem_scm.hpi"
       },
       "finite-state-analysis": {
-        "buildDate": "Jul 17, 2026",
+        "buildDate": "Jul 21, 2026",
         "defaultBranch": "main",
         "dependencies": [
           {
@@ -48186,7 +48186,7 @@
           }
         ],
         "excerpt": "Finite State plugin for uploading files for analysis.",
-        "gav": "io.jenkins.plugins:finite-state-analysis:1.093.vecb_36ed93d31",
+        "gav": "io.jenkins.plugins:finite-state-analysis:1.094.vf6a_efb_ca_4a_61",
         "health": 100,
         "issueTrackers": [
           {
@@ -48198,17 +48198,17 @@
         "labels": [],
         "name": "finite-state-analysis",
         "popularity": 0,
-        "previousTimestamp": "2026-03-02T19:54:07.00Z",
-        "previousVersion": "1.092.v793c6eb_13c01",
-        "releaseTimestamp": "2026-07-17T13:43:00.00Z",
+        "previousTimestamp": "2026-07-17T13:43:00.00Z",
+        "previousVersion": "1.093.vecb_36ed93d31",
+        "releaseTimestamp": "2026-07-21T20:10:14.00Z",
         "requiredCore": "2.479.3",
         "scm": "https://github.com/jenkinsci/finite-state-analysis-plugin",
-        "sha1": "bEm6QoABCpCDsYppJn4wE092tL8=",
-        "sha256": "OmPw6K3qvD7xhTl5YH0WagcJWEX6dF0qnNboPPc+r90=",
-        "size": 68243,
+        "sha1": "sqx/LvId0BB+s4xYwbeHVqiKPQI=",
+        "sha256": "uVVx0CyEYt6B8hYbStcZSIsszT9j6J/rMhBzU6VHLKY=",
+        "size": 60152,
         "title": "Finite State Analysis",
-        "url": "https://updates.jenkins.io/download/plugins/finite-state-analysis/1.093.vecb_36ed93d31/finite-state-analysis.hpi",
-        "version": "1.093.vecb_36ed93d31",
+        "url": "https://updates.jenkins.io/download/plugins/finite-state-analysis/1.094.vf6a_efb_ca_4a_61/finite-state-analysis.hpi",
+        "version": "1.094.vf6a_efb_ca_4a_61",
         "wiki": "https://plugins.jenkins.io/finite-state-analysis",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/finite-state-analysis/latest/finite-state-analysis.hpi"
       },
@@ -48724,7 +48724,7 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/fluentd/latest/fluentd.hpi"
       },
       "flyway-api": {
-        "buildDate": "Jul 13, 2026",
+        "buildDate": "Jul 21, 2026",
         "defaultBranch": "main",
         "dependencies": [
           {
@@ -48744,8 +48744,8 @@
             "name": "Valentin Delaye"
           }
         ],
-        "excerpt": "This plugin provides the <a href=\"https://github.com/flyway/flyway\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Flyway</a> APIs (v12.11.0) for other plugins.",
-        "gav": "io.jenkins.plugins:flyway-api:12.11.0-461.v676d64e4b_4a_f",
+        "excerpt": "This plugin provides the <a href=\"https://github.com/flyway/flyway\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Flyway</a> APIs (v13.0.0) for other plugins.",
+        "gav": "io.jenkins.plugins:flyway-api:13.0.0-464.v46a_823fcf5a_6",
         "health": 100,
         "issueTrackers": [
           {
@@ -48760,17 +48760,17 @@
         ],
         "name": "flyway-api",
         "popularity": 690,
-        "previousTimestamp": "2026-07-01T05:44:58.00Z",
-        "previousVersion": "12.10.0-458.va_83a_788993d5",
-        "releaseTimestamp": "2026-07-13T04:30:26.00Z",
-        "requiredCore": "2.528.3",
+        "previousTimestamp": "2026-07-13T04:30:26.00Z",
+        "previousVersion": "12.11.0-461.v676d64e4b_4a_f",
+        "releaseTimestamp": "2026-07-21T08:26:09.00Z",
+        "requiredCore": "2.555.3",
         "scm": "https://github.com/jenkinsci/flyway-api-plugin",
-        "sha1": "2FcqkMji5P7bkT+pTodQUYyH5fc=",
-        "sha256": "tDo3fBmQRCA1Qzce+I+KwFLi6q0BFpV7HqIoHV/DfIo=",
-        "size": 866655,
+        "sha1": "broyhohZiYgPqB8FQ3Y4ShnGtB8=",
+        "sha256": "LchlpVwPRoLfhS5RsOAA79lEYsdcpl4Sn4nGYY8/eWo=",
+        "size": 866703,
         "title": "Flyway API",
-        "url": "https://updates.jenkins.io/download/plugins/flyway-api/12.11.0-461.v676d64e4b_4a_f/flyway-api.hpi",
-        "version": "12.11.0-461.v676d64e4b_4a_f",
+        "url": "https://updates.jenkins.io/download/plugins/flyway-api/13.0.0-464.v46a_823fcf5a_6/flyway-api.hpi",
+        "version": "13.0.0-464.v46a_823fcf5a_6",
         "wiki": "https://plugins.jenkins.io/flyway-api",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/flyway-api/latest/flyway-api.hpi"
       },
@@ -67853,7 +67853,7 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/jucies/latest/jucies.hpi"
       },
       "junit": {
-        "buildDate": "Jul 15, 2026",
+        "buildDate": "Jul 21, 2026",
         "defaultBranch": "master",
         "dependencies": [
           {
@@ -67964,7 +67964,7 @@
           }
         ],
         "excerpt": "Allows JUnit-format test results to be published.",
-        "gav": "org.jenkins-ci.plugins:junit:1415.vcb_3245e24402",
+        "gav": "org.jenkins-ci.plugins:junit:1416.vd753e036de5e",
         "health": 100,
         "issueTrackers": [
           {
@@ -67978,17 +67978,17 @@
         ],
         "name": "junit",
         "popularity": 270584,
-        "previousTimestamp": "2026-06-10T21:54:32.00Z",
-        "previousVersion": "1413.v736fa_5b_61d80",
-        "releaseTimestamp": "2026-07-15T13:14:22.00Z",
+        "previousTimestamp": "2026-07-15T13:14:22.00Z",
+        "previousVersion": "1415.vcb_3245e24402",
+        "releaseTimestamp": "2026-07-21T10:15:41.00Z",
         "requiredCore": "2.533",
         "scm": "https://github.com/jenkinsci/junit-plugin",
-        "sha1": "5h45B4CFqfnOyL6YJczK6zpCmWE=",
-        "sha256": "zAjRLEmjDxpC1oJbjeHNl03fgD3D/rmtH5qsdYbDzSA=",
-        "size": 483610,
+        "sha1": "P2dawHwF070bBAA+F3TpQuoSuEM=",
+        "sha256": "8qOzkwTMGz8VlsNAu9ctRacFGLcQ/aUhuXOaPQtwMRU=",
+        "size": 484169,
         "title": "JUnit",
-        "url": "https://updates.jenkins.io/download/plugins/junit/1415.vcb_3245e24402/junit.hpi",
-        "version": "1415.vcb_3245e24402",
+        "url": "https://updates.jenkins.io/download/plugins/junit/1416.vd753e036de5e/junit.hpi",
+        "version": "1416.vd753e036de5e",
         "wiki": "https://plugins.jenkins.io/junit",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/junit/latest/junit.hpi"
       },
@@ -85003,7 +85003,7 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/oversecured/latest/oversecured.hpi"
       },
       "ownership": {
-        "buildDate": "Jul 20, 2026",
+        "buildDate": "Jul 21, 2026",
         "defaultBranch": "master",
         "dependencies": [
           {
@@ -85081,7 +85081,7 @@
           }
         ],
         "excerpt": "Provides ownership management engine for Jobs, Nodes and Folders (UI, security integration, etc.)",
-        "gav": "com.synopsys.jenkinsci:ownership:365.v2cc1889ec61d",
+        "gav": "com.synopsys.jenkinsci:ownership:369.v9eed31f024b_0",
         "health": 51,
         "issueTrackers": [
           {
@@ -85105,17 +85105,17 @@
         ],
         "name": "ownership",
         "popularity": 1417,
-        "previousTimestamp": "2020-06-19T13:54:24.00Z",
-        "previousVersion": "0.13.0",
-        "releaseTimestamp": "2026-07-20T10:42:56.00Z",
+        "previousTimestamp": "2026-07-21T06:26:18.00Z",
+        "previousVersion": "368.vb_5e204399c4b_",
+        "releaseTimestamp": "2026-07-21T11:18:49.00Z",
         "requiredCore": "2.479.3",
         "scm": "https://github.com/jenkinsci/ownership-plugin",
-        "sha1": "I3uc47rGcmoP7gYlmE7K3CkTUV8=",
-        "sha256": "fwrjA1UaBNN7v4NuWkxA4VwAFhDLIk93Mxusid3B3ec=",
-        "size": 211328,
+        "sha1": "HbxqdynjU6l60z2TP66eC0lYlRc=",
+        "sha256": "CjRoWOanzGeSl94lWJzPabjVoGtCJkmYYW5abyWQpew=",
+        "size": 221639,
         "title": "Job and Node ownership",
-        "url": "https://updates.jenkins.io/download/plugins/ownership/365.v2cc1889ec61d/ownership.hpi",
-        "version": "365.v2cc1889ec61d",
+        "url": "https://updates.jenkins.io/download/plugins/ownership/369.v9eed31f024b_0/ownership.hpi",
+        "version": "369.v9eed31f024b_0",
         "wiki": "https://plugins.jenkins.io/ownership",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/ownership/latest/ownership.hpi"
       },
@@ -94995,7 +94995,7 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/qmetry-for-jira-test-management/latest/qmetry-for-jira-test-management.hpi"
       },
       "qmetry-test-management": {
-        "buildDate": "Jun 29, 2026",
+        "buildDate": "Jul 17, 2026",
         "defaultBranch": "master",
         "dependencies": [
           {
@@ -95020,7 +95020,7 @@
           }
         ],
         "excerpt": "Ship high quality products, faster by linking automated test results from Jenkins to QMetry Test Management.",
-        "gav": "org.jenkins-ci.plugins:qmetry-test-management:284.vc1b_00eb_3d0e6",
+        "gav": "org.jenkins-ci.plugins:qmetry-test-management:1.16-rc305.7b_59da_5865b_5",
         "health": 85,
         "issueTrackers": [
           {
@@ -95032,17 +95032,17 @@
         "labels": [],
         "name": "qmetry-test-management",
         "popularity": 81,
-        "previousTimestamp": "2026-07-17T05:40:21.00Z",
-        "previousVersion": "1.16-rc305.7b_59da_5865b_5",
-        "releaseTimestamp": "2026-06-29T07:55:19.00Z",
+        "previousTimestamp": "2026-06-23T07:32:20.00Z",
+        "previousVersion": "1.15",
+        "releaseTimestamp": "2026-07-17T05:40:21.00Z",
         "requiredCore": "2.361.4",
         "scm": "https://github.com/jenkinsci/qmetry-test-management-plugin",
-        "sha1": "0q8fbKgbEoAJE/tmyu9QHt4ueAc=",
-        "sha256": "hL0Y2psWfeonk8BT1z0Nf5dPRuQjrm2DtbreDbxO11c=",
-        "size": 1728635,
+        "sha1": "Cps3jn9fEBDMhl8DiBhiPA7kI0c=",
+        "sha256": "NjRLF9k9cfQZlV0upKmcjiNnw58w/bk8x7eYBE1iOho=",
+        "size": 1393532,
         "title": "QMetry Test Management",
-        "url": "https://updates.jenkins.io/download/plugins/qmetry-test-management/284.vc1b_00eb_3d0e6/qmetry-test-management.hpi",
-        "version": "284.vc1b_00eb_3d0e6",
+        "url": "https://updates.jenkins.io/download/plugins/qmetry-test-management/1.16-rc305.7b_59da_5865b_5/qmetry-test-management.hpi",
+        "version": "1.16-rc305.7b_59da_5865b_5",
         "wiki": "https://plugins.jenkins.io/qmetry-test-management",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/qmetry-test-management/latest/qmetry-test-management.hpi"
       },
@@ -99238,7 +99238,7 @@
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/rocketchatnotifier/latest/rocketchatnotifier.hpi"
       },
       "role-strategy": {
-        "buildDate": "Jun 04, 2026",
+        "buildDate": "Jul 21, 2026",
         "compatibleSinceVersion": "640",
         "defaultBranch": "master",
         "dependencies": [
@@ -99292,7 +99292,7 @@
           }
         ],
         "excerpt": "Enables user authorization using a Role-Based strategy. Roles can be defined globally or for particular jobs or nodes selected by regular expressions.",
-        "gav": "org.jenkins-ci.plugins:role-strategy:878.v6f1d3b_3a_0769",
+        "gav": "org.jenkins-ci.plugins:role-strategy:898.vc050ed2424ca_",
         "health": 100,
         "issueTrackers": [
           {
@@ -99307,17 +99307,17 @@
         ],
         "name": "role-strategy",
         "popularity": 89357,
-        "previousTimestamp": "2026-05-29T17:07:15.00Z",
-        "previousVersion": "867.vd09254229f9b_",
-        "releaseTimestamp": "2026-06-04T20:34:59.00Z",
+        "previousTimestamp": "2026-06-04T20:34:59.00Z",
+        "previousVersion": "878.v6f1d3b_3a_0769",
+        "releaseTimestamp": "2026-07-21T20:39:51.00Z",
         "requiredCore": "2.559",
         "scm": "https://github.com/jenkinsci/role-strategy-plugin",
-        "sha1": "3QA4gLG2cgfmqs72kdlfxguBBGE=",
-        "sha256": "306WzhS0NXHIKjhfFWEL7u1yOuCDWyI6keSkYJJvUx0=",
-        "size": 169104,
+        "sha1": "8uTJvrQtiCIgzW2xCP6pEbhGZYA=",
+        "sha256": "C3w2It5qvBjFvkfu5XSl6wX9QP+5lGYCovgbGGHGCQw=",
+        "size": 482400,
         "title": "Role-based Authorization Strategy",
-        "url": "https://updates.jenkins.io/download/plugins/role-strategy/878.v6f1d3b_3a_0769/role-strategy.hpi",
-        "version": "878.v6f1d3b_3a_0769",
+        "url": "https://updates.jenkins.io/download/plugins/role-strategy/898.vc050ed2424ca_/role-strategy.hpi",
+        "version": "898.vc050ed2424ca_",
         "wiki": "https://plugins.jenkins.io/role-strategy",
         "archiveUrl": "https://mirror.nju.edu.cn/jenkins//plugins/role-strategy/latest/role-strategy.hpi"
       },
@@ -123810,10 +123810,10 @@
       "certificates": [
         "MIIFqjCCA5KgAwIBAgIFAN6tvwUwDQYJKoZIhvcNAQENBQAwgYoxCzAJBgNVBAYTAlVTMRMwEQYDVQQIDApDYWxpZm9ybmlhMREwDwYDVQQHDAhTYW4gSm9zZTEYMBYGA1UECgwPSmVua2lucyBQcm9qZWN0MRowGAYDVQQDDBFLb2hzdWtlIEthd2FndWNoaTEdMBsGCSqGSIb3DQEJARYOa2tAa29oc3VrZS5vcmcwHhcNMjYwMTE0MTU0MjQyWhcNMjcwMTE0MTU0MjQyWjBeMQswCQYDVQQGEwJVUzETMBEGA1UECAwKQ2FsaWZvcm5pYTEYMBYGA1UECgwPSmVua2lucyBQcm9qZWN0MSAwHgYDVQQDDBdDb21tdW5pdHkgVXBkYXRlIENlbnRlcjCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBALQMWCFq7SaGA+hp98UAzgLkCO6NFlcK9n2mMQ0c6/4b6qI3n53Ak/ljF+4ekEb3p5tnI0iwj0GZjFc5hW1gtz3mfbkxTb7fk5LJFj90NZHr0isb5D21w2fkjGp9h81kGliUZcm3dpdrXMW2Gh1HYcF4uijuz1mzrFt2Ew2vgDse5EFYb32bk6Xmi/dhf0l9r+oKT6bChijgHr3WynRSdDL9y1XDqUq06ZAVp4RqVwwpezrYgJ/OPRZeg9CctnUoFR8BgHKWeNgwuyWrtBKST5pnQmhTEM53qVHzQTgrBP4Vqj38I1R39qPZa4cu3QUXMr8CsfrJ1wF8y3OmXp3pNfbXivb7RoanXYO+uZzoYOaaHAXTICFLUqR0sxJfiOTejm87P9F+EzEvuPGFDAkbo7qrW/hReHYycOiiqPggfLsglZTNJEdd4oLdvDZLnBJWBQscl98f/pVu3Pzld0RnU9phhCMXfVLkeQBQtAxfmqaVnMurELBNeK8ybriTQlAdnkBRzv3NAilUaAfI0gSh/beN2qNlII3kEOSpasAbEVbfBB+r9hNzFj4+Sqi8E+YZbMQjFtdHdO/iQCrcUiqDnTBsxL7u7xzfvLJTxoISUrCigVgUGryaouyUhARHpQwcVG4hewFspJZUaQv7aj0hlpQUC42+2zWr/NK5rVQAZD9RAgMBAAGjQjBAMB0GA1UdDgQWBBR2GjaTNzVHFuMTbEl9hRAbjCtQ2DAfBgNVHSMEGDAWgBQRxuXUMC3pVcYBtWtQctI2frQBhzANBgkqhkiG9w0BAQ0FAAOCAgEAOgskYoOGDmEZIjYUy2tYTKI6eKnpAiQA0yETLdam9wOGGL6J6e7BT5JoyxBrDXy4xrZsDyFOBPB8Di8ETF1mr9k6GsyBO8S/SYd/1qYg9kkHXq2x62WmDs0K7h9N2M9LAEFDvdZYvOnDzgFhcaFfsxUPS9qDFws33NDBTKo/Ya2UIjzyl1H68bw5VG1temOtAzvW+6EA4j2bzgv5NbaUGrZq5Y8yiWRDjdAbMBu0lDnJP7pTLs16jEE1FWfkJhkaU6TbMP6rzehjMkiplu+S0qnVQBUgME2U4EMxCM31oixUl/+WvZ5GQHR8GVdsFkQYs2K3L0i7a9bxc8jD6kzU/sSJwJxnqocB1JnZF1CFbT78bdTaBtZty7MVSUdXYCAf6XZPCMYOGN7Cb7YpLqn0hUCy2tIdHw6TUluyOkP0AoOLFijThtafcgQI19QyCa85DUZxwG1QsVFbGyqv6+47DbX2CUKzNLyfKJhivzwfagKZDo5KaZouv7lO5RMj8onHK+MrkzvJG1kFcFw5lO1ms5QKPNi3RfrQqWQ4rjVBbPdNx4xRpHVpcXp9MXCg64prwGHXrPN2yl2VRYrxwlLRhee27H07ZA9ujLB4PU8ppb6uQH2GQiKpXoRlzQBQej4zhquVM8rQaPfXV8DGNu4lx77tNtgK8uetQxyh4vBOpGA="
       ],
-      "correct_digest": "sP3lFF5QIHBxy+jzRi43N/3NpWI=",
-      "correct_digest512": "59a0e32e05d21de7c74b0f528c2a16fae3623c627ebe341f0176512078e331e2e7484748bec5692c34bf5a2d5fe1f2ed2d48b6c12bd913cb452879bc0d992bef",
-      "correct_signature": "B/nREFwBmHAZ/dHYfAAtrLRy2V4rcNy/VYIKFynmnv5TCUto7d+E/GL6hiIrXNQej/tUk2TObqdKTsPkXbDtVkT7EWOfuF8XwGTvWriVH9h9aaVH3C6otRsmlyp6NhlRW1kC0QCk+IYOaDZmDPyAVjWXRXnWaLtOAqO8VUmrCTaF7ROOXdpK47N6PC0Knm6qdd4ai1e2YvD2ES28Gqh3HRfLY53XOBcXAzLORO3M8QW8x8JrPkpzEaTSvNyVdnokVqv1lcLqkaTi9LyrGa0oQ7uqfdN/XoyLJhymPX/FQZL03Qw5BuuBH8YjcJc64htIDBoBoZCDgn+qUbABeZE9gUG2xNHDyZAViXq9+Lev4zcCe2WgMciMZQZZsveN7viikk3ppCMIhwBK6EDr/UI3m/xrS8gVKGcL6ovpc/tAAKd5cuSpaBKVjj+GevLPj2kC/lAd2laHC6Kc4LJTIOOT4L5GZkfACgwo09FNJvTeoLwg17vGL7aUXvqsepfTP3WwA3sfybTua0hA0b3uwPXiyzMFAcyq2tsJLG+h1KE1ikbO9lvREVwhIi85pkOAS/ylXpr1MTGlamddjt8y4UfJ0+8I/ErPeLu+dFifzBd09AE5Ng57Pyho5G0pQEY/6ejeqBy2moBfy2iyrqex/ZApIiZ1zTLTVHYhWEMst6ojF38=",
-      "correct_signature512": "56ff43b71911f25ded2c5f9e84b79da7f1cd2d62ee6b7e502e5bfcb5e51307d0c313d3ef932d9f93df77490adfa84afdb960ed3badefb4aa50bcef33a66ea2f49c4e19f31643ac9299906731d619f7a96154cab4c5ec6a75beeac0c04c094b657e6272ee4bcdcd973f9bcdfeb4a0179735bdb07d20a741e610c47a5f5e2cecf9d896228576690d956775a75ff188f79fd126f8b7d058d3ff3248592b0c7445db1d1bef122b8c314f3d69704af2d40534e0c79e561eafba9b5ab0c86776e79556f40fffc2792cb1f37a1f0001f01a522be0b43338fecccd47a70c827cccaaa7a5879e153acad033c8715ff414363541564038265cef78e969fcf2f2497afe032a575b21360a7bee063d0a49aec38ef73b1f9cd73a9c4b94e7d5f51c0e77b8675c20843ea0b81b10a55e94ceaf01340617aa6e6462dd883d291c0dab766cafd74385c52b94b3f6bdf2770cb689735c87b772a23e451d1987d767d6f413e5d504601d0f8f51a616a9094cdcb3f8f3ebff335bb5c33fec8c00c677147bbf9a2c64fdeb9dda31c367c36d0b5f8a22e53902e259fc7cfb3f4381df1b98a4941e00f2f5c94607267810d3d4225a542ccd97719b4ab51bf3697cc5d2fda43f08f82f4fea8a34d39b90a20c032f51f8556f2500b15b6d6be1caa3971c8038678b422186b41ec4616f2b0ffd59cdb86a69fdafde73612ca1ea256a3323a4750df088e9ab09"
+      "correct_digest": "o56ZuchCBMBwxBGp37eJoly2GpA=",
+      "correct_digest512": "09537d265340b90317211241a3c12fa517d8dd1212c2c9f4ab550b1714551f08b8809e86ad76ee57e367e00a1d1393e1a1a501df91dddc044ebfefccf793e3cf",
+      "correct_signature": "D/hhnpCYu8sWe23hGKFBJ9R0ZuzNnm7h5plnRo5a/CVOUbk/1mO3xltAttZ9aoO3RSQIKSS4uKCEGeS+d9Ok5nSux5BS57QNXLg3I0xKWTAaAiFY7VNSFc2cR5ZOgnsMNEiZTZ8tKxohyXn94r7sP5Bki6vGXDc7NgspPuvPfIh0zclinvV0m5VEsRNRCnUAqt1s6Cumb6AKMvk3xRfYuQ/lKwSbx5fms+pQQzjqkBoaf+zz6pbVijU6rCgpzwiwlUu8Wp1roVzWYlhfn1xGCs/QiqPUEMLhALMGYofUX33CObMrZVcIjypQKw2RK5FzIDHSKduJXqRjRW6bMYHba3zjq8By0ZJOVqxHNXbiXaHW5PLcMMyAyFHnr017Gh3+3IGlhYkeJYCCaGfGg7Wfg156e0uLy3BZk9IWTVzXvK6DfT7Juc2Z9LjsKx+j11crHi7l6JRUnwZFcxzaLdfIO8gp3Oe5Tp6feMLsVdAz92gvsKsXqRMZ7PtMTRmJgOv2VAT3hjJqM7OQjT6YX9MU7TgsAnNvG3EKPUzxdLVX0aFaG+FDKjmLc0Y7vLcT0N/IGEj1QdqxN8Ur/VDUdHVz7xuIn+Z1WMyZjMWAeODVRPn6zLB0EBsLhK1VhKRGiZKIWfoc0tmcuqLCNQLNDESQdP4xqpnc/ECczk2FHFtZ/k4=",
+      "correct_signature512": "81b194d50690061083f92a4ce75f83ac6e9544d3bc19280f02ea807ba987562149d253a62137f5534903873af8794b82d3dc6dc058e08784e9ef218e1654dc225e4250d8335e97728a8ab38626662cce1e7f8d2f748b3a6fe9fac58890ece2aaec966de1248d67ad8e4f7e5bef85e7103d2a371378765e0968152beae9c9ef03e3b1de3386bb781ef8fe603d5a296bc3801c160ac21c9e6ba8d25fc5c35d02ac524ca4bbe1d7d1973e8429d713255a1e1ce33c2f458df92ec483dbca602d25315c467d132ba78489568ed4a58b6cdc443dd8c8cac8d926f4c5610e28601f5495677febc31961aceca04a0167f32ee693e14410b87bde281fd02034f57164206e1074aaba5f66e19e9295005668f0242531da66258cb9ee3a59ad3ff764567ffbb8b2a65960b36093d497278f4ccfaf694d2296ea46de6a66b27f259b0a7853b543c31f74240929993e625ac5260fe42237050a2fed5c1efbe71f150ea981173002f1574792f10207a5f639d546b723d3a4473db175583bd18ff33112b13b35c114ca8f0c7ea8403d453aab875dcf89c17b8367c8caabda52dcbac183f530ab0d148761e533c481f85f128d7e7362962ffbf02c0ae1b6b5f062c4e38f5ca4bf0ac16aca51445787858f74b598daf910f584609d23be53844ae80d9e0386acfe952ac17d0c8c2cb383c0ac5f2cf77d7c89e8082e30db0c9bae9375917815682718"
     },
     "updateCenterVersion": "1",
     "warnings": [
@@ -143637,7 +143637,7 @@
     ]
   },
   "_metadata": {
-    "generatedAt": "2026-07-21T04:14:51.679Z",
+    "generatedAt": "2026-07-22T04:15:52.056Z",
     "bestMirror": "https://mirror.nju.edu.cn/jenkins/",
     "mirrorsChecked": 10,
     "pluginsModified": 2090,
